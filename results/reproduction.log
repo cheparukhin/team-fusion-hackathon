@@ -1,0 +1,172 @@
+Running: -m chrna.data --root /home/ubuntu/workspace/quick_hack
+{
+  "raw_probe_designs": 529,
+  "mapped_unique_panel_pairs": 527,
+  "eligible_probe_designs": 481,
+  "probe_designs_with_pair_level_support": 111,
+  "short_read_supported": 287,
+  "nanostring_supported": 109,
+  "cross_supported": 13,
+  "exact_nanostring_panel_matches": 107,
+  "sequence_resolved_nanostring_panel_matches": 109,
+  "sequence_verified_suffixes": 5,
+  "table3_read_rows": 36826,
+  "table3_unique_reads": 36826,
+  "table3_unique_pairs": 30390,
+  "unique_junctions": 31634,
+  "probe_junctions_uniquely_mapped": 529,
+  "eligible_model_pairs": 479,
+  "eligible_model_positives": 109,
+  "excluded_panel_pairs": 48,
+  "sample_count_available": 0
+}
+Running: -m chrna.model --hic results/hic/features.tsv
+{
+  "status": "complete",
+  "cohort": {
+    "n": 479,
+    "positives": 109,
+    "groups": 352,
+    "folds": 5,
+    "largest_group": 9,
+    "input_sha256": "7bf400eb654782ea5f8a5ad5f492e17f344787e7c0d349fd39b248dc1d43303f"
+  },
+  "full_panel": {
+    "read_support": {
+      "n": 479,
+      "positives": 109,
+      "prevalence": 0.22755741127348644,
+      "average_precision": 0.26784266406185164,
+      "k": 20,
+      "supported_at_k": 10,
+      "precision_at_k": 0.5,
+      "recall_at_k": 0.09174311926605505
+    },
+    "rna": {
+      "n": 479,
+      "positives": 109,
+      "prevalence": 0.22755741127348644,
+      "average_precision": 0.2961248743051378,
+      "k": 20,
+      "supported_at_k": 11,
+      "precision_at_k": 0.55,
+      "recall_at_k": 0.10091743119266056
+    }
+  },
+  "matched_hic": {
+    "read_support": {
+      "n": 401,
+      "positives": 92,
+      "prevalence": 0.22942643391521197,
+      "average_precision": 0.2656357295167878,
+      "k": 20,
+      "supported_at_k": 9,
+      "precision_at_k": 0.45,
+      "recall_at_k": 0.09782608695652174
+    },
+    "rna": {
+      "n": 401,
+      "positives": 92,
+      "prevalence": 0.22942643391521197,
+      "average_precision": 0.2959500513014134,
+      "k": 20,
+      "supported_at_k": 10,
+      "precision_at_k": 0.5,
+      "recall_at_k": 0.10869565217391304
+    },
+    "hic": {
+      "n": 401,
+      "positives": 92,
+      "prevalence": 0.22942643391521197,
+      "average_precision": 0.2995931726274509,
+      "k": 20,
+      "supported_at_k": 9,
+      "precision_at_k": 0.45,
+      "recall_at_k": 0.09782608695652174
+    },
+    "comparison": {
+      "delta_average_precision": 0.0036431213260375017,
+      "ci95": [
+        -0.031044035299251743,
+        0.046885501118619284
+      ],
+      "valid_resamples": 1000,
+      "requested_resamples": 1000,
+      "seed": 42,
+      "method": "parent_gene_component_bootstrap_of_fixed_oof_predictions"
+    },
+    "interchromosomal": {
+      "rna": {
+        "n": 244,
+        "positives": 58,
+        "prevalence": 0.23770491803278687,
+        "average_precision": 0.2549446609595948,
+        "k": 20,
+        "supported_at_k": 5,
+        "precision_at_k": 0.25,
+        "recall_at_k": 0.08620689655172414
+      },
+      "hic": {
+        "n": 244,
+        "positives": 58,
+        "prevalence": 0.23770491803278687,
+        "average_precision": 0.26000880792797254,
+        "k": 20,
+        "supported_at_k": 7,
+        "precision_at_k": 0.35,
+        "recall_at_k": 0.1206896551724138
+      }
+    },
+    "fold_cohorts": [
+      {
+        "fold": 0,
+        "train_n": 322,
+        "train_positives": 74,
+        "test_n": 79,
+        "test_positives": 18
+      },
+      {
+        "fold": 1,
+        "train_n": 322,
+        "train_positives": 72,
+        "test_n": 79,
+        "test_positives": 20
+      },
+      {
+        "fold": 2,
+        "train_n": 317,
+        "train_positives": 72,
+        "test_n": 84,
+        "test_positives": 20
+      },
+      {
+        "fold": 3,
+        "train_n": 326,
+        "train_positives": 75,
+        "test_n": 75,
+        "test_positives": 17
+      },
+      {
+        "fold": 4,
+        "train_n": 317,
+        "train_positives": 75,
+        "test_n": 84,
+        "test_positives": 17
+      }
+    ],
+    "training_policy": "Both RNA and RNA+Hi-C are trained on identical complete-contact training rows within the fixed gene-disjoint folds; no contact-availability feature is used."
+  }
+}
+Running: scripts/plot_evaluation.py
+Running: scripts/score_catalogue.py
+{
+  "ranked_pairs": 29911,
+  "training_panel_pairs": 479,
+  "excluded_from_ranking": 527,
+  "read_support_outside_training_range": 164,
+  "interpretation": "Exploratory prioritization of already published candidates, not independent validation or new chRNA discovery.",
+  "model": "RNA-only all-panel refit; no Hi-C features available for this catalogue application."
+}
+Running: scripts/demo/export.py
+Exported 479 real candidates to /home/ubuntu/workspace/quick_hack/demo
+Done. Serve locally: .venv/bin/python scripts/demo/serve.py

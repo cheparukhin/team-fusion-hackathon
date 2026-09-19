@@ -1,0 +1,7 @@
+{
+  "attempt_directory": "folding-worker-retry-3",
+  "controller_pid": 174822,
+  "launched_utc": "2026-09-19T16:43:20.744899+00:00",
+  "log": "folding-controller-retry-3.log",
+  "prior_attempt": "folding-worker-retry-2"
+}

@@ -1,0 +1,10 @@
+{
+  "started_utc": "2026-09-19T15:12:04.818862+00:00",
+  "status": "failed",
+  "name": "chrna-pilot-cpu-20260919",
+  "goal_scope": "focused pilot; minimap2/LongGF plus split-read mapping audit",
+  "error_type": "RuntimeError",
+  "error": "prepare-remote exited 1",
+  "finished_utc": "2026-09-19T15:18:12.609622+00:00",
+  "wall_seconds": 367.7907774448395
+}

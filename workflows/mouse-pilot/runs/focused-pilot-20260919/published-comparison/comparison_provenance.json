@@ -1,0 +1,17 @@
+{
+  "status": "compared_after_freeze",
+  "created_utc": "2026-09-19T16:12:34.223209+00:00",
+  "freeze_sha256": "9475659c5aa08a1204da7a67fc149891f93b9b044eafa7ac8d0854c69c4066da",
+  "source_hashes": {
+    "evaluation_outcomes.csv": "4b74d353c8e7d530ec14aed75f8d73a33074306376de2df6d3e37b99adf09dab",
+    "catalogue_junctions.csv": "2450be43e2fc11612b0764a01e2028306e09c8b31a0a040fcb194150d2e98a62"
+  },
+  "junctions_compared": 6466,
+  "limitations": [
+    "Supplementary Table 7 confirms ordered gene pairs, not individual junctions or samples.",
+    "Table 3 aggregates reads across the study; its breakpoint coordinate convention is not established here.",
+    "Numeric coordinate agreement is reported without promoting it to exact experimental validation.",
+    "Published control protein is reference-reconstructed, not an author-provided full-sequence file.",
+    "No known biological true-negative labels exist in these inputs."
+  ]
+}

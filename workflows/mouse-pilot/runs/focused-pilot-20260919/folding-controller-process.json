@@ -1,0 +1,7 @@
+{
+  "pid": 156059,
+  "launched_utc": "2026-09-19T16:20:22.468126+00:00",
+  "log": "folding-controller.log",
+  "controller": "scripts/run_boltz_worker.py",
+  "status": "launched; inspect worker-controller.json and shutdown-confirmed.json for authoritative lifecycle"
+}

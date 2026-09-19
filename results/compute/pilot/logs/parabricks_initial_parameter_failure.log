@@ -1,0 +1,54 @@
+Please visit https://docs.nvidia.com/clara/#parabricks for detailed documentation
+
+
+
+[Parabricks Options Mesg]: Adjusting STAR streams due to CPU memory constraints (112GB available)
+[Parabricks Options Mesg]: STAR auto-configuration: 1 GPUs, 2 streams/GPU, 4 threads/stream
+[Parabricks Options Mesg]:   GPU memory: 81920MiB, CPU memory: 112GB
+[Parabricks Options Mesg]: Automatically generating ID prefix
+[Parabricks Options Mesg]: Read group created for /workdir/inputs/SRR37513722_1.fastq.gz and
+/workdir/inputs/SRR37513722_2.fastq.gz
+[Parabricks Options Mesg]: @RG\tID:SRR37513722.1.1\tLB:GSM9569462\tPL:ILLUMINA\tSM:SRR37513722\tPU:SRR37513722.1.1
+[PB Info 2026-Sep-19 22:41:33] ------------------------------------------------------------------------------
+[PB Info 2026-Sep-19 22:41:33] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2026-Sep-19 22:41:33] ||                              Version 4.7.1-1                             ||
+[PB Info 2026-Sep-19 22:41:33] ||                                   star                                   ||
+[PB Info 2026-Sep-19 22:41:33] ------------------------------------------------------------------------------
+[PB Info 2026-Sep-19 22:41:33]  ..... started STAR run
+[PB Info 2026-Sep-19 22:41:33]  ..... loading genome
+[PB [31mError[0m 2026-Sep-19 22:41:33][src/ErrorWarning.cpp:33] 
+EXITING because of fatal PARAMETERS error: present --sjdbOverhang=100 is not equal to the value at the genome generation step =149
+SOLUTION: 
+
+ ...... FATAL ERROR, exiting. Exit code 105, exiting.
+Process exited with failure. Please check the logs.
+For technical support visit https://docs.nvidia.com/clara/index.html#parabricks
+Exiting...
+
+
+Could not run rna_fq2bam
+Exiting pbrun ...
+Command exited with non-zero status 255
+	Command being timed: "timeout 1800 docker run --rm --gpus all --name chrna-rna-pilot-job -v /home/shadeform/chrna-rna-pilot:/workdir -w /workdir nvcr.io/nvidia/clara/clara-parabricks:4.7.1-1 pbrun rna_fq2bam --in-fq /workdir/inputs/SRR37513722_1.fastq.gz /workdir/inputs/SRR37513722_2.fastq.gz --ref /workdir/reference/GRCm39.primary_assembly.genome.fa --genome-lib-dir /workdir/reference/star272a --output-dir /workdir/output --out-bam /workdir/output/SRR37513722.bam --read-files-command zcat --num-gpus 1 --min-chim-segment 15 --min-chim-overhang 15 --out-chim-type Junctions --out-chim-format 1 --no-markdups --read-group-sm SRR37513722 --read-group-pl ILLUMINA --read-group-lb GSM9569462"
+	User time (seconds): 0.00
+	System time (seconds): 0.01
+	Percent of CPU this job got: 1%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:01.12
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 28780
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2940
+	Voluntary context switches: 645
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 8
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 255

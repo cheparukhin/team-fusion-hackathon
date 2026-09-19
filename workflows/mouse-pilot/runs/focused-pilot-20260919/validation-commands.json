@@ -1,0 +1,35 @@
+[
+  {
+    "command": [
+      ".venv-reproduction/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "--junitxml=runs/focused-pilot-20260919/tests.xml"
+    ],
+    "started_utc": "2026-09-19T16:46:14.237279+00:00",
+    "finished_utc": "2026-09-19T16:46:16.102132+00:00",
+    "exit_code": 0,
+    "log": "tests-final.log"
+  },
+  {
+    "command": [
+      ".venv-reproduction/bin/chrna",
+      "build"
+    ],
+    "started_utc": "2026-09-19T16:46:16.102447+00:00",
+    "finished_utc": "2026-09-19T16:46:20.379642+00:00",
+    "exit_code": 0,
+    "log": "data-build-final.log"
+  },
+  {
+    "command": [
+      ".venv-reproduction/bin/chrna",
+      "benchmark"
+    ],
+    "started_utc": "2026-09-19T16:46:20.379971+00:00",
+    "finished_utc": "2026-09-19T16:46:21.735219+00:00",
+    "exit_code": 0,
+    "log": "development-benchmark-final.log"
+  }
+]

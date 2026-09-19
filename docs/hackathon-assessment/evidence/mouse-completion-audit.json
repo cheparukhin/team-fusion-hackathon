@@ -1,0 +1,132 @@
+{
+  "status": "complete",
+  "completed_utc": "2026-09-19T16:57:22.142528+00:00",
+  "scope": "Owner-approved focused SRR28984805 pilot; not full-cohort or full paper reproduction",
+  "canonical_workspace": "/home/ubuntu/workspace/chrna",
+  "requirements": [
+    {
+      "requirement": "Reuse validated input and complete real pilot discovery",
+      "status": "met_with_documented_scope_and_limitations",
+      "evidence": [
+        "../pilot-20260919/intake_validation.json",
+        "discovery-validation.json",
+        "retry-2/worker-controller.json"
+      ]
+    },
+    {
+      "requirement": "Assess all proposed junctions against single-transcript and alternative-mapping explanations",
+      "status": "met_with_documented_scope_and_limitations",
+      "evidence": [
+        "assessment/assessment_summary.json",
+        "selection/read_decisions.json",
+        "assessment/unassigned_segments.json",
+        "assessment/unresolved_longgf_proposals.json"
+      ]
+    },
+    {
+      "requirement": "Preserve complete RNA ranking and biological unknowns",
+      "status": "met_with_documented_scope_and_limitations",
+      "evidence": [
+        "selection/rna_ranking.json",
+        "selection/read_identity.tsv",
+        "selection/selection_rules.md"
+      ]
+    },
+    {
+      "requirement": "Reconstruct a bounded batch and verify selected reference-assisted ORFs",
+      "status": "met_with_documented_scope_and_limitations",
+      "evidence": [
+        "orfs/orf_summary.json",
+        "orfs/reconstructions.json",
+        "selected-sequence-review.json"
+      ]
+    },
+    {
+      "requirement": "Freeze ten distinct sequences before folding and published joins",
+      "status": "met_with_documented_scope_and_limitations",
+      "evidence": [
+        "rules-prespecified.json",
+        "selection/freeze.json",
+        "freeze-review.json",
+        "selection/selected_proteins.fasta"
+      ]
+    },
+    {
+      "requirement": "Maintain a separate published architecture reference control",
+      "status": "met_with_documented_scope_and_limitations",
+      "evidence": [
+        "published-control/provenance.json",
+        "published-control/published_architecture_control.fasta"
+      ]
+    },
+    {
+      "requirement": "Measure representative timing and complete one prediction per frozen/control sequence",
+      "status": "met_with_documented_scope_and_limitations",
+      "evidence": [
+        "fold-inputs/msa-preparation.json",
+        "folding-worker-retry-3/worker-outputs/predictions/jobs.json",
+        "folding-worker-retry-3/worker-outputs/predictions/summary.json"
+      ]
+    },
+    {
+      "requirement": "Verify preserved structures, confidence arrays and visualizations",
+      "status": "met_with_documented_scope_and_limitations",
+      "evidence": [
+        "structures/summary.json",
+        "delivery-validation.json"
+      ]
+    },
+    {
+      "requirement": "Compare published evidence only after freeze at its actual grain",
+      "status": "met_with_documented_scope_and_limitations",
+      "evidence": [
+        "published-comparison/comparison_provenance.json",
+        "published-comparison/published_comparison.json",
+        "published-comparison/flagship_stage_trace.json"
+      ]
+    },
+    {
+      "requirement": "Deliver audit tables, FASTAs, diagrams, report and reproducible commands",
+      "status": "met_with_documented_scope_and_limitations",
+      "evidence": [
+        "selection/selection.json",
+        "deferred-work.json",
+        "postfreeze-review-notes.md",
+        "validation-commands.json",
+        "delivery-validation.json"
+      ]
+    },
+    {
+      "requirement": "Preserve outputs and stop temporary workers while retaining controller",
+      "status": "met_with_documented_scope_and_limitations",
+      "evidence": [
+        "resource-accounting.json",
+        "retry-2/shutdown-confirmed.json",
+        "folding-worker-retry-3/shutdown-confirmed.json"
+      ]
+    }
+  ],
+  "report": "reports/focused_pilot.html",
+  "report_artifacts": "reports/focused_pilot_artifacts",
+  "counts": {
+    "validated_reads": 2238871,
+    "assessed_split_reads": 9167,
+    "proposed_exact_junctions": 6466,
+    "supported_exact_junctions": 116,
+    "frozen_candidate_protein_hypotheses": 10,
+    "separate_published_architecture_controls": 1,
+    "locally_verified_structure_predictions": 11
+  },
+  "limitations": [
+    "All ten selected hypotheses are single-read reference-assisted sequences from one steady-state sample.",
+    "Protein expression and function remain UNKNOWN; structural confidence is not experimental validation.",
+    "Selected mean pLDDT ranges from 39.3 to 85.1; control mean is 48.7, so output completion is not a claim of confident folding.",
+    "Gsdmd:Tmem106a was not recovered de novo in this bounded pilot; its control is a reference reconstruction matching published constraints, not an author-supplied full-sequence file.",
+    "Published gene-pair evidence does not establish exact-junction, sample or protein validation; breakpoint coordinate convention and author structure coordinates remain unavailable.",
+    "Full cohort, additional callers, SG-NEx, repeats, optional parent inference and learning remain deferred.",
+    "Independent human review is not recorded."
+  ],
+  "validation_sha256": "eaf44cee54b6c6900723131f9f1777ae6e4ae64769dd9bb0f330af30ff93b167",
+  "freeze_sha256": "9475659c5aa08a1204da7a67fc149891f93b9b044eafa7ac8d0854c69c4066da",
+  "scientific_goal_finished": true
+}

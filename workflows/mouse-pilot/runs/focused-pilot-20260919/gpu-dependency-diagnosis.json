@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-19T16:36:37.549638+00:00",
+  "prior_attempt": "folding-worker-retry-1",
+  "failure": "All three timing predictions failed with ModuleNotFoundError: cuequivariance_torch; eight production jobs deferred because no successful timing was available.",
+  "repair": "Install pinned Boltz wheel with cuda extras; pin cuEquivariance packages to 0.5.0 and use official Torch 2.6.0+cu126 to satisfy cuBLAS >=12.5. Import triangle primitive during setup. Reuse verified model cache and unchanged sequence/MSA inputs.",
+  "sources": [
+    "https://github.com/jwohlwend/boltz#installation",
+    "https://pytorch.org/get-started/previous-versions/",
+    "https://pypi.org/pypi/cuequivariance-ops-cu12/0.5.0/json"
+  ],
+  "scientific_settings_changed": false,
+  "shutdown_record": "folding-worker-retry-1/shutdown-confirmed.json"
+}

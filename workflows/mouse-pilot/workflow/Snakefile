@@ -1,0 +1,68 @@
+"""Reproduction controller: cohort/reference and complete pilot-read intake.
+
+This target does not constitute a completed sample or scientific reproduction.
+Worker stages are added only with executable adapters and verified environments.
+"""
+import sys
+
+configfile: "workflow/config.yaml"
+PYTHON = sys.executable
+SOURCE = config["intake_sources"]
+MANIFEST = config["intake_manifest"]
+
+rule all:
+    input: MANIFEST
+
+rule cohort_metadata:
+    output:
+        runinfo=SOURCE + "/sra_runinfo.csv",
+        series=SOURCE + "/geo_series.txt",
+        samples=expand(SOURCE + "/GSM{sample}.txt", sample=range(8260870, 8260880)),
+        provenance=[SOURCE + "/sra_runinfo.csv.provenance.json", SOURCE + "/geo_series.txt.provenance.json"] +
+            expand(SOURCE + "/GSM{sample}.txt.provenance.json", sample=range(8260870, 8260880))
+    shell:
+        "{PYTHON:q} -m chrna.intake fetch --sources {SOURCE:q}"
+
+rule intake:
+    input:
+        rules.cohort_metadata.output
+    output:
+        MANIFEST
+    shell:
+        "{PYTHON:q} -m chrna.intake build --sources {SOURCE:q} --output {output:q}"
+
+rule references:
+    input:
+        expand("data/references/gencode_M28/{name}.provenance.json", name=[
+            "GRCm39.primary_assembly.genome.fa.gz", "gencode.vM28.annotation.gtf.gz",
+            "gencode.vM28.transcripts.fa.gz"])
+
+rule fetch_reference:
+    input:
+        manifest="workflow/references.json"
+    output:
+        data="data/references/gencode_M28/{name}",
+        receipt="data/references/gencode_M28/{name}.provenance.json"
+    wildcard_constraints:
+        name=r"(?:GRCm39\.primary_assembly\.genome\.fa\.gz|gencode\.vM28\.(?:annotation\.gtf|transcripts\.fa)\.gz)"
+    resources:
+        mem_mb=128,
+        disk_mb=2500
+    shell:
+        "{PYTHON:q} -m chrna.references --manifest {input.manifest:q} --name {wildcards.name:q} --directory data/references/gencode_M28"
+
+rule reference_audit:
+    input:
+        data=expand("data/references/gencode_M28/{name}", name=[
+            "GRCm39.primary_assembly.genome.fa.gz", "gencode.vM28.annotation.gtf.gz",
+            "gencode.vM28.transcripts.fa.gz"]),
+        receipts=rules.references.input
+    output:
+        "runs/intake-20260919/reference_compatibility.json"
+    resources:
+        mem_mb=1024
+    shell:
+        "{PYTHON:q} -m chrna.reference_audit --directory data/references/gencode_M28 --output {output:q}"
+
+include: "pilot.smk"
+include: "focused_pilot.smk"

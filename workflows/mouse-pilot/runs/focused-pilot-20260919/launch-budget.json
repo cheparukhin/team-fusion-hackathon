@@ -1,0 +1,643 @@
+{
+  "utc": "2026-09-19T15:12:04.807110+00:00",
+  "currency": "USD",
+  "calculation": "Maximum quoted region and storage-class rate; controller disk observed as 120 GiB plus 1 MiB, rounded up to 121 GiB. Worker requested 150 GiB. Recheck actual instance type and disk after launch.",
+  "resources": {
+    "cpu-e2.4vcpu-16gb": {
+      "disk_gib_upper_bound": 121,
+      "usd_per_hour_upper_bound": 0.139368,
+      "quote": {
+        "type": "cpu-e2.4vcpu-16gb",
+        "supportedStorage": [
+          {
+            "count": 1,
+            "size": "0B",
+            "type": "network-ssd",
+            "minSize": "50GiB",
+            "maxSize": "2TiB512GiB",
+            "pricePerGbHr": {
+              "currency": "USD",
+              "amount": "0.000168"
+            },
+            "sizeBytes": {},
+            "minSizeBytes": {
+              "value": "50",
+              "unit": "GiB"
+            },
+            "maxSizeBytes": {
+              "value": "2560",
+              "unit": "GiB"
+            }
+          }
+        ],
+        "memory": "16GiB",
+        "networkPerformance": "standard",
+        "vcpu": 4,
+        "supportedArchitectures": [
+          "x86_64"
+        ],
+        "clockSpeedInGhz": "0.000000",
+        "elasticRootVolume": true,
+        "quota": {
+          "onDemand": {},
+          "spot": {},
+          "reserved": {}
+        },
+        "location": "eu-north1",
+        "isAvailable": true,
+        "basePrice": {
+          "currency": "USD",
+          "amount": "0.119040"
+        },
+        "provider": "nebius",
+        "cloudCredId": "brev-nebius-prod",
+        "stoppable": true,
+        "memoryBytes": {
+          "value": "16",
+          "unit": "GiB"
+        },
+        "availableLocations": [
+          "eu-north1",
+          "eu-south1",
+          "eu-west1",
+          "eu-west2",
+          "me-west1",
+          "uk-south1",
+          "uk-south2",
+          "us-central1",
+          "us-north1"
+        ],
+        "cloudCred": {
+          "cloudCredId": "brev-nebius-prod",
+          "createTime": "2025-12-06T20:24:04.849360Z",
+          "updateTime": "2026-04-15T21:29:09.426724Z",
+          "providerId": "nebius",
+          "labels": {
+            "billable": "true",
+            "snapshot": "true",
+            "type": "brev-public",
+            "visibility": "public",
+            "workspaceGroupId": "brev-nebius-prod"
+          },
+          "status": "active",
+          "name": "brev-nebius-prod",
+          "platformRegion": "us-east-1",
+          "tenantType": "TENANT_TYPE_SHARED"
+        },
+        "locationPrices": {
+          "eu-north1": {
+            "currency": "USD",
+            "amount": "0.119040"
+          },
+          "eu-south1": {
+            "currency": "USD",
+            "amount": "0.119040"
+          },
+          "eu-west1": {
+            "currency": "USD",
+            "amount": "0.119040"
+          },
+          "eu-west2": {
+            "currency": "USD",
+            "amount": "0.119040"
+          },
+          "me-west1": {
+            "currency": "USD",
+            "amount": "0.119040"
+          },
+          "uk-south1": {
+            "currency": "USD",
+            "amount": "0.119040"
+          },
+          "uk-south2": {
+            "currency": "USD",
+            "amount": "0.119040"
+          },
+          "us-central1": {
+            "currency": "USD",
+            "amount": "0.119040"
+          },
+          "us-north1": {
+            "currency": "USD",
+            "amount": "0.119040"
+          }
+        }
+      }
+    },
+    "n2d-standard-16": {
+      "disk_gib_upper_bound": 150,
+      "usd_per_hour_upper_bound": 1.348047,
+      "quote": {
+        "type": "n2d-standard-16",
+        "supportedStorage": [
+          {
+            "size": "0B",
+            "type": "hyperdisk-extreme",
+            "minSize": "10GiB",
+            "maxSize": "16TiB",
+            "pricePerGbHr": {
+              "currency": "USD",
+              "amount": "0.000214"
+            },
+            "sizeBytes": {}
+          },
+          {
+            "size": "0B",
+            "type": "included-lssd-c4",
+            "minSize": "10GiB",
+            "maxSize": "16TiB",
+            "pricePerGbHr": {
+              "currency": "USD",
+              "amount": "0.000274"
+            },
+            "sizeBytes": {}
+          },
+          {
+            "size": "0B",
+            "type": "included-lssd-c4a",
+            "minSize": "10GiB",
+            "maxSize": "16TiB",
+            "pricePerGbHr": {
+              "currency": "USD",
+              "amount": "0.000205"
+            },
+            "sizeBytes": {}
+          },
+          {
+            "size": "0B",
+            "type": "included-lssd-c4d",
+            "minSize": "10GiB",
+            "maxSize": "16TiB",
+            "pricePerGbHr": {
+              "currency": "USD",
+              "amount": "0.000274"
+            },
+            "sizeBytes": {}
+          },
+          {
+            "size": "0B",
+            "type": "pd-balanced",
+            "minSize": "10GiB",
+            "maxSize": "16TiB",
+            "pricePerGbHr": {
+              "currency": "USD",
+              "amount": "0.000197"
+            },
+            "sizeBytes": {}
+          },
+          {
+            "size": "0B",
+            "type": "pd-extreme",
+            "minSize": "10GiB",
+            "maxSize": "16TiB",
+            "pricePerGbHr": {
+              "currency": "USD",
+              "amount": "0.000247"
+            },
+            "sizeBytes": {}
+          },
+          {
+            "size": "0B",
+            "type": "pd-local",
+            "minSize": "10GiB",
+            "maxSize": "16TiB",
+            "pricePerGbHr": {
+              "currency": "USD",
+              "amount": "0.000158"
+            },
+            "sizeBytes": {}
+          },
+          {
+            "size": "0B",
+            "type": "pd-snapshot",
+            "minSize": "10GiB",
+            "maxSize": "16TiB",
+            "pricePerGbHr": {
+              "currency": "USD",
+              "amount": "0.000085"
+            },
+            "sizeBytes": {}
+          },
+          {
+            "size": "0B",
+            "type": "pd-ssd",
+            "minSize": "10GiB",
+            "maxSize": "16TiB",
+            "pricePerGbHr": {
+              "currency": "USD",
+              "amount": "0.000335"
+            },
+            "sizeBytes": {}
+          },
+          {
+            "size": "0B",
+            "type": "pd-standard",
+            "minSize": "10GiB",
+            "maxSize": "16TiB",
+            "pricePerGbHr": {
+              "currency": "USD",
+              "amount": "0.000079"
+            },
+            "sizeBytes": {}
+          }
+        ],
+        "memory": "64GiB",
+        "vcpu": 16,
+        "supportedArchitectures": [
+          "x86_64"
+        ],
+        "clockSpeedInGhz": "0.000000",
+        "subLocation": "asia-south1-a",
+        "elasticRootVolume": true,
+        "supportedUsageClasses": [
+          "on-demand"
+        ],
+        "quota": {
+          "onDemand": {
+            "id": "N2D_CPUS",
+            "name": "N2D_CPUS",
+            "maximum": 644638,
+            "current": 26242,
+            "unit": "vcpu"
+          },
+          "spot": {
+            "id": "N2D_CPUS",
+            "name": "N2D_CPUS",
+            "maximum": 6333,
+            "current": 5342
+          },
+          "reserved": {
+            "id": "COMMITTED_N2D_CPUS",
+            "name": "COMMITTED_N2D_CPUS",
+            "unit": "vcpu"
+          }
+        },
+        "location": "asia-south1",
+        "isAvailable": true,
+        "basePrice": {
+          "currency": "USD",
+          "amount": "0.535354"
+        },
+        "subLocationTypeChangeable": true,
+        "estimatedDeployTime": "7m0s",
+        "provider": "gcp",
+        "cloudCredId": "brev-gcp-test",
+        "stoppable": true,
+        "canModifyFirewallRules": true,
+        "memoryBytes": {
+          "value": "65536",
+          "unit": "MiB"
+        },
+        "availableLocations": [
+          "africa-south1",
+          "asia-east1",
+          "asia-east2",
+          "asia-northeast1",
+          "asia-northeast2",
+          "asia-northeast3",
+          "asia-south1",
+          "asia-south2",
+          "asia-southeast1",
+          "asia-southeast2",
+          "australia-southeast1",
+          "australia-southeast2",
+          "europe-central2",
+          "europe-north1",
+          "europe-southwest1",
+          "europe-west1",
+          "europe-west10",
+          "europe-west12",
+          "europe-west2",
+          "europe-west3",
+          "europe-west4",
+          "europe-west6",
+          "europe-west8",
+          "europe-west9",
+          "me-central1",
+          "me-central2",
+          "me-west1",
+          "northamerica-northeast1",
+          "northamerica-northeast2",
+          "southamerica-east1",
+          "southamerica-west1",
+          "us-central1",
+          "us-east1",
+          "us-east4",
+          "us-east5",
+          "us-south1",
+          "us-west1",
+          "us-west2",
+          "us-west3",
+          "us-west4"
+        ],
+        "availableSublocations": [
+          "africa-south1:africa-south1-a",
+          "africa-south1:africa-south1-b",
+          "africa-south1:africa-south1-c",
+          "asia-east1:asia-east1-a",
+          "asia-east1:asia-east1-b",
+          "asia-east1:asia-east1-c",
+          "asia-east2:asia-east2-a",
+          "asia-east2:asia-east2-b",
+          "asia-east2:asia-east2-c",
+          "asia-northeast1:asia-northeast1-a",
+          "asia-northeast1:asia-northeast1-b",
+          "asia-northeast1:asia-northeast1-c",
+          "asia-northeast2:asia-northeast2-a",
+          "asia-northeast2:asia-northeast2-b",
+          "asia-northeast2:asia-northeast2-c",
+          "asia-northeast3:asia-northeast3-a",
+          "asia-northeast3:asia-northeast3-b",
+          "asia-northeast3:asia-northeast3-c",
+          "asia-south1:asia-south1-a",
+          "asia-south1:asia-south1-b",
+          "asia-south1:asia-south1-c",
+          "asia-south2:asia-south2-a",
+          "asia-south2:asia-south2-b",
+          "asia-south2:asia-south2-c",
+          "asia-southeast1:asia-southeast1-a",
+          "asia-southeast1:asia-southeast1-b",
+          "asia-southeast1:asia-southeast1-c",
+          "asia-southeast2:asia-southeast2-a",
+          "asia-southeast2:asia-southeast2-b",
+          "asia-southeast2:asia-southeast2-c",
+          "australia-southeast1:australia-southeast1-a",
+          "australia-southeast1:australia-southeast1-b",
+          "australia-southeast1:australia-southeast1-c",
+          "australia-southeast2:australia-southeast2-a",
+          "australia-southeast2:australia-southeast2-b",
+          "australia-southeast2:australia-southeast2-c",
+          "europe-central2:europe-central2-a",
+          "europe-central2:europe-central2-b",
+          "europe-central2:europe-central2-c",
+          "europe-north1:europe-north1-a",
+          "europe-north1:europe-north1-b",
+          "europe-north1:europe-north1-c",
+          "europe-southwest1:europe-southwest1-a",
+          "europe-southwest1:europe-southwest1-b",
+          "europe-southwest1:europe-southwest1-c",
+          "europe-west10:europe-west10-a",
+          "europe-west10:europe-west10-b",
+          "europe-west10:europe-west10-c",
+          "europe-west12:europe-west12-a",
+          "europe-west12:europe-west12-b",
+          "europe-west12:europe-west12-c",
+          "europe-west1:europe-west1-b",
+          "europe-west1:europe-west1-c",
+          "europe-west1:europe-west1-d",
+          "europe-west2:europe-west2-a",
+          "europe-west2:europe-west2-b",
+          "europe-west2:europe-west2-c",
+          "europe-west3:europe-west3-a",
+          "europe-west3:europe-west3-b",
+          "europe-west3:europe-west3-c",
+          "europe-west4:europe-west4-a",
+          "europe-west4:europe-west4-b",
+          "europe-west4:europe-west4-c",
+          "europe-west6:europe-west6-a",
+          "europe-west6:europe-west6-b",
+          "europe-west6:europe-west6-c",
+          "europe-west8:europe-west8-a",
+          "europe-west8:europe-west8-b",
+          "europe-west8:europe-west8-c",
+          "europe-west9:europe-west9-a",
+          "europe-west9:europe-west9-b",
+          "europe-west9:europe-west9-c",
+          "me-central1:me-central1-a",
+          "me-central1:me-central1-b",
+          "me-central1:me-central1-c",
+          "me-central2:me-central2-a",
+          "me-central2:me-central2-b",
+          "me-central2:me-central2-c",
+          "me-west1:me-west1-a",
+          "me-west1:me-west1-b",
+          "me-west1:me-west1-c",
+          "northamerica-northeast1:northamerica-northeast1-a",
+          "northamerica-northeast1:northamerica-northeast1-b",
+          "northamerica-northeast1:northamerica-northeast1-c",
+          "northamerica-northeast2:northamerica-northeast2-a",
+          "northamerica-northeast2:northamerica-northeast2-b",
+          "northamerica-northeast2:northamerica-northeast2-c",
+          "southamerica-east1:southamerica-east1-a",
+          "southamerica-east1:southamerica-east1-b",
+          "southamerica-east1:southamerica-east1-c",
+          "southamerica-west1:southamerica-west1-a",
+          "southamerica-west1:southamerica-west1-b",
+          "southamerica-west1:southamerica-west1-c",
+          "us-central1:us-central1-a",
+          "us-central1:us-central1-b",
+          "us-central1:us-central1-c",
+          "us-central1:us-central1-f",
+          "us-east1:us-east1-b",
+          "us-east1:us-east1-c",
+          "us-east1:us-east1-d",
+          "us-east4:us-east4-a",
+          "us-east4:us-east4-b",
+          "us-east4:us-east4-c",
+          "us-east5:us-east5-a",
+          "us-east5:us-east5-b",
+          "us-east5:us-east5-c",
+          "us-south1:us-south1-a",
+          "us-south1:us-south1-b",
+          "us-south1:us-south1-c",
+          "us-west1:us-west1-a",
+          "us-west1:us-west1-b",
+          "us-west1:us-west1-c",
+          "us-west2:us-west2-a",
+          "us-west2:us-west2-b",
+          "us-west2:us-west2-c",
+          "us-west3:us-west3-a",
+          "us-west3:us-west3-b",
+          "us-west3:us-west3-c",
+          "us-west4:us-west4-a",
+          "us-west4:us-west4-b",
+          "us-west4:us-west4-c"
+        ],
+        "cloudCred": {
+          "cloudCredId": "brev-gcp-test",
+          "createTime": "2023-03-21T01:06:04.989703Z",
+          "updateTime": "2026-04-15T21:44:27.220238Z",
+          "providerId": "gcp",
+          "labels": {
+            "billable": "true",
+            "snapshot": "true",
+            "type": "brev-public",
+            "visibility": "public",
+            "workspaceGroupId": "GCP"
+          },
+          "status": "active",
+          "name": "GCP",
+          "platformRegion": "us-east-1",
+          "tenantType": "TENANT_TYPE_SHARED"
+        },
+        "locationPrices": {
+          "africa-south1": {
+            "currency": "USD",
+            "amount": "0.892282"
+          },
+          "asia-east1": {
+            "currency": "USD",
+            "amount": "0.939187"
+          },
+          "asia-east2": {
+            "currency": "USD",
+            "amount": "1.134893"
+          },
+          "asia-northeast1": {
+            "currency": "USD",
+            "amount": "1.040602"
+          },
+          "asia-northeast2": {
+            "currency": "USD",
+            "amount": "1.041677"
+          },
+          "asia-northeast3": {
+            "currency": "USD",
+            "amount": "1.041677"
+          },
+          "asia-south1": {
+            "currency": "USD",
+            "amount": "0.535354"
+          },
+          "asia-south2": {
+            "currency": "USD",
+            "amount": "0.974246"
+          },
+          "asia-southeast1": {
+            "currency": "USD",
+            "amount": "1.000646"
+          },
+          "asia-southeast2": {
+            "currency": "USD",
+            "amount": "1.090705"
+          },
+          "australia-southeast1": {
+            "currency": "USD",
+            "amount": "1.150944"
+          },
+          "australia-southeast2": {
+            "currency": "USD",
+            "amount": "0.978336"
+          },
+          "europe-central2": {
+            "currency": "USD",
+            "amount": "0.981446"
+          },
+          "europe-north1": {
+            "currency": "USD",
+            "amount": "0.893050"
+          },
+          "europe-southwest1": {
+            "currency": "USD",
+            "amount": "0.957125"
+          },
+          "europe-west1": {
+            "currency": "USD",
+            "amount": "0.892282"
+          },
+          "europe-west10": {
+            "currency": "USD",
+            "amount": "1.045016"
+          },
+          "europe-west12": {
+            "currency": "USD",
+            "amount": "1.046349"
+          },
+          "europe-west2": {
+            "currency": "USD",
+            "amount": "1.044998"
+          },
+          "europe-west3": {
+            "currency": "USD",
+            "amount": "1.044998"
+          },
+          "europe-west4": {
+            "currency": "USD",
+            "amount": "0.892992"
+          },
+          "europe-west6": {
+            "currency": "USD",
+            "amount": "1.062566"
+          },
+          "europe-west8": {
+            "currency": "USD",
+            "amount": "0.940903"
+          },
+          "europe-west9": {
+            "currency": "USD",
+            "amount": "0.940903"
+          },
+          "me-central1": {
+            "currency": "USD",
+            "amount": "0.985515"
+          },
+          "me-central2": {
+            "currency": "USD",
+            "amount": "1.297797"
+          },
+          "me-west1": {
+            "currency": "USD",
+            "amount": "0.892236"
+          },
+          "northamerica-northeast1": {
+            "currency": "USD",
+            "amount": "0.892992"
+          },
+          "northamerica-northeast2": {
+            "currency": "USD",
+            "amount": "0.892992"
+          },
+          "southamerica-east1": {
+            "currency": "USD",
+            "amount": "1.287571"
+          },
+          "southamerica-west1": {
+            "currency": "USD",
+            "amount": "1.159906"
+          },
+          "us-central1": {
+            "currency": "USD",
+            "amount": "0.811123"
+          },
+          "us-east1": {
+            "currency": "USD",
+            "amount": "0.811123"
+          },
+          "us-east4": {
+            "currency": "USD",
+            "amount": "0.913536"
+          },
+          "us-east5": {
+            "currency": "USD",
+            "amount": "0.811123"
+          },
+          "us-south1": {
+            "currency": "USD",
+            "amount": "0.957125"
+          },
+          "us-west1": {
+            "currency": "USD",
+            "amount": "0.811123"
+          },
+          "us-west2": {
+            "currency": "USD",
+            "amount": "0.974246"
+          },
+          "us-west3": {
+            "currency": "USD",
+            "amount": "0.974246"
+          },
+          "us-west4": {
+            "currency": "USD",
+            "amount": "0.913536"
+          }
+        }
+      }
+    }
+  },
+  "check": {
+    "allowed": true,
+    "combined_usd_per_hour": 1.487415,
+    "note": "Preflight arithmetic only; verify current rates, resource inventory and actual launch."
+  }
+}

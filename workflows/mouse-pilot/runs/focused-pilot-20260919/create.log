@@ -1,0 +1,12 @@
+{"utc": "2026-09-19T15:12:04.820896+00:00", "argv": ["brev", "create", "chrna-pilot-cpu-20260919", "--type", "n2d-standard-16", "--provider", "gcp", "--count", "1", "--min-disk", "150", "--stoppable", "--timeout", "900", "--jupyter=false"]}
+Attempting to create 1 instance(s) with 1 parallel attempts
+Instance types to try: n2d-standard-16
+
+Trying n2d-standard-16 for 1 instance(s)...
+[Worker 1] Trying n2d-standard-16 for instance 'chrna-pilot-cpu-20260919'...
+[Worker 1] n2d-standard-16 Success! Created instance 'chrna-pilot-cpu-20260919'
+
+Waiting for instance(s) to be ready...
+You can safely ctrl+c to exit
+  chrna-pilot-cpu-20260919: Ready
+chrna-pilot-cpu-20260919

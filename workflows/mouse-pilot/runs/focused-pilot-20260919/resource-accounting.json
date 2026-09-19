@@ -1,0 +1,169 @@
+{
+  "status": "quote_based_usage_estimate",
+  "updated_utc": "2026-09-19T16:54:55.365348+00:00",
+  "currency": "USD",
+  "interpretation": "Observed lease intervals and maximum quoted regional compute/storage rates; conservative estimate, not a provider invoice. Provisioning through confirmed shutdown is charged in full. Persistent storage is included through this snapshot and may continue after workers stop. Costs before the first focused launch, taxes and unquoted network charges are not established here.",
+  "episodes": [
+    {
+      "name": "chrna-pilot-cpu-20260919",
+      "attempt": ".",
+      "start_utc": "2026-09-19T15:12:04.814264+00:00",
+      "stop_or_snapshot_utc": "2026-09-19T15:19:23.692811+00:00",
+      "lease_wall_seconds": 438.878547,
+      "status": "STOPPED",
+      "quoted_compute_usd_per_hour_upper_bound": 1.297797,
+      "compute_usd_estimate_upper_bound": 0.15821535046137752,
+      "quote_record": "launch-budget.json",
+      "shutdown_record": "shutdown-confirmed.json"
+    },
+    {
+      "name": "chrna-pilot-cpu-20260919",
+      "attempt": "retry-1",
+      "start_utc": "2026-09-19T15:19:54.501041+00:00",
+      "stop_or_snapshot_utc": "2026-09-19T15:23:13.472020+00:00",
+      "lease_wall_seconds": 198.970979,
+      "status": "STOPPED",
+      "quoted_compute_usd_per_hour_upper_bound": 1.297797,
+      "compute_usd_estimate_upper_bound": 0.07172887212035084,
+      "quote_record": "retry-1/launch-budget.json",
+      "shutdown_record": "retry-1/shutdown-confirmed.json"
+    },
+    {
+      "name": "chrna-pilot-cpu-20260919",
+      "attempt": "connectivity-debug",
+      "start_utc": "2026-09-19T15:30:41.579097+00:00",
+      "stop_or_snapshot_utc": "2026-09-19T15:34:25.017915+00:00",
+      "lease_wall_seconds": 223.438818,
+      "status": "STOPPED",
+      "quoted_compute_usd_per_hour_upper_bound": 1.297797,
+      "compute_usd_estimate_upper_bound": 0.080549507689985,
+      "quote_record": "connectivity-debug/launch-budget.json",
+      "shutdown_record": "connectivity-debug/shutdown-confirmed.json"
+    },
+    {
+      "name": "chrna-pilot-cpu-20260919",
+      "attempt": "retry-2",
+      "start_utc": "2026-09-19T15:34:39.270612+00:00",
+      "stop_or_snapshot_utc": "2026-09-19T16:03:51.259914+00:00",
+      "lease_wall_seconds": 1751.989302,
+      "status": "STOPPED",
+      "quoted_compute_usd_per_hour_upper_bound": 1.297797,
+      "compute_usd_estimate_upper_bound": 0.6315906833799151,
+      "quote_record": "retry-2/launch-budget.json",
+      "shutdown_record": "retry-2/shutdown-confirmed.json"
+    },
+    {
+      "name": "chrna-boltz-20260919",
+      "attempt": "folding-worker",
+      "start_utc": "2026-09-19T16:20:28.127098+00:00",
+      "stop_or_snapshot_utc": "2026-09-19T16:25:30.854563+00:00",
+      "lease_wall_seconds": 302.727465,
+      "status": "STOPPED",
+      "quoted_compute_usd_per_hour_upper_bound": 1.98,
+      "compute_usd_estimate_upper_bound": 0.16650010575000002,
+      "quote_record": "folding-worker/launch-budget.json",
+      "shutdown_record": "folding-worker/shutdown-confirmed.json"
+    },
+    {
+      "name": "chrna-boltz-20260919",
+      "attempt": "folding-worker-retry-1",
+      "start_utc": "2026-09-19T16:26:51.415433+00:00",
+      "stop_or_snapshot_utc": "2026-09-19T16:36:04.612196+00:00",
+      "lease_wall_seconds": 553.196763,
+      "status": "STOPPED",
+      "quoted_compute_usd_per_hour_upper_bound": 1.98,
+      "compute_usd_estimate_upper_bound": 0.30425821965,
+      "quote_record": "folding-worker-retry-1/launch-budget.json",
+      "shutdown_record": "folding-worker-retry-1/shutdown-confirmed.json"
+    },
+    {
+      "name": "chrna-boltz-20260919",
+      "attempt": "folding-worker-retry-2",
+      "start_utc": "2026-09-19T16:36:42.648091+00:00",
+      "stop_or_snapshot_utc": "2026-09-19T16:42:50.633085+00:00",
+      "lease_wall_seconds": 367.984994,
+      "status": "STOPPED",
+      "quoted_compute_usd_per_hour_upper_bound": 1.98,
+      "compute_usd_estimate_upper_bound": 0.20239174669999999,
+      "quote_record": "folding-worker-retry-2/launch-budget.json",
+      "shutdown_record": "folding-worker-retry-2/shutdown-confirmed.json"
+    },
+    {
+      "name": "chrna-boltz-20260919",
+      "attempt": "folding-worker-retry-3",
+      "start_utc": "2026-09-19T16:43:25.844267+00:00",
+      "stop_or_snapshot_utc": "2026-09-19T16:54:43.382793+00:00",
+      "lease_wall_seconds": 677.538526,
+      "status": "STOPPED",
+      "quoted_compute_usd_per_hour_upper_bound": 1.98,
+      "compute_usd_estimate_upper_bound": 0.37264618930000004,
+      "quote_record": "folding-worker-retry-3/launch-budget.json",
+      "shutdown_record": "folding-worker-retry-3/shutdown-confirmed.json"
+    }
+  ],
+  "persistent_resources": [
+    {
+      "name": "chrna-pilot-cpu-20260919",
+      "accounting_start_utc": "2026-09-19T15:12:04.814264+00:00",
+      "accounting_hours": 1.7140419677777776,
+      "storage_usd_per_hour_upper_bound": 0.05427,
+      "storage_usd_estimate_upper_bound": 0.09302105759129999,
+      "controller_compute_usd_estimate_upper_bound": 0
+    },
+    {
+      "name": "chrna-controller",
+      "accounting_start_utc": "2026-09-19T15:12:04.814264+00:00",
+      "accounting_hours": 1.7140419677777776,
+      "storage_usd_per_hour_upper_bound": 0.02184,
+      "storage_usd_estimate_upper_bound": 0.03743467657626666,
+      "controller_compute_usd_estimate_upper_bound": 0.20403955584426667
+    },
+    {
+      "name": "chrna-boltz-20260919",
+      "accounting_start_utc": "2026-09-19T16:20:28.127098+00:00",
+      "accounting_hours": 0.5742328472222222,
+      "storage_usd_per_hour_upper_bound": 0.17014800000000002,
+      "storage_usd_estimate_upper_bound": 0.09770457048916668,
+      "controller_compute_usd_estimate_upper_bound": 0
+    }
+  ],
+  "live_inventory": [
+    {
+      "name": "chrna-boltz-20260919",
+      "id": "8mq2074bp",
+      "status": "STOPPED",
+      "build_status": "COMPLETED",
+      "shell_status": "NOT READY",
+      "health_status": "HEALTHY",
+      "instance_type": "a100-80gb.1x",
+      "instance_kind": "gpu",
+      "gpu": "A100"
+    },
+    {
+      "name": "chrna-pilot-cpu-20260919",
+      "id": "6k9lx0737",
+      "status": "STOPPED",
+      "build_status": "COMPLETED",
+      "shell_status": "NOT READY",
+      "health_status": "HEALTHY",
+      "instance_type": "n2d-standard-16",
+      "instance_kind": "cpu",
+      "gpu": "-"
+    },
+    {
+      "name": "chrna-controller",
+      "id": "2gnfmgobs",
+      "status": "RUNNING",
+      "build_status": "COMPLETED",
+      "shell_status": "READY",
+      "health_status": "HEALTHY",
+      "instance_type": "cpu-e2.4vcpu-16gb",
+      "instance_kind": "cpu",
+      "gpu": "-"
+    }
+  ],
+  "maximum_quoted_combined_usd_per_hour_upper_bound": 3.643095,
+  "estimated_usd_upper_bound_for_accounted_compute_and_storage": 2.4200805355526285,
+  "temporary_workers_stopped": true,
+  "controller_left_available": true
+}

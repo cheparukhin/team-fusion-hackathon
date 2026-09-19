@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "browser": "Chromium via Playwright",
+  "checks": [
+    "479 real candidates",
+    "default Gsdmd selection",
+    "search and selection",
+    "empty search",
+    "109 reported-supported filter",
+    "evaluation metrics",
+    "methods and animation element",
+    "390px mobile without horizontal overflow",
+    "file:// offline loading",
+    "no browser JavaScript errors",
+    "Hi-C ranking includes observed scores only",
+    "matched-score detail card",
+    "model card source link resolves",
+    "actual NVIDIA status renders"
+  ],
+  "javascript_errors": []
+}

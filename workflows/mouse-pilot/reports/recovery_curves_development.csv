@@ -1,0 +1,301 @@
+method,k,candidates,known_positives,expected_supported_at_k,known_positive_recall_at_k,tie_breaking_lower_95,tie_breaking_upper_95,threshold_tie_candidates,interval_meaning
+Random selection,1,378,86,0.2275132275132275,0.0026455026455026454,0.0,1.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,2,378,86,0.455026455026455,0.005291005291005291,0.0,2.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,3,378,86,0.6825396825396826,0.007936507936507936,0.0,2.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,4,378,86,0.91005291005291,0.010582010582010581,0.0,3.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,5,378,86,1.1375661375661377,0.013227513227513229,0.0,3.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,6,378,86,1.3650793650793651,0.015873015873015872,0.0,4.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,7,378,86,1.5925925925925926,0.018518518518518517,0.0,4.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,8,378,86,1.82010582010582,0.021164021164021163,0.0,4.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,9,378,86,2.0476190476190474,0.023809523809523808,0.0,5.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,10,378,86,2.2751322751322753,0.026455026455026457,0.0,5.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,11,378,86,2.502645502645503,0.029100529100529102,0.0,5.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,12,378,86,2.7301587301587302,0.031746031746031744,0.0,6.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,13,378,86,2.9576719576719577,0.03439153439153439,0.0,6.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,14,378,86,3.185185185185185,0.037037037037037035,0.0,6.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,15,378,86,3.4126984126984126,0.03968253968253968,1.0,7.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,16,378,86,3.64021164021164,0.042328042328042326,1.0,7.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,17,378,86,3.867724867724868,0.04497354497354498,1.0,7.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,18,378,86,4.095238095238095,0.047619047619047616,1.0,8.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,19,378,86,4.322751322751323,0.05026455026455026,1.0,8.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,20,378,86,4.550264550264551,0.052910052910052914,1.0,8.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,21,378,86,4.777777777777778,0.05555555555555555,1.0,9.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,22,378,86,5.005291005291006,0.058201058201058205,2.0,9.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,23,378,86,5.232804232804233,0.06084656084656084,2.0,9.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,24,378,86,5.4603174603174605,0.06349206349206349,2.0,10.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,25,378,86,5.6878306878306875,0.06613756613756613,2.0,10.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,26,378,86,5.915343915343915,0.06878306878306878,2.0,10.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,27,378,86,6.142857142857143,0.07142857142857144,2.0,10.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,28,378,86,6.37037037037037,0.07407407407407407,2.0,11.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,29,378,86,6.597883597883598,0.07671957671957673,3.0,11.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,30,378,86,6.825396825396825,0.07936507936507936,3.0,11.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,31,378,86,7.052910052910053,0.082010582010582,3.0,12.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,32,378,86,7.28042328042328,0.08465608465608465,3.0,12.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,33,378,86,7.507936507936508,0.0873015873015873,3.0,12.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,34,378,86,7.735449735449736,0.08994708994708996,3.0,12.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,35,378,86,7.962962962962963,0.09259259259259259,4.0,13.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,36,378,86,8.19047619047619,0.09523809523809523,4.0,13.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,37,378,86,8.417989417989418,0.09788359788359788,4.0,13.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,38,378,86,8.645502645502646,0.10052910052910052,4.0,14.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,39,378,86,8.873015873015873,0.10317460317460318,4.0,14.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,40,378,86,9.100529100529101,0.10582010582010583,4.0,14.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,41,378,86,9.328042328042327,0.10846560846560846,5.0,14.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,42,378,86,9.555555555555555,0.1111111111111111,5.0,15.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,43,378,86,9.783068783068783,0.11375661375661376,5.0,15.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,44,378,86,10.010582010582011,0.11640211640211641,5.0,15.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,45,378,86,10.238095238095237,0.11904761904761904,5.0,16.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,46,378,86,10.465608465608465,0.12169312169312169,5.0,16.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,47,378,86,10.693121693121693,0.12433862433862433,6.0,16.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,48,378,86,10.920634920634921,0.12698412698412698,6.0,16.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,49,378,86,11.148148148148149,0.12962962962962965,6.0,17.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,50,378,86,11.375661375661375,0.13227513227513227,6.0,17.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,51,378,86,11.603174603174603,0.1349206349206349,6.0,17.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,52,378,86,11.83068783068783,0.13756613756613756,7.0,17.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,53,378,86,12.058201058201059,0.1402116402116402,7.0,18.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,54,378,86,12.285714285714286,0.14285714285714288,7.0,18.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,55,378,86,12.513227513227513,0.1455026455026455,7.0,18.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,56,378,86,12.74074074074074,0.14814814814814814,7.0,19.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,57,378,86,12.968253968253968,0.15079365079365079,7.0,19.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,58,378,86,13.195767195767196,0.15343915343915346,8.0,19.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,59,378,86,13.423280423280424,0.1560846560846561,8.0,19.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,60,378,86,13.65079365079365,0.15873015873015872,8.0,20.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,61,378,86,13.878306878306878,0.16137566137566137,8.0,20.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,62,378,86,14.105820105820106,0.164021164021164,8.0,20.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,63,378,86,14.333333333333334,0.16666666666666669,9.0,20.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,64,378,86,14.56084656084656,0.1693121693121693,9.0,21.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,65,378,86,14.788359788359788,0.17195767195767195,9.0,21.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,66,378,86,15.015873015873016,0.1746031746031746,9.0,21.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,67,378,86,15.243386243386244,0.17724867724867724,9.0,21.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,68,378,86,15.470899470899472,0.1798941798941799,10.0,22.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,69,378,86,15.698412698412698,0.18253968253968253,10.0,22.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,70,378,86,15.925925925925926,0.18518518518518517,10.0,22.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,71,378,86,16.15343915343915,0.18783068783068782,10.0,23.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,72,378,86,16.38095238095238,0.19047619047619047,10.0,23.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,73,378,86,16.608465608465607,0.1931216931216931,10.0,23.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,74,378,86,16.835978835978835,0.19576719576719576,11.0,23.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,75,378,86,17.063492063492063,0.1984126984126984,11.0,24.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,76,378,86,17.29100529100529,0.20105820105820105,11.0,24.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,77,378,86,17.51851851851852,0.20370370370370372,11.0,24.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,78,378,86,17.746031746031747,0.20634920634920637,11.0,24.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,79,378,86,17.973544973544975,0.208994708994709,12.0,25.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,80,378,86,18.201058201058203,0.21164021164021166,12.0,25.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,81,378,86,18.428571428571427,0.21428571428571427,12.0,25.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,82,378,86,18.656084656084655,0.21693121693121692,12.0,25.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,83,378,86,18.883597883597883,0.21957671957671956,12.0,26.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,84,378,86,19.11111111111111,0.2222222222222222,13.0,26.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,85,378,86,19.33862433862434,0.22486772486772486,13.0,26.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,86,378,86,19.566137566137566,0.22751322751322753,13.0,26.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,87,378,86,19.793650793650794,0.23015873015873017,13.0,27.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,88,378,86,20.021164021164022,0.23280423280423282,13.0,27.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,89,378,86,20.24867724867725,0.23544973544973546,14.0,27.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,90,378,86,20.476190476190474,0.23809523809523808,14.0,27.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,91,378,86,20.703703703703702,0.24074074074074073,14.0,28.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,92,378,86,20.93121693121693,0.24338624338624337,14.0,28.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,93,378,86,21.158730158730158,0.24603174603174602,14.0,28.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,94,378,86,21.386243386243386,0.24867724867724866,15.0,28.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,95,378,86,21.613756613756614,0.25132275132275134,15.0,29.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,96,378,86,21.841269841269842,0.25396825396825395,15.0,29.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,97,378,86,22.06878306878307,0.2566137566137566,15.0,29.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,98,378,86,22.296296296296298,0.2592592592592593,15.0,29.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,99,378,86,22.523809523809526,0.2619047619047619,16.0,30.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,100,378,86,22.75132275132275,0.26455026455026454,16.0,30.0,378,95% variability from random tie-breaking; not biological confidence
+Long-read support,1,378,86,1.0,0.011627906976744186,1.0,1.0,1,95% variability from random tie-breaking; not biological confidence
+Long-read support,2,378,86,1.6666666666666665,0.01937984496124031,1.0,2.0,12,95% variability from random tie-breaking; not biological confidence
+Long-read support,3,378,86,2.333333333333333,0.02713178294573643,1.0,3.0,12,95% variability from random tie-breaking; not biological confidence
+Long-read support,4,378,86,3.0,0.03488372093023256,2.0,4.0,12,95% variability from random tie-breaking; not biological confidence
+Long-read support,5,378,86,3.6666666666666665,0.04263565891472868,2.0,5.0,12,95% variability from random tie-breaking; not biological confidence
+Long-read support,6,378,86,4.333333333333334,0.05038759689922481,3.0,6.0,12,95% variability from random tie-breaking; not biological confidence
+Long-read support,7,378,86,5.0,0.05813953488372093,3.0,7.0,12,95% variability from random tie-breaking; not biological confidence
+Long-read support,8,378,86,5.666666666666667,0.06589147286821706,4.0,7.0,12,95% variability from random tie-breaking; not biological confidence
+Long-read support,9,378,86,6.333333333333333,0.07364341085271317,5.0,8.0,12,95% variability from random tie-breaking; not biological confidence
+Long-read support,10,378,86,7.0,0.08139534883720931,6.0,8.0,12,95% variability from random tie-breaking; not biological confidence
+Long-read support,11,378,86,7.666666666666667,0.08914728682170543,7.0,9.0,12,95% variability from random tie-breaking; not biological confidence
+Long-read support,12,378,86,8.333333333333332,0.09689922480620154,8.0,9.0,12,95% variability from random tie-breaking; not biological confidence
+Long-read support,13,378,86,9.0,0.10465116279069768,9.0,9.0,12,95% variability from random tie-breaking; not biological confidence
+Long-read support,14,378,86,9.210958904109589,0.10710417330359986,9.0,10.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,15,378,86,9.421917808219177,0.10955718381650206,9.0,11.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,16,378,86,9.632876712328766,0.11201019432940426,9.0,11.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,17,378,86,9.843835616438357,0.11446320484230647,9.0,12.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,18,378,86,10.054794520547945,0.11691621535520867,9.0,12.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,19,378,86,10.265753424657534,0.11936922586811086,9.0,12.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,20,378,86,10.476712328767123,0.12182223638101305,9.0,13.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,21,378,86,10.687671232876712,0.12427524689391525,9.0,13.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,22,378,86,10.898630136986302,0.12672825740681748,9.0,13.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,23,378,86,11.10958904109589,0.12918126791971965,9.0,14.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,24,378,86,11.32054794520548,0.13163427843262185,9.0,14.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,25,378,86,11.531506849315068,0.13408728894552405,9.0,14.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,26,378,86,11.742465753424657,0.13654029945842625,9.0,15.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,27,378,86,11.953424657534246,0.13899330997132844,9.0,15.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,28,378,86,12.164383561643836,0.14144632048423064,9.0,15.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,29,378,86,12.375342465753425,0.14389933099713284,10.0,16.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,30,378,86,12.586301369863014,0.14635234151003504,10.0,16.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,31,378,86,12.797260273972602,0.14880535202293724,10.0,16.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,32,378,86,13.008219178082193,0.15125836253583946,10.0,17.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,33,378,86,13.219178082191782,0.15371137304874163,10.0,17.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,34,378,86,13.43013698630137,0.15616438356164383,10.0,17.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,35,378,86,13.64109589041096,0.15861739407454603,10.0,17.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,36,378,86,13.852054794520548,0.16107040458744823,10.0,18.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,37,378,86,14.063013698630137,0.16352341510035043,11.0,18.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,38,378,86,14.273972602739725,0.16597642561325263,11.0,18.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,39,378,86,14.484931506849314,0.16842943612615482,11.0,19.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,40,378,86,14.695890410958903,0.17088244663905702,11.0,19.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,41,378,86,14.906849315068493,0.17333545715195922,11.0,19.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,42,378,86,15.117808219178082,0.17578846766486142,11.0,19.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,43,378,86,15.328767123287673,0.17824147817776365,11.0,20.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,44,378,86,15.539726027397261,0.18069448869066582,12.0,20.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,45,378,86,15.75068493150685,0.18314749920356801,12.0,20.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,46,378,86,15.961643835616439,0.1856005097164702,12.0,21.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,47,378,86,16.172602739726027,0.1880535202293724,12.0,21.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,48,378,86,16.383561643835616,0.1905065307422746,12.0,21.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,49,378,86,16.594520547945205,0.1929595412551768,12.0,21.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,50,378,86,16.805479452054794,0.195412551768079,12.0,22.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,51,378,86,17.016438356164386,0.19786556228098123,13.0,22.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,52,378,86,17.227397260273975,0.20031857279388343,13.0,22.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,53,378,86,17.438356164383563,0.20277158330678563,13.0,22.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,54,378,86,17.649315068493152,0.20522459381968783,13.0,23.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,55,378,86,17.86027397260274,0.20767760433259,13.0,23.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,56,378,86,18.07123287671233,0.2101306148454922,13.0,23.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,57,378,86,18.28219178082192,0.2125836253583944,14.0,23.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,58,378,86,18.493150684931507,0.2150366358712966,14.0,24.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,59,378,86,18.704109589041096,0.2174896463841988,14.0,24.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,60,378,86,18.915068493150685,0.219942656897101,14.0,24.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,61,378,86,19.126027397260273,0.2223956674100032,14.0,24.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,62,378,86,19.336986301369862,0.22484867792290536,14.0,25.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,63,378,86,19.54794520547945,0.22730168843580756,15.0,25.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,64,378,86,19.75890410958904,0.22975469894870976,15.0,25.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,65,378,86,19.969863013698628,0.23220770946161196,15.0,25.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,66,378,86,20.180821917808217,0.23466071997451415,15.0,26.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,67,378,86,20.391780821917806,0.23711373048741635,15.0,26.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,68,378,86,20.602739726027398,0.23956674100031858,15.0,26.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,69,378,86,20.813698630136987,0.24201975151322078,16.0,26.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,70,378,86,21.024657534246575,0.24447276202612298,16.0,27.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,71,378,86,21.235616438356164,0.24692577253902517,16.0,27.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,72,378,86,21.446575342465753,0.24937878305192737,16.0,27.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,73,378,86,21.657534246575345,0.2518317935648296,16.0,27.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,74,378,86,21.868493150684934,0.2542848040777318,16.0,28.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,75,378,86,22.079452054794523,0.256737814590634,17.0,28.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,76,378,86,22.29041095890411,0.2591908251035362,17.0,28.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,77,378,86,22.5013698630137,0.2616438356164384,17.0,28.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,78,378,86,22.71232876712329,0.2640968461293406,17.0,29.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,79,378,86,22.923287671232877,0.2665498566422428,17.0,29.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,80,378,86,23.134246575342466,0.26900286715514493,17.0,29.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,81,378,86,23.345205479452055,0.27145587766804713,18.0,29.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,82,378,86,23.556164383561644,0.27390888818094933,18.0,30.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,83,378,86,23.767123287671232,0.2763618986938515,18.0,30.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,84,378,86,23.97808219178082,0.2788149092067537,18.0,30.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,85,378,86,24.18904109589041,0.2812679197196559,18.0,30.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,86,378,86,24.4,0.2837209302325581,18.0,31.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,87,378,86,24.610958904109587,0.2861739407454603,19.0,31.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,88,378,86,24.821917808219176,0.2886269512583625,19.0,31.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,89,378,86,25.03287671232877,0.2910799617712648,19.0,31.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,90,378,86,25.243835616438357,0.2935329722841669,19.0,32.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,91,378,86,25.454794520547946,0.2959859827970691,19.0,32.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,92,378,86,25.665753424657535,0.2984389933099713,20.0,32.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,93,378,86,25.876712328767123,0.3008920038228735,20.0,32.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,94,378,86,26.087671232876712,0.3033450143357757,20.0,33.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,95,378,86,26.2986301369863,0.3057980248486779,20.0,33.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,96,378,86,26.50958904109589,0.3082510353615801,20.0,33.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,97,378,86,26.720547945205478,0.3107040458744823,20.0,33.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,98,378,86,26.931506849315067,0.3131570563873845,21.0,34.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,99,378,86,27.14246575342466,0.31561006690028676,21.0,34.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,100,378,86,27.353424657534248,0.31806307741318895,21.0,34.0,365,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,1,378,86,0.5454545454545454,0.006342494714587738,0.0,1.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,2,378,86,1.0909090909090908,0.012684989429175475,0.0,2.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,3,378,86,1.6363636363636365,0.019027484143763214,0.0,3.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,4,378,86,2.1818181818181817,0.02536997885835095,0.0,4.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,5,378,86,2.727272727272727,0.03171247357293869,1.0,5.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,6,378,86,3.272727272727273,0.03805496828752643,1.0,5.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,7,378,86,3.8181818181818183,0.04439746300211417,2.0,6.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,8,378,86,4.363636363636363,0.0507399577167019,2.0,7.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,9,378,86,4.909090909090909,0.05708245243128964,3.0,7.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,10,378,86,5.454545454545454,0.06342494714587738,3.0,8.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,11,378,86,6.0,0.06976744186046512,4.0,8.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,12,378,86,6.545454545454546,0.07610993657505286,4.0,9.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,13,378,86,7.090909090909091,0.0824524312896406,5.0,9.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,14,378,86,7.636363636363637,0.08879492600422834,5.0,10.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,15,378,86,8.181818181818182,0.09513742071881606,6.0,10.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,16,378,86,8.727272727272727,0.1014799154334038,7.0,11.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,17,378,86,9.272727272727273,0.10782241014799156,7.0,11.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,18,378,86,9.818181818181818,0.11416490486257928,8.0,12.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,19,378,86,10.363636363636363,0.12050739957716701,9.0,12.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,20,378,86,10.909090909090908,0.12684989429175475,10.0,12.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,21,378,86,11.454545454545455,0.1331923890063425,11.0,12.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,22,378,86,12.0,0.13953488372093023,12.0,12.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,23,378,86,12.207865168539326,0.14195192056441078,12.0,13.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,24,378,86,12.415730337078651,0.1443689574078913,12.0,14.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,25,378,86,12.623595505617978,0.14678599425137184,12.0,14.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,26,378,86,12.831460674157304,0.14920303109485236,12.0,15.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,27,378,86,13.039325842696629,0.15162006793833288,12.0,15.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,28,378,86,13.247191011235955,0.15403710478181343,12.0,15.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,29,378,86,13.45505617977528,0.15645414162529395,12.0,16.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,30,378,86,13.662921348314606,0.1588711784687745,12.0,16.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,31,378,86,13.870786516853933,0.16128821531225504,12.0,16.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,32,378,86,14.078651685393258,0.16370525215573556,12.0,17.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,33,378,86,14.286516853932584,0.1661222889992161,12.0,17.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,34,378,86,14.49438202247191,0.16853932584269662,12.0,17.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,35,378,86,14.702247191011235,0.17095636268617714,12.0,18.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,36,378,86,14.910112359550562,0.1733733995296577,12.0,18.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,37,378,86,15.117977528089888,0.17579043637313824,12.0,18.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,38,378,86,15.325842696629213,0.17820747321661876,13.0,19.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,39,378,86,15.53370786516854,0.1806245100600993,13.0,19.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,40,378,86,15.741573033707866,0.18304154690357982,13.0,19.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,41,378,86,15.94943820224719,0.18545858374706034,13.0,20.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,42,378,86,16.157303370786515,0.18787562059054086,13.0,20.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,43,378,86,16.365168539325843,0.19029265743402143,13.0,20.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,44,378,86,16.573033707865168,0.19270969427750195,13.0,20.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,45,378,86,16.780898876404493,0.19512673112098247,13.0,21.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,46,378,86,16.98876404494382,0.19754376796446305,14.0,21.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,47,378,86,17.196629213483146,0.19996080480794357,14.0,21.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,48,378,86,17.40449438202247,0.20237784165142408,14.0,21.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,49,378,86,17.6123595505618,0.20479487849490463,14.0,22.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,50,378,86,17.820224719101123,0.20721191533838515,14.0,22.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,51,378,86,18.028089887640448,0.20962895218186567,14.0,22.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,52,378,86,18.235955056179776,0.21204598902534624,14.0,23.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,53,378,86,18.4438202247191,0.21446302586882676,14.0,23.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,54,378,86,18.651685393258425,0.21688006271230728,15.0,23.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,55,378,86,18.859550561797754,0.21929709955578783,15.0,23.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,56,378,86,19.06741573033708,0.22171413639926835,15.0,24.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,57,378,86,19.275280898876403,0.22413117324274887,15.0,24.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,58,378,86,19.48314606741573,0.22654821008622944,15.0,24.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,59,378,86,19.691011235955056,0.22896524692970996,15.0,24.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,60,378,86,19.89887640449438,0.23138228377319048,16.0,25.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,61,378,86,20.10674157303371,0.23379932061667102,16.0,25.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,62,378,86,20.314606741573034,0.23621635746015154,16.0,25.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,63,378,86,20.52247191011236,0.23863339430363206,16.0,25.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,64,378,86,20.730337078651687,0.24105043114711264,16.0,26.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,65,378,86,20.93820224719101,0.24346746799059316,16.0,26.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,66,378,86,21.146067415730336,0.24588450483407367,16.0,26.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,67,378,86,21.353932584269664,0.24830154167755422,17.0,27.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,68,378,86,21.56179775280899,0.25071857852103474,17.0,27.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,69,378,86,21.769662921348313,0.2531356153645153,17.0,27.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,70,378,86,21.97752808988764,0.25555265220799583,17.0,27.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,71,378,86,22.185393258426966,0.2579696890514764,17.0,28.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,72,378,86,22.39325842696629,0.26038672589495687,17.0,28.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,73,378,86,22.60112359550562,0.2628037627384374,18.0,28.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,74,378,86,22.808988764044944,0.26522079958191797,18.0,28.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,75,378,86,23.01685393258427,0.26763783642539846,18.0,29.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,76,378,86,23.224719101123597,0.27005487326887906,18.0,29.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,77,378,86,23.43258426966292,0.27247191011235955,18.0,29.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,78,378,86,23.640449438202246,0.2748889469558401,18.0,29.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,79,378,86,23.848314606741575,0.27730598379932064,19.0,30.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,80,378,86,24.0561797752809,0.27972302064280113,19.0,30.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,81,378,86,24.264044943820224,0.2821400574862817,19.0,30.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,82,378,86,24.471910112359552,0.28455709432976223,19.0,30.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,83,378,86,24.679775280898877,0.2869741311732428,19.0,30.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,84,378,86,24.8876404494382,0.28939116801672327,19.0,31.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,85,378,86,25.09550561797753,0.2918082048602038,20.0,31.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,86,378,86,25.303370786516854,0.29422524170368436,20.0,31.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,87,378,86,25.51123595505618,0.29664227854716485,20.0,31.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,88,378,86,25.719101123595507,0.29905931539064545,20.0,32.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,89,378,86,25.926966292134832,0.30147635223412594,20.0,32.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,90,378,86,26.134831460674157,0.3038933890776065,20.0,32.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,91,378,86,26.342696629213485,0.30631042592108704,21.0,32.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,92,378,86,26.55056179775281,0.30872746276456753,21.0,33.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,93,378,86,26.758426966292134,0.3111444996080481,21.0,33.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,94,378,86,26.966292134831463,0.3135615364515286,21.0,33.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,95,378,86,27.174157303370787,0.31597857329500917,21.0,33.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,96,378,86,27.382022471910112,0.31839561013848966,21.0,34.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,97,378,86,27.58988764044944,0.32081264698197026,22.0,34.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,98,378,86,27.797752808988765,0.32322968382545075,22.0,34.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,99,378,86,28.00561797752809,0.3256467206689313,22.0,34.0,356,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,100,378,86,28.213483146067414,0.3280637575124118,22.0,35.0,356,95% variability from random tie-breaking; not biological confidence

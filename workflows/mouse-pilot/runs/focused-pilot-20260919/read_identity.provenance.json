@@ -1,0 +1,7 @@
+{
+  "rows": 9167,
+  "identity_tsv_sha256": "fbe28103722c92e41b1db66d64b07b06dec72ffa1f5b4ec391bf9be6afc4aa21",
+  "source_fastq_sha256": "989b2a6e7db635a60754642f18f182f466cf3abb712a18c953da60f0653d847d",
+  "original_name_validation": "Full input FASTQ headers were independently checked against archive NAME in runs/pilot-20260919/intake_validation.json.",
+  "read_alias_semantics": "SRA run.spot/read alias used by SAM/LongGF; original archive NAME is retained without replacement."
+}

@@ -1,0 +1,16 @@
+{
+  "sequence_matches_coordinate_residues": true,
+  "experimental_shared_residues_match": true,
+  "mean_plddt": 48.704315185546875,
+  "mean_plddt_shared_1_73": 51.20903015136719,
+  "mean_plddt_novel_74_118": 44.641109466552734,
+  "fraction_below_50": 0.5338983050847458,
+  "ptm": 0.33591821789741516,
+  "parent_shared_residues_observed": 69,
+  "parent_shared_residues_missing": [
+    1,
+    71,
+    72,
+    73
+  ]
+}

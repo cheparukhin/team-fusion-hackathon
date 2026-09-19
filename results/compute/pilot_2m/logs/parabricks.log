@@ -1,0 +1,124 @@
+Please visit https://docs.nvidia.com/clara/#parabricks for detailed documentation
+
+
+
+[Parabricks Options Mesg]: Adjusting STAR streams due to CPU memory constraints (112GB available)
+[Parabricks Options Mesg]: STAR auto-configuration: 1 GPUs, 2 streams/GPU, 4 threads/stream
+[Parabricks Options Mesg]:   GPU memory: 81920MiB, CPU memory: 112GB
+[Parabricks Options Mesg]: Automatically generating ID prefix
+[Parabricks Options Mesg]: Read group created for /workdir/inputs/SRR37513722_1.fastq.gz and
+/workdir/inputs/SRR37513722_2.fastq.gz
+[Parabricks Options Mesg]: @RG\tID:SRR37513722.1.1\tLB:GSM9569462\tPL:ILLUMINA\tSM:SRR37513722\tPU:SRR37513722.1.1
+[PB Info 2026-Sep-19 22:48:00] ------------------------------------------------------------------------------
+[PB Info 2026-Sep-19 22:48:00] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2026-Sep-19 22:48:00] ||                              Version 4.7.1-1                             ||
+[PB Info 2026-Sep-19 22:48:00] ||                                   star                                   ||
+[PB Info 2026-Sep-19 22:48:00] ------------------------------------------------------------------------------
+[PB Info 2026-Sep-19 22:48:01]  ..... started STAR run
+[PB Info 2026-Sep-19 22:48:01]  ..... loading genome
+[PB Info 2026-Sep-19 22:48:12] read from genomeDir done 11.284
+[PB Info 2026-Sep-19 22:48:12] GPUs: 1, Streams per GPU: 2, CPUs per stream: 4, enabled GPU helper threads: 0
+[PB Info 2026-Sep-19 22:48:12]  ..... started mapping
+[PB Info 2026-Sep-19 22:48:16] gpu input free memory : 80078MB, total 81037MB
+[PB Info 2026-Sep-19 22:48:16] cudaSuccess
+[PB Info 2026-Sep-19 22:48:20] ReadingReads:34000	WritingReads:0	CumulativeBases:0	current bases/GPU/minute: 0.0
+[PB Info 2026-Sep-19 22:48:20] gpu step0 free memory : 75054MB, total 81037MB
+[PB Info 2026-Sep-19 22:48:20] cudaSuccess
+[PB Info 2026-Sep-19 22:48:20] gpu input free memory : 74542MB, total 81037MB
+[PB Info 2026-Sep-19 22:48:20] gpu global free memory: 69854MB, total 81037MB
+[PB Info 2026-Sep-19 22:48:20] cudaSuccess
+[PB Info 2026-Sep-19 22:48:20] cudaSuccess
+[PB Info 2026-Sep-19 22:48:20] gpu step0 free memory : 64854MB, total 81037MB
+[PB Info 2026-Sep-19 22:48:20] cudaSuccess
+[PB Info 2026-Sep-19 22:48:21] gpu global free memory: 60166MB, total 81037MB
+[PB Info 2026-Sep-19 22:48:21] cudaSuccess
+[PB Info 2026-Sep-19 22:48:21] cudaSuccess
+[PB Info 2026-Sep-19 22:48:21] cudaSuccess
+[PB Info 2026-Sep-19 22:48:26] ReadingReads:217600	WritingReads:160000	CumulativeBases:48320000	current bases/GPU/minute: 483200000.0
+[PB Info 2026-Sep-19 22:48:32] ReadingReads:531200	WritingReads:468800	CumulativeBases:141577600	current bases/GPU/minute: 932576000.0
+[PB Info 2026-Sep-19 22:48:38] ReadingReads:857600	WritingReads:796400	CumulativeBases:240512800	current bases/GPU/minute: 989352000.0
+[PB Info 2026-Sep-19 22:48:44] ReadingReads:1266800	WritingReads:1209600	CumulativeBases:365299200	current bases/GPU/minute: 1247864000.0
+[PB Info 2026-Sep-19 22:48:50] ReadingReads:1459000	WritingReads:1401600	CumulativeBases:423283200	current bases/GPU/minute: 579840000.0
+[PB Info 2026-Sep-19 22:48:56] ReadingReads:1689200	WritingReads:1628400	CumulativeBases:491776800	current bases/GPU/minute: 684936000.0
+[PB Info 2026-Sep-19 22:49:02] ReadingReads:1957600	WritingReads:1901200	CumulativeBases:574162400	current bases/GPU/minute: 823856000.0
+[PB Info 2026-Sep-19 22:49:04] reader done
+[PB Info 2026-Sep-19 22:49:04] GPU 0 Stream 1: GPU done
+[PB Info 2026-Sep-19 22:49:04] GPU 0 Stream 1: GPU done
+[PB Info 2026-Sep-19 22:49:04] GPU 0 Stream 0: GPU done
+[PB Info 2026-Sep-19 22:49:04] GPU 0 Stream 0: GPU done
+[PB Info 2026-Sep-19 22:49:04] CPU Helper worked chunks: 0
+[PB Info 2026-Sep-19 22:49:04] CPU Helper worked chunks: 0
+[PB Info 2026-Sep-19 22:49:05] GPU 0 clearAllQueue done
+[PB Info 2026-Sep-19 22:49:05] GPU 0 clearAllQueue done
+[PB Info 2026-Sep-19 22:49:05] all workers joined
+[PB Info 2026-Sep-19 22:49:05] reader done
+[PB Info 2026-Sep-19 22:49:05]  ..... finished mapping
+[PB Info 2026-Sep-19 22:49:05] All processing done, time 53.048
+[PB Info 2026-Sep-19 22:49:08] Rate stats (based on sampling every 6 seconds):
+	min rate: 0.0 bases/GPU/minute
+	max rate: 1247864000.0 bases/GPU/minute
+	avg rate: 717703000.0 bases/GPU/minute
+[PB Info 2026-Sep-19 22:49:08]  ..... finished successfully
+[PB Info 2026-Sep-19 22:49:08] Memory free
+[PB Info 2026-Sep-19 22:49:08] ------------------------------------------------------------------------------
+[PB Info 2026-Sep-19 22:49:08] ||        Program:                                              star        ||
+[PB Info 2026-Sep-19 22:49:08] ||        Version:                                           4.7.1-1        ||
+[PB Info 2026-Sep-19 22:49:08] ||        Start Time:                       Sat Sep 19 22:48:00 2026        ||
+[PB Info 2026-Sep-19 22:49:08] ||        End Time:                         Sat Sep 19 22:49:08 2026        ||
+[PB Info 2026-Sep-19 22:49:08] ||        Total Time:                             1 minute 8 seconds        ||
+[PB Info 2026-Sep-19 22:49:08] ------------------------------------------------------------------------------
+[PB Info 2026-Sep-19 22:49:09] ------------------------------------------------------------------------------
+[PB Info 2026-Sep-19 22:49:09] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2026-Sep-19 22:49:09] ||                              Version 4.7.1-1                             ||
+[PB Info 2026-Sep-19 22:49:09] ||                             Sorting Phase-II                             ||
+[PB Info 2026-Sep-19 22:49:09] ------------------------------------------------------------------------------
+[PB Info 2026-Sep-19 22:49:09] progressMeter - Percentage
+[PB Info 2026-Sep-19 22:49:09] 0.0
+[PB Info 2026-Sep-19 22:49:14] Sorting and Marking: 5.001 seconds
+[PB Info 2026-Sep-19 22:49:14] ------------------------------------------------------------------------------
+[PB Info 2026-Sep-19 22:49:14] ||        Program:                                  Sorting Phase-II        ||
+[PB Info 2026-Sep-19 22:49:14] ||        Version:                                           4.7.1-1        ||
+[PB Info 2026-Sep-19 22:49:14] ||        Start Time:                       Sat Sep 19 22:49:09 2026        ||
+[PB Info 2026-Sep-19 22:49:14] ||        End Time:                         Sat Sep 19 22:49:14 2026        ||
+[PB Info 2026-Sep-19 22:49:14] ||        Total Time:                                      5 seconds        ||
+[PB Info 2026-Sep-19 22:49:14] ------------------------------------------------------------------------------
+[PB Info 2026-Sep-19 22:49:14] ------------------------------------------------------------------------------
+[PB Info 2026-Sep-19 22:49:14] ||                 Parabricks accelerated Genomics Pipeline                 ||
+[PB Info 2026-Sep-19 22:49:14] ||                              Version 4.7.1-1                             ||
+[PB Info 2026-Sep-19 22:49:14] ||                         Marking Duplicates, BQSR                         ||
+[PB Info 2026-Sep-19 22:49:14] ------------------------------------------------------------------------------
+[PB Info 2026-Sep-19 22:49:14] Using PBBinBamFile for BAM writing
+[PB Info 2026-Sep-19 22:49:14] progressMeter -	Percentage
+[PB Info 2026-Sep-19 22:49:24] 100.0
+[PB Info 2026-Sep-19 22:49:24] BQSR and writing final BAM:  10.013 seconds
+[PB Info 2026-Sep-19 22:49:24] ------------------------------------------------------------------------------
+[PB Info 2026-Sep-19 22:49:24] ||        Program:                          Marking Duplicates, BQSR        ||
+[PB Info 2026-Sep-19 22:49:24] ||        Version:                                           4.7.1-1        ||
+[PB Info 2026-Sep-19 22:49:24] ||        Start Time:                       Sat Sep 19 22:49:14 2026        ||
+[PB Info 2026-Sep-19 22:49:24] ||        End Time:                         Sat Sep 19 22:49:24 2026        ||
+[PB Info 2026-Sep-19 22:49:24] ||        Total Time:                                     10 seconds        ||
+[PB Info 2026-Sep-19 22:49:24] ------------------------------------------------------------------------------
+
+	Command being timed: "timeout 1200 docker run --rm --gpus all --name chrna-rna-extension-job -v /home/shadeform/chrna-rna-pilot-2m:/workdir -v /home/shadeform/chrna-rna-pilot/reference:/reference:ro -w /workdir nvcr.io/nvidia/clara/clara-parabricks:4.7.1-1 pbrun rna_fq2bam --in-fq /workdir/inputs/SRR37513722_1.fastq.gz /workdir/inputs/SRR37513722_2.fastq.gz --ref /reference/GRCm39.primary_assembly.genome.fa --genome-lib-dir /reference/star272a --output-dir /workdir/output --out-bam /workdir/output/SRR37513722.bam --read-files-command zcat --num-gpus 1 --sjdb-overhang 149 --min-chim-segment 15 --min-chim-overhang 15 --out-chim-type Junctions --out-chim-format 1 --no-markdups --read-group-sm SRR37513722 --read-group-pl ILLUMINA --read-group-lb GSM9569462"
+	User time (seconds): 0.00
+	System time (seconds): 0.01
+	Percent of CPU this job got: 0%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 1:25.49
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 28436
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 2888
+	Voluntary context switches: 735
+	Involuntary context switches: 1
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 120
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

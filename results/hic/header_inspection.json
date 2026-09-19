@@ -1,0 +1,113 @@
+{
+  "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9574nnn/GSM9574808/suppl/GSM9574808_OV_siNeg_LPS_A.prejuicer.hic",
+  "version": 8,
+  "genome": "/home/users/allstaff/coughlan.h/Reference_genomes/mm39/mm39.genome.sizes",
+  "attributes": {
+    "software": "Juicer Tools Version 1.22.01",
+    "hicFileScalingFactor": "1.0",
+    "nviIndex": "0000000000000000",
+    "nviLength": "0000000000000000"
+  },
+  "chromosomes": [
+    [
+      "All",
+      2723431
+    ],
+    [
+      "chr1",
+      195154279
+    ],
+    [
+      "chr2",
+      181755017
+    ],
+    [
+      "chr3",
+      159745316
+    ],
+    [
+      "chr4",
+      156860686
+    ],
+    [
+      "chr5",
+      151758149
+    ],
+    [
+      "chr6",
+      149588044
+    ],
+    [
+      "chr7",
+      144995196
+    ],
+    [
+      "chr8",
+      130127694
+    ],
+    [
+      "chr9",
+      124359700
+    ],
+    [
+      "chr10",
+      130530862
+    ],
+    [
+      "chr11",
+      121973369
+    ],
+    [
+      "chr12",
+      120092757
+    ],
+    [
+      "chr13",
+      120883175
+    ],
+    [
+      "chr14",
+      125139656
+    ],
+    [
+      "chr15",
+      104073951
+    ],
+    [
+      "chr16",
+      98008968
+    ],
+    [
+      "chr17",
+      95294699
+    ],
+    [
+      "chr18",
+      90720763
+    ],
+    [
+      "chr19",
+      61420004
+    ],
+    [
+      "chrX",
+      169476592
+    ],
+    [
+      "chrY",
+      91455967
+    ],
+    [
+      "chrM",
+      16299
+    ]
+  ],
+  "resolutions": [
+    1000000,
+    500000,
+    200000,
+    100000,
+    50000,
+    20000
+  ]
+}

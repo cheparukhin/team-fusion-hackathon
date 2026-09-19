@@ -1,0 +1,37 @@
+{
+  "repository": "https://github.com/robinweide/GENOVA",
+  "commit": "3f48feee75b63fae16fef9c3fcd8067a65c586a8",
+  "purpose": "Unmodified upstream reference source snapshots; Python enrichment uses the documented numerical definition.",
+  "files": {
+    "load_contacts.R": {
+      "matches_pinned_commit": true,
+      "sha256": "cceb49cd0907cbbee79dc3a870d3784271fc836eb9485cef6de20d67a0bdb55d"
+    },
+    "tornado_aggregates.R": {
+      "matches_pinned_commit": true,
+      "sha256": "d12cde89adf5f0faa16fe66ca08ad1aa37b72c4e4c3010da8f9481fdd5cdae39"
+    },
+    "ARMLA.R": {
+      "matches_pinned_commit": true,
+      "sha256": "8eeebe974b0e01de0d1547a2dac7a2c3ecc15ec18aa7722323f67dfe360b0832"
+    },
+    "methods_anchors.R": {
+      "matches_pinned_commit": true,
+      "sha256": "d00eb70e406858663e884abda163c2e2dd3710375cdce83637aecf6754f964da"
+    },
+    "loading_juicer.R": {
+      "matches_pinned_commit": true,
+      "sha256": "8184c9ce01ad9582e2ef0dcfd61ffb8447f149731599c3de2cc4b101421f2ea5"
+    },
+    "methods_matrix_lookup.R": {
+      "matches_pinned_commit": true,
+      "sha256": "bc4985cfdcfec01bb9356a454076bcc2bc357412578611b999ba85765bd6a8d3"
+    },
+    "methods_quantify.R": {
+      "matches_pinned_commit": true,
+      "sha256": "740fc43df8120c7a93bcb5a7dbb412ee306d695981f04ff9a7faadd7f1dfac0b"
+    }
+  },
+  "license_file": "GENOVA_LICENSE",
+  "package_metadata_file": "GENOVA_DESCRIPTION"
+}

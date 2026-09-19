@@ -1,0 +1,176 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "junction_id": "junction_8b7451bd5aae24801ed5485bd891d105bd2248c409448aa1c2d47d44a39418f5",
+      "protein_id": "protein_ab0acc0f95e51a7894c0c41ef7081728b8aa1ad064443d42f81776ea20c77194",
+      "rna_rank": 4,
+      "independent_translation": "passed_Biopython",
+      "amino_acids": 205,
+      "corrections_and_variants": 194,
+      "high_quality_substitutions_retained": 0,
+      "mapq": [
+        60,
+        60
+      ],
+      "query_gap": -2,
+      "split_single_margin": 2821,
+      "source": "LongGF",
+      "observed_complete_spanning_orfs": 2
+    },
+    {
+      "junction_id": "junction_86454225dbb4223697a10296e1e8aa1d54849acef43961eaf2fb88f1c492c90e",
+      "protein_id": "protein_829397420b49a412cf07f60151864bb984e43c3ffee13a777cc6be8d1ad441bc",
+      "rna_rank": 13,
+      "independent_translation": "passed_Biopython",
+      "amino_acids": 308,
+      "corrections_and_variants": 158,
+      "high_quality_substitutions_retained": 0,
+      "mapq": [
+        60,
+        60
+      ],
+      "query_gap": -1,
+      "split_single_margin": 1819,
+      "source": "LongGF",
+      "observed_complete_spanning_orfs": 0
+    },
+    {
+      "junction_id": "junction_1a38d4c4e38fac48c1b34263c18cc3576802fa7c677f3cd6a0597b2231357f93",
+      "protein_id": "protein_5fbb65263d2cee8b90549b93739189a4d923d56399dd9965cb39df5b591bf18d",
+      "rna_rank": 14,
+      "independent_translation": "passed_Biopython",
+      "amino_acids": 181,
+      "corrections_and_variants": 165,
+      "high_quality_substitutions_retained": 0,
+      "mapq": [
+        60,
+        60
+      ],
+      "query_gap": -2,
+      "split_single_margin": 1803,
+      "source": "alignment_scan",
+      "observed_complete_spanning_orfs": 0
+    },
+    {
+      "junction_id": "junction_6805713e08f03983dcc3c6737966c63beb3ee93d0f4a77cb99ffa66db6c0b4e0",
+      "protein_id": "protein_8b7defedc00075b2ff44d12850e30a2ba564a5a4d5b67b01aa17dbdc2b39a03b",
+      "rna_rank": 16,
+      "independent_translation": "passed_Biopython",
+      "amino_acids": 612,
+      "corrections_and_variants": 299,
+      "high_quality_substitutions_retained": 0,
+      "mapq": [
+        60,
+        60
+      ],
+      "query_gap": -2,
+      "split_single_margin": 1740,
+      "source": "alignment_scan",
+      "observed_complete_spanning_orfs": 2
+    },
+    {
+      "junction_id": "junction_be686183a8b35d5e09cd57c7050fc9ca66ed4d5adfccde840869a1d786300b69",
+      "protein_id": "protein_ba9e33a93c212f326346c5d15a338f66591107785bb384386e0f27d26b2b64c4",
+      "rna_rank": 18,
+      "independent_translation": "passed_Biopython",
+      "amino_acids": 311,
+      "corrections_and_variants": 100,
+      "high_quality_substitutions_retained": 0,
+      "mapq": [
+        60,
+        60
+      ],
+      "query_gap": -1,
+      "split_single_margin": 1632,
+      "source": "LongGF",
+      "observed_complete_spanning_orfs": 1
+    },
+    {
+      "junction_id": "junction_1a79cee47aa3bfd8f87ad79cae8a5f2c4c1844f944df0b07da785180fc8ced86",
+      "protein_id": "protein_1be097e6870c1cf0730492a3b988a24d343956ed810eb5ba6021075fddda67d4",
+      "rna_rank": 24,
+      "independent_translation": "passed_Biopython",
+      "amino_acids": 165,
+      "corrections_and_variants": 174,
+      "high_quality_substitutions_retained": 0,
+      "mapq": [
+        60,
+        60
+      ],
+      "query_gap": 0,
+      "split_single_margin": 1377,
+      "source": "alignment_scan",
+      "observed_complete_spanning_orfs": 1
+    },
+    {
+      "junction_id": "junction_93deecae85808da91ad44abfbf839f1645314fe0bec7d84d7eb011d8f02875c0",
+      "protein_id": "protein_40886b971ab3b58c192c7f4474815a21bcb8aee631c6987185eda3775ef2bcf3",
+      "rna_rank": 33,
+      "independent_translation": "passed_Biopython",
+      "amino_acids": 270,
+      "corrections_and_variants": 136,
+      "high_quality_substitutions_retained": 0,
+      "mapq": [
+        60,
+        60
+      ],
+      "query_gap": -3,
+      "split_single_margin": 1141,
+      "source": "alignment_scan",
+      "observed_complete_spanning_orfs": 0
+    },
+    {
+      "junction_id": "junction_0ebb208912f135c3dee47e578180c06fa212a8640974e47b2785e796c105b590",
+      "protein_id": "protein_010cea6b9aec4fe107d0d322bcf87e247a1dae50e8e1f8a0c2ccf4331ba2c509",
+      "rna_rank": 35,
+      "independent_translation": "passed_Biopython",
+      "amino_acids": 179,
+      "corrections_and_variants": 641,
+      "high_quality_substitutions_retained": 0,
+      "mapq": [
+        46,
+        60
+      ],
+      "query_gap": 0,
+      "split_single_margin": 1111,
+      "source": "alignment_scan",
+      "observed_complete_spanning_orfs": 0
+    },
+    {
+      "junction_id": "junction_f675702fe4f343eb7fe4c14290dd32c191fbe7da71ab72071f288708fa749523",
+      "protein_id": "protein_6d61d8abd6143152e0b025884fd296ee504410576909a6b35e3b7931719d0211",
+      "rna_rank": 37,
+      "independent_translation": "passed_Biopython",
+      "amino_acids": 166,
+      "corrections_and_variants": 188,
+      "high_quality_substitutions_retained": 0,
+      "mapq": [
+        60,
+        60
+      ],
+      "query_gap": -2,
+      "split_single_margin": 1088,
+      "source": "LongGF",
+      "observed_complete_spanning_orfs": 1
+    },
+    {
+      "junction_id": "junction_97c52d8d8133369e0124daee682bae9e3c967b2275b69aad9729465fe37c402f",
+      "protein_id": "protein_d67cdd2ab407509e4583ddcfdf76d41c3a0c37af2f70a6280c6b1d0f893e1c73",
+      "rna_rank": 38,
+      "independent_translation": "passed_Biopython",
+      "amino_acids": 224,
+      "corrections_and_variants": 127,
+      "high_quality_substitutions_retained": 0,
+      "mapq": [
+        60,
+        60
+      ],
+      "query_gap": 0,
+      "split_single_margin": 1065,
+      "source": "alignment_scan",
+      "observed_complete_spanning_orfs": 1
+    }
+  ],
+  "limitations": "Independent translation verifies arithmetic on the reconstructed RNA, not the reference-allele assumption, protein expression or function."
+}

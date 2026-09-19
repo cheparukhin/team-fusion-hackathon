@@ -1,0 +1,19 @@
+2026-09-19T16:20:28.134005+00:00 create
+2026-09-19T16:24:01.338468+00:00 ssh-refresh-1
+2026-09-19T16:24:11.324545+00:00 ssh-probe-1
+2026-09-19T16:24:14.952412+00:00 prepare
+2026-09-19T16:24:17.071486+00:00 hardware
+2026-09-19T16:24:31.417315+00:00 preserve-outputs
+2026-09-19T16:24:56.332571+00:00 stop
+2026-09-19T16:25:13.690996+00:00 stop
+Traceback (most recent call last):
+  File "/home/ubuntu/workspace/chrna/scripts/run_boltz_worker.py", line 194, in <module>
+    main(args.inputs.resolve())
+  File "/home/ubuntu/workspace/chrna/scripts/run_boltz_worker.py", line 150, in main
+    command('hardware',['brev','exec',NAME,
+  File "/home/ubuntu/workspace/chrna/scripts/run_boltz_worker.py", line 29, in command
+    def command(*args,**kwargs):return transport.command(*args,**kwargs)
+                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/workspace/chrna/scripts/run_pilot_worker.py", line 74, in command
+    raise RuntimeError(f'{label} exited {result.returncode}')
+RuntimeError: hardware exited 1

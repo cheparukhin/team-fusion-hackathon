@@ -1,0 +1,59 @@
+4.7.1-1: Pulling from nvidia/clara/clara-parabricks
+1d387567261e: Pulling fs layer
+f29b1d4013a9: Pulling fs layer
+340d44d2921c: Pulling fs layer
+59a4bcbddda3: Pulling fs layer
+6e8af4fd0a07: Pulling fs layer
+9492bc5b115c: Pulling fs layer
+513617bba90b: Pulling fs layer
+91ce2ab838a8: Pulling fs layer
+24461aacabcd: Pulling fs layer
+5a7618c220ad: Pulling fs layer
+439b52a691b2: Pulling fs layer
+f9c9ea7cb4f2: Pulling fs layer
+24461aacabcd: Waiting
+513617bba90b: Waiting
+91ce2ab838a8: Waiting
+5a7618c220ad: Waiting
+59a4bcbddda3: Waiting
+9492bc5b115c: Waiting
+439b52a691b2: Waiting
+6e8af4fd0a07: Waiting
+f9c9ea7cb4f2: Waiting
+f29b1d4013a9: Download complete
+1d387567261e: Download complete
+59a4bcbddda3: Verifying Checksum
+59a4bcbddda3: Download complete
+6e8af4fd0a07: Verifying Checksum
+6e8af4fd0a07: Download complete
+340d44d2921c: Verifying Checksum
+340d44d2921c: Download complete
+9492bc5b115c: Verifying Checksum
+9492bc5b115c: Download complete
+24461aacabcd: Verifying Checksum
+24461aacabcd: Download complete
+513617bba90b: Verifying Checksum
+513617bba90b: Download complete
+1d387567261e: Pull complete
+439b52a691b2: Verifying Checksum
+439b52a691b2: Download complete
+91ce2ab838a8: Verifying Checksum
+91ce2ab838a8: Download complete
+f29b1d4013a9: Pull complete
+f9c9ea7cb4f2: Verifying Checksum
+f9c9ea7cb4f2: Download complete
+340d44d2921c: Pull complete
+59a4bcbddda3: Pull complete
+6e8af4fd0a07: Pull complete
+9492bc5b115c: Pull complete
+513617bba90b: Pull complete
+91ce2ab838a8: Pull complete
+24461aacabcd: Pull complete
+5a7618c220ad: Verifying Checksum
+5a7618c220ad: Download complete
+5a7618c220ad: Pull complete
+439b52a691b2: Pull complete
+f9c9ea7cb4f2: Pull complete
+Digest: sha256:191f3e113631493888c9a54534f6484614f645f6767cb0078c4f1b8ac116a34b
+Status: Downloaded newer image for nvcr.io/nvidia/clara/clara-parabricks:4.7.1-1
+nvcr.io/nvidia/clara/clara-parabricks:4.7.1-1

@@ -1,0 +1,17 @@
+{
+  "status": "validated_complete_pilot",
+  "validated_utc": "2026-09-19T16:05:49.220722+00:00",
+  "primary_records": 2238871,
+  "split_reads": 9167,
+  "output_directory": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/retry-2/worker-outputs",
+  "attempt": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/retry-2",
+  "verified_sha256": {
+    "pilot.name.bam": "44c115799edf031838ee97155499425d1855a9a66596e8e7a7892cf59d65e154",
+    "LongGF.log": "ce60e06a503678a10823b7dc75a9f15d2d5249e57344a0e722d56fd2f7d2cedb",
+    "split_reads.fastq": "989b2a6e7db635a60754642f18f182f466cf3abb712a18c953da60f0653d847d",
+    "split_genome_audit.sam": "cafe558c08fce54102a607769ce39f02b836bda66fb1bbc777f79a9f564d6fce",
+    "split_transcript_audit.sam": "fa60d097d2209cde5f0005e63cb7638b789ab501de6839e29417d0c461b2aacb"
+  },
+  "worker_stopped": true,
+  "scope": "One biological sample; minimap2/LongGF and supplementary-read mapping audit, not caller consensus."
+}

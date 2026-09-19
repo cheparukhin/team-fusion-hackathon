@@ -1,0 +1,32 @@
+{
+  "recorded_utc": "2026-09-19T15:42:57.939861+00:00",
+  "canonical_workspace": "/home/ubuntu/workspace/chrna",
+  "scope": "Reference snapshots and intake evidence only; live execution documents and run states change independently.",
+  "files": [
+    {
+      "path": "docs/context/source-snapshots/google-plan-20260919.md",
+      "bytes": 36192,
+      "sha256": "1d788aa5dc9bd0a5a048cdcb57125238ada4537a2c90f0a995410627fcfa7a2f"
+    },
+    {
+      "path": "docs/context/source-snapshots/scientific-discussion-20260919.md",
+      "bytes": 22367,
+      "sha256": "1ea132e4f97740b0f9ca1b46598b3084608fd2bbb9308721733535409b54bc75"
+    },
+    {
+      "path": "docs/context/source-snapshots/technical-proposal-historical.md",
+      "bytes": 35778,
+      "sha256": "840295619180de5d0316f952e88720602bb0cb577c5f1a98019aca3bd11be199"
+    },
+    {
+      "path": "docs/context/evidence/archive-summary.json",
+      "bytes": 431,
+      "sha256": "e2a97077dee0a432fb5106ca1bcde0b6eb37524a8fe9f420aeacf14b9538d849"
+    },
+    {
+      "path": "docs/context/evidence/sra-run-manifest.csv",
+      "bytes": 1278,
+      "sha256": "e8c7652e8d3eb5f4bc262dc690850c04023d6946ead99d34c072f17290cdd744"
+    }
+  ]
+}

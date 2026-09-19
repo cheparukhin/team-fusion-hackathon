@@ -1,0 +1,57 @@
+{
+  "created_utc": "2026-09-19T16:27:16.644119+00:00",
+  "scope_source": "docs/execution_goal.md",
+  "unchanged_frozen_selection": "selection/selection.json",
+  "junction_disposition_counts": {
+    "unresolved_protein_sequence_or_complete_ORF": 70,
+    "selected_for_folding": 10,
+    "deferred_folding_batch": 20,
+    "deferred_reconstruction_batch": 16,
+    "unresolved_RNA_evidence": 5846,
+    "technically_excluded_single_transcript_explanation": 504
+  },
+  "deferred_scope": [
+    {
+      "work": "Remaining nine mouse runs",
+      "reason": "Focused goal requires only the completed SRR28984805 pilot"
+    },
+    {
+      "work": "Additional inflammatory sample",
+      "reason": "Optional; prioritize verification of the frozen pilot"
+    },
+    {
+      "work": "JAFFAL and Genion integration",
+      "reason": "Focused goal prioritizes working minimap2/LongGF; no multi-caller consensus claimed"
+    },
+    {
+      "work": "Full-cohort replication and condition comparisons",
+      "reason": "One steady-state sample cannot establish them"
+    },
+    {
+      "work": "ORF reconstruction beyond the first 100 supported junctions",
+      "reason": "Enough defensible reference-assisted sequences existed for the bounded shortlist"
+    },
+    {
+      "work": "Folding all eligible proteins",
+      "reason": "Frozen batch limit is ten selected distinct sequences plus the separate published control"
+    },
+    {
+      "work": "Repeat predictions and parental comparator",
+      "reason": "Optional; no necessary comparator or repeat job established"
+    },
+    {
+      "work": "SG-NEx, model training, Hi-C prediction, Foldseek and broad complexes",
+      "reason": "Outside focused execution goal"
+    },
+    {
+      "work": "Author-coordinate structural comparison",
+      "reason": "Author coordinates unavailable"
+    },
+    {
+      "work": "Independent human review",
+      "reason": "No human review recorded; agent notes kept separate from frozen computational results"
+    }
+  ],
+  "unresolved_is_not_negative": true,
+  "protein_expression_and_function": "UNKNOWN"
+}

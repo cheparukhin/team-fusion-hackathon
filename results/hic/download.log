@@ -1,0 +1,32 @@
+[
+  {
+    "accession": "GSM9574808",
+    "replicate": "A",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9574nnn/GSM9574808/suppl/GSM9574808_OV_siNeg_LPS_A.prejuicer.hic",
+    "path": "/home/ubuntu/workspace/quick_hack/results/hic/raw/GSM9574808_OV_siNeg_LPS_A.prejuicer.hic",
+    "bytes": 549712645,
+    "sha256": "8d41d806980c412d273f14c71ebceb94decb9194aa220781b9efd6f53f98cae0",
+    "assembly": "GRCm39",
+    "treatment": "scramble siRNA; LPS6h"
+  },
+  {
+    "accession": "GSM9574809",
+    "replicate": "B",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9574nnn/GSM9574809/suppl/GSM9574809_OV_siNeg_LPS_B.prejuicer.hic",
+    "path": "/home/ubuntu/workspace/quick_hack/results/hic/raw/GSM9574809_OV_siNeg_LPS_B.prejuicer.hic",
+    "bytes": 556705352,
+    "sha256": "1109e6ac86504706ab019be9eb4486fea9f9402c3fa141e2cbf7ed4c75979197",
+    "assembly": "GRCm39",
+    "treatment": "scramble siRNA; LPS6h"
+  },
+  {
+    "accession": "GSM9574815",
+    "replicate": "C",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9574nnn/GSM9574815/suppl/GSM9574815_OV_siNeg_LPS_C.prejuicer.hic",
+    "path": "/home/ubuntu/workspace/quick_hack/results/hic/raw/GSM9574815_OV_siNeg_LPS_C.prejuicer.hic",
+    "bytes": 423761243,
+    "sha256": "a173970efe60088220cef1e41745bfed92b1d1863f0eec813192cedd9791f5d8",
+    "assembly": "GRCm39",
+    "treatment": "scramble siRNA; LPS6h"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "study_doi": "10.1038/s41586-026-10982-x",
+  "catalogue_read_records": 36826,
+  "catalogue_gene_pairs": 30390,
+  "catalogue_repaired_junctions": 31634,
+  "probe_records": 529,
+  "probe_gene_pairs": 527,
+  "nanostring_supported_gene_pairs": 109,
+  "short_read_supported_gene_pairs_full_study": 287,
+  "both_supported_gene_pairs_full_study": 13,
+  "exact_catalogue_matches": 479,
+  "catalogue_match_counts": {
+    "exact_ordered_pair": 479,
+    "not_found_in_table_3": 47,
+    "reverse_name_only_unresolved_junction": 1
+  },
+  "multi_probe_pairs": [
+    "Slc16a10:Rpf2",
+    "Slc25a13:Sem1"
+  ],
+  "reviewed_probe_aliases": {
+    "Aoah:Sirt5_2": "Aoah:Sirt5",
+    "Slc25a13:Sem1_2": "Slc25a13:Sem1",
+    "Tbc1d23:Xdh_2": "Tbc1d23:Xdh",
+    "Plekhm2:4930455G09Rik_2": "Plekhm2:4930455G09Rik",
+    "Slc16a10:Rpf2_2": "Slc16a10:Rpf2"
+  },
+  "probe_sequence_lengths": [
+    120
+  ],
+  "known_true_negatives": 0,
+  "supervised_biological_classifier_ready": false,
+  "label_grain": "gene pair; exact-junction, probe-variant and sample labels unavailable",
+  "partition_counts": {
+    "development": 422,
+    "heldout": 105
+  },
+  "gene_components": 385,
+  "largest_gene_component": 9,
+  "limitations": [
+    "No full NanoString assay/QC outcomes; not-reported is unknown, not false.",
+    "Probe panel was selected by the original authors, not a random sample of all candidates.",
+    "Gene-pair confirmation cannot resolve multiple probes or exact transcript junctions.",
+    "Reference-derived probe windows are not observed raw-read sequences.",
+    "Read counts aggregate the whole mouse study; no specimen mapping is in Table 3.",
+    "Unresolved catalogue names are excluded from common-pool ranking, not declared false.",
+    "RNA support is not protein production or function."
+  ]
+}

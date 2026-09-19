@@ -1,0 +1,9 @@
+stage,counting_unit,count
+Validated input reads,read,2238871
+Supplementary-alignment reads assessed,read,9167
+Reads with an assigned two-gene proposal,read,5419
+Reads supporting at least one exact junction,read,117
+All proposed exact junctions,junction,6466
+Supported exact junctions,junction,116
+Supported junctions in reconstruction batch,junction,100
+Selected distinct amino-acid sequences,protein hypothesis,10

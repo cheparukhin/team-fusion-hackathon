@@ -1,0 +1,37 @@
+{
+  "workspaces": [
+    {
+      "name": "chrna-boltz-20260919",
+      "id": "8mq2074bp",
+      "status": "STOPPED",
+      "build_status": "COMPLETED",
+      "shell_status": "NOT READY",
+      "health_status": "HEALTHY",
+      "instance_type": "a100-80gb.1x",
+      "instance_kind": "gpu",
+      "gpu": "A100"
+    },
+    {
+      "name": "chrna-pilot-cpu-20260919",
+      "id": "6k9lx0737",
+      "status": "STOPPED",
+      "build_status": "COMPLETED",
+      "shell_status": "NOT READY",
+      "health_status": "HEALTHY",
+      "instance_type": "n2d-standard-16",
+      "instance_kind": "cpu",
+      "gpu": "-"
+    },
+    {
+      "name": "chrna-controller",
+      "id": "2gnfmgobs",
+      "status": "RUNNING",
+      "build_status": "COMPLETED",
+      "shell_status": "READY",
+      "health_status": "HEALTHY",
+      "instance_type": "cpu-e2.4vcpu-16gb",
+      "instance_kind": "cpu",
+      "gpu": "-"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "ordered_pair": "Gsdmd:Tmem106a",
+  "sample": "SRR28984805",
+  "biological_sample": "GSM8260877",
+  "assessment_junctions": [],
+  "read_decision_counts": {},
+  "assessed_read_ids": [],
+  "unresolved_LongGF_source_proposals": [],
+  "reconstructed_read_ids": [],
+  "protein_hypotheses": [],
+  "selected_protein_ids": [],
+  "selection_decisions": [],
+  "published_control_role": "Separate reference reconstruction of published architecture; never substituted for pilot recovery.",
+  "rescue_alignment_or_outcome_based_ranking_used": false,
+  "absence_interpretation": "No proposal or resolved sequence in this bounded pilot would remain UNKNOWN biological presence; this sample and proposal scope do not reproduce the full study.",
+  "author_coordinate_comparison": "Unavailable: author prediction coordinates have not been retrieved."
+}

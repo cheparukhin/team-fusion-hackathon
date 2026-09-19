@@ -1,0 +1,213 @@
+STAR version=2.7.2a
+STAR compilation time,server,dir=Tue Aug 13 17:22:07 EDT 2019 vega:/home/dobin/data/STAR/STARcode/STAR.master/source
+##### Command Line:
+./tools/STAR --runMode genomeGenerate --runThreadN 24 --genomeDir reference/star272a --genomeFastaFiles reference/GRCm39.primary_assembly.genome.fa --sjdbGTFfile reference/gencode.vM28.primary_assembly.annotation.gtf --sjdbOverhang 149
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runMode                       genomeGenerate     ~RE-DEFINED
+runThreadN                    24     ~RE-DEFINED
+genomeDir                     reference/star272a     ~RE-DEFINED
+genomeFastaFiles              reference/GRCm39.primary_assembly.genome.fa        ~RE-DEFINED
+sjdbGTFfile                   reference/gencode.vM28.primary_assembly.annotation.gtf     ~RE-DEFINED
+sjdbOverhang                  149     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate
+runThreadN                        24
+genomeDir                         reference/star272a
+genomeFastaFiles                  reference/GRCm39.primary_assembly.genome.fa   
+sjdbGTFfile                       reference/gencode.vM28.primary_assembly.annotation.gtf
+sjdbOverhang                      149
+
+-------------------------------
+##### Final effective command line:
+./tools/STAR   --runMode genomeGenerate   --runThreadN 24   --genomeDir reference/star272a   --genomeFastaFiles reference/GRCm39.primary_assembly.genome.fa      --sjdbGTFfile reference/gencode.vM28.primary_assembly.annotation.gtf   --sjdbOverhang 149
+----------------------------------------
+
+Finished loading and checking parameters
+Sep 19 22:25:38 ... starting to generate Genome files
+reference/GRCm39.primary_assembly.genome.fa : chr # 0  "chr1" chrStart: 0
+reference/GRCm39.primary_assembly.genome.fa : chr # 1  "chr2" chrStart: 195297280
+reference/GRCm39.primary_assembly.genome.fa : chr # 2  "chr3" chrStart: 377225216
+reference/GRCm39.primary_assembly.genome.fa : chr # 3  "chr4" chrStart: 537133056
+reference/GRCm39.primary_assembly.genome.fa : chr # 4  "chr5" chrStart: 694157312
+reference/GRCm39.primary_assembly.genome.fa : chr # 5  "chr6" chrStart: 845938688
+reference/GRCm39.primary_assembly.genome.fa : chr # 6  "chr7" chrStart: 995622912
+reference/GRCm39.primary_assembly.genome.fa : chr # 7  "chr8" chrStart: 1140850688
+reference/GRCm39.primary_assembly.genome.fa : chr # 8  "chr9" chrStart: 1271136256
+reference/GRCm39.primary_assembly.genome.fa : chr # 9  "chr10" chrStart: 1395654656
+reference/GRCm39.primary_assembly.genome.fa : chr # 10  "chr11" chrStart: 1526202368
+reference/GRCm39.primary_assembly.genome.fa : chr # 11  "chr12" chrStart: 1648361472
+reference/GRCm39.primary_assembly.genome.fa : chr # 12  "chr13" chrStart: 1768685568
+reference/GRCm39.primary_assembly.genome.fa : chr # 13  "chr14" chrStart: 1889796096
+reference/GRCm39.primary_assembly.genome.fa : chr # 14  "chr15" chrStart: 2015100928
+reference/GRCm39.primary_assembly.genome.fa : chr # 15  "chr16" chrStart: 2119434240
+reference/GRCm39.primary_assembly.genome.fa : chr # 16  "chr17" chrStart: 2217476096
+reference/GRCm39.primary_assembly.genome.fa : chr # 17  "chr18" chrStart: 2312896512
+reference/GRCm39.primary_assembly.genome.fa : chr # 18  "chr19" chrStart: 2403860480
+reference/GRCm39.primary_assembly.genome.fa : chr # 19  "chrX" chrStart: 2465464320
+reference/GRCm39.primary_assembly.genome.fa : chr # 20  "chrY" chrStart: 2635071488
+reference/GRCm39.primary_assembly.genome.fa : chr # 21  "chrM" chrStart: 2726559744
+reference/GRCm39.primary_assembly.genome.fa : chr # 22  "GL456210.1" chrStart: 2726821888
+reference/GRCm39.primary_assembly.genome.fa : chr # 23  "GL456211.1" chrStart: 2727084032
+reference/GRCm39.primary_assembly.genome.fa : chr # 24  "GL456212.1" chrStart: 2727346176
+reference/GRCm39.primary_assembly.genome.fa : chr # 25  "GL456219.1" chrStart: 2727608320
+reference/GRCm39.primary_assembly.genome.fa : chr # 26  "GL456221.1" chrStart: 2727870464
+reference/GRCm39.primary_assembly.genome.fa : chr # 27  "GL456233.2" chrStart: 2728132608
+reference/GRCm39.primary_assembly.genome.fa : chr # 28  "GL456239.1" chrStart: 2728919040
+reference/GRCm39.primary_assembly.genome.fa : chr # 29  "GL456354.1" chrStart: 2729181184
+reference/GRCm39.primary_assembly.genome.fa : chr # 30  "GL456359.1" chrStart: 2729443328
+reference/GRCm39.primary_assembly.genome.fa : chr # 31  "GL456360.1" chrStart: 2729705472
+reference/GRCm39.primary_assembly.genome.fa : chr # 32  "GL456366.1" chrStart: 2729967616
+reference/GRCm39.primary_assembly.genome.fa : chr # 33  "GL456367.1" chrStart: 2730229760
+reference/GRCm39.primary_assembly.genome.fa : chr # 34  "GL456368.1" chrStart: 2730491904
+reference/GRCm39.primary_assembly.genome.fa : chr # 35  "GL456370.1" chrStart: 2730754048
+reference/GRCm39.primary_assembly.genome.fa : chr # 36  "GL456372.1" chrStart: 2731016192
+reference/GRCm39.primary_assembly.genome.fa : chr # 37  "GL456378.1" chrStart: 2731278336
+reference/GRCm39.primary_assembly.genome.fa : chr # 38  "GL456379.1" chrStart: 2731540480
+reference/GRCm39.primary_assembly.genome.fa : chr # 39  "GL456381.1" chrStart: 2731802624
+reference/GRCm39.primary_assembly.genome.fa : chr # 40  "GL456382.1" chrStart: 2732064768
+reference/GRCm39.primary_assembly.genome.fa : chr # 41  "GL456383.1" chrStart: 2732326912
+reference/GRCm39.primary_assembly.genome.fa : chr # 42  "GL456385.1" chrStart: 2732589056
+reference/GRCm39.primary_assembly.genome.fa : chr # 43  "GL456387.1" chrStart: 2732851200
+reference/GRCm39.primary_assembly.genome.fa : chr # 44  "GL456389.1" chrStart: 2733113344
+reference/GRCm39.primary_assembly.genome.fa : chr # 45  "GL456390.1" chrStart: 2733375488
+reference/GRCm39.primary_assembly.genome.fa : chr # 46  "GL456392.1" chrStart: 2733637632
+reference/GRCm39.primary_assembly.genome.fa : chr # 47  "GL456394.1" chrStart: 2733899776
+reference/GRCm39.primary_assembly.genome.fa : chr # 48  "GL456396.1" chrStart: 2734161920
+reference/GRCm39.primary_assembly.genome.fa : chr # 49  "JH584295.1" chrStart: 2734424064
+reference/GRCm39.primary_assembly.genome.fa : chr # 50  "JH584296.1" chrStart: 2734686208
+reference/GRCm39.primary_assembly.genome.fa : chr # 51  "JH584297.1" chrStart: 2734948352
+reference/GRCm39.primary_assembly.genome.fa : chr # 52  "JH584298.1" chrStart: 2735210496
+reference/GRCm39.primary_assembly.genome.fa : chr # 53  "JH584299.1" chrStart: 2735472640
+reference/GRCm39.primary_assembly.genome.fa : chr # 54  "JH584300.1" chrStart: 2736521216
+reference/GRCm39.primary_assembly.genome.fa : chr # 55  "JH584301.1" chrStart: 2736783360
+reference/GRCm39.primary_assembly.genome.fa : chr # 56  "JH584302.1" chrStart: 2737045504
+reference/GRCm39.primary_assembly.genome.fa : chr # 57  "JH584303.1" chrStart: 2737307648
+reference/GRCm39.primary_assembly.genome.fa : chr # 58  "JH584304.1" chrStart: 2737569792
+reference/GRCm39.primary_assembly.genome.fa : chr # 59  "MU069434.1" chrStart: 2737831936
+reference/GRCm39.primary_assembly.genome.fa : chr # 60  "MU069435.1" chrStart: 2738094080
+Estimated genome size=3037356224   2738356224   299000000
+GstrandBit=32
+Number of SA indices: 5309243566
+Sep 19 22:26:22 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 78;   chunks size limit: 638081688 bytes
+Sep 19 22:26:34 ... sorting Suffix Array chunks and saving them to disk...
+Writing 370930048 bytes into reference/star272a/SA_3 ; empty space on disk = 78016528384 bytes ... done
+Writing 422876352 bytes into reference/star272a/SA_5 ; empty space on disk = 77636657152 bytes ... done
+Writing 422028512 bytes into reference/star272a/SA_6 ; empty space on disk = 77213732864 bytes ... done
+Writing 479659544 bytes into reference/star272a/SA_4 ; empty space on disk = 76791050240 bytes ... done
+Writing 353334896 bytes into reference/star272a/SA_23 ; empty space on disk = 76311339008 bytes ...Writing 511414008 bytes into reference/star272a/SA_0 ; empty space on disk = 76092309504 bytes ... done
+ done
+Writing 357557576 bytes into reference/star272a/SA_22 ; empty space on disk = 75446448128 bytes ... done
+Writing 494838176 bytes into reference/star272a/SA_7 ; empty space on disk = 75088617472 bytes ...Writing 490711600 bytes into reference/star272a/SA_8 ; empty space on disk = 74887536640 bytes ... done
+ done
+Writing 487756808 bytes into reference/star272a/SA_11 ; empty space on disk = 74102943744 bytes ...Writing 482488560 bytes into reference/star272a/SA_9 ; empty space on disk = 73632366592 bytes ... done
+ done
+Writing 472848456 bytes into reference/star272a/SA_13 ; empty space on disk = 73132490752 bytes ... done
+Writing 549598920 bytes into reference/star272a/SA_1 ; empty space on disk = 72659546112 bytes ... done
+Writing 506675952 bytes into reference/star272a/SA_16 ; empty space on disk = 72109752320 bytes ... done
+Writing 624534536 bytes into reference/star272a/SA_2 ; empty space on disk = 71602827264 bytes ... done
+Writing 534656512 bytes into reference/star272a/SA_17 ; empty space on disk = 70977904640 bytes ... done
+Writing 557319376 bytes into reference/star272a/SA_12 ; empty space on disk = 70443159552 bytes ... done
+Writing 603130328 bytes into reference/star272a/SA_20 ; empty space on disk = 69877018624 bytes ... done
+Writing 598810432 bytes into reference/star272a/SA_10 ; empty space on disk = 69273305088 bytes ... done
+Writing 562152944 bytes into reference/star272a/SA_18 ; empty space on disk = 68674363392 bytes ... done
+Writing 637546512 bytes into reference/star272a/SA_21 ; empty space on disk = 68112031744 bytes ... done
+Writing 623521160 bytes into reference/star272a/SA_15 ; empty space on disk = 67474014208 bytes ... done
+Writing 624346816 bytes into reference/star272a/SA_14 ; empty space on disk = 66850246656 bytes ... done
+Writing 619719264 bytes into reference/star272a/SA_19 ; empty space on disk = 66225246208 bytes ... done
+Writing 419592872 bytes into reference/star272a/SA_32 ; empty space on disk = 65523298304 bytes ... done
+Writing 503295200 bytes into reference/star272a/SA_26 ; empty space on disk = 65094877184 bytes ... done
+Writing 623576496 bytes into reference/star272a/SA_24 ; empty space on disk = 64582909952 bytes ... done
+Writing 406291376 bytes into reference/star272a/SA_37 ; empty space on disk = 63959285760 bytes ... done
+Writing 563440520 bytes into reference/star272a/SA_28 ; empty space on disk = 63552958464 bytes ... done
+Writing 588736232 bytes into reference/star272a/SA_31 ; empty space on disk = 62989467648 bytes ... done
+Writing 570991744 bytes into reference/star272a/SA_33 ; empty space on disk = 62400720896 bytes ... done
+Writing 604832048 bytes into reference/star272a/SA_27 ; empty space on disk = 61829652480 bytes ... done
+Writing 633128888 bytes into reference/star272a/SA_25 ; empty space on disk = 61224771584 bytes ... done
+Writing 454466856 bytes into reference/star272a/SA_35 ; empty space on disk = 60591607808 bytes ... done
+Writing 446199880 bytes into reference/star272a/SA_42 ; empty space on disk = 60137123840 bytes ...Writing 412350088 bytes into reference/star272a/SA_38 ; empty space on disk = 59852189696 bytes ... done
+Writing 427777280 bytes into reference/star272a/SA_39 ; empty space on disk = 59358572544 bytes ... done
+ done
+Writing 591497432 bytes into reference/star272a/SA_29 ; empty space on disk = 58850738176 bytes ... done
+Writing 632703056 bytes into reference/star272a/SA_30 ; empty space on disk = 58259120128 bytes ... done
+Writing 578069896 bytes into reference/star272a/SA_34 ; empty space on disk = 57626329088 bytes ... done
+Writing 527086464 bytes into reference/star272a/SA_36 ; empty space on disk = 57048240128 bytes ...Writing 482756512 bytes into reference/star272a/SA_47 ; empty space on disk = 56546656256 bytes ... done
+ done
+Writing 559039408 bytes into reference/star272a/SA_41 ; empty space on disk = 56038211584 bytes ... done
+Writing 577070160 bytes into reference/star272a/SA_44 ; empty space on disk = 55479128064 bytes ...Writing 596841944 bytes into reference/star272a/SA_43 ; empty space on disk = 55320424448 bytes ... done
+ done
+Writing 634498648 bytes into reference/star272a/SA_46 ; empty space on disk = 54305148928 bytes ... done
+Writing 596847904 bytes into reference/star272a/SA_45 ; empty space on disk = 53670633472 bytes ... done
+Writing 618420744 bytes into reference/star272a/SA_40 ; empty space on disk = 53073768448 bytes ... done
+Writing 512658624 bytes into reference/star272a/SA_48 ; empty space on disk = 52410343424 bytes ... done
+Writing 455342480 bytes into reference/star272a/SA_60 ; empty space on disk = 51897675776 bytes ... done
+Writing 525522176 bytes into reference/star272a/SA_59 ; empty space on disk = 51407753216 bytes ... done
+Writing 539355632 bytes into reference/star272a/SA_57 ; empty space on disk = 50882072576 bytes ...Writing 518693024 bytes into reference/star272a/SA_55 ; empty space on disk = 50555658240 bytes ... done
+ done
+Writing 531896032 bytes into reference/star272a/SA_54 ; empty space on disk = 49823756288 bytes ... done
+Writing 599491072 bytes into reference/star272a/SA_61 ; empty space on disk = 49291853824 bytes ... done
+Writing 633161496 bytes into reference/star272a/SA_52 ; empty space on disk = 48692355072 bytes ...Writing 557597384 bytes into reference/star272a/SA_63 ; empty space on disk = 48560332800 bytes ... done
+ done
+Writing 547196176 bytes into reference/star272a/SA_71 ; empty space on disk = 47501537280 bytes ...Writing 616462064 bytes into reference/star272a/SA_49 ; empty space on disk = 47099256832 bytes ... done
+ done
+Writing 578666160 bytes into reference/star272a/SA_53 ; empty space on disk = 46337847296 bytes ... done
+Writing 623339344 bytes into reference/star272a/SA_50 ; empty space on disk = 45759176704 bytes ... done
+Writing 544217952 bytes into reference/star272a/SA_64 ; empty space on disk = 45135745024 bytes ... done
+Writing 576697640 bytes into reference/star272a/SA_69 ; empty space on disk = 44591513600 bytes ...Writing 632645560 bytes into reference/star272a/SA_51 ; empty space on disk = 44485898240 bytes ...Writing 592376424 bytes into reference/star272a/SA_56 ; empty space on disk = 43968532480 bytes ... done
+ done
+Writing 584549312 bytes into reference/star272a/SA_70 ; empty space on disk = 42984005632 bytes ... done
+Writing 595219592 bytes into reference/star272a/SA_58 ; empty space on disk = 42544672768 bytes ... done
+ done
+Writing 567430440 bytes into reference/star272a/SA_65 ; empty space on disk = 41609965568 bytes ... done
+Writing 594031672 bytes into reference/star272a/SA_68 ; empty space on disk = 41042518016 bytes ... done
+Writing 593008064 bytes into reference/star272a/SA_67 ; empty space on disk = 40448454656 bytes ...Writing 627865920 bytes into reference/star272a/SA_62 ; empty space on disk = 40442564608 bytes ... done
+ done
+Writing 559870352 bytes into reference/star272a/SA_66 ; empty space on disk = 39227559936 bytes ... done
+Writing 505653216 bytes into reference/star272a/SA_72 ; empty space on disk = 38666809344 bytes ... done
+Writing 511415600 bytes into reference/star272a/SA_77 ; empty space on disk = 38160760832 bytes ... done
+Writing 554571744 bytes into reference/star272a/SA_75 ; empty space on disk = 37649190912 bytes ... done
+Writing 546686512 bytes into reference/star272a/SA_74 ; empty space on disk = 37094596608 bytes ... done
+Writing 598075936 bytes into reference/star272a/SA_76 ; empty space on disk = 36539428864 bytes ... done
+Writing 612281992 bytes into reference/star272a/SA_73 ; empty space on disk = 35941310464 bytes ... done
+Sep 19 22:33:34 ... loading chunks from disk, packing SA...
+Sep 19 22:34:39 ... finished generating suffix array
+Sep 19 22:34:39 ... generating Suffix Array index
+Sep 19 22:37:57 ... completed Suffix Array index
+Sep 19 22:37:57 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=reference/gencode.vM28.primary_assembly.annotation.gtf, found:
+		142435 transcripts
+		842144 exons (non-collapsed)
+		284990 collapsed junctions
+Sep 19 22:38:02 ..... finished GTF processing
+Sep 19 22:38:02   Loaded database junctions from the GTF file: reference/gencode.vM28.primary_assembly.annotation.gtf: 284990 total junctions
+
+WARNING: long repeat for junction # 81190 : chr5 112922393 112922883; left shift = 255; right shift = 69
+WARNING: long repeat for junction # 83548 : chr5 123328298 123329023; left shift = 255; right shift = 19
+WARNING: long repeat for junction # 92638 : chr6 48731569 48732130; left shift = 81; right shift = 255
+WARNING: long repeat for junction # 124562 : chr7 141361933 141364041; left shift = 255; right shift = 255
+WARNING: long repeat for junction # 202277 : chr13 36192501 36373186; left shift = 255; right shift = 29
+WARNING: long repeat for junction # 209799 : chr13 119631671 120070727; left shift = 36; right shift = 255
+WARNING: long repeat for junction # 226055 : chr15 75976552 75988902; left shift = 0; right shift = 255
+Sep 19 22:38:03   Finished preparing junctions
+Sep 19 22:38:03 ..... inserting junctions into the genome indices
+Sep 19 22:38:33   Finished SA search: number of new junctions=284929, old junctions=0
+Sep 19 22:39:17   Finished sorting SA indicesL nInd=169817338
+Genome size with junctions=2823549995  2738356224   85193771
+GstrandBit1=32   GstrandBit=32
+Sep 19 22:40:19   Finished inserting junction indices
+Sep 19 22:40:43   Finished SAi
+Sep 19 22:40:43 ..... finished inserting junctions into genome
+Sep 19 22:40:43 ... writing Genome to disk ...
+Writing 2823549995 bytes into reference/star272a/Genome ; empty space on disk = 77490843648 bytes ... done
+SA size in bytes: 22601126232
+Sep 19 22:40:45 ... writing Suffix Array to disk ...
+Writing 22601126232 bytes into reference/star272a/SA ; empty space on disk = 74667261952 bytes ... done
+Sep 19 22:41:04 ... writing SAindex to disk
+Writing 8 bytes into reference/star272a/SAindex ; empty space on disk = 52053864448 bytes ... done
+Writing 120 bytes into reference/star272a/SAindex ; empty space on disk = 52053864448 bytes ... done
+Writing 1565873491 bytes into reference/star272a/SAindex ; empty space on disk = 52053864448 bytes ... done
+Sep 19 22:41:06 ..... finished successfully
+DONE: Genome generation, EXITING

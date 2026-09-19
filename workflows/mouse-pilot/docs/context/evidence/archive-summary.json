@@ -1,0 +1,9 @@
+{
+  "source_url": "https://www.ncbi.nlm.nih.gov/Traces/sra-db-be/runinfo?acc=SRP506881",
+  "retrieved_date": "2026-09-19",
+  "run_count": 10,
+  "reads": 52903853,
+  "bases": 52141082386,
+  "reported_sra_size_MB": 45544,
+  "note": "Reported SRA archive size, not FASTQ size or peak scratch requirement. LibrarySelection cDNA conflicts with explicit direct RNA protocol; retain original fields and use protocol to classify assay."
+}

@@ -1,0 +1,31 @@
+{
+  "status": "all_findings_resolved",
+  "metrics_sha256": "9c9233baf2b6c9f388b27bba7f127b1f62dc4b86ded00939153d7511a0de0338",
+  "verified_hashes": [
+    "model_input",
+    "hic_features",
+    "hic_feature_manifest",
+    "model_code"
+  ],
+  "cohort_n": 479,
+  "cohort_positives": 109,
+  "matched_n": 401,
+  "matched_positives": 92,
+  "invalid_windows_corrected": 41,
+  "affected_pairs_excluded": 14,
+  "independent_fold": 0,
+  "max_refit_absolute_difference": 8.326672684688674e-17,
+  "matched_comparison": {
+    "delta_average_precision": 0.0036431213260375017,
+    "ci95": [
+      -0.031044035299251743,
+      0.046885501118619284
+    ],
+    "valid_resamples": 1000,
+    "requested_resamples": 1000,
+    "seed": 42,
+    "method": "parent_gene_component_bootstrap_of_fixed_oof_predictions"
+  },
+  "historical_metrics_sha256_before_path_migration": "4be5d101441003d003aadded8230a3803ce2815d65a0d34206191bbe7913a0be",
+  "path_migration": "path_migration_verification.json"
+}

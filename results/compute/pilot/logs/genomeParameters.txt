@@ -1,0 +1,16 @@
+### ./tools/STAR   --runMode genomeGenerate   --runThreadN 24   --genomeDir reference/star272a   --genomeFastaFiles reference/GRCm39.primary_assembly.genome.fa      --sjdbGTFfile reference/gencode.vM28.primary_assembly.annotation.gtf   --sjdbOverhang 149
+### GstrandBit 32
+versionGenome	2.7.1a
+genomeFastaFiles	reference/GRCm39.primary_assembly.genome.fa 
+genomeSAindexNbases	14
+genomeChrBinNbits	18
+genomeSAsparseD	1
+sjdbOverhang	149
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	reference/gencode.vM28.primary_assembly.annotation.gtf
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	2823549995 22601126232

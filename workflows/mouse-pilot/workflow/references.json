@@ -1,0 +1,28 @@
+{
+  "assembly": "GRCm39",
+  "annotation": "GENCODE M28 comprehensive including noncoding transcripts",
+  "checksums_source": "runs/intake-20260919/gencode_M28_MD5SUMS",
+  "checksums_source_sha256": "bc274b30e807558a1349369e11ab00c7ac597f436d7f1d7ce03d940a66740e2f",
+  "files": {
+    "GRCm39.primary_assembly.genome.fa.gz": {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M28/GRCm39.primary_assembly.genome.fa.gz",
+      "md5": "3c45d8576b3c20fc73f777c1eea43c0a",
+      "max_bytes": 2000000000
+    },
+    "gencode.vM28.annotation.gtf.gz": {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M28/gencode.vM28.annotation.gtf.gz",
+      "md5": "3af2ee056515ce88d1a1cdbd615c47a4",
+      "max_bytes": 2000000000
+    },
+    "gencode.vM28.transcripts.fa.gz": {
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M28/gencode.vM28.transcripts.fa.gz",
+      "md5": "b82c691c510385834b9c9b6d8987d226",
+      "max_bytes": 2000000000
+    }
+  },
+  "limitations": [
+    "JAFFAL UCSC exports and exact paper sample-specific versions remain unresolved.",
+    "Genome/annotation contig compatibility must be checked before alignment.",
+    "Downloaded bytes receive SHA-256 receipts; provider MD5 is checked first."
+  ]
+}

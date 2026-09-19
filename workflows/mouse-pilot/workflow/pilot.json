@@ -1,0 +1,11 @@
+{
+  "run_id": "SRR28984805",
+  "run_directory": "runs/pilot-20260919",
+  "cohort_manifest": "runs/intake-20260919/cohort_manifest.json",
+  "archive_directory": "data/raw/sra/SRR28984805",
+  "fastq_directory": "data/raw/fastq",
+  "scratch_directory": "data/raw/scratch/SRR28984805",
+  "tool_bin": ".tools/sratoolkit.3.2.1-ubuntu64/bin",
+  "tool_manifest": "workflow/tools/sratoolkit-3.2.1.json",
+  "minimum_free_bytes": 40000000000
+}

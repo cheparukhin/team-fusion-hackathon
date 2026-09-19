@@ -1,0 +1,81 @@
+{
+  "created_utc": "2026-09-19T23:05:06.478494+00:00",
+  "new_compute_cost_usd": 0,
+  "artifacts": [
+    {
+      "source_path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/folding-worker-retry-3/worker-outputs/predictions/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/boltz_results_protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/predictions/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa_model_0.cif",
+      "path": "results/structures/gsdmd_tmem106a/model.cif",
+      "sha256": "d2b318e1f2ab28d8ef75df7e336b7022b583a608a9ca452685df7765a4421049"
+    },
+    {
+      "source_path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/folding-worker-retry-3/worker-outputs/predictions/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/boltz_results_protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/predictions/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/confidence_protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa_model_0.json",
+      "path": "results/structures/gsdmd_tmem106a/confidence.json",
+      "sha256": "1d2a89be29784eebe094054b71e82a7638c27f966d3d3bfc9430766a80fb0214"
+    },
+    {
+      "source_path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/folding-worker-retry-3/worker-outputs/predictions/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/boltz_results_protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/predictions/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/pde_protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa_model_0.npz",
+      "path": "results/structures/gsdmd_tmem106a/pde.npz",
+      "sha256": "b5468f57e935d626e16ed8734e6641121b8d9e82df4f530ee9a34dc5056b44de"
+    },
+    {
+      "source_path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/folding-worker-retry-3/worker-outputs/predictions/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/boltz_results_protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/predictions/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/pae_protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa_model_0.npz",
+      "path": "results/structures/gsdmd_tmem106a/pae.npz",
+      "sha256": "a865ccdce7f4992d3e2e57efa6e4f09dd00a7b98171c3b94812d5857a53d6135"
+    },
+    {
+      "source_path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/folding-worker-retry-3/worker-outputs/predictions/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/boltz_results_protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/predictions/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa/plddt_protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa_model_0.npz",
+      "path": "results/structures/gsdmd_tmem106a/plddt.npz",
+      "sha256": "6027851f17082ff92387312ce4c41b9809eac73bf1264edbb713363815ac0a17"
+    },
+    {
+      "source_path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/published-control/published_architecture_control.fasta",
+      "path": "results/structures/gsdmd_tmem106a/sequence.fasta",
+      "sha256": "05a69e490143897ac78fc263284ac5768c34fd833aeca3046ab8883d4ceef4aa"
+    },
+    {
+      "source_path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/published-control/published_architecture_control.rna.fasta",
+      "path": "results/structures/gsdmd_tmem106a/rna.fasta",
+      "sha256": "edaac4b279ba15a188da4d4d112c8f94684a2431069bde4691f77cb9e5458052"
+    },
+    {
+      "source_path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/published-control/provenance.json",
+      "path": "results/structures/gsdmd_tmem106a/reconstruction_provenance.json",
+      "sha256": "d87be49aa7ef35b7e45a5213708e58a53e8bca93a66256732eab45592d3593c4"
+    },
+    {
+      "source_path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/fold-inputs/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa.fasta",
+      "path": "results/structures/gsdmd_tmem106a/input.fasta",
+      "sha256": "56f5da707fd28dcc342bbc318924ef3a47bdef4f566fd4f5c154db588dd636fd"
+    },
+    {
+      "source_path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/fold-inputs/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa.yaml",
+      "path": "results/structures/gsdmd_tmem106a/input.yaml",
+      "sha256": "18e8be24263b4e0a29f9e972204d82571c89e4f5d212aaaa8355c93c24aa7d29"
+    },
+    {
+      "source_path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/fold-inputs/msas/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa.a3m",
+      "path": "results/structures/gsdmd_tmem106a/msa.a3m",
+      "sha256": "aadfebaead3d1d41de13f19d09e1f942ee099ede4c34f015e356cfa715250fbb"
+    },
+    {
+      "source_path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/fold-inputs/msas/protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa.json",
+      "path": "results/structures/gsdmd_tmem106a/msa.json",
+      "sha256": "5da8933fa1f6bd71125b87e3a3684e7a142d7860f1b8b57211fda897bde72298"
+    },
+    {
+      "source_url": "https://files.rcsb.org/download/6N9N.cif",
+      "path": "results/structures/gsdmd_parent/6N9N.cif",
+      "sha256": "3a59a356283e311b915e123d8b92efcd93b42ca9049a50e5873ac605865d4f52"
+    },
+    {
+      "source_url": "https://data.rcsb.org/rest/v1/core/entry/6N9N",
+      "path": "results/structures/gsdmd_parent/rcsb_entry.json",
+      "sha256": "60dc9ab23e95d228c09a2205cb35cc36ab04feda25289774e6ccdd1c3559ed6b"
+    },
+    {
+      "source_url": "https://data.rcsb.org/rest/v1/core/polymer_entity/6N9N/1",
+      "path": "results/structures/gsdmd_parent/rcsb_entity.json",
+      "sha256": "5e8438c7626d42c76a86bc91ed9b075427b68f9a0bfd2dcefb8fec8ff8889ce5"
+    }
+  ]
+}

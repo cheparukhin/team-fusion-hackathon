@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "command": ".venv/bin/python scripts/reproduce.py",
+  "network_required": false,
+  "paid_api_calls": false,
+  "metrics_identical_to_independent_review": true,
+  "metrics_sha256": "9c9233baf2b6c9f388b27bba7f127b1f62dc4b86ded00939153d7511a0de0338",
+  "exported_candidates": 479,
+  "cached_codex_authored_reports_retained": 5,
+  "pytest_passed": 23,
+  "pytest_command": ".venv/bin/python -m pytest -q",
+  "completed": true,
+  "post_directory_migration_reproduced": true,
+  "scientific_metrics_unchanged": true,
+  "path_migration_record": "results/dataset_reconstruction/path_migration_verification.json"
+}

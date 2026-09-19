@@ -1,0 +1,13 @@
+{
+  "created_utc": "2026-09-19T15:12:04.814264+00:00",
+  "name": "chrna-pilot-cpu-20260919",
+  "type": "n2d-standard-16",
+  "expires_epoch": 1789836124.8142617,
+  "maximum_seconds": 5400,
+  "controller_pid": 103227,
+  "budget": {
+    "allowed": true,
+    "combined_usd_per_hour": 1.487415,
+    "note": "Preflight arithmetic only; verify current rates, resource inventory and actual launch."
+  }
+}

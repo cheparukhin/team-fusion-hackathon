@@ -1,0 +1,11 @@
+                     method  k  expected_supported_at_k  known_positive_recall_at_k
+           Random selection 10                 2.275132                    0.026455
+           Random selection 20                 4.550265                    0.052910
+           Random selection 50                11.375661                    0.132275
+          Long-read support 10                 7.000000                    0.081395
+          Long-read support 20                10.476712                    0.121822
+          Long-read support 50                16.805479                    0.195413
+Reported short-read support 10                 5.454545                    0.063425
+Reported short-read support 20                10.909091                    0.126850
+Reported short-read support 50                17.820225                    0.207212
+/home/ubuntu/workspace/chrna/reports/recovery_development.png

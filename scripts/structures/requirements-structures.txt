@@ -1,0 +1,4 @@
+# Optional, isolated visualization dependencies; core environment need not change.
+gemmi==0.7.5
+pymol-open-source==3.2.0a0
+numpy==2.5.3

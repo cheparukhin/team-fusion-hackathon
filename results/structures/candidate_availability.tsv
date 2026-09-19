@@ -1,0 +1,4 @@
+pair_id	candidate_structure_available	status	experimental_parent	reason
+Gsdmd:Tmem106a	True	reference-reconstructed 118 aa Boltz2 prediction; low confidence	6N9N chain A	Exact reconstruction independently verified; author-provided full sequence not retrieved
+Cd274:Lacc1	False	unavailable	not included	Exact RNA probe/exon mapping available; validated complete candidate ORF and candidate-specific coordinates unavailable
+Psap:Lgals3	False	unavailable	not included	Exact RNA probe/exon mapping available; validated complete candidate ORF and candidate-specific coordinates unavailable

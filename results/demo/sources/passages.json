@@ -1,0 +1,32 @@
+[
+  {
+    "id": "paper_assay",
+    "title": "Venezia et al. (2026), Nature",
+    "url": "../docs/Venezia_et_al_2026_functional_chimeric_mRNAs.pdf#page=2",
+    "doi_url": "https://www.nature.com/articles/s41586-026-10982-x",
+    "location": "Supplied primary PDF, page 2",
+    "text": "We therefore designed tandem NanoString \nnCounter probes that require simultaneous hybridization across \neach RNA junction (Fig.\u00a0 1a). Over 500 probe sets were designed to \ntarget chRNAs detected by all three long-read tools (Supplementary \nTable\u00a08), alongside scrambled controls with the expectation of false \nnegatives. More than 100 high-quality probes detected constitutive \nor polarization-regulated chRNAs (Fig.\u00a01f and Supplementary Table\u00a07). \nSome chRNA species were validated by both Illumina and NanoString, \nwhereas others were unique to either platform (Fig.\u00a01d,f and Supple-\nmentary Table\u00a07); notably, NanoString validated a greater proportion \nof interchromosomal species (Fig.\u00a01e,g).\n",
+    "pdf_sha256": "071deeaa563d1ca6685be087a4cb0484ec797f858218910d58a83990fde792e6",
+    "retrieval": "pypdf 6.19.0 extraction from user-supplied PDF; extracted 2026-09-19"
+  },
+  {
+    "id": "paper_examples",
+    "title": "Venezia et al. (2026), Nature",
+    "url": "../docs/Venezia_et_al_2026_functional_chimeric_mRNAs.pdf#page=2",
+    "doi_url": "https://www.nature.com/articles/s41586-026-10982-x",
+    "location": "Supplied primary PDF, page 2",
+    "text": "PCR and Sanger sequencing independently validated chRNA junc-\ntions (Extended Data Fig.\u00a02a\u2013o and Supplementary Table\u00a09), includ-\ning a Gsdmd-Tmem106a amplicon spanning Gsdmd exons 1\u20132 fused \nto Tmem106a exons 6\u20139 (Fig.\u00a01h\u2013i). Gsdmd-Tmem106a was among \nthe most\u00a0inflammation-induced NanoString candidates (Fig.\u00a0 1f ), \nand both parent genes have established roles in lipopolysaccharide \n(LPS)-induced inflammation2,27. The same exon\u2013exon junction was \ndetected in C57BL/6J, BALB/cJ and wild-derived mice (Fig.\u00a01j\u2013k). Analysis \nusing quantitative PCR with reverse transcription (RT\u2013qPCR) further \nconfirmed LPS-inducible expression, peaking at 6\u2009h in parallel with \nthe parent genes (Fig.\u00a01l\u2013n). The junction and LPS responsiveness of \nCd274-Lacc1 were similarly confirmed (Extended Data Fig.\u00a02p\u2013s). In\u00a0vivo, \nGsdmd-Tmem106a was detected and induced in lung macrophages after \ninfluenza A infection, brain macrophages/microglia during Escherichia \ncoli meningitis and peritoneal macrophages after LPS administration \n(Fig.\u00a01o\u2013q).\n",
+    "pdf_sha256": "071deeaa563d1ca6685be087a4cb0484ec797f858218910d58a83990fde792e6",
+    "retrieval": "pypdf 6.19.0 extraction from user-supplied PDF; extracted 2026-09-19"
+  },
+  {
+    "id": "paper_spatial",
+    "title": "Venezia et al. (2026), Nature",
+    "url": "../docs/Venezia_et_al_2026_functional_chimeric_mRNAs.pdf#page=5",
+    "doi_url": "https://www.nature.com/articles/s41586-026-10982-x",
+    "location": "Supplied primary PDF, page 5",
+    "text": "revealed that interchromosomal parent\u2013gene pairs identified by direct \nRNA-seq (Extended Data Fig.\u00a01g) were significantly enriched for DNA\u2013\nDNA interactions relative to randomized exon pairs (Fig.\u00a02f). As CTCF \nregulates genome organization31, we depleted Ctcf using small interfer-\ning RNA (siRNA; Fig.\u00a02g) and performed Hi-C after 6\u2009h of LPS stimulation. \nLPS enhanced contacts between chRNA parent genes, whereas Ctcf \ndepletion abolished this increase, demonstrating that these interac-\ntions are dynamically regulated and CTCF dependent (Fig.\u00a02h,i).\nFunctionally, Ctcf depletion reduced LPS-induced Gsdmd-Tmem106a \nwithout affecting Gsdmd or Tmem106a expression (Fig.\u00a0 2j), and \nsimilarly reduced Cd274-Lacc1 without altering either parent gene \n(Extended Data Fig.\u00a05f). Finally, junction-specific primers (Fig.\u00a0 2k) \ndetected only the Gsdmd exon 2 and Tmem106a exon 6 junction iso-\nform (Fig.\u00a02l), demonstrating that fusion is highly selective rather than \na random consequence of proximity. T ogether, these findings show \nthat inflammation promotes CTCF-dependent interactions between \nchRNA parent genes, enabling specific trans-splicing and chRNA for-\nmation in macrophages.\n",
+    "pdf_sha256": "071deeaa563d1ca6685be087a4cb0484ec797f858218910d58a83990fde792e6",
+    "retrieval": "pypdf 6.19.0 extraction from user-supplied PDF; extracted 2026-09-19"
+  }
+]

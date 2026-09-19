@@ -1,0 +1,15 @@
+{
+  "updated_utc": "2026-09-19T23:02:41.511335+00:00",
+  "phase": "discovery_SGNex_K562_directRNA_replicate4_run1",
+  "stages_complete": 2,
+  "stages_total": 8,
+  "quoted_cost_bound_usd": 0.518299320363278,
+  "summaries": [
+    {},
+    {}
+  ],
+  "corroboration": {},
+  "repeatability": {},
+  "shutdown": {},
+  "errors": {}
+}

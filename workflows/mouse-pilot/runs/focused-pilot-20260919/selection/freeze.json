@@ -1,0 +1,45 @@
+{
+  "status": "frozen",
+  "created_utc": "2026-09-19T16:12:09.145490+00:00",
+  "inputs": {
+    "ranking": {
+      "path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/assessment/rna_ranking.json",
+      "sha256": "7be3b88f0e5a1d50094bb5d7cdcdd4b830c3bdb1bdc5fe51c3196d604cf5c45b"
+    },
+    "decisions": {
+      "path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/assessment/read_decisions.json",
+      "sha256": "11882b767da9dec07430832e9c0e70329296d036c68c5f2941236242e2b3032c"
+    },
+    "read_identity": {
+      "path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/read_identity.tsv",
+      "sha256": "fbe28103722c92e41b1db66d64b07b06dec72ffa1f5b4ec391bf9be6afc4aa21"
+    },
+    "reconstructions": {
+      "path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/orfs/reconstructions.json",
+      "sha256": "d360a929a75edda980e70257d86e3690cef750e1b8446bea4689206447692aa7"
+    },
+    "hypotheses": {
+      "path": "/home/ubuntu/workspace/chrna/runs/focused-pilot-20260919/orfs/protein_hypotheses.json",
+      "sha256": "64b5ac589cb01d2fc767c8183c4c9303bfdc73215a9130b9669f3aeb8952d0b5"
+    },
+    "rules": {
+      "path": "/home/ubuntu/workspace/chrna/docs/focused_pilot_rules.md",
+      "sha256": "cd0a2e02656866cbaac957d1b837f9eb081e8867cbfbc66569ee2795a81fd252"
+    },
+    "selection_code": {
+      "path": "/home/ubuntu/workspace/chrna/src/chrna/pilot_selection.py",
+      "sha256": "0ddfa26eec76bcea3aa12c6cc6630bfb7de619cf7d6719979918d6fa2fd2966d"
+    }
+  },
+  "selected_proteins": 10,
+  "published_outcomes_used": false,
+  "learned_scorer_used": false,
+  "outputs": {
+    "selected_proteins.fasta": "2d92cf8412d1dddde6e930c5003eb04f16b38061c50574c4456cfe738e180006",
+    "selection.json": "03d51ce9ce6b0743f8f8b982ba944479abe7a5190832f9f58158d01d792fde43",
+    "selection_rules.md": "cd0a2e02656866cbaac957d1b837f9eb081e8867cbfbc66569ee2795a81fd252",
+    "read_identity.tsv": "fbe28103722c92e41b1db66d64b07b06dec72ffa1f5b4ec391bf9be6afc4aa21",
+    "rna_ranking.json": "7be3b88f0e5a1d50094bb5d7cdcdd4b830c3bdb1bdc5fe51c3196d604cf5c45b",
+    "read_decisions.json": "11882b767da9dec07430832e9c0e70329296d036c68c5f2941236242e2b3032c"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "status": "completed",
+  "assembly": "GRCm39",
+  "resolution_bp": 500000,
+  "normalization": "KR (GENOVA balancing=TRUE for Juicer .hic)",
+  "window_bins": 11,
+  "foreground": "median central3x3",
+  "background": "median64 pixels in four4x4 corner quadrants; central rows/columns excluded",
+  "transform": "log2(0.5+enrichment)",
+  "aggregation": "mean over distinct ordered probe bin pairs within replicate; equal-weight mean across observed replicates; primary requires all3",
+  "paper_deviation": "Paper describes merged replicates before processing. GEO supplies individual processed replicate .hic files. This pilot averages independently KR-normalized per-replicate ratios and is not an exact merged-matrix reproduction.",
+  "missing": "Zero background, absent KR matrix, incomplete edge windows, windows intersecting nonfinite/nonpositive/missing KR normalization bins, unmapped probes, and cis bin distance<500kb remain unavailable; no zero imputation.",
+  "feature_counts": {
+    "unavailable": 29992,
+    "observed_all_replicates": 446
+  },
+  "genova_sources": [
+    "https://github.com/robinweide/GENOVA/blob/master/R/methods_quantify.R",
+    "https://github.com/robinweide/GENOVA/blob/master/R/ARMLA.R",
+    "https://github.com/robinweide/GENOVA/blob/master/R/loading_juicer.R"
+  ],
+  "timing": "Hi-C LPS6h vs RNA different inflammatory treatment/time; all predictor contacts from siNeg LPS, no CTCF knockdown.",
+  "input_probe_sha256": "553715b0cff1e6c8dbb8c0b97785e941e10f8d1efde9d770cb1e4f9cbc5ff89f",
+  "inputs": [
+    {
+      "accession": "GSM9574808",
+      "replicate": "A",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9574nnn/GSM9574808/suppl/GSM9574808_OV_siNeg_LPS_A.prejuicer.hic",
+      "path": "/home/ubuntu/workspace/quick_hack/results/hic/raw/GSM9574808_OV_siNeg_LPS_A.prejuicer.hic",
+      "bytes": 549712645,
+      "sha256": "8d41d806980c412d273f14c71ebceb94decb9194aa220781b9efd6f53f98cae0",
+      "assembly": "GRCm39",
+      "treatment": "scramble siRNA; LPS6h"
+    },
+    {
+      "accession": "GSM9574809",
+      "replicate": "B",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9574nnn/GSM9574809/suppl/GSM9574809_OV_siNeg_LPS_B.prejuicer.hic",
+      "path": "/home/ubuntu/workspace/quick_hack/results/hic/raw/GSM9574809_OV_siNeg_LPS_B.prejuicer.hic",
+      "bytes": 556705352,
+      "sha256": "1109e6ac86504706ab019be9eb4486fea9f9402c3fa141e2cbf7ed4c75979197",
+      "assembly": "GRCm39",
+      "treatment": "scramble siRNA; LPS6h"
+    },
+    {
+      "accession": "GSM9574815",
+      "replicate": "C",
+      "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9574nnn/GSM9574815/suppl/GSM9574815_OV_siNeg_LPS_C.prejuicer.hic",
+      "path": "/home/ubuntu/workspace/quick_hack/results/hic/raw/GSM9574815_OV_siNeg_LPS_C.prejuicer.hic",
+      "bytes": 423761243,
+      "sha256": "a173970efe60088220cef1e41745bfed92b1d1863f0eec813192cedd9791f5d8",
+      "assembly": "GRCm39",
+      "treatment": "scramble siRNA; LPS6h"
+    }
+  ],
+  "genova_source_sha256": {
+    "load_contacts.R": "cceb49cd0907cbbee79dc3a870d3784271fc836eb9485cef6de20d67a0bdb55d",
+    "tornado_aggregates.R": "d12cde89adf5f0faa16fe66ca08ad1aa37b72c4e4c3010da8f9481fdd5cdae39",
+    "ARMLA.R": "8eeebe974b0e01de0d1547a2dac7a2c3ecc15ec18aa7722323f67dfe360b0832",
+    "methods_anchors.R": "d00eb70e406858663e884abda163c2e2dd3710375cdce83637aecf6754f964da",
+    "loading_juicer.R": "8184c9ce01ad9582e2ef0dcfd61ffb8447f149731599c3de2cc4b101421f2ea5",
+    "methods_matrix_lookup.R": "bc4985cfdcfec01bb9356a454076bcc2bc357412578611b999ba85765bd6a8d3",
+    "methods_quantify.R": "740fc43df8120c7a93bcb5a7dbb412ee306d695981f04ff9a7faadd7f1dfac0b"
+  },
+  "input_integrity_verified": true
+}

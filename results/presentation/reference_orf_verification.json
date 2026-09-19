@@ -1,0 +1,26 @@
+{
+  "status": "verified",
+  "method": "Independent splice reconstruction from exact probe-matched M28 transcript sequences; complete ATG-to-stop ORF crosses junction and matches published length118.",
+  "pair_id": "Gsdmd:Tmem106a",
+  "parent_transcripts": [
+    "ENSMUST00000023238.6",
+    "ENSMUST00000039581.14"
+  ],
+  "junction_offset_0based": 379,
+  "exact_120nt_probe_match": true,
+  "orf": {
+    "start_0based": 159,
+    "stop_start_0based": 513,
+    "protein": "MPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCVNLSIKDILEPSAPEPECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ"
+  },
+  "protein_sha256": "f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa",
+  "cached_boltz_input_sequence_sha256_matches": true,
+  "sequence_source_sha256": "4e187c0e7d7e9020294c3012c0f4486409962238b8ad2db260b9048005358254",
+  "source_coordinate_sha256": {
+    "results/dataset_reconstruction/probe_sequence_mapping.tsv": "430ea86c993379927fc59468dee6d96cfa1257866168511b6852745c6c5c2455",
+    "results/dataset_reconstruction/probe_junctions.tsv": "553715b0cff1e6c8dbb8c0b97785e941e10f8d1efde9d770cb1e4f9cbc5ff89f",
+    "results/classifier/predictions.tsv": "012ca471c5ce4cd504f515b6e64a7d3d0c7321f1e63cd91e3cc500f4a7f1d4ca",
+    "data/reference/gencode.vM28.annotation.gtf.gz": "ac3a1ecbc9c6e4eb332cc37fa98338d15e13185426ceb9c98d11e5f4e0e4341f"
+  },
+  "limitation": "Reference-derived reconstruction,not author-supplied full sequence or experimental validation of this isoform. Selecting the paper118aa architecture is a positive-control reconstruction,not de novo discovery."
+}

@@ -1,0 +1,22 @@
+#!/usr/bin/env python3
+"""Record portable structure assets, evidence type and explicit unavailable models."""
+from pathlib import Path
+import json,hashlib,csv
+from datetime import datetime,timezone
+ROOT=Path(__file__).resolve().parents[2];OUT=ROOT/'results/structures'
+def rel(p):return str(p.relative_to(ROOT))
+def main():
+ metrics=json.loads((OUT/'validation.json').read_text())
+ assets=[{'asset_id':'gsdmd_tmem106a_prediction','candidate_id':'Gsdmd:Tmem106a','pair_id':'Gsdmd:Tmem106a','title':'Gsdmd:Tmem106a · 118 aa','structure_type':'predicted','sequence_status':'reference_reconstruction_matching_published_constraints','method':'Boltz2 2.2.1; reused actual prior GPU prediction','source':'Existing focused-pilot-20260919, independently sequence-verified','sequence_fasta':rel(OUT/'gsdmd_tmem106a/sequence.fasta'),'structure_file':rel(OUT/'gsdmd_tmem106a/model.cif'),'png':rel(OUT/'gsdmd_tmem106a/labeled.png'),'cartoon_png':rel(OUT/'gsdmd_tmem106a/cartoon.png'),'svg':rel(OUT/'gsdmd_tmem106a/backbone.svg'),'svg_representation':'C-alpha backbone trace','residue_sources':[{'start':1,'end':73,'label':'GSDMD-identical N-terminus','color':'#0000FF'},{'start':74,'end':118,'label':'Novel out-of-frame chimeric tail; not canonical TMEM106A protein','color':'#D22D27'}],'confidence_png':rel(OUT/'gsdmd_tmem106a/confidence_plot.png'),'confidence_svg':rel(OUT/'gsdmd_tmem106a/confidence_plot.svg'),'confidence':metrics,'interpretation':'Low-confidence candidate model; not experimental structure or proof of a stable fold, expression, function or druggability.'},
+ {'asset_id':'gsdmd_experimental_parent','candidate_id':'Gsdmd:Tmem106a','pair_id':'Gsdmd:Tmem106a','title':'Experimental mouse GSDMD parent','structure_type':'experimental_template','method':'X-ray diffraction','resolution_angstrom':3.3,'organism':'Mus musculus','pdb_id':'6N9N','chain':'A','source':'https://www.rcsb.org/structure/6N9N','structure_file':rel(OUT/'gsdmd_parent/6N9N.cif'),'png':rel(OUT/'gsdmd_parent/cartoon.png'),'svg':rel(OUT/'gsdmd_parent/backbone.svg'),'svg_representation':'C-alpha backbone trace','residue_sources':[{'start':1,'end':73,'label':'Shared parent region: 69 observed residues','color':'#0000FF'},{'start':74,'end':484,'label':'Remainder of experimental GSDMD parent','color':'#C6CBD2'}],'interpretation':'Separate experimental parent reference, not a chimera or a model constructed by joining parent folds.'}]
+ availability=[{'pair_id':'Gsdmd:Tmem106a','candidate_structure_available':True,'status':'reference-reconstructed 118 aa Boltz2 prediction; low confidence','experimental_parent':'6N9N chain A','reason':'Exact reconstruction independently verified; author-provided full sequence not retrieved'}, {'pair_id':'Cd274:Lacc1','candidate_structure_available':False,'status':'unavailable','experimental_parent':'not included','reason':'Exact RNA probe/exon mapping available; validated complete candidate ORF and candidate-specific coordinates unavailable'}, {'pair_id':'Psap:Lgals3','candidate_structure_available':False,'status':'unavailable','experimental_parent':'not included','reason':'Exact RNA probe/exon mapping available; validated complete candidate ORF and candidate-specific coordinates unavailable'}]
+ with (OUT/'candidate_availability.tsv').open('w') as f:
+  w=csv.DictWriter(f,fieldnames=list(availability[0]),delimiter='\t');w.writeheader();w.writerows(availability)
+ d={'schema_version':1,'created_utc':datetime.now(timezone.utc).isoformat(),'status':'complete','new_compute_cost_usd':0,'nvidia_nim_executed':False,'technology_audit':'BioNeMo OpenFold3 and Boltz2 NIM skills inspected first; no hosted credentials available. Reused actual open-source Boltz2 GPU result; no new instance started or altered.','comparison_png':rel(OUT/'structure_comparison.png'),'comparison_pdf':rel(OUT/'structure_comparison.pdf'),'methods':rel(OUT/'METHODS.md'),'assets':assets,'candidate_availability':availability,'artifacts':[]}
+ for p in sorted(OUT.rglob('*')):
+  if p.is_file() and p.name!='manifest.json':d['artifacts'].append({'path':rel(p),'sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'size_bytes':p.stat().st_size})
+ for a in assets:
+  for k in ['sequence_fasta','structure_file','png','cartoon_png','svg']:
+   if k in a:assert (ROOT/a[k]).is_file(),a[k]
+ (OUT/'manifest.json').write_text(json.dumps(d,indent=2)+'\n');print('Manifest:',len(assets),'assets;',len(d['artifacts']),'verified paths')
+if __name__=='__main__':main()

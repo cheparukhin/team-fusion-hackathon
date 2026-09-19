@@ -1,0 +1,18 @@
+{
+  "old_directory": "results/task1",
+  "new_directory": "results/dataset_reconstruction",
+  "purpose": "user-authorized descriptive directory rename; no scientific change",
+  "old_model_code_sha256": "486d9a5d6dfa11fa71bc5878334d241644286f60fd197eca7d35b05bdea2c725",
+  "new_model_code_sha256": "479ddcd8a4ffb8835d4fd3a89a8be2f2f3ec21c3c7ffd176eb8eef312a7c0180",
+  "old_metrics_sha256": "4be5d101441003d003aadded8230a3803ce2815d65a0d34206191bbe7913a0be",
+  "new_metrics_sha256": "9c9233baf2b6c9f388b27bba7f127b1f62dc4b86ded00939153d7511a0de0338",
+  "changed_metrics_fields": [
+    "model_code_sha256"
+  ],
+  "all_dataset_tsv_bytes_unchanged": true,
+  "source_and_annotation_hashes_verified": true,
+  "folds_features_predictions_bytes_unchanged": true,
+  "all_scientific_metrics_exactly_equal": true,
+  "historical_review": "history/final_review_verification_before_path_migration.json",
+  "historical_metrics": "history/classifier_metrics_before_path_migration.json"
+}

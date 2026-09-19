@@ -1,0 +1,16 @@
+{
+  "assessed_split_reads": 9167,
+  "exact_junctions": 6466,
+  "supported_exact_junctions": 116,
+  "longgf_read_memberships": 116,
+  "unassigned_segment_pairs": 485,
+  "biological_samples": 1,
+  "rules_sha256": "cd0a2e02656866cbaac957d1b837f9eb081e8867cbfbc66569ee2795a81fd252",
+  "status": "assessed_not_frozen",
+  "limitations": [
+    "One sample; no independent replication.",
+    "One caller; no multi-caller consensus.",
+    "Finite mapper search and supplementary-alignment proposal scope.",
+    "Heuristic technical thresholds; not a biological false-positive rate."
+  ]
+}

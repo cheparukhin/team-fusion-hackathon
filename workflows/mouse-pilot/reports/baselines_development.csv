@@ -1,0 +1,10 @@
+method,partition,k,candidates,known_positives,expected_supported_at_k,known_positive_recall_at_k,tie_breaking_lower_95,tie_breaking_upper_95,threshold_tie_candidates,interval_meaning
+Random selection,development,10,378,86,2.2751322751322753,0.026455026455026457,0.0,5.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,development,20,378,86,4.550264550264551,0.052910052910052914,1.0,8.0,378,95% variability from random tie-breaking; not biological confidence
+Random selection,development,50,378,86,11.375661375661375,0.13227513227513227,6.0,17.0,378,95% variability from random tie-breaking; not biological confidence
+Long-read support,development,10,378,86,7.0,0.08139534883720931,6.0,8.0,12,95% variability from random tie-breaking; not biological confidence
+Long-read support,development,20,378,86,10.476712328767123,0.12182223638101305,9.0,13.0,365,95% variability from random tie-breaking; not biological confidence
+Long-read support,development,50,378,86,16.805479452054794,0.195412551768079,12.0,22.0,365,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,development,10,378,86,5.454545454545454,0.06342494714587738,3.0,8.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,development,20,378,86,10.909090909090908,0.12684989429175475,10.0,12.0,22,95% variability from random tie-breaking; not biological confidence
+Reported short-read support,development,50,378,86,17.820224719101123,0.20721191533838515,14.0,22.0,356,95% variability from random tie-breaking; not biological confidence

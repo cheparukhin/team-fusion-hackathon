@@ -1,0 +1,298 @@
+{
+  "status": "complete",
+  "target": "reported_NanoString_support_in_probe_panel",
+  "seed": 42,
+  "hic_provenance": {
+    "feature_file": "results/hic/features.tsv",
+    "feature_sha256": "038a5d9202b73b02357c25db4a2256e958e519d52ea66ca3ca75130ef24dfe0a",
+    "feature_manifest": "results/hic/feature_manifest.json",
+    "feature_manifest_sha256": "9e5d451a015b86217ceb8aa20af273001585fc429968e698fe2f611735a4f4f0",
+    "method": {
+      "status": "completed",
+      "assembly": "GRCm39",
+      "resolution_bp": 500000,
+      "normalization": "KR (GENOVA balancing=TRUE for Juicer .hic)",
+      "window_bins": 11,
+      "foreground": "median central3x3",
+      "background": "median64 pixels in four4x4 corner quadrants; central rows/columns excluded",
+      "transform": "log2(0.5+enrichment)",
+      "aggregation": "mean over distinct ordered probe bin pairs within replicate; equal-weight mean across observed replicates; primary requires all3",
+      "paper_deviation": "Paper describes merged replicates before processing. GEO supplies individual processed replicate .hic files. This pilot averages independently KR-normalized per-replicate ratios and is not an exact merged-matrix reproduction.",
+      "missing": "Zero background, absent KR matrix, incomplete edge windows, windows intersecting nonfinite/nonpositive/missing KR normalization bins, unmapped probes, and cis bin distance<500kb remain unavailable; no zero imputation.",
+      "feature_counts": {
+        "unavailable": 29992,
+        "observed_all_replicates": 446
+      },
+      "genova_sources": [
+        "https://github.com/robinweide/GENOVA/blob/master/R/methods_quantify.R",
+        "https://github.com/robinweide/GENOVA/blob/master/R/ARMLA.R",
+        "https://github.com/robinweide/GENOVA/blob/master/R/loading_juicer.R"
+      ],
+      "timing": "Hi-C LPS6h vs RNA different inflammatory treatment/time; all predictor contacts from siNeg LPS, no CTCF knockdown.",
+      "input_probe_sha256": "553715b0cff1e6c8dbb8c0b97785e941e10f8d1efde9d770cb1e4f9cbc5ff89f",
+      "inputs": [
+        {
+          "accession": "GSM9574808",
+          "replicate": "A",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9574nnn/GSM9574808/suppl/GSM9574808_OV_siNeg_LPS_A.prejuicer.hic",
+          "path": "/home/ubuntu/workspace/quick_hack/results/hic/raw/GSM9574808_OV_siNeg_LPS_A.prejuicer.hic",
+          "bytes": 549712645,
+          "sha256": "8d41d806980c412d273f14c71ebceb94decb9194aa220781b9efd6f53f98cae0",
+          "assembly": "GRCm39",
+          "treatment": "scramble siRNA; LPS6h"
+        },
+        {
+          "accession": "GSM9574809",
+          "replicate": "B",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9574nnn/GSM9574809/suppl/GSM9574809_OV_siNeg_LPS_B.prejuicer.hic",
+          "path": "/home/ubuntu/workspace/quick_hack/results/hic/raw/GSM9574809_OV_siNeg_LPS_B.prejuicer.hic",
+          "bytes": 556705352,
+          "sha256": "1109e6ac86504706ab019be9eb4486fea9f9402c3fa141e2cbf7ed4c75979197",
+          "assembly": "GRCm39",
+          "treatment": "scramble siRNA; LPS6h"
+        },
+        {
+          "accession": "GSM9574815",
+          "replicate": "C",
+          "url": "https://ftp.ncbi.nlm.nih.gov/geo/samples/GSM9574nnn/GSM9574815/suppl/GSM9574815_OV_siNeg_LPS_C.prejuicer.hic",
+          "path": "/home/ubuntu/workspace/quick_hack/results/hic/raw/GSM9574815_OV_siNeg_LPS_C.prejuicer.hic",
+          "bytes": 423761243,
+          "sha256": "a173970efe60088220cef1e41745bfed92b1d1863f0eec813192cedd9791f5d8",
+          "assembly": "GRCm39",
+          "treatment": "scramble siRNA; LPS6h"
+        }
+      ],
+      "genova_source_sha256": {
+        "load_contacts.R": "cceb49cd0907cbbee79dc3a870d3784271fc836eb9485cef6de20d67a0bdb55d",
+        "tornado_aggregates.R": "d12cde89adf5f0faa16fe66ca08ad1aa37b72c4e4c3010da8f9481fdd5cdae39",
+        "ARMLA.R": "8eeebe974b0e01de0d1547a2dac7a2c3ecc15ec18aa7722323f67dfe360b0832",
+        "methods_anchors.R": "d00eb70e406858663e884abda163c2e2dd3710375cdce83637aecf6754f964da",
+        "loading_juicer.R": "8184c9ce01ad9582e2ef0dcfd61ffb8447f149731599c3de2cc4b101421f2ea5",
+        "methods_matrix_lookup.R": "bc4985cfdcfec01bb9356a454076bcc2bc357412578611b999ba85765bd6a8d3",
+        "methods_quantify.R": "740fc43df8120c7a93bcb5a7dbb412ee306d695981f04ff9a7faadd7f1dfac0b"
+      },
+      "input_integrity_verified": true
+    }
+  },
+  "model_code_sha256": "486d9a5d6dfa11fa71bc5878334d241644286f60fd197eca7d35b05bdea2c725",
+  "cohort": {
+    "n": 479,
+    "positives": 109,
+    "groups": 352,
+    "folds": 5,
+    "largest_group": 9,
+    "input_sha256": "7bf400eb654782ea5f8a5ad5f492e17f344787e7c0d349fd39b248dc1d43303f"
+  },
+  "features": {
+    "rna": [
+      "log_read_support",
+      "sample_count",
+      "is_interchromosomal",
+      "log_genomic_distance"
+    ],
+    "hic": [
+      "log_read_support",
+      "sample_count",
+      "is_interchromosomal",
+      "log_genomic_distance",
+      "hic_feature"
+    ],
+    "missing_fraction": {
+      "log_read_support": 0.0,
+      "sample_count": 1.0,
+      "is_interchromosomal": 0.0,
+      "log_genomic_distance": 0.0,
+      "hic_feature": 0.162839248434238
+    }
+  },
+  "full_panel": {
+    "read_support": {
+      "n": 479,
+      "positives": 109,
+      "prevalence": 0.22755741127348644,
+      "average_precision": 0.26784266406185164,
+      "k": 20,
+      "supported_at_k": 10,
+      "precision_at_k": 0.5,
+      "recall_at_k": 0.09174311926605505
+    },
+    "rna": {
+      "n": 479,
+      "positives": 109,
+      "prevalence": 0.22755741127348644,
+      "average_precision": 0.2961248743051378,
+      "k": 20,
+      "supported_at_k": 11,
+      "precision_at_k": 0.55,
+      "recall_at_k": 0.10091743119266056
+    }
+  },
+  "matched_hic": {
+    "read_support": {
+      "n": 401,
+      "positives": 92,
+      "prevalence": 0.22942643391521197,
+      "average_precision": 0.2656357295167878,
+      "k": 20,
+      "supported_at_k": 9,
+      "precision_at_k": 0.45,
+      "recall_at_k": 0.09782608695652174
+    },
+    "rna": {
+      "n": 401,
+      "positives": 92,
+      "prevalence": 0.22942643391521197,
+      "average_precision": 0.2959500513014134,
+      "k": 20,
+      "supported_at_k": 10,
+      "precision_at_k": 0.5,
+      "recall_at_k": 0.10869565217391304
+    },
+    "hic": {
+      "n": 401,
+      "positives": 92,
+      "prevalence": 0.22942643391521197,
+      "average_precision": 0.2995931726274509,
+      "k": 20,
+      "supported_at_k": 9,
+      "precision_at_k": 0.45,
+      "recall_at_k": 0.09782608695652174
+    },
+    "comparison": {
+      "delta_average_precision": 0.0036431213260375017,
+      "ci95": [
+        -0.031044035299251743,
+        0.046885501118619284
+      ],
+      "valid_resamples": 1000,
+      "requested_resamples": 1000,
+      "seed": 42,
+      "method": "parent_gene_component_bootstrap_of_fixed_oof_predictions"
+    },
+    "interchromosomal": {
+      "rna": {
+        "n": 244,
+        "positives": 58,
+        "prevalence": 0.23770491803278687,
+        "average_precision": 0.2549446609595948,
+        "k": 20,
+        "supported_at_k": 5,
+        "precision_at_k": 0.25,
+        "recall_at_k": 0.08620689655172414
+      },
+      "hic": {
+        "n": 244,
+        "positives": 58,
+        "prevalence": 0.23770491803278687,
+        "average_precision": 0.26000880792797254,
+        "k": 20,
+        "supported_at_k": 7,
+        "precision_at_k": 0.35,
+        "recall_at_k": 0.1206896551724138
+      }
+    },
+    "fold_cohorts": [
+      {
+        "fold": 0,
+        "train_n": 322,
+        "train_positives": 74,
+        "test_n": 79,
+        "test_positives": 18
+      },
+      {
+        "fold": 1,
+        "train_n": 322,
+        "train_positives": 72,
+        "test_n": 79,
+        "test_positives": 20
+      },
+      {
+        "fold": 2,
+        "train_n": 317,
+        "train_positives": 72,
+        "test_n": 84,
+        "test_positives": 20
+      },
+      {
+        "fold": 3,
+        "train_n": 326,
+        "train_positives": 75,
+        "test_n": 75,
+        "test_positives": 17
+      },
+      {
+        "fold": 4,
+        "train_n": 317,
+        "train_positives": 75,
+        "test_n": 84,
+        "test_positives": 17
+      }
+    ],
+    "training_policy": "Both RNA and RNA+Hi-C are trained on identical complete-contact training rows within the fixed gene-disjoint folds; no contact-availability feature is used."
+  },
+  "interchromosomal": {
+    "read_support": {
+      "n": 275,
+      "positives": 68,
+      "prevalence": 0.24727272727272728,
+      "average_precision": 0.2628342245989305,
+      "k": 20,
+      "supported_at_k": 7,
+      "precision_at_k": 0.35,
+      "recall_at_k": 0.10294117647058823
+    },
+    "rna": {
+      "n": 275,
+      "positives": 68,
+      "prevalence": 0.24727272727272728,
+      "average_precision": 0.2536281052927003,
+      "k": 20,
+      "supported_at_k": 6,
+      "precision_at_k": 0.3,
+      "recall_at_k": 0.08823529411764706
+    }
+  },
+  "limitations": [
+    "The target is published NanoString support within a selected probe-design panel, not biological authenticity.",
+    "Unreported support is not a verified negative; testing and probe QC may be unknown.",
+    "Labels and predictions refer to ordered parent-gene pairs, not validated junction isoforms.",
+    "Out-of-fold scores are not calibrated probabilities; all-data refit scores are not evaluation results.",
+    "The selected panel and parent-gene grouping limit generalization to unseen tissues and datasets.",
+    "Bootstrap intervals resample parent-gene components of fixed out-of-fold predictions; they do not capture model-refitting uncertainty.",
+    "Hi-C is regional 500-kb context, not splice-junction resolution; its assay timing differs from RNA measurements.",
+    "Public long-read tables do not supply sample-level read provenance; recurrence is unavailable and contributes no signal."
+  ],
+  "rna_vs_read_support": {
+    "delta_average_precision": 0.028282210243286143,
+    "ci95": [
+      -0.0010581248815185861,
+      0.0633536217937922
+    ],
+    "valid_resamples": 1000,
+    "requested_resamples": 1000,
+    "seed": 42,
+    "method": "parent_gene_component_bootstrap_of_fixed_oof_predictions"
+  },
+  "observed_read_support": {
+    "read_support": {
+      "n": 479,
+      "positives": 109,
+      "prevalence": 0.22755741127348644,
+      "average_precision": 0.26784266406185164,
+      "k": 20,
+      "supported_at_k": 10,
+      "precision_at_k": 0.5,
+      "recall_at_k": 0.09174311926605505
+    },
+    "rna": {
+      "n": 479,
+      "positives": 109,
+      "prevalence": 0.22755741127348644,
+      "average_precision": 0.2961248743051378,
+      "k": 20,
+      "supported_at_k": 11,
+      "precision_at_k": 0.55,
+      "recall_at_k": 0.10091743119266056
+    }
+  }
+}

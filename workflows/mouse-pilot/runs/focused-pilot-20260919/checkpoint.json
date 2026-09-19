@@ -1,0 +1,36 @@
+{
+  "updated_utc": "2026-09-19T16:57:22.142528+00:00",
+  "scientific_goal": "complete",
+  "restart": "controller-managed restart fulfilled; current goal is docs/execution_goal.md",
+  "completed": [
+    "Validated SRR28984805 intake and original read identity crosswalk",
+    "Full minimap2 and LongGF pilot; copied outputs validated; CPU worker STOPPED",
+    "6466 exact junctions assessed; 116 supported; bounded ORF reconstruction complete",
+    "10 distinct protein hypotheses frozen; independent translation checks passed",
+    "Separate 118-aa published architecture control reconstructed; cached control MSA",
+    "Post-freeze published comparison complete",
+    "All 11 query-verified public ColabFold MSAs cached",
+    "11 Boltz structure predictions preserved and locally verified",
+    "All figures, comparisons, deferral records and focused HTML report",
+    "Temporary worker shutdown and resource accounting"
+  ],
+  "pending": [],
+  "connectivity": "Verified inherited SHELL prevented OpenSSH Match exec; coordinating task repaired scoped Brev environment",
+  "worker_coordination": "CPU pilot and GPU worker confirmed STOPPED. Controller remains RUNNING. No more compute required.",
+  "ad_hoc_transport_environment": {
+    "SHELL": "/bin/sh"
+  },
+  "last_verified_analysis_result": "11 locally verified structure predictions, 20 RNA/ORF/alignment SVGs, 11 structure/confidence PNGs; all source hashes and 109 internal report links checked.",
+  "report": "reports/focused_pilot.html; completion-audit.json records achieved focused scope and limitations.",
+  "source_hashes": {
+    "docs/execution_goal.md": "e759bfea89bf8f9a131470935d85d1069dc58c752e704c780e29e27ac645941f",
+    "docs/focused_pilot_rules.md": "cd0a2e02656866cbaac957d1b837f9eb081e8867cbfbc66569ee2795a81fd252",
+    "src/chrna/pilot_assessment.py": "b48e7f5d726a68a90b76e19dab57617b0764f3067c4a9c7bb0db1e1361d689fe",
+    "src/chrna/pilot_orfs.py": "d1fe74d96f6490747e4916c4adc9de4323eb5dede57cc38ca7b9b8a5f1e36207",
+    "src/chrna/pilot_selection.py": "0ddfa26eec76bcea3aa12c6cc6630bfb7de619cf7d6719979918d6fa2fd2966d",
+    "src/chrna/pilot_report.py": "386b57fc48116f77d5a23c4f2abf2eee07b5855681bfc6cf3971213310afd9ea"
+  },
+  "canonical_workspace": "/home/ubuntu/workspace/chrna",
+  "published_control": "118-aa reference reconstruction matches published constraints; author full-sequence file unavailable. Cached and query-verified 913-row MSA; no GPU inference.",
+  "latest_tests": "101 tests passed; reproducible data build and development benchmark passed. No held-out evaluation."
+}

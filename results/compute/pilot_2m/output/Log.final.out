@@ -1,0 +1,39 @@
+                                 Started job on |	Sep 19 22:48:00
+                             Started mapping on |	Sep 19 22:48:12
+                                    Finished on |	Sep 19 22:49:08
+       Mapping speed, Million of reads per hour |	128.57
+                                 Number of GPUs |	1
+                   Throughput, bases/GPU/minute |	647142857.14
+
+                          Number of input reads |	2000000
+                      Average input read length |	302
+                                    UNIQUE READS:
+                   Uniquely mapped reads number |	1689923
+                        Uniquely mapped reads % |	84.50%
+                          Average mapped length |	295.56
+                       Number of splices: Total |	1809682
+            Number of splices: Annotated (sjdb) |	1793596
+                       Number of splices: GT/AG |	1790938
+                       Number of splices: GC/AG |	14573
+                       Number of splices: AT/AC |	1321
+               Number of splices: Non-canonical |	2850
+                      Mismatch rate per base, % |	0.17%
+                         Deletion rate per base |	0.02%
+                        Deletion average length |	3.32
+                        Insertion rate per base |	0.01%
+                       Insertion average length |	1.57
+                             MULTI-MAPPING READS:
+        Number of reads mapped to multiple loci |	48770
+             % of reads mapped to multiple loci |	2.44%
+        Number of reads mapped to too many loci |	2884
+             % of reads mapped to too many loci |	0.14%
+                                  UNMAPPED READS:
+  Number of reads unmapped: too many mismatches |	0
+       % of reads unmapped: too many mismatches |	0.00%
+            Number of reads unmapped: too short |	257511
+                 % of reads unmapped: too short |	12.88%
+                Number of reads unmapped: other |	912
+                     % of reads unmapped: other |	0.05%
+                                  CHIMERIC READS:
+                       Number of chimeric reads |	28482
+                            % of chimeric reads |	1.42%

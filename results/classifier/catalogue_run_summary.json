@@ -1,0 +1,8 @@
+{
+  "ranked_pairs": 29911,
+  "training_panel_pairs": 479,
+  "excluded_from_ranking": 527,
+  "read_support_outside_training_range": 164,
+  "interpretation": "Exploratory prioritization of already published candidates, not independent validation or new chRNA discovery.",
+  "model": "RNA-only all-panel refit; no Hi-C features available for this catalogue application."
+}

@@ -1,0 +1,32 @@
+{
+  "updated_utc": "2026-09-19T23:15:56.508643+00:00",
+  "phase": "discovery_SGNex_K562_directRNA_replicate5_run1",
+  "stages_complete": 3,
+  "stages_total": 8,
+  "quoted_cost_bound_usd": 0.8234638958196263,
+  "summaries": [
+    {
+      "assessed_split_reads": 19373,
+      "exact_junctions": 17691,
+      "supported_exact_junctions": 220,
+      "longgf_read_memberships": 374,
+      "unassigned_segment_pairs": 2671,
+      "biological_samples": null,
+      "sample_id": "SGNex_K562_directRNA_replicate4_run1",
+      "reference_build": "GRCh38.p13/GENCODE43",
+      "rules_sha256": "ff99bcd191d7f0af1de5f4afdcb052ef0fc35a8ad2ced30f2158d2729684284c",
+      "status": "assessed_not_frozen",
+      "limitations": [
+        "One sample; no independent replication.",
+        "One caller; no multi-caller consensus.",
+        "Finite mapper search and supplementary-alignment proposal scope.",
+        "Heuristic technical thresholds; not a biological false-positive rate."
+      ]
+    },
+    {}
+  ],
+  "corroboration": {},
+  "repeatability": {},
+  "shutdown": {},
+  "errors": {}
+}

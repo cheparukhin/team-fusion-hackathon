@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-19T15:12:04.803373+00:00",
+  "workspaces": [
+    {
+      "name": "chrna-controller",
+      "id": "2gnfmgobs",
+      "status": "RUNNING",
+      "build_status": "COMPLETED",
+      "shell_status": "READY",
+      "health_status": "HEALTHY",
+      "instance_type": "cpu-e2.4vcpu-16gb",
+      "instance_kind": "cpu",
+      "gpu": "-"
+    }
+  ]
+}

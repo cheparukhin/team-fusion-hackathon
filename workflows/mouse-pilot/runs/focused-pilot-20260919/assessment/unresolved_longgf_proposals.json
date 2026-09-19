@@ -1,0 +1,374 @@
+[
+  {
+    "read_id": "SRR28984805.114453/1",
+    "longgf_pair": "Ctsb:Rn18s-rs5",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.209860/1",
+    "longgf_pair": "Ctsb:Fth1",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.892627/1",
+    "longgf_pair": "Ube2e1:Ube2e2",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1401728/1",
+    "longgf_pair": "Pdcd6:Tram1",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.2192671/1",
+    "longgf_pair": "Aopep:Rn18s-rs5",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.663234/1",
+    "longgf_pair": "Gpr137b:Stab1",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1640235/1",
+    "longgf_pair": "Pam:Macir",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.814208/1",
+    "longgf_pair": "Ppm1a:Ldah",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.552267/1",
+    "longgf_pair": "Ppm1a:Sipa1l3",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.854947/1",
+    "longgf_pair": "Ywhae:Serhl",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1086838/1",
+    "longgf_pair": "Nbas:Dock4",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.6194/1",
+    "longgf_pair": "Rtn4:Map2k6",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.931338/1",
+    "longgf_pair": "Rnf130:Uvrag",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1018513/1",
+    "longgf_pair": "Ms4a6d:Trim30a",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.757481/1",
+    "longgf_pair": "Ms4a7:Adar",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1778518/1",
+    "longgf_pair": "Fads3:Dleu2",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1858413/1",
+    "longgf_pair": "Dad1:Csf1r",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.333186/1",
+    "longgf_pair": "Fth1:Aldoa",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.532477/1",
+    "longgf_pair": "Csf1r:Mdfic",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1093633/1",
+    "longgf_pair": "Hsd17b4:Tnfaip8",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.627740/1",
+    "longgf_pair": "Rbm27:Pcdhga8",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.2097038/1",
+    "longgf_pair": "Dpy30:H2-T23",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.940189/1",
+    "longgf_pair": "Pfdn2:Amn1",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1731781/1",
+    "longgf_pair": "Atp6v1b2:Lamp2",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1396131/1",
+    "longgf_pair": "Rab11a:Rpl31-ps8",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.757991/1",
+    "longgf_pair": "Lmf1:Zdhhc14",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.695364/1",
+    "longgf_pair": "Tubb5:Ftl1",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1905502/1",
+    "longgf_pair": "Sp1:Atf1",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.533600/1",
+    "longgf_pair": "Mtmr1:Mtm1",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.631365/1",
+    "longgf_pair": "E2f4:Ncoa3",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1974939/1",
+    "longgf_pair": "Med16:Tcf3",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.164507/1",
+    "longgf_pair": "Ubp1:Pcgf5",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1813053/1",
+    "longgf_pair": "Srp14:Rps2-ps10",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1052168/1",
+    "longgf_pair": "Lyn:Rab2a",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.940925/1",
+    "longgf_pair": "Mpc2:Klhl20",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.882815/1",
+    "longgf_pair": "Tmem106a:Rprd1a",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.660745/1",
+    "longgf_pair": "2700049A03Rik:Map4k5",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1304956/1",
+    "longgf_pair": "Cyb5r4:Senp6",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.154391/1",
+    "longgf_pair": "Lmo2:Zzef1",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1741180/1",
+    "longgf_pair": "Dock4:Zfp277",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.227176/1",
+    "longgf_pair": "B3gat3:Snhg1",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.775955/1",
+    "longgf_pair": "Nod2:Chd9",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.680708/1",
+    "longgf_pair": "Nrros:Gm26520",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1271487/1",
+    "longgf_pair": "Pign:Fcer1g",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1389615/1",
+    "longgf_pair": "Ppt1:Gm21188",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.891932/1",
+    "longgf_pair": "Tmem59:BC031181",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1436700/1",
+    "longgf_pair": "Wls:Ankrd13c",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.779747/1",
+    "longgf_pair": "Anxa5:Atp11b",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.445445/1",
+    "longgf_pair": "Hao1:Arhgap21",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.680628/1",
+    "longgf_pair": "Cstf3:Pirb",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.379527/1",
+    "longgf_pair": "Mindy3:Gatb",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.697857/1",
+    "longgf_pair": "Heatr6:Trappc8",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.561747/1",
+    "longgf_pair": "Rexo2:Ctnna1",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1920174/1",
+    "longgf_pair": "Ifi30:Rps15a-ps7",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1087716/1",
+    "longgf_pair": "Haus7:Csk",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.846400/1",
+    "longgf_pair": "Vps35l:Gm20075",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.684488/1",
+    "longgf_pair": "Itgax:Swt1",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.630408/1",
+    "longgf_pair": "Mvp:Eif3c",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1230098/1",
+    "longgf_pair": "Akr1a1:Rnf19b",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.1249015/1",
+    "longgf_pair": "St7:Mdfic",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.467138/1",
+    "longgf_pair": "Acot7:Rab2a",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  },
+  {
+    "read_id": "SRR28984805.814049/1",
+    "longgf_pair": "1110004F10Rik:Tmed9",
+    "state": "unmapped/unresolved",
+    "reason": "LongGF source pair not resolved to the same ordered two-gene junction by audit remapping; retain original caller record"
+  }
+]

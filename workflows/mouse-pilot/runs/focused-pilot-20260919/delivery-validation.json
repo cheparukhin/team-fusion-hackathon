@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-09-19T16:56:43.281495+00:00",
+  "status": "passed",
+  "internal_report_file_links_checked": 109,
+  "missing_links": [],
+  "frozen_output_hashes_unchanged": true,
+  "selected_distinct_sequences": 10,
+  "structure_files_and_confidence_locally_verified": 11,
+  "separate_published_controls": 1,
+  "rna_orf_and_alignment_svg_count": 20,
+  "structure_confidence_png_count": 11,
+  "full_suite_tests_passed": 101,
+  "reproducible_data_and_development_benchmark_passed": true,
+  "temporary_workers_stopped": true,
+  "shared_controller_available": true,
+  "agent_visual_inspection": [
+    "118-aa separate control plot",
+    "612-aa Tcf3-Med16 plot"
+  ],
+  "independent_human_review": "not_recorded"
+}

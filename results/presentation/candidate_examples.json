@@ -1,0 +1,1699 @@
+{
+  "assembly": "GRCm39",
+  "annotation": "GENCODE M28",
+  "coordinate_convention": "1-based inclusive terminal retained parent bases",
+  "colors": {
+    "parent_a": "#0000FF",
+    "parent_b": "#D22D27"
+  },
+  "selection": "Two traceable paper examples and one high-scoring not-reported-supported contrast; not a top-ranked discovery list.",
+  "candidates": [
+    {
+      "pair_id": "Gsdmd:Tmem106a",
+      "reported_nanostring_support": true,
+      "unique_long_reads": 1,
+      "score_rna": 0.22699497370929003,
+      "score_hic": 0.2224044593326218,
+      "probe_examples": [
+        {
+          "probe_id": "Gsdmd:Tmem106a",
+          "sequence": "GTTATTCATGTGTCAACCTGTCAATCAAGGACATCCTGGAGCCCAGTGCTCCAGAACCAGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCC",
+          "sides": {
+            "a": {
+              "representative": {
+                "transcript_id": "ENSMUST00000023238.6",
+                "gene_id": "ENSMUSG00000022575.6",
+                "chromosome": "chr15",
+                "strand": "+",
+                "breakpoint": 75735477,
+                "junction_exon": 2,
+                "exons": [
+                  {
+                    "exon_number": 1,
+                    "start": 75734176,
+                    "end": 75734330,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 2,
+                    "start": 75735254,
+                    "end": 75735477,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 3,
+                    "start": 75736093,
+                    "end": 75736285,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 4,
+                    "start": 75736798,
+                    "end": 75736966,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 5,
+                    "start": 75737272,
+                    "end": 75737374,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 6,
+                    "start": 75737609,
+                    "end": 75737659,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 7,
+                    "start": 75737936,
+                    "end": 75738025,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 8,
+                    "start": 75738145,
+                    "end": 75738320,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 9,
+                    "start": 75738395,
+                    "end": 75738539,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 10,
+                    "start": 75738639,
+                    "end": 75738712,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 11,
+                    "start": 75738846,
+                    "end": 75739257,
+                    "strand": "+"
+                  }
+                ],
+                "retained_exon_numbers": [
+                  1,
+                  2
+                ]
+              },
+              "alternative_transcripts": [
+                {
+                  "transcript_id": "ENSMUST00000023238.6",
+                  "gene_id": "ENSMUSG00000022575.6",
+                  "chromosome": "chr15",
+                  "strand": "+",
+                  "breakpoint": 75735477,
+                  "junction_exon": 2,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 75734176,
+                      "end": 75734330,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 75735254,
+                      "end": 75735477,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 75736093,
+                      "end": 75736285,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 75736798,
+                      "end": 75736966,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 75737272,
+                      "end": 75737374,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 75737609,
+                      "end": 75737659,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 7,
+                      "start": 75737936,
+                      "end": 75738025,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 8,
+                      "start": 75738145,
+                      "end": 75738320,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 9,
+                      "start": 75738395,
+                      "end": 75738539,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 10,
+                      "start": 75738639,
+                      "end": 75738712,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 11,
+                      "start": 75738846,
+                      "end": 75739257,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    1,
+                    2
+                  ]
+                },
+                {
+                  "transcript_id": "ENSMUST00000229331.2",
+                  "gene_id": "ENSMUSG00000022575.6",
+                  "chromosome": "chr15",
+                  "strand": "+",
+                  "breakpoint": 75735477,
+                  "junction_exon": 2,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 75734228,
+                      "end": 75734330,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 75735254,
+                      "end": 75735477,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 75736204,
+                      "end": 75736285,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 75736798,
+                      "end": 75736966,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 75737272,
+                      "end": 75737374,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 75737609,
+                      "end": 75737659,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 7,
+                      "start": 75737936,
+                      "end": 75738025,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 8,
+                      "start": 75738145,
+                      "end": 75738220,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    1,
+                    2
+                  ]
+                },
+                {
+                  "transcript_id": "ENSMUST00000230881.2",
+                  "gene_id": "ENSMUSG00000022575.6",
+                  "chromosome": "chr15",
+                  "strand": "+",
+                  "breakpoint": 75735477,
+                  "junction_exon": 2,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 75734213,
+                      "end": 75734330,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 75735254,
+                      "end": 75735541,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    1,
+                    2
+                  ]
+                }
+              ],
+              "selection_rule": "Lexicographically first exact60nt-matched transcript; representative annotation,not an isoform uniquely validated by the probe."
+            },
+            "b": {
+              "representative": {
+                "transcript_id": "ENSMUST00000039581.14",
+                "gene_id": "ENSMUSG00000034947.14",
+                "chromosome": "chr11",
+                "strand": "+",
+                "breakpoint": 101479679,
+                "junction_exon": 6,
+                "exons": [
+                  {
+                    "exon_number": 1,
+                    "start": 101473068,
+                    "end": 101473151,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 2,
+                    "start": 101473451,
+                    "end": 101473530,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 3,
+                    "start": 101474384,
+                    "end": 101474610,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 4,
+                    "start": 101475272,
+                    "end": 101475335,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 5,
+                    "start": 101477065,
+                    "end": 101477218,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 6,
+                    "start": 101479679,
+                    "end": 101479819,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 7,
+                    "start": 101479924,
+                    "end": 101479967,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 8,
+                    "start": 101480761,
+                    "end": 101480814,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 9,
+                    "start": 101481159,
+                    "end": 101482614,
+                    "strand": "+"
+                  }
+                ],
+                "retained_exon_numbers": [
+                  6,
+                  7,
+                  8,
+                  9
+                ]
+              },
+              "alternative_transcripts": [
+                {
+                  "transcript_id": "ENSMUST00000039581.14",
+                  "gene_id": "ENSMUSG00000034947.14",
+                  "chromosome": "chr11",
+                  "strand": "+",
+                  "breakpoint": 101479679,
+                  "junction_exon": 6,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 101473068,
+                      "end": 101473151,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 101473451,
+                      "end": 101473530,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 101474384,
+                      "end": 101474610,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 101475272,
+                      "end": 101475335,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 101477065,
+                      "end": 101477218,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 101479679,
+                      "end": 101479819,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 7,
+                      "start": 101479924,
+                      "end": 101479967,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 8,
+                      "start": 101480761,
+                      "end": 101480814,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 9,
+                      "start": 101481159,
+                      "end": 101482614,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    6,
+                    7,
+                    8,
+                    9
+                  ]
+                },
+                {
+                  "transcript_id": "ENSMUST00000100403.9",
+                  "gene_id": "ENSMUSG00000034947.14",
+                  "chromosome": "chr11",
+                  "strand": "+",
+                  "breakpoint": 101479679,
+                  "junction_exon": 6,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 101473068,
+                      "end": 101473151,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 101473327,
+                      "end": 101473530,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 101474384,
+                      "end": 101474610,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 101475272,
+                      "end": 101475335,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 101477065,
+                      "end": 101477218,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 101479679,
+                      "end": 101479819,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 7,
+                      "start": 101479924,
+                      "end": 101479967,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 8,
+                      "start": 101480761,
+                      "end": 101480814,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 9,
+                      "start": 101481159,
+                      "end": 101482614,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    6,
+                    7,
+                    8,
+                    9
+                  ]
+                },
+                {
+                  "transcript_id": "ENSMUST00000107194.8",
+                  "gene_id": "ENSMUSG00000034947.14",
+                  "chromosome": "chr11",
+                  "strand": "+",
+                  "breakpoint": 101479679,
+                  "junction_exon": 6,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 101473083,
+                      "end": 101473151,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 101473469,
+                      "end": 101473530,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 101474384,
+                      "end": 101474610,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 101475272,
+                      "end": 101475335,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 101477065,
+                      "end": 101477218,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 101479679,
+                      "end": 101479766,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    6
+                  ]
+                },
+                {
+                  "transcript_id": "ENSMUST00000128659.2",
+                  "gene_id": "ENSMUSG00000034947.14",
+                  "chromosome": "chr11",
+                  "strand": "+",
+                  "breakpoint": 101479679,
+                  "junction_exon": 2,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 101476823,
+                      "end": 101477218,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 101479679,
+                      "end": 101479819,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 101479924,
+                      "end": 101479967,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 101480761,
+                      "end": 101480814,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 101481159,
+                      "end": 101481592,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    2,
+                    3,
+                    4,
+                    5
+                  ]
+                },
+                {
+                  "transcript_id": "ENSMUST00000143045.8",
+                  "gene_id": "ENSMUSG00000034947.14",
+                  "chromosome": "chr11",
+                  "strand": "+",
+                  "breakpoint": 101479679,
+                  "junction_exon": 5,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 101473070,
+                      "end": 101473151,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 101473451,
+                      "end": 101473530,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 101474384,
+                      "end": 101474610,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 101477065,
+                      "end": 101477218,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 101479679,
+                      "end": 101479819,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 101479924,
+                      "end": 101480260,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    5,
+                    6
+                  ]
+                }
+              ],
+              "selection_rule": "Lexicographically first exact60nt-matched transcript; representative annotation,not an isoform uniquely validated by the probe."
+            }
+          }
+        }
+      ],
+      "protein_claim": "Paper Fig3a:118aa;residues1\u201373GSDMD-derived;74\u2013118novel out-of-frame TMEM106A-derived tail. Structural rendering in paper is AlphaFold3 prediction,not experimental structure."
+    },
+    {
+      "pair_id": "Cd274:Lacc1",
+      "reported_nanostring_support": true,
+      "unique_long_reads": 1,
+      "score_rna": 0.22699497370929003,
+      "score_hic": 0.21567996570835718,
+      "probe_examples": [
+        {
+          "probe_id": "Cd274:Lacc1",
+          "sequence": "ACTGCTGCATAATCAGCTACGGTGGTGCGGACTACAAGCGAATCACGCTGAAAGTCAATGGCTGGAAAGGTACATTGTTGGGTGTGGCTATGGCTACTGTGAATGCTATGATAGCAGAAT",
+          "sides": {
+            "a": {
+              "representative": {
+                "transcript_id": "ENSMUST00000016640.8",
+                "gene_id": "ENSMUSG00000016496.8",
+                "chromosome": "chr19",
+                "strand": "+",
+                "breakpoint": 29351299,
+                "junction_exon": 3,
+                "exons": [
+                  {
+                    "exon_number": 1,
+                    "start": 29344855,
+                    "end": 29344906,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 2,
+                    "start": 29349854,
+                    "end": 29349919,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 3,
+                    "start": 29350958,
+                    "end": 29351299,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 4,
+                    "start": 29357704,
+                    "end": 29357988,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 5,
+                    "start": 29359876,
+                    "end": 29359986,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 6,
+                    "start": 29361484,
+                    "end": 29361543,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 7,
+                    "start": 29362790,
+                    "end": 29365495,
+                    "strand": "+"
+                  }
+                ],
+                "retained_exon_numbers": [
+                  1,
+                  2,
+                  3
+                ]
+              },
+              "alternative_transcripts": [
+                {
+                  "transcript_id": "ENSMUST00000016640.8",
+                  "gene_id": "ENSMUSG00000016496.8",
+                  "chromosome": "chr19",
+                  "strand": "+",
+                  "breakpoint": 29351299,
+                  "junction_exon": 3,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 29344855,
+                      "end": 29344906,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 29349854,
+                      "end": 29349919,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 29350958,
+                      "end": 29351299,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 29357704,
+                      "end": 29357988,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 29359876,
+                      "end": 29359986,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 29361484,
+                      "end": 29361543,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 7,
+                      "start": 29362790,
+                      "end": 29365495,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    1,
+                    2,
+                    3
+                  ]
+                }
+              ],
+              "selection_rule": "Lexicographically first exact60nt-matched transcript; representative annotation,not an isoform uniquely validated by the probe."
+            },
+            "b": {
+              "representative": {
+                "transcript_id": "ENSMUST00000062789.15",
+                "gene_id": "ENSMUSG00000044350.15",
+                "chromosome": "chr14",
+                "strand": "-",
+                "breakpoint": 77268402,
+                "junction_exon": 6,
+                "exons": [
+                  {
+                    "exon_number": 1,
+                    "start": 77273937,
+                    "end": 77274081,
+                    "strand": "-"
+                  },
+                  {
+                    "exon_number": 2,
+                    "start": 77273252,
+                    "end": 77273430,
+                    "strand": "-"
+                  },
+                  {
+                    "exon_number": 3,
+                    "start": 77272233,
+                    "end": 77272845,
+                    "strand": "-"
+                  },
+                  {
+                    "exon_number": 4,
+                    "start": 77271445,
+                    "end": 77271623,
+                    "strand": "-"
+                  },
+                  {
+                    "exon_number": 5,
+                    "start": 77270626,
+                    "end": 77270791,
+                    "strand": "-"
+                  },
+                  {
+                    "exon_number": 6,
+                    "start": 77268177,
+                    "end": 77268402,
+                    "strand": "-"
+                  },
+                  {
+                    "exon_number": 7,
+                    "start": 77266968,
+                    "end": 77267128,
+                    "strand": "-"
+                  },
+                  {
+                    "exon_number": 8,
+                    "start": 77261640,
+                    "end": 77262414,
+                    "strand": "-"
+                  }
+                ],
+                "retained_exon_numbers": [
+                  6,
+                  7,
+                  8
+                ]
+              },
+              "alternative_transcripts": [
+                {
+                  "transcript_id": "ENSMUST00000062789.15",
+                  "gene_id": "ENSMUSG00000044350.15",
+                  "chromosome": "chr14",
+                  "strand": "-",
+                  "breakpoint": 77268402,
+                  "junction_exon": 6,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 77273937,
+                      "end": 77274081,
+                      "strand": "-"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 77273252,
+                      "end": 77273430,
+                      "strand": "-"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 77272233,
+                      "end": 77272845,
+                      "strand": "-"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 77271445,
+                      "end": 77271623,
+                      "strand": "-"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 77270626,
+                      "end": 77270791,
+                      "strand": "-"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 77268177,
+                      "end": 77268402,
+                      "strand": "-"
+                    },
+                    {
+                      "exon_number": 7,
+                      "start": 77266968,
+                      "end": 77267128,
+                      "strand": "-"
+                    },
+                    {
+                      "exon_number": 8,
+                      "start": 77261640,
+                      "end": 77262414,
+                      "strand": "-"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    6,
+                    7,
+                    8
+                  ]
+                }
+              ],
+              "selection_rule": "Lexicographically first exact60nt-matched transcript; representative annotation,not an isoform uniquely validated by the probe."
+            }
+          }
+        }
+      ],
+      "protein_claim": "No validated protein ORF is assigned by this diagram."
+    },
+    {
+      "pair_id": "Psap:Lgals3",
+      "reported_nanostring_support": false,
+      "unique_long_reads": 6,
+      "score_rna": 0.9935315878138257,
+      "score_hic": 0.9855286518414169,
+      "probe_examples": [
+        {
+          "probe_id": "Psap:Lgals3",
+          "sequence": "GGACCTAGATTTTGTTTTGCACTAAAGTTTCTGTGACTTAATAAAGTTCTGTTAACCAACATACAAGTCCTGGTTGAAGCTGACCACTTCAAGGTTGCGGTCAACGATGCTCACCTACTG",
+          "sides": {
+            "a": {
+              "representative": {
+                "transcript_id": "ENSMUST00000004316.15",
+                "gene_id": "ENSMUSG00000004207.15",
+                "chromosome": "chr10",
+                "strand": "+",
+                "breakpoint": 60138376,
+                "junction_exon": 14,
+                "exons": [
+                  {
+                    "exon_number": 1,
+                    "start": 60113450,
+                    "end": 60113604,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 2,
+                    "start": 60127421,
+                    "end": 60127554,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 3,
+                    "start": 60128285,
+                    "end": 60128359,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 4,
+                    "start": 60129129,
+                    "end": 60129254,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 5,
+                    "start": 60130313,
+                    "end": 60130510,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 6,
+                    "start": 60130745,
+                    "end": 60130888,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 7,
+                    "start": 60131726,
+                    "end": 60131782,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 8,
+                    "start": 60134871,
+                    "end": 60135008,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 9,
+                    "start": 60135243,
+                    "end": 60135338,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 10,
+                    "start": 60135558,
+                    "end": 60135837,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 11,
+                    "start": 60135927,
+                    "end": 60136084,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 12,
+                    "start": 60136317,
+                    "end": 60136397,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 13,
+                    "start": 60136553,
+                    "end": 60136660,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 14,
+                    "start": 60137473,
+                    "end": 60138376,
+                    "strand": "+"
+                  }
+                ],
+                "retained_exon_numbers": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ]
+              },
+              "alternative_transcripts": [
+                {
+                  "transcript_id": "ENSMUST00000004316.15",
+                  "gene_id": "ENSMUSG00000004207.15",
+                  "chromosome": "chr10",
+                  "strand": "+",
+                  "breakpoint": 60138376,
+                  "junction_exon": 14,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 60113450,
+                      "end": 60113604,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 60127421,
+                      "end": 60127554,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 60128285,
+                      "end": 60128359,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 60129129,
+                      "end": 60129254,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 60130313,
+                      "end": 60130510,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 60130745,
+                      "end": 60130888,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 7,
+                      "start": 60131726,
+                      "end": 60131782,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 8,
+                      "start": 60134871,
+                      "end": 60135008,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 9,
+                      "start": 60135243,
+                      "end": 60135338,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 10,
+                      "start": 60135558,
+                      "end": 60135837,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 11,
+                      "start": 60135927,
+                      "end": 60136084,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 12,
+                      "start": 60136317,
+                      "end": 60136397,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 13,
+                      "start": 60136553,
+                      "end": 60136660,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 14,
+                      "start": 60137473,
+                      "end": 60138376,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ]
+                },
+                {
+                  "transcript_id": "ENSMUST00000165878.2",
+                  "gene_id": "ENSMUSG00000004207.15",
+                  "chromosome": "chr10",
+                  "strand": "+",
+                  "breakpoint": 60138376,
+                  "junction_exon": 14,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 60120283,
+                      "end": 60120353,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 60127421,
+                      "end": 60127554,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 60128285,
+                      "end": 60128359,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 60129129,
+                      "end": 60129254,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 60130313,
+                      "end": 60130510,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 60130745,
+                      "end": 60130888,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 7,
+                      "start": 60131726,
+                      "end": 60131782,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 8,
+                      "start": 60134877,
+                      "end": 60135008,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 9,
+                      "start": 60135243,
+                      "end": 60135338,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 10,
+                      "start": 60135558,
+                      "end": 60135837,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 11,
+                      "start": 60135927,
+                      "end": 60136084,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 12,
+                      "start": 60136317,
+                      "end": 60136397,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 13,
+                      "start": 60136553,
+                      "end": 60136660,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 14,
+                      "start": 60137473,
+                      "end": 60138376,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14
+                  ]
+                },
+                {
+                  "transcript_id": "ENSMUST00000177779.8",
+                  "gene_id": "ENSMUSG00000004207.15",
+                  "chromosome": "chr10",
+                  "strand": "+",
+                  "breakpoint": 60138376,
+                  "junction_exon": 15,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 60113450,
+                      "end": 60113604,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 60127421,
+                      "end": 60127554,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 60128285,
+                      "end": 60128359,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 60129129,
+                      "end": 60129254,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 60130313,
+                      "end": 60130510,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 60130745,
+                      "end": 60130888,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 7,
+                      "start": 60131726,
+                      "end": 60131786,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 8,
+                      "start": 60134821,
+                      "end": 60134825,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 9,
+                      "start": 60134877,
+                      "end": 60135008,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 10,
+                      "start": 60135243,
+                      "end": 60135338,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 11,
+                      "start": 60135558,
+                      "end": 60135837,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 12,
+                      "start": 60135927,
+                      "end": 60136084,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 13,
+                      "start": 60136317,
+                      "end": 60136397,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 14,
+                      "start": 60136553,
+                      "end": 60136660,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 15,
+                      "start": 60137473,
+                      "end": 60138376,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ]
+                },
+                {
+                  "transcript_id": "ENSMUST00000179238.8",
+                  "gene_id": "ENSMUSG00000004207.15",
+                  "chromosome": "chr10",
+                  "strand": "+",
+                  "breakpoint": 60138376,
+                  "junction_exon": 15,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 60113450,
+                      "end": 60113604,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 60127421,
+                      "end": 60127554,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 60128285,
+                      "end": 60128359,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 60129129,
+                      "end": 60129254,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 60130313,
+                      "end": 60130510,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 60130745,
+                      "end": 60130888,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 7,
+                      "start": 60131726,
+                      "end": 60131782,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 8,
+                      "start": 60133317,
+                      "end": 60133325,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 9,
+                      "start": 60134877,
+                      "end": 60135008,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 10,
+                      "start": 60135243,
+                      "end": 60135338,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 11,
+                      "start": 60135558,
+                      "end": 60135837,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 12,
+                      "start": 60135927,
+                      "end": 60136084,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 13,
+                      "start": 60136317,
+                      "end": 60136397,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 14,
+                      "start": 60136553,
+                      "end": 60136660,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 15,
+                      "start": 60137473,
+                      "end": 60138376,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15
+                  ]
+                }
+              ],
+              "selection_rule": "Lexicographically first exact60nt-matched transcript; representative annotation,not an isoform uniquely validated by the probe."
+            },
+            "b": {
+              "representative": {
+                "transcript_id": "ENSMUST00000142734.8",
+                "gene_id": "ENSMUSG00000050335.18",
+                "chromosome": "chr14",
+                "strand": "+",
+                "breakpoint": 47622982,
+                "junction_exon": 6,
+                "exons": [
+                  {
+                    "exon_number": 1,
+                    "start": 47611270,
+                    "end": 47611409,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 2,
+                    "start": 47616980,
+                    "end": 47617001,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 3,
+                    "start": 47617510,
+                    "end": 47617875,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 4,
+                    "start": 47619053,
+                    "end": 47619141,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 5,
+                    "start": 47622059,
+                    "end": 47622224,
+                    "strand": "+"
+                  },
+                  {
+                    "exon_number": 6,
+                    "start": 47622982,
+                    "end": 47623617,
+                    "strand": "+"
+                  }
+                ],
+                "retained_exon_numbers": [
+                  6
+                ]
+              },
+              "alternative_transcripts": [
+                {
+                  "transcript_id": "ENSMUST00000142734.8",
+                  "gene_id": "ENSMUSG00000050335.18",
+                  "chromosome": "chr14",
+                  "strand": "+",
+                  "breakpoint": 47622982,
+                  "junction_exon": 6,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 47611270,
+                      "end": 47611409,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 47616980,
+                      "end": 47617001,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 47617510,
+                      "end": 47617875,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 47619053,
+                      "end": 47619141,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 47622059,
+                      "end": 47622224,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 47622982,
+                      "end": 47623617,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    6
+                  ]
+                },
+                {
+                  "transcript_id": "ENSMUST00000146468.4",
+                  "gene_id": "ENSMUSG00000050335.18",
+                  "chromosome": "chr14",
+                  "strand": "+",
+                  "breakpoint": 47622982,
+                  "junction_exon": 6,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 47611421,
+                      "end": 47611579,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 47616980,
+                      "end": 47617001,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 47617510,
+                      "end": 47617875,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 47619053,
+                      "end": 47619141,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 47622059,
+                      "end": 47622224,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 47622982,
+                      "end": 47623251,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    6
+                  ]
+                },
+                {
+                  "transcript_id": "ENSMUST00000150290.9",
+                  "gene_id": "ENSMUSG00000050335.18",
+                  "chromosome": "chr14",
+                  "strand": "+",
+                  "breakpoint": 47622982,
+                  "junction_exon": 6,
+                  "exons": [
+                    {
+                      "exon_number": 1,
+                      "start": 47611346,
+                      "end": 47611436,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 2,
+                      "start": 47616980,
+                      "end": 47617001,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 3,
+                      "start": 47617510,
+                      "end": 47617875,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 4,
+                      "start": 47619053,
+                      "end": 47619141,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 5,
+                      "start": 47622059,
+                      "end": 47622224,
+                      "strand": "+"
+                    },
+                    {
+                      "exon_number": 6,
+                      "start": 47622982,
+                      "end": 47623545,
+                      "strand": "+"
+                    }
+                  ],
+                  "retained_exon_numbers": [
+                    6
+                  ]
+                }
+              ],
+              "selection_rule": "Lexicographically first exact60nt-matched transcript; representative annotation,not an isoform uniquely validated by the probe."
+            }
+          }
+        }
+      ],
+      "protein_claim": "No validated protein ORF is assigned by this diagram."
+    }
+  ],
+  "input_sha256": {
+    "results/dataset_reconstruction/probe_sequence_mapping.tsv": "430ea86c993379927fc59468dee6d96cfa1257866168511b6852745c6c5c2455",
+    "results/dataset_reconstruction/probe_junctions.tsv": "553715b0cff1e6c8dbb8c0b97785e941e10f8d1efde9d770cb1e4f9cbc5ff89f",
+    "results/classifier/predictions.tsv": "012ca471c5ce4cd504f515b6e64a7d3d0c7321f1e63cd91e3cc500f4a7f1d4ca",
+    "data/reference/gencode.vM28.annotation.gtf.gz": "ac3a1ecbc9c6e4eb332cc37fa98338d15e13185426ceb9c98d11e5f4e0e4341f"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "utc": "2026-09-19T15:12:51.909678+00:00",
+  "instances": [
+    {
+      "name": "chrna-pilot-cpu-20260919",
+      "id": "6k9lx0737",
+      "status": "RUNNING",
+      "build_status": "BUILDING",
+      "shell_status": "NOT READY",
+      "health_status": "UNAVAILABLE",
+      "instance_type": "n2d-standard-16",
+      "instance_kind": "cpu",
+      "gpu": "-"
+    }
+  ]
+}

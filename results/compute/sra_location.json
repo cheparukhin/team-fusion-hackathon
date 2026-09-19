@@ -1,0 +1,28 @@
+{
+  "version": "2",
+  "result": [
+    {
+      "bundle": "SRR37513722",
+      "status": 200,
+      "msg": "ok",
+      "files": [
+        {
+          "object": "srapub|SRR37513722",
+          "accession": "SRR37513722",
+          "type": "sra",
+          "name": "SRR37513722",
+          "size": 15655336100,
+          "md5": "c03997f182aa78a05f9cfb91ba29102d",
+          "modificationDate": "2026-03-07T13:13:56Z",
+          "locations": [
+            {
+              "service": "s3",
+              "region": "us-east-1",
+              "link": "https://sra-pub-run-odp.s3.amazonaws.com/sra/SRR37513722/SRR37513722"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

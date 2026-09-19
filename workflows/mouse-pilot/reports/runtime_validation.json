@@ -1,0 +1,34 @@
+{
+  "date": "2026-09-19",
+  "source_commit": "a292ed3412619fd7827d8ff4aee42cc2cfe686e6",
+  "local": {
+    "platform": "macOS arm64",
+    "python": "3.12.14",
+    "tests_passed": 14,
+    "notebook_executed_top_to_bottom": true,
+    "notebook_html_visually_inspected": true,
+    "chart_visually_inspected": true
+  },
+  "remote": {
+    "platform": "Linux x86_64, Brev CPU instance",
+    "python": "3.12.3",
+    "tests_passed": 14,
+    "public_source_refetch_and_hash_verification": true,
+    "baseline_counts_match_local": true,
+    "codex_cli_installed_version": "0.155.1",
+    "brev_cli_installed_version": "0.6.335",
+    "gpu_used": false,
+    "remote_codex_authenticated_at_validation_time": true,
+    "remote_brev_authenticated_at_validation_time": true,
+    "sandbox_backend": "Normal bubblewrap/seccomp with application-specific AppArmor userns allowance for root-owned Codex executable",
+    "sandbox_command_execution_verified": true,
+    "read_only_write_denial_verified": true,
+    "bounded_codex_review_completed": true,
+    "codex_review_result": "No blocking defect; input-label validation strengthened after review",
+    "sandboxed_brev_inventory_verified": true,
+    "host_apparmor_namespace_restriction_enabled": true
+  },
+  "reserved_heldout_evaluated": false,
+  "foundation_model_trained": false,
+  "scope": "Verified CPU data audit and descriptive development baselines; no new biological validation."
+}

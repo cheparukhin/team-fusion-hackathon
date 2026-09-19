@@ -1,0 +1,20 @@
+{
+  "created_utc": "2026-09-19T16:12:33.205537+00:00",
+  "preview_and_frozen_protein_fasta_identical": true,
+  "protein_fasta_sha256": "2d92cf8412d1dddde6e930c5003eb04f16b38061c50574c4456cfe738e180006",
+  "independent_translation_review": "selected-sequence-review.json",
+  "sequence_count": 10,
+  "all_selected_junctions_have_one_qualifying_read": true,
+  "analytical_thresholds_changed_after_candidate_review": false,
+  "post_preview_metadata_changes": [
+    "Added explicit read-alias/original-NAME crosswalk to freeze",
+    "Added disposition categories distinguishing technical exclusion, unresolved sequence and batch deferral",
+    "Included complete read-decision ledger in freeze"
+  ],
+  "published_outcome_join_before_freeze": false,
+  "limitations": [
+    "Reference-allele assumptions remain unvalidated",
+    "One sample; selected hypotheses are singletons",
+    "No protein expression or function established"
+  ]
+}

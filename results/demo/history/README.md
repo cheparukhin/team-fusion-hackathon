@@ -1,0 +1,1 @@
+These snapshots preserve the five original report inputs and hashes before the user-authorized results/task1 → results/dataset_reconstruction directory migration. They are historical provenance, not active demo inputs or links. Current reports are under ../reports/ and were re-bound to identical scientific rows with the updated source link. Authored prose was unchanged.

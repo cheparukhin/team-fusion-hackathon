@@ -1,0 +1,22 @@
+  0%|          | 0/150 [elapsed: 00:00 remaining: ?]SUBMIT:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]PENDING:   0%|          | 0/150 [elapsed: 00:00 remaining: ?]Sleeping for 5s. Reason: PENDING
+RUNNING:   0%|          | 0/150 [elapsed: 00:06 remaining: ?]RUNNING:   3%|▎         | 5/150 [elapsed: 00:06 remaining: 03:07]Sleeping for 7s. Reason: RUNNING
+RUNNING:   3%|▎         | 5/150 [elapsed: 00:13 remaining: 03:07]RUNNING:   8%|▊         | 12/150 [elapsed: 00:13 remaining: 02:38]Sleeping for 6s. Reason: RUNNING
+RUNNING:   8%|▊         | 12/150 [elapsed: 00:20 remaining: 02:38]RUNNING:  12%|█▏        | 18/150 [elapsed: 00:20 remaining: 02:28]Sleeping for 9s. Reason: RUNNING
+COMPLETE:  12%|█▏        | 18/150 [elapsed: 00:30 remaining: 02:28]COMPLETE: 100%|██████████| 150/150 [elapsed: 00:30 remaining: 00:00]COMPLETE: 100%|██████████| 150/150 [elapsed: 00:30 remaining: 00:00]
+{
+  "status": "cached",
+  "sequence_sha256": "f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa",
+  "a3m_sha256": "aadfebaead3d1d41de13f19d09e1f942ee099ede4c34f015e356cfa715250fbb",
+  "rows": 913,
+  "wall_seconds": 30.967385600999478,
+  "finished_utc": "2026-09-19T15:41:29.815431+00:00",
+  "server": "https://api.colabfold.com",
+  "client_version": "boltz 2.2.1",
+  "client_wheel_sha256": "b8c62bbdede1922931d9203118f62c858f11aa699bf91fd4c05a5ed6a6d8b4fc",
+  "input_fasta": "runs/focused-pilot-20260919/published-control/published_architecture_control.fasta",
+  "settings": {
+    "use_env": true,
+    "use_filter": true,
+    "use_pairing": false
+  }
+}

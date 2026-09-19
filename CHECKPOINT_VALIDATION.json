@@ -1,0 +1,16 @@
+{
+  "checked_utc": "2026-09-19T23:17:46.945904+00:00",
+  "checkpoint_tests": {
+    "passed": 23,
+    "failed": 0,
+    "scope": "Saved source/tests/cached fixture snapshot in isolated temporary directory; reused existing Python 3.12 project environment",
+    "command": "PYTHONDONTWRITEBYTECODE=1 python -m pytest -q -p no:cacheprovider"
+  },
+  "credential_pattern_scan": {
+    "findings": 0,
+    "scope": "Common private-key, GitHub/OpenAI/AWS token and long bearer-token patterns in text files; not a guarantee of absence"
+  },
+  "large_animation_sha256_verified": true,
+  "full_fresh_environment_reproduction": "NOT_RUN",
+  "mouse_pipeline_reexecution": "NOT_RUN"
+}

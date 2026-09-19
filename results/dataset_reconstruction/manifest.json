@@ -1,0 +1,89 @@
+{
+  "transformation_version": "1.0.0",
+  "generated_at": "2026-09-19T23:07:17.526538+00:00",
+  "assembly": "GRCm39",
+  "annotation": "GENCODE M28",
+  "article": "https://www.nature.com/articles/s41586-026-10982-x",
+  "sources": [
+    {
+      "path": "data/raw/41586_2026_10982_MOESM3_ESM.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10982-x/MediaObjects/41586_2026_10982_MOESM3_ESM.xlsx",
+      "sha256": "bdc728d03edb59ccab315d371e46088ae52ab2944d770d39aa3561be49b2ecca",
+      "bytes": 17652,
+      "retrieved_date": "2026-09-19"
+    },
+    {
+      "path": "data/raw/41586_2026_10982_MOESM5_ESM.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10982-x/MediaObjects/41586_2026_10982_MOESM5_ESM.xlsx",
+      "sha256": "26188b51627c0c804fd102b605e81c083866ae4253d845f2f3bbc45fcf3d71ce",
+      "bytes": 3225461,
+      "retrieved_date": "2026-09-19"
+    },
+    {
+      "path": "data/raw/41586_2026_10982_MOESM6_ESM.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10982-x/MediaObjects/41586_2026_10982_MOESM6_ESM.xlsx",
+      "sha256": "28705453eb706e553f5e69a64828967f542b774b766ff23d62a99d35589e21ba",
+      "bytes": 524218,
+      "retrieved_date": "2026-09-19"
+    },
+    {
+      "path": "data/raw/41586_2026_10982_MOESM9_ESM.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10982-x/MediaObjects/41586_2026_10982_MOESM9_ESM.xlsx",
+      "sha256": "6edb01e329d622100da30c47cd8eeaf7589a325d2ab94fb06f27c0f088a7f131",
+      "bytes": 23585,
+      "retrieved_date": "2026-09-19"
+    },
+    {
+      "path": "data/raw/41586_2026_10982_MOESM10_ESM.xlsx",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10982-x/MediaObjects/41586_2026_10982_MOESM10_ESM.xlsx",
+      "sha256": "601adceec614d56f70f7ecd636278e8df13f2bf9c8dc96c6de0991ce5230cc00",
+      "bytes": 52808,
+      "retrieved_date": "2026-09-19"
+    },
+    {
+      "path": "data/reference/gencode.vM28.annotation.gtf.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M28/gencode.vM28.annotation.gtf.gz",
+      "sha256": "ac3a1ecbc9c6e4eb332cc37fa98338d15e13185426ceb9c98d11e5f4e0e4341f",
+      "bytes": 28349951,
+      "retrieved_date": "2026-09-19"
+    },
+    {
+      "path": "data/reference/gencode.vM28.transcripts.fa.gz",
+      "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_mouse/release_M28/gencode.vM28.transcripts.fa.gz",
+      "sha256": "4e187c0e7d7e9020294c3012c0f4486409962238b8ad2db260b9048005358254",
+      "bytes": 54548377,
+      "retrieved_date": "2026-09-19"
+    }
+  ],
+  "counts": {
+    "raw_probe_designs": 529,
+    "mapped_unique_panel_pairs": 527,
+    "eligible_probe_designs": 481,
+    "probe_designs_with_pair_level_support": 111,
+    "short_read_supported": 287,
+    "nanostring_supported": 109,
+    "cross_supported": 13,
+    "exact_nanostring_panel_matches": 107,
+    "sequence_resolved_nanostring_panel_matches": 109,
+    "sequence_verified_suffixes": 5,
+    "table3_read_rows": 36826,
+    "table3_unique_reads": 36826,
+    "table3_unique_pairs": 30390,
+    "unique_junctions": 31634,
+    "probe_junctions_uniquely_mapped": 529,
+    "eligible_model_pairs": 479,
+    "eligible_model_positives": 109,
+    "excluded_panel_pairs": 48,
+    "sample_count_available": 0
+  },
+  "outputs": {
+    "candidates.tsv": "50a3dbce8e15446e75fc66e6656fed385fc923abb8a005919c04630afa305ac2",
+    "gene_mapping.tsv": "0f8d50a73264a555241f4826bd0ff98edbbaaf9c27868c098111a14a8c1c3a17",
+    "junctions.tsv": "58a6996d35360d033cf2c6121f568d0dad3fb721401d96bba5472e9d732fbcab",
+    "model_input.tsv": "7bf400eb654782ea5f8a5ad5f492e17f344787e7c0d349fd39b248dc1d43303f",
+    "probe_junctions.tsv": "553715b0cff1e6c8dbb8c0b97785e941e10f8d1efde9d770cb1e4f9cbc5ff89f",
+    "probe_panel.tsv": "fe2d01b64288c9c80e4bed59df3773da269cf8d9c0cb3ae520b546af20ed0d1e",
+    "probe_sequence_mapping.tsv": "430ea86c993379927fc59468dee6d96cfa1257866168511b6852745c6c5c2455",
+    "read_evidence.tsv": "c238abb8219b2bb6c263d9214859d510271abf425c38d3edf2685d16bcca94bc"
+  }
+}

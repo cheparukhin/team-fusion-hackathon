@@ -1,0 +1,15 @@
+{
+  "created_utc": "2026-09-19T15:55:06.270370+00:00",
+  "status": "rules_recorded_before_biological_candidate_review",
+  "pilot_candidate_results_reviewed": false,
+  "published_outcomes_used_as_features": false,
+  "context": "Published architecture control was prepared separately; no published outcome joins or biological shortlist review have occurred. Retrospective reproduction, not blinded prospective validation.",
+  "sources": {
+    "docs/focused_pilot_rules.md": "cd0a2e02656866cbaac957d1b837f9eb081e8867cbfbc66569ee2795a81fd252",
+    "src/chrna/junction_ranking.py": "f1087df226d661e69142e1c42d2dd30e94645b9893edb2a406ceb0940c275012",
+    "src/chrna/pilot_assessment.py": "b48e7f5d726a68a90b76e19dab57617b0764f3067c4a9c7bb0db1e1361d689fe",
+    "src/chrna/pilot_orfs.py": "d1fe74d96f6490747e4916c4adc9de4323eb5dede57cc38ca7b9b8a5f1e36207",
+    "src/chrna/pilot_selection.py": "d17562090b2b85ac9863171dfb60e2f4e40c96affb2f5dca0342fbbdd704b04e",
+    "src/chrna/fold_inputs.py": "1ac985b34fb5fe3fe86f9a9440c509e8ee46cc082dde89a509c7f293d181b51e"
+  }
+}

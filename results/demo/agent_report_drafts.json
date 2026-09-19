@@ -1,0 +1,125 @@
+{
+  "Gsdmd:Tmem106a": [
+    {
+      "kind": "observation",
+      "text": "The published pair is reported NanoString-supported, with 1 deduplicated long-read ID in the reconstructed evidence. The primary paper separately reports PCR and Sanger evidence for a Gsdmd\u2013Tmem106a junction and inflammation-responsive expression.",
+      "source_ids": [
+        "candidate_evidence",
+        "paper_examples"
+      ]
+    },
+    {
+      "kind": "inference",
+      "text": "The paper's perturbation experiments support a role for CTCF-dependent genome contacts in formation of this example. That biological mechanism motivates the spatial hypothesis; the candidate-level contact feature shown here comes from a separate extraction of processed Hi-C data.",
+      "source_ids": [
+        "paper_spatial",
+        "candidate_evidence"
+      ]
+    },
+    {
+      "kind": "unknown",
+      "text": "The reconstructed pair-level label does not establish validation of every listed junction. Biological sample count and per-probe testing/QC status are unavailable, and the RNA score is not a calibrated probability of authenticity.",
+      "source_ids": [
+        "candidate_evidence"
+      ]
+    }
+  ],
+  "Cd274:Lacc1": [
+    {
+      "kind": "observation",
+      "text": "This interchromosomal ordered pair has reported NanoString support and 1 deduplicated long-read ID. The source paper separately reports confirmation of its junction and LPS responsiveness.",
+      "source_ids": [
+        "candidate_evidence",
+        "paper_examples"
+      ]
+    },
+    {
+      "kind": "observation",
+      "text": "In the paper, Ctcf depletion reduced Cd274\u2013Lacc1 without changing either parent gene. This is experimental context from the publication, not a result produced by the classifier.",
+      "source_ids": [
+        "paper_spatial"
+      ]
+    },
+    {
+      "kind": "unknown",
+      "text": "Published short-read support is not reported for this pair in the joined list. That absence and the unknown assay QC status do not negate the separate NanoString or paper evidence. The report does not establish a translated protein or a therapeutic function.",
+      "source_ids": [
+        "candidate_evidence",
+        "paper_examples"
+      ]
+    }
+  ],
+  "Psap:Lgals3": [
+    {
+      "kind": "observation",
+      "text": "This interchromosomal pair has 6 deduplicated long-read IDs but is not reported supported in the published NanoString list. Its high RNA model score is a retrospective ranking of reporting status, not independent experimental support.",
+      "source_ids": [
+        "candidate_evidence"
+      ]
+    },
+    {
+      "kind": "inference",
+      "text": "The disagreement between a high model score and the recorded support label makes this a useful example of model uncertainty. It cannot distinguish a missed assay signal from an unsupported candidate, and it does not justify changing the label.",
+      "source_ids": [
+        "candidate_evidence"
+      ]
+    },
+    {
+      "kind": "unknown",
+      "text": "Testing/QC status and biological sample count are unknown. The provided source passages do not establish candidate-specific function for Psap\u2013Lgals3; function cannot be inferred from its parent gene names.",
+      "source_ids": [
+        "candidate_evidence",
+        "paper_assay"
+      ]
+    }
+  ],
+  "Rb1:Itm2b": [
+    {
+      "kind": "observation",
+      "text": "This intrachromosomal ordered pair has 3 deduplicated long-read IDs and is reported supported in both the NanoString and short-read lists. These are separate evidence streams; short-read reporting is not a primary classifier feature.",
+      "source_ids": [
+        "candidate_evidence"
+      ]
+    },
+    {
+      "kind": "inference",
+      "text": "Concordant reported evidence makes the pair traceable across published assays, but an intrachromosomal example cannot by itself substantiate a general claim about interchromosomal trans-splicing.",
+      "source_ids": [
+        "candidate_evidence"
+      ]
+    },
+    {
+      "kind": "unknown",
+      "text": "The biological sample count and individual assay QC remain unavailable. Pair-level reporting does not identify which listed junction isoforms were supported, and these passages do not establish a functional protein for this pair.",
+      "source_ids": [
+        "candidate_evidence",
+        "paper_assay"
+      ]
+    }
+  ],
+  "Aoah:Sirt5": [
+    {
+      "kind": "observation",
+      "text": "The reconciled intrachromosomal ordered pair is reported NanoString-supported and short-read-supported, with 2 deduplicated long-read IDs. Original probe identities and sequences are retained below so the mapping can be audited.",
+      "source_ids": [
+        "candidate_evidence"
+      ]
+    },
+    {
+      "kind": "inference",
+      "text": "The published assay design spans RNA junctions, while this model's reporting label is aggregated at the ordered gene-pair level. A gene-pair match therefore does not establish that every retained probe or junction was validated.",
+      "source_ids": [
+        "paper_assay",
+        "candidate_evidence"
+      ]
+    },
+    {
+      "kind": "unknown",
+      "text": "Biological sample count and individual assay testing/QC remain unknown. Missing spatial enrichment is not zero contact, and the available source passages do not support a candidate-specific function claim.",
+      "source_ids": [
+        "candidate_evidence",
+        "paper_assay"
+      ]
+    }
+  ]
+}

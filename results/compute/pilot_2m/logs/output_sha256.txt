@@ -1,0 +1,2 @@
+a21372719c2b25a4a4a1fefe4fb5e6d18f0a134b5b32a859ed1ab921b87ad5dc  output/SRR37513722.bam
+457fb592ab65b28d2760315f282a310cf1ac404b4ae1aee2f749b7b752880d0a  output/Chimeric.out.junction

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 145" role="img" aria-label="Reference-assisted observed RNA path and spanning ORF">
+<rect width="900" height="145" fill="white"/>
+<text x="35" y="20" font-size="13">Reference-assisted RNA fragment (1656 nt); not a full-transcript assertion</text>
+<rect x="35" y="40" width="194.97" height="20" fill="#167d8d"/>
+<rect x="229.97" y="40" width="635.03" height="20" fill="#95613b"/>
+<rect x="229.97" y="35" width="2.00" height="30" fill="#be3c58"/>
+<rect x="136.75" y="90" width="336.81" height="18" fill="#46529b"/>
+<text x="35" y="130" font-size="13">ORF 203–875 nt; junction interval 389–389; protein existence UNKNOWN</text>
+</svg>

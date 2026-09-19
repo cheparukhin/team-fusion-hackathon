@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-09-19T23:08:16.605108+00:00",
+  "status": "complete",
+  "new_compute_cost_usd": 0,
+  "nvidia_nim_executed": false,
+  "technology_audit": "BioNeMo OpenFold3 and Boltz2 NIM skills inspected first; no hosted credentials available. Reused actual open-source Boltz2 GPU result; no new instance started or altered.",
+  "comparison_png": "results/structures/structure_comparison.png",
+  "comparison_pdf": "results/structures/structure_comparison.pdf",
+  "methods": "results/structures/METHODS.md",
+  "assets": [
+    {
+      "asset_id": "gsdmd_tmem106a_prediction",
+      "candidate_id": "Gsdmd:Tmem106a",
+      "pair_id": "Gsdmd:Tmem106a",
+      "title": "Gsdmd:Tmem106a \u00b7 118 aa",
+      "structure_type": "predicted",
+      "sequence_status": "reference_reconstruction_matching_published_constraints",
+      "method": "Boltz2 2.2.1; reused actual prior GPU prediction",
+      "source": "Existing focused-pilot-20260919, independently sequence-verified",
+      "sequence_fasta": "results/structures/gsdmd_tmem106a/sequence.fasta",
+      "structure_file": "results/structures/gsdmd_tmem106a/model.cif",
+      "png": "results/structures/gsdmd_tmem106a/labeled.png",
+      "cartoon_png": "results/structures/gsdmd_tmem106a/cartoon.png",
+      "svg": "results/structures/gsdmd_tmem106a/backbone.svg",
+      "svg_representation": "C-alpha backbone trace",
+      "residue_sources": [
+        {
+          "start": 1,
+          "end": 73,
+          "label": "GSDMD-identical N-terminus",
+          "color": "#0000FF"
+        },
+        {
+          "start": 74,
+          "end": 118,
+          "label": "Novel out-of-frame chimeric tail; not canonical TMEM106A protein",
+          "color": "#D22D27"
+        }
+      ],
+      "confidence_png": "results/structures/gsdmd_tmem106a/confidence_plot.png",
+      "confidence_svg": "results/structures/gsdmd_tmem106a/confidence_plot.svg",
+      "confidence": {
+        "sequence_matches_coordinate_residues": true,
+        "experimental_shared_residues_match": true,
+        "mean_plddt": 48.704315185546875,
+        "mean_plddt_shared_1_73": 51.20903015136719,
+        "mean_plddt_novel_74_118": 44.641109466552734,
+        "fraction_below_50": 0.5338983050847458,
+        "ptm": 0.33591821789741516,
+        "parent_shared_residues_observed": 69,
+        "parent_shared_residues_missing": [
+          1,
+          71,
+          72,
+          73
+        ]
+      },
+      "interpretation": "Low-confidence candidate model; not experimental structure or proof of a stable fold, expression, function or druggability."
+    },
+    {
+      "asset_id": "gsdmd_experimental_parent",
+      "candidate_id": "Gsdmd:Tmem106a",
+      "pair_id": "Gsdmd:Tmem106a",
+      "title": "Experimental mouse GSDMD parent",
+      "structure_type": "experimental_template",
+      "method": "X-ray diffraction",
+      "resolution_angstrom": 3.3,
+      "organism": "Mus musculus",
+      "pdb_id": "6N9N",
+      "chain": "A",
+      "source": "https://www.rcsb.org/structure/6N9N",
+      "structure_file": "results/structures/gsdmd_parent/6N9N.cif",
+      "png": "results/structures/gsdmd_parent/cartoon.png",
+      "svg": "results/structures/gsdmd_parent/backbone.svg",
+      "svg_representation": "C-alpha backbone trace",
+      "residue_sources": [
+        {
+          "start": 1,
+          "end": 73,
+          "label": "Shared parent region: 69 observed residues",
+          "color": "#0000FF"
+        },
+        {
+          "start": 74,
+          "end": 484,
+          "label": "Remainder of experimental GSDMD parent",
+          "color": "#C6CBD2"
+        }
+      ],
+      "interpretation": "Separate experimental parent reference, not a chimera or a model constructed by joining parent folds."
+    }
+  ],
+  "candidate_availability": [
+    {
+      "pair_id": "Gsdmd:Tmem106a",
+      "candidate_structure_available": true,
+      "status": "reference-reconstructed 118 aa Boltz2 prediction; low confidence",
+      "experimental_parent": "6N9N chain A",
+      "reason": "Exact reconstruction independently verified; author-provided full sequence not retrieved"
+    },
+    {
+      "pair_id": "Cd274:Lacc1",
+      "candidate_structure_available": false,
+      "status": "unavailable",
+      "experimental_parent": "not included",
+      "reason": "Exact RNA probe/exon mapping available; validated complete candidate ORF and candidate-specific coordinates unavailable"
+    },
+    {
+      "pair_id": "Psap:Lgals3",
+      "candidate_structure_available": false,
+      "status": "unavailable",
+      "experimental_parent": "not included",
+      "reason": "Exact RNA probe/exon mapping available; validated complete candidate ORF and candidate-specific coordinates unavailable"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "results/structures/METHODS.md",
+      "sha256": "26b2d3d80979a4a7400ed6916d63cab551f1a3e1a3206e4030af8cc97a3f47e2",
+      "size_bytes": 6255
+    },
+    {
+      "path": "results/structures/STATUS.md",
+      "sha256": "a2c2fcb2ff5c1e278ad329ffe0517b2011dbaf681c000bd13d9bf6550373091e",
+      "size_bytes": 919
+    },
+    {
+      "path": "results/structures/candidate_availability.tsv",
+      "sha256": "e6014540c410880326e9117a5b58953315fcaab6c6d89feeabee45766b325423",
+      "size_bytes": 589
+    },
+    {
+      "path": "results/structures/gsdmd_parent/6N9N.cif",
+      "sha256": "3a59a356283e311b915e123d8b92efcd93b42ca9049a50e5873ac605865d4f52",
+      "size_bytes": 632140
+    },
+    {
+      "path": "results/structures/gsdmd_parent/backbone.svg",
+      "sha256": "43ad6c43025368fcc3d8277c487153f62c74881d504453c01dcfc95da8b92075",
+      "size_bytes": 780075
+    },
+    {
+      "path": "results/structures/gsdmd_parent/cartoon.png",
+      "sha256": "3b8a7ba879c139a252b3b40a7fa5f7d94cda02eb80e820f282be80038d18a379",
+      "size_bytes": 1048065
+    },
+    {
+      "path": "results/structures/gsdmd_parent/rcsb_entity.json",
+      "sha256": "5e8438c7626d42c76a86bc91ed9b075427b68f9a0bfd2dcefb8fec8ff8889ce5",
+      "size_bytes": 50909
+    },
+    {
+      "path": "results/structures/gsdmd_parent/rcsb_entry.json",
+      "sha256": "60dc9ab23e95d228c09a2205cb35cc36ab04feda25289774e6ccdd1c3559ed6b",
+      "size_bytes": 12076
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/backbone.svg",
+      "sha256": "6a0f3c656ca74ba0c5e7e02e3073c8597777ad2daf07c79d6b4faf242810bcc2",
+      "size_bytes": 245543
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/cached_inference_provenance.json",
+      "sha256": "77da8c89bcc862db088dbd9adf1c5c74a877804e1cab4be1b0c3e4d921b1f5ed",
+      "size_bytes": 7293
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/cartoon.png",
+      "sha256": "a61e4a7a6643c4c8447d402a70175638303eddd024bf8c799c335b9bd5f6c581",
+      "size_bytes": 455244
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/confidence.json",
+      "sha256": "1d2a89be29784eebe094054b71e82a7638c27f966d3d3bfc9430766a80fb0214",
+      "size_bytes": 445
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/confidence_plot.png",
+      "sha256": "8d6c9b64b2625f26391803b1d2b252b6471843e3081a20ed9e60689088d9b9e9",
+      "size_bytes": 176608
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/confidence_plot.svg",
+      "sha256": "baaabb818a82c75d9021df4bc6bbb6b36582c72d4fe523921da64bf2c5db4dfc",
+      "size_bytes": 14844
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/input.fasta",
+      "sha256": "56f5da707fd28dcc342bbc318924ef3a47bdef4f566fd4f5c154db588dd636fd",
+      "size_bytes": 193
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/input.yaml",
+      "sha256": "18e8be24263b4e0a29f9e972204d82571c89e4f5d212aaaa8355c93c24aa7d29",
+      "size_bytes": 340
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/labeled.png",
+      "sha256": "bf4b7b41fda0df881af44b6bfd5ede3d25edfa9cae0e82c707cfb4d16ff62a7e",
+      "size_bytes": 478251
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/model.cif",
+      "sha256": "d2b318e1f2ab28d8ef75df7e336b7022b583a608a9ca452685df7765a4421049",
+      "size_bytes": 80964
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/msa.a3m",
+      "sha256": "aadfebaead3d1d41de13f19d09e1f942ee099ede4c34f015e356cfa715250fbb",
+      "size_bytes": 164944
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/msa.json",
+      "sha256": "5da8933fa1f6bd71125b87e3a3684e7a142d7860f1b8b57211fda897bde72298",
+      "size_bytes": 1729
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/pae.npz",
+      "sha256": "a865ccdce7f4992d3e2e57efa6e4f09dd00a7b98171c3b94812d5857a53d6135",
+      "size_bytes": 48578
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/pde.npz",
+      "sha256": "b5468f57e935d626e16ed8734e6641121b8d9e82df4f530ee9a34dc5056b44de",
+      "size_bytes": 42792
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/plddt.npz",
+      "sha256": "6027851f17082ff92387312ce4c41b9809eac73bf1264edbb713363815ac0a17",
+      "size_bytes": 678
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/prediction.yaml",
+      "sha256": "061baaf1c3909b0b9139115d9d7cb146772909ff8873dfe16b83d072bac79f23",
+      "size_bytes": 201
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/reconstruction_provenance.json",
+      "sha256": "d87be49aa7ef35b7e45a5213708e58a53e8bca93a66256732eab45592d3593c4",
+      "size_bytes": 9929
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/rna.fasta",
+      "sha256": "edaac4b279ba15a188da4d4d112c8f94684a2431069bde4691f77cb9e5458052",
+      "size_bytes": 2130
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/sequence.fasta",
+      "sha256": "05a69e490143897ac78fc263284ac5768c34fd833aeca3046ab8883d4ceef4aa",
+      "size_bytes": 216
+    },
+    {
+      "path": "results/structures/render_views.json",
+      "sha256": "1a592fcdacf4e4a35e5d5f545c6004029cbdac3ca487c8eb1a3203a8d49237da",
+      "size_bytes": 838
+    },
+    {
+      "path": "results/structures/source_manifest.json",
+      "sha256": "30a7b8a1f5dd5aa2839ab0aafdaa17ddc28ce95ebc75ef2dd4965058284928d2",
+      "size_bytes": 6124
+    },
+    {
+      "path": "results/structures/structure_comparison.pdf",
+      "sha256": "b25ea17e1dfcd98e6484db2a984466392f1a1c14a9e11a939b919167a470caf6",
+      "size_bytes": 241700
+    },
+    {
+      "path": "results/structures/structure_comparison.png",
+      "sha256": "316969c8f5cd5723ba41b2170e7b4cbb9a409b75c1562a09cba99d15e961c09d",
+      "size_bytes": 1218275
+    },
+    {
+      "path": "results/structures/validation.json",
+      "sha256": "cac7850382ae8f8e31776efe9dd67584a5be73de5a5c93489d7ae8ec92e5823c",
+      "size_bytes": 416
+    }
+  ]
+}

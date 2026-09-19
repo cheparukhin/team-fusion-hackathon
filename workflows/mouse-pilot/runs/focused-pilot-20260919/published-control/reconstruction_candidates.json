@@ -1,0 +1,1378 @@
+[
+  {
+    "parent_transcripts": [
+      "ENSMUST00000023238.6",
+      "ENSMUST00000039581.14"
+    ],
+    "checks": {
+      "figure3a_length_118": true,
+      "figure3a_parent_first73": true,
+      "figure3h_tail_start_ECPEHL": true,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": true
+    },
+    "protein": "MPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCVNLSIKDILEPSAPEPECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "GGTTTCACTTTTGTGTCCTGCCGCCTGAGTTCCGCTCTTGGTCGTGGCTCCCGTTGCTCCCGGGTTGAGCAGACAATAGACCCCTCCCCGGCATCCCAGCAGGTCCTCGCTTCGCTTGGTGGACCCAGATACCTCGGCAGGGGTGAAAAATCGAGGACCATGCCATCGGCCTTTGAGAAAGTGGTCAAGAATGTGATCAAGGAGGTAAGCGGCAGCAGAGGCGATCTCATTCCGGTGGACAGCCTGCGGAACTCCACCAGCTTCAGGCCCTACTGCCTTCTGAACAGGAAATTTTCAAGCTCAAGGTTCTGGAAACCCCGTTATTCATGTGTCAACCTGTCAATCAAGGACATCCTGGAGCCCAGTGCTCCAGAACCAGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 159,
+      "stop_start": 513,
+      "end_including_stop": 516,
+      "frame": 0,
+      "protein": "MPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCVNLSIKDILEPSAPEPECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 354
+    },
+    "junction_offset": 379,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75734175,
+        "end": 75734330,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481394,
+        "source_line": "chr15\tHAVANA\texon\t75734176\t75734330\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000023238.6\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-201\"; exon_number 1; exon_id \"ENSMUSE00001439462.2\"; level 2; protein_id \"ENSMUSP00000023238.5\"; transcript_support_level \"1\"; mgi_id \"MGI:1916396\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS27551.1\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171147.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75735253,
+        "end": 75735477,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481395,
+        "source_line": "chr15\tHAVANA\texon\t75735254\t75735477\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000023238.6\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-201\"; exon_number 2; exon_id \"ENSMUSE00000252508.5\"; level 2; protein_id \"ENSMUSP00000023238.5\"; transcript_support_level \"1\"; mgi_id \"MGI:1916396\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS27551.1\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171147.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221156,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221158,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221160,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221162,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000023238.6",
+      "ENSMUST00000100403.9"
+    ],
+    "checks": {
+      "figure3a_length_118": true,
+      "figure3a_parent_first73": true,
+      "figure3h_tail_start_ECPEHL": true,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": true
+    },
+    "protein": "MPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCVNLSIKDILEPSAPEPECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "GGTTTCACTTTTGTGTCCTGCCGCCTGAGTTCCGCTCTTGGTCGTGGCTCCCGTTGCTCCCGGGTTGAGCAGACAATAGACCCCTCCCCGGCATCCCAGCAGGTCCTCGCTTCGCTTGGTGGACCCAGATACCTCGGCAGGGGTGAAAAATCGAGGACCATGCCATCGGCCTTTGAGAAAGTGGTCAAGAATGTGATCAAGGAGGTAAGCGGCAGCAGAGGCGATCTCATTCCGGTGGACAGCCTGCGGAACTCCACCAGCTTCAGGCCCTACTGCCTTCTGAACAGGAAATTTTCAAGCTCAAGGTTCTGGAAACCCCGTTATTCATGTGTCAACCTGTCAATCAAGGACATCCTGGAGCCCAGTGCTCCAGAACCAGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 159,
+      "stop_start": 513,
+      "end_including_stop": 516,
+      "frame": 0,
+      "protein": "MPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCVNLSIKDILEPSAPEPECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 354
+    },
+    "junction_offset": 379,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75734175,
+        "end": 75734330,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481394,
+        "source_line": "chr15\tHAVANA\texon\t75734176\t75734330\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000023238.6\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-201\"; exon_number 1; exon_id \"ENSMUSE00001439462.2\"; level 2; protein_id \"ENSMUSP00000023238.5\"; transcript_support_level \"1\"; mgi_id \"MGI:1916396\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS27551.1\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171147.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75735253,
+        "end": 75735477,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481395,
+        "source_line": "chr15\tHAVANA\texon\t75735254\t75735477\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000023238.6\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-201\"; exon_number 2; exon_id \"ENSMUSE00000252508.5\"; level 2; protein_id \"ENSMUSP00000023238.5\"; transcript_support_level \"1\"; mgi_id \"MGI:1916396\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS27551.1\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171147.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221179,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221181,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221183,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221185,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000230514.2",
+      "ENSMUST00000039581.14"
+    ],
+    "checks": {
+      "figure3a_length_118": false,
+      "figure3a_parent_first73": false,
+      "figure3h_tail_start_ECPEHL": false,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": false
+    },
+    "protein": "MGFLSAGGTKYGALPSAPRTMPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "GTGTCCTGCCGCCTGAGTTCCGCTCTTGGTCGTGGCTCCCGTTGCTCCCGGGTTGAGCAGACAATAGACCCCTCCCCGGCATCCCAGCAGGTCCTCGCTTCGCTTGGTGGACCCAGATACCTCGGCAGGGGTGAAAAATCGAGGAATGTGCCAGGACTAACAAGGCAAGGCTACTTTGAAGGGATGGGGTTCCTGAGTGCTGGAGGAACTAAGTACGGAGCCCTGCCGTCTGCCCCCAGGACCATGCCATCGGCCTTTGAGAAAGTGGTCAAGAATGTGATCAAGGAGGTAAGCGGCAGCAGAGGCGATCTCATTCCGGTGGACAGCCTGCGGAACTCCACCAGCTTCAGGCCCTACTGCCTTCTGAACAGGAAATTTTCAAGCTCAAGGTTCTGGAAACCCCGTTATTCATGTGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 183,
+      "stop_start": 549,
+      "end_including_stop": 552,
+      "frame": 0,
+      "protein": "MGFLSAGGTKYGALPSAPRTMPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 366
+    },
+    "junction_offset": 415,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75734187,
+        "end": 75734330,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481421,
+        "source_line": "chr15\tHAVANA\texon\t75734188\t75734330\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230514.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-203\"; exon_number 1; exon_id \"ENSMUSE00000511641.4\"; level 2; protein_id \"ENSMUSP00000155766.2\"; mgi_id \"MGI:1916396\"; tag \"alternative_5_UTR\"; tag \"mRNA_end_NF\"; tag \"cds_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171148.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75735157,
+        "end": 75735429,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481422,
+        "source_line": "chr15\tHAVANA\texon\t75735158\t75735429\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230514.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-203\"; exon_number 2; exon_id \"ENSMUSE00001438043.2\"; level 2; protein_id \"ENSMUSP00000155766.2\"; mgi_id \"MGI:1916396\"; tag \"alternative_5_UTR\"; tag \"mRNA_end_NF\"; tag \"cds_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171148.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221156,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221158,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221160,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221162,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000230514.2",
+      "ENSMUST00000039581.14"
+    ],
+    "checks": {
+      "figure3a_length_118": false,
+      "figure3a_parent_first73": false,
+      "figure3h_tail_start_ECPEHL": false,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": false
+    },
+    "protein": "MPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "GTGTCCTGCCGCCTGAGTTCCGCTCTTGGTCGTGGCTCCCGTTGCTCCCGGGTTGAGCAGACAATAGACCCCTCCCCGGCATCCCAGCAGGTCCTCGCTTCGCTTGGTGGACCCAGATACCTCGGCAGGGGTGAAAAATCGAGGAATGTGCCAGGACTAACAAGGCAAGGCTACTTTGAAGGGATGGGGTTCCTGAGTGCTGGAGGAACTAAGTACGGAGCCCTGCCGTCTGCCCCCAGGACCATGCCATCGGCCTTTGAGAAAGTGGTCAAGAATGTGATCAAGGAGGTAAGCGGCAGCAGAGGCGATCTCATTCCGGTGGACAGCCTGCGGAACTCCACCAGCTTCAGGCCCTACTGCCTTCTGAACAGGAAATTTTCAAGCTCAAGGTTCTGGAAACCCCGTTATTCATGTGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 243,
+      "stop_start": 549,
+      "end_including_stop": 552,
+      "frame": 0,
+      "protein": "MPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 306
+    },
+    "junction_offset": 415,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75734187,
+        "end": 75734330,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481421,
+        "source_line": "chr15\tHAVANA\texon\t75734188\t75734330\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230514.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-203\"; exon_number 1; exon_id \"ENSMUSE00000511641.4\"; level 2; protein_id \"ENSMUSP00000155766.2\"; mgi_id \"MGI:1916396\"; tag \"alternative_5_UTR\"; tag \"mRNA_end_NF\"; tag \"cds_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171148.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75735157,
+        "end": 75735429,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481422,
+        "source_line": "chr15\tHAVANA\texon\t75735158\t75735429\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230514.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-203\"; exon_number 2; exon_id \"ENSMUSE00001438043.2\"; level 2; protein_id \"ENSMUSP00000155766.2\"; mgi_id \"MGI:1916396\"; tag \"alternative_5_UTR\"; tag \"mRNA_end_NF\"; tag \"cds_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171148.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221156,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221158,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221160,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221162,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000230514.2",
+      "ENSMUST00000100403.9"
+    ],
+    "checks": {
+      "figure3a_length_118": false,
+      "figure3a_parent_first73": false,
+      "figure3h_tail_start_ECPEHL": false,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": false
+    },
+    "protein": "MGFLSAGGTKYGALPSAPRTMPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "GTGTCCTGCCGCCTGAGTTCCGCTCTTGGTCGTGGCTCCCGTTGCTCCCGGGTTGAGCAGACAATAGACCCCTCCCCGGCATCCCAGCAGGTCCTCGCTTCGCTTGGTGGACCCAGATACCTCGGCAGGGGTGAAAAATCGAGGAATGTGCCAGGACTAACAAGGCAAGGCTACTTTGAAGGGATGGGGTTCCTGAGTGCTGGAGGAACTAAGTACGGAGCCCTGCCGTCTGCCCCCAGGACCATGCCATCGGCCTTTGAGAAAGTGGTCAAGAATGTGATCAAGGAGGTAAGCGGCAGCAGAGGCGATCTCATTCCGGTGGACAGCCTGCGGAACTCCACCAGCTTCAGGCCCTACTGCCTTCTGAACAGGAAATTTTCAAGCTCAAGGTTCTGGAAACCCCGTTATTCATGTGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 183,
+      "stop_start": 549,
+      "end_including_stop": 552,
+      "frame": 0,
+      "protein": "MGFLSAGGTKYGALPSAPRTMPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 366
+    },
+    "junction_offset": 415,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75734187,
+        "end": 75734330,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481421,
+        "source_line": "chr15\tHAVANA\texon\t75734188\t75734330\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230514.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-203\"; exon_number 1; exon_id \"ENSMUSE00000511641.4\"; level 2; protein_id \"ENSMUSP00000155766.2\"; mgi_id \"MGI:1916396\"; tag \"alternative_5_UTR\"; tag \"mRNA_end_NF\"; tag \"cds_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171148.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75735157,
+        "end": 75735429,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481422,
+        "source_line": "chr15\tHAVANA\texon\t75735158\t75735429\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230514.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-203\"; exon_number 2; exon_id \"ENSMUSE00001438043.2\"; level 2; protein_id \"ENSMUSP00000155766.2\"; mgi_id \"MGI:1916396\"; tag \"alternative_5_UTR\"; tag \"mRNA_end_NF\"; tag \"cds_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171148.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221179,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221181,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221183,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221185,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000230514.2",
+      "ENSMUST00000100403.9"
+    ],
+    "checks": {
+      "figure3a_length_118": false,
+      "figure3a_parent_first73": false,
+      "figure3h_tail_start_ECPEHL": false,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": false
+    },
+    "protein": "MPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "GTGTCCTGCCGCCTGAGTTCCGCTCTTGGTCGTGGCTCCCGTTGCTCCCGGGTTGAGCAGACAATAGACCCCTCCCCGGCATCCCAGCAGGTCCTCGCTTCGCTTGGTGGACCCAGATACCTCGGCAGGGGTGAAAAATCGAGGAATGTGCCAGGACTAACAAGGCAAGGCTACTTTGAAGGGATGGGGTTCCTGAGTGCTGGAGGAACTAAGTACGGAGCCCTGCCGTCTGCCCCCAGGACCATGCCATCGGCCTTTGAGAAAGTGGTCAAGAATGTGATCAAGGAGGTAAGCGGCAGCAGAGGCGATCTCATTCCGGTGGACAGCCTGCGGAACTCCACCAGCTTCAGGCCCTACTGCCTTCTGAACAGGAAATTTTCAAGCTCAAGGTTCTGGAAACCCCGTTATTCATGTGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 243,
+      "stop_start": 549,
+      "end_including_stop": 552,
+      "frame": 0,
+      "protein": "MPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 306
+    },
+    "junction_offset": 415,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75734187,
+        "end": 75734330,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481421,
+        "source_line": "chr15\tHAVANA\texon\t75734188\t75734330\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230514.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-203\"; exon_number 1; exon_id \"ENSMUSE00000511641.4\"; level 2; protein_id \"ENSMUSP00000155766.2\"; mgi_id \"MGI:1916396\"; tag \"alternative_5_UTR\"; tag \"mRNA_end_NF\"; tag \"cds_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171148.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75735157,
+        "end": 75735429,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481422,
+        "source_line": "chr15\tHAVANA\texon\t75735158\t75735429\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230514.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-203\"; exon_number 2; exon_id \"ENSMUSE00001438043.2\"; level 2; protein_id \"ENSMUSP00000155766.2\"; mgi_id \"MGI:1916396\"; tag \"alternative_5_UTR\"; tag \"mRNA_end_NF\"; tag \"cds_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171148.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221179,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221181,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221183,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221185,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000230881.2",
+      "ENSMUST00000039581.14"
+    ],
+    "checks": {
+      "figure3a_length_118": false,
+      "figure3a_parent_first73": false,
+      "figure3h_tail_start_ECPEHL": false,
+      "methods_antibody_peptide": false,
+      "reported_mutation_positions": false
+    },
+    "protein": "MCQPVNQGHPGAQCSRTRYLLSHLDPPRLNRREWAKPSLNVLNIFNSNFYPITVTQLTAEVLHQASVVGQVTSSLRLHIGPLASEQMPYEVASRILDENTYKICTWPKIRVHHILLNIQGSLTCSFLSHPQQLPFESFEYVDCRENMSLPHLELPRPA",
+    "rna": "TTGGTCGTGGCTCCCGTTGCTCCCGGGTTGAGCAGACAATAGACCCCTCCCCGGCATCCCAGCAGGTCCTCGCTTCGCTTGGTGGACCCAGATACCTCGGCAGGGGTGAAAAATCGAGGACCATGCCATCGGCCTTTGAGAAAGTGGTCAAGAATGTGATCAAGGAGGTAAGCGGCAGCAGAGGCGATCTCATTCCGGTGGACAGCCTGCGGAACTCCACCAGCTTCAGGCCCTACTGCCTTCTGAACAGGAAATTTTCAAGCTCAAGGTTCTGGAAACCCCGTTATTCATGTGTCAACCTGTCAATCAAGGACATCCTGGAGCCCAGTGCTCCAGAACCAGGTATCTTCTTTCCCATCTTGATCCCCCAAGATTGAACAGAAGGGAATGGGCAAAGCCCAGCCTGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 289,
+      "stop_start": 763,
+      "end_including_stop": 766,
+      "frame": 1,
+      "protein": "MCQPVNQGHPGAQCSRTRYLLSHLDPPRLNRREWAKPSLNVLNIFNSNFYPITVTQLTAEVLHQASVVGQVTSSLRLHIGPLASEQMPYEVASRILDENTYKICTWPKIRVHHILLNIQGSLTCSFLSHPQQLPFESFEYVDCRENMSLPHLELPRPA",
+      "coding_nt": 474
+    },
+    "junction_offset": 406,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75734212,
+        "end": 75734330,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481428,
+        "source_line": "chr15\tHAVANA\texon\t75734213\t75734330\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230881.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-205\"; exon_number 1; exon_id \"ENSMUSE00001437744.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000172189.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75735253,
+        "end": 75735541,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481429,
+        "source_line": "chr15\tHAVANA\texon\t75735254\t75735541\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230881.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-205\"; exon_number 2; exon_id \"ENSMUSE00001439356.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000172189.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221156,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221158,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221160,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221162,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000230881.2",
+      "ENSMUST00000039581.14"
+    ],
+    "checks": {
+      "figure3a_length_118": false,
+      "figure3a_parent_first73": false,
+      "figure3h_tail_start_ECPEHL": false,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": false
+    },
+    "protein": "MGKAQPECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "TTGGTCGTGGCTCCCGTTGCTCCCGGGTTGAGCAGACAATAGACCCCTCCCCGGCATCCCAGCAGGTCCTCGCTTCGCTTGGTGGACCCAGATACCTCGGCAGGGGTGAAAAATCGAGGACCATGCCATCGGCCTTTGAGAAAGTGGTCAAGAATGTGATCAAGGAGGTAAGCGGCAGCAGAGGCGATCTCATTCCGGTGGACAGCCTGCGGAACTCCACCAGCTTCAGGCCCTACTGCCTTCTGAACAGGAAATTTTCAAGCTCAAGGTTCTGGAAACCCCGTTATTCATGTGTCAACCTGTCAATCAAGGACATCCTGGAGCCCAGTGCTCCAGAACCAGGTATCTTCTTTCCCATCTTGATCCCCCAAGATTGAACAGAAGGGAATGGGCAAAGCCCAGCCTGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 387,
+      "stop_start": 540,
+      "end_including_stop": 543,
+      "frame": 0,
+      "protein": "MGKAQPECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 153
+    },
+    "junction_offset": 406,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75734212,
+        "end": 75734330,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481428,
+        "source_line": "chr15\tHAVANA\texon\t75734213\t75734330\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230881.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-205\"; exon_number 1; exon_id \"ENSMUSE00001437744.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000172189.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75735253,
+        "end": 75735541,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481429,
+        "source_line": "chr15\tHAVANA\texon\t75735254\t75735541\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230881.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-205\"; exon_number 2; exon_id \"ENSMUSE00001439356.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000172189.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221156,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221158,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221160,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221162,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000230881.2",
+      "ENSMUST00000100403.9"
+    ],
+    "checks": {
+      "figure3a_length_118": false,
+      "figure3a_parent_first73": false,
+      "figure3h_tail_start_ECPEHL": false,
+      "methods_antibody_peptide": false,
+      "reported_mutation_positions": false
+    },
+    "protein": "MCQPVNQGHPGAQCSRTRYLLSHLDPPRLNRREWAKPSLNVLNIFNSNFYPITVTQLTAEVLHQASVVGQVTSSLRLHIGPLASEQMPYEVASRILDENTYKICTWPKIRVHHILLNIQGSLTCSFLSHPQQLPFESFEYVDCRENMSLPHLELPRPA",
+    "rna": "TTGGTCGTGGCTCCCGTTGCTCCCGGGTTGAGCAGACAATAGACCCCTCCCCGGCATCCCAGCAGGTCCTCGCTTCGCTTGGTGGACCCAGATACCTCGGCAGGGGTGAAAAATCGAGGACCATGCCATCGGCCTTTGAGAAAGTGGTCAAGAATGTGATCAAGGAGGTAAGCGGCAGCAGAGGCGATCTCATTCCGGTGGACAGCCTGCGGAACTCCACCAGCTTCAGGCCCTACTGCCTTCTGAACAGGAAATTTTCAAGCTCAAGGTTCTGGAAACCCCGTTATTCATGTGTCAACCTGTCAATCAAGGACATCCTGGAGCCCAGTGCTCCAGAACCAGGTATCTTCTTTCCCATCTTGATCCCCCAAGATTGAACAGAAGGGAATGGGCAAAGCCCAGCCTGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 289,
+      "stop_start": 763,
+      "end_including_stop": 766,
+      "frame": 1,
+      "protein": "MCQPVNQGHPGAQCSRTRYLLSHLDPPRLNRREWAKPSLNVLNIFNSNFYPITVTQLTAEVLHQASVVGQVTSSLRLHIGPLASEQMPYEVASRILDENTYKICTWPKIRVHHILLNIQGSLTCSFLSHPQQLPFESFEYVDCRENMSLPHLELPRPA",
+      "coding_nt": 474
+    },
+    "junction_offset": 406,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75734212,
+        "end": 75734330,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481428,
+        "source_line": "chr15\tHAVANA\texon\t75734213\t75734330\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230881.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-205\"; exon_number 1; exon_id \"ENSMUSE00001437744.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000172189.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75735253,
+        "end": 75735541,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481429,
+        "source_line": "chr15\tHAVANA\texon\t75735254\t75735541\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230881.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-205\"; exon_number 2; exon_id \"ENSMUSE00001439356.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000172189.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221179,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221181,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221183,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221185,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000230881.2",
+      "ENSMUST00000100403.9"
+    ],
+    "checks": {
+      "figure3a_length_118": false,
+      "figure3a_parent_first73": false,
+      "figure3h_tail_start_ECPEHL": false,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": false
+    },
+    "protein": "MGKAQPECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "TTGGTCGTGGCTCCCGTTGCTCCCGGGTTGAGCAGACAATAGACCCCTCCCCGGCATCCCAGCAGGTCCTCGCTTCGCTTGGTGGACCCAGATACCTCGGCAGGGGTGAAAAATCGAGGACCATGCCATCGGCCTTTGAGAAAGTGGTCAAGAATGTGATCAAGGAGGTAAGCGGCAGCAGAGGCGATCTCATTCCGGTGGACAGCCTGCGGAACTCCACCAGCTTCAGGCCCTACTGCCTTCTGAACAGGAAATTTTCAAGCTCAAGGTTCTGGAAACCCCGTTATTCATGTGTCAACCTGTCAATCAAGGACATCCTGGAGCCCAGTGCTCCAGAACCAGGTATCTTCTTTCCCATCTTGATCCCCCAAGATTGAACAGAAGGGAATGGGCAAAGCCCAGCCTGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 387,
+      "stop_start": 540,
+      "end_including_stop": 543,
+      "frame": 0,
+      "protein": "MGKAQPECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 153
+    },
+    "junction_offset": 406,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75734212,
+        "end": 75734330,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481428,
+        "source_line": "chr15\tHAVANA\texon\t75734213\t75734330\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230881.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-205\"; exon_number 1; exon_id \"ENSMUSE00001437744.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000172189.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75735253,
+        "end": 75735541,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481429,
+        "source_line": "chr15\tHAVANA\texon\t75735254\t75735541\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230881.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-205\"; exon_number 2; exon_id \"ENSMUSE00001439356.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000172189.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221179,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221181,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221183,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221185,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000229331.2",
+      "ENSMUST00000039581.14"
+    ],
+    "checks": {
+      "figure3a_length_118": true,
+      "figure3a_parent_first73": true,
+      "figure3h_tail_start_ECPEHL": true,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": true
+    },
+    "protein": "MPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCVNLSIKDILEPSAPEPECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "GTTGCTCCCGGGTTGAGCAGACAATAGACCCCTCCCCGGCATCCCAGCAGGTCCTCGCTTCGCTTGGTGGACCCAGATACCTCGGCAGGGGTGAAAAATCGAGGACCATGCCATCGGCCTTTGAGAAAGTGGTCAAGAATGTGATCAAGGAGGTAAGCGGCAGCAGAGGCGATCTCATTCCGGTGGACAGCCTGCGGAACTCCACCAGCTTCAGGCCCTACTGCCTTCTGAACAGGAAATTTTCAAGCTCAAGGTTCTGGAAACCCCGTTATTCATGTGTCAACCTGTCAATCAAGGACATCCTGGAGCCCAGTGCTCCAGAACCAGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 107,
+      "stop_start": 461,
+      "end_including_stop": 464,
+      "frame": 2,
+      "protein": "MPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCVNLSIKDILEPSAPEPECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 354
+    },
+    "junction_offset": 327,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75734227,
+        "end": 75734330,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481431,
+        "source_line": "chr15\tHAVANA\texon\t75734228\t75734330\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000229331.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-202\"; exon_number 1; exon_id \"ENSMUSE00001440818.2\"; level 2; protein_id \"ENSMUSP00000155802.2\"; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; tag \"cds_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171149.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75735253,
+        "end": 75735477,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481432,
+        "source_line": "chr15\tHAVANA\texon\t75735254\t75735477\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000229331.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-202\"; exon_number 2; exon_id \"ENSMUSE00000252508.5\"; level 2; protein_id \"ENSMUSP00000155802.2\"; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; tag \"cds_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171149.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221156,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221158,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221160,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221162,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000229331.2",
+      "ENSMUST00000100403.9"
+    ],
+    "checks": {
+      "figure3a_length_118": true,
+      "figure3a_parent_first73": true,
+      "figure3h_tail_start_ECPEHL": true,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": true
+    },
+    "protein": "MPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCVNLSIKDILEPSAPEPECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "GTTGCTCCCGGGTTGAGCAGACAATAGACCCCTCCCCGGCATCCCAGCAGGTCCTCGCTTCGCTTGGTGGACCCAGATACCTCGGCAGGGGTGAAAAATCGAGGACCATGCCATCGGCCTTTGAGAAAGTGGTCAAGAATGTGATCAAGGAGGTAAGCGGCAGCAGAGGCGATCTCATTCCGGTGGACAGCCTGCGGAACTCCACCAGCTTCAGGCCCTACTGCCTTCTGAACAGGAAATTTTCAAGCTCAAGGTTCTGGAAACCCCGTTATTCATGTGTCAACCTGTCAATCAAGGACATCCTGGAGCCCAGTGCTCCAGAACCAGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 107,
+      "stop_start": 461,
+      "end_including_stop": 464,
+      "frame": 2,
+      "protein": "MPSAFEKVVKNVIKEVSGSRGDLIPVDSLRNSTSFRPYCLLNRKFSSSRFWKPRYSCVNLSIKDILEPSAPEPECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 354
+    },
+    "junction_offset": 327,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75734227,
+        "end": 75734330,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481431,
+        "source_line": "chr15\tHAVANA\texon\t75734228\t75734330\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000229331.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-202\"; exon_number 1; exon_id \"ENSMUSE00001440818.2\"; level 2; protein_id \"ENSMUSP00000155802.2\"; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; tag \"cds_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171149.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75735253,
+        "end": 75735477,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481432,
+        "source_line": "chr15\tHAVANA\texon\t75735254\t75735477\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000229331.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"protein_coding\"; transcript_name \"Gsdmd-202\"; exon_number 2; exon_id \"ENSMUSE00000252508.5\"; level 2; protein_id \"ENSMUSP00000155802.2\"; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; tag \"cds_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171149.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221179,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221181,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221183,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221185,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000230571.2",
+      "ENSMUST00000039581.14"
+    ],
+    "checks": {
+      "figure3a_length_118": false,
+      "figure3a_parent_first73": false,
+      "figure3h_tail_start_ECPEHL": false,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": false
+    },
+    "protein": "MVGEPQQSFCRHLQQPENKILQQLRSRGDDLFVVTEVLQTKEEVQITEVHSQEGSGQFTLPGALCLKGEGKGHQSRKKMVTIPAGSILAFRVAQLLIGSKWECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "TGGTTGCTTGGAGCATTTACGGATCGTACACAATGGAGTCCCTCCACAGGCACGAGTGTCCACTTCTCCGTGTTTGAACTTGTCATACCCCACAACCACCTAGACACAGTTGGGAGTGCCCTGGAGGGGGAGAGGGTCCCAAGCCTGGTATCCACAGACTTCCTGGATTCCCTAGCCTTTCCATCTCACCTGTCAGCGGGATGGGAGGCAGGGAAACTGATCCATGGTGGGCGAGCCCCAGCAATCTTTCTGTAGGCACCTTCAGCAGCCTGAGAACAAAATCCTGCAACAGCTTCGGAGTCGTGGGGATGACCTGTTTGTGGTGACCGAGGTGCTGCAGACAAAGGAGGAAGTGCAGATCACTGAGGTCCACAGCCAAGAGGGCTCAGGCCAGTTTACGCTGCCTGGAGCTTTATGCTTGAAGGGTGAAGGCAAGGGCCACCAAAGCCGGAAGAAGATGGTGACCATTCCTGCAGGCAGCATCCTGGCATTCCGAGTGGCCCAACTGCTTATTGGCTCTAAATGGGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 223,
+      "stop_start": 661,
+      "end_including_stop": 664,
+      "frame": 1,
+      "protein": "MVGEPQQSFCRHLQQPENKILQQLRSRGDDLFVVTEVLQTKEEVQITEVHSQEGSGQFTLPGALCLKGEGKGHQSRKKMVTIPAGSILAFRVAQLLIGSKWECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 438
+    },
+    "junction_offset": 527,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75736542,
+        "end": 75736966,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481450,
+        "source_line": "chr15\tHAVANA\texon\t75736543\t75736966\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230571.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-204\"; exon_number 1; exon_id \"ENSMUSE00001437394.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171150.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75737271,
+        "end": 75737374,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481451,
+        "source_line": "chr15\tHAVANA\texon\t75737272\t75737374\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230571.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-204\"; exon_number 2; exon_id \"ENSMUSE00001438552.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171150.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221156,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221158,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221160,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221162,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000230571.2",
+      "ENSMUST00000039581.14"
+    ],
+    "checks": {
+      "figure3a_length_118": false,
+      "figure3a_parent_first73": false,
+      "figure3h_tail_start_ECPEHL": false,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": false
+    },
+    "protein": "MVTIPAGSILAFRVAQLLIGSKWECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "TGGTTGCTTGGAGCATTTACGGATCGTACACAATGGAGTCCCTCCACAGGCACGAGTGTCCACTTCTCCGTGTTTGAACTTGTCATACCCCACAACCACCTAGACACAGTTGGGAGTGCCCTGGAGGGGGAGAGGGTCCCAAGCCTGGTATCCACAGACTTCCTGGATTCCCTAGCCTTTCCATCTCACCTGTCAGCGGGATGGGAGGCAGGGAAACTGATCCATGGTGGGCGAGCCCCAGCAATCTTTCTGTAGGCACCTTCAGCAGCCTGAGAACAAAATCCTGCAACAGCTTCGGAGTCGTGGGGATGACCTGTTTGTGGTGACCGAGGTGCTGCAGACAAAGGAGGAAGTGCAGATCACTGAGGTCCACAGCCAAGAGGGCTCAGGCCAGTTTACGCTGCCTGGAGCTTTATGCTTGAAGGGTGAAGGCAAGGGCCACCAAAGCCGGAAGAAGATGGTGACCATTCCTGCAGGCAGCATCCTGGCATTCCGAGTGGCCCAACTGCTTATTGGCTCTAAATGGGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 457,
+      "stop_start": 661,
+      "end_including_stop": 664,
+      "frame": 1,
+      "protein": "MVTIPAGSILAFRVAQLLIGSKWECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 204
+    },
+    "junction_offset": 527,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75736542,
+        "end": 75736966,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481450,
+        "source_line": "chr15\tHAVANA\texon\t75736543\t75736966\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230571.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-204\"; exon_number 1; exon_id \"ENSMUSE00001437394.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171150.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75737271,
+        "end": 75737374,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481451,
+        "source_line": "chr15\tHAVANA\texon\t75737272\t75737374\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230571.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-204\"; exon_number 2; exon_id \"ENSMUSE00001438552.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171150.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221156,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221158,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221160,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221162,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000039581.14\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-201\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000045832.8\"; transcript_support_level \"1\"; mgi_id \"MGI:1922056\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006008.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000230571.2",
+      "ENSMUST00000100403.9"
+    ],
+    "checks": {
+      "figure3a_length_118": false,
+      "figure3a_parent_first73": false,
+      "figure3h_tail_start_ECPEHL": false,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": false
+    },
+    "protein": "MVGEPQQSFCRHLQQPENKILQQLRSRGDDLFVVTEVLQTKEEVQITEVHSQEGSGQFTLPGALCLKGEGKGHQSRKKMVTIPAGSILAFRVAQLLIGSKWECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "TGGTTGCTTGGAGCATTTACGGATCGTACACAATGGAGTCCCTCCACAGGCACGAGTGTCCACTTCTCCGTGTTTGAACTTGTCATACCCCACAACCACCTAGACACAGTTGGGAGTGCCCTGGAGGGGGAGAGGGTCCCAAGCCTGGTATCCACAGACTTCCTGGATTCCCTAGCCTTTCCATCTCACCTGTCAGCGGGATGGGAGGCAGGGAAACTGATCCATGGTGGGCGAGCCCCAGCAATCTTTCTGTAGGCACCTTCAGCAGCCTGAGAACAAAATCCTGCAACAGCTTCGGAGTCGTGGGGATGACCTGTTTGTGGTGACCGAGGTGCTGCAGACAAAGGAGGAAGTGCAGATCACTGAGGTCCACAGCCAAGAGGGCTCAGGCCAGTTTACGCTGCCTGGAGCTTTATGCTTGAAGGGTGAAGGCAAGGGCCACCAAAGCCGGAAGAAGATGGTGACCATTCCTGCAGGCAGCATCCTGGCATTCCGAGTGGCCCAACTGCTTATTGGCTCTAAATGGGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 223,
+      "stop_start": 661,
+      "end_including_stop": 664,
+      "frame": 1,
+      "protein": "MVGEPQQSFCRHLQQPENKILQQLRSRGDDLFVVTEVLQTKEEVQITEVHSQEGSGQFTLPGALCLKGEGKGHQSRKKMVTIPAGSILAFRVAQLLIGSKWECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 438
+    },
+    "junction_offset": 527,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75736542,
+        "end": 75736966,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481450,
+        "source_line": "chr15\tHAVANA\texon\t75736543\t75736966\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230571.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-204\"; exon_number 1; exon_id \"ENSMUSE00001437394.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171150.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75737271,
+        "end": 75737374,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481451,
+        "source_line": "chr15\tHAVANA\texon\t75737272\t75737374\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230571.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-204\"; exon_number 2; exon_id \"ENSMUSE00001438552.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171150.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221179,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221181,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221183,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221185,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      }
+    ]
+  },
+  {
+    "parent_transcripts": [
+      "ENSMUST00000230571.2",
+      "ENSMUST00000100403.9"
+    ],
+    "checks": {
+      "figure3a_length_118": false,
+      "figure3a_parent_first73": false,
+      "figure3h_tail_start_ECPEHL": false,
+      "methods_antibody_peptide": true,
+      "reported_mutation_positions": false
+    },
+    "protein": "MVTIPAGSILAFRVAQLLIGSKWECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+    "rna": "TGGTTGCTTGGAGCATTTACGGATCGTACACAATGGAGTCCCTCCACAGGCACGAGTGTCCACTTCTCCGTGTTTGAACTTGTCATACCCCACAACCACCTAGACACAGTTGGGAGTGCCCTGGAGGGGGAGAGGGTCCCAAGCCTGGTATCCACAGACTTCCTGGATTCCCTAGCCTTTCCATCTCACCTGTCAGCGGGATGGGAGGCAGGGAAACTGATCCATGGTGGGCGAGCCCCAGCAATCTTTCTGTAGGCACCTTCAGCAGCCTGAGAACAAAATCCTGCAACAGCTTCGGAGTCGTGGGGATGACCTGTTTGTGGTGACCGAGGTGCTGCAGACAAAGGAGGAAGTGCAGATCACTGAGGTCCACAGCCAAGAGGGCTCAGGCCAGTTTACGCTGCCTGGAGCTTTATGCTTGAAGGGTGAAGGCAAGGGCCACCAAAGCCGGAAGAAGATGGTGACCATTCCTGCAGGCAGCATCCTGGCATTCCGAGTGGCCCAACTGCTTATTGGCTCTAAATGGGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCCGAGGTGCTCCACCAGGCCTCTGTGGTAGGCCAGGTCACCAGCAGCCTCCGCCTGCACATCGGCCCATTGGCCAGTGAGCAGATGCCTTACGAAGTTGCCAGCAGGATTTTGGATGAAAACACATACAAAATCTGTACATGGCCGAAAATCAGAGTCCACCATATTCTTTTGAATATCCAGGGTTCTCTGACCTGCTCCTTCCTAAGCCATCCGCAACAGCTGCCCTTCGAGAGCTTTGAATATGTAGACTGCAGAGAAAACATGTCCCTGCCCCACCTGGAGCTGCCCCGCCCAGCCTGATCTGTCTGCCGCCCCTGGACTCCAGGCACCTGCAAGCTGATCTGCAGCTCAGCTCCGTGGAGCTCAAGGAAAGACTGTAGGGACTTTGTTGAAGGAAAAGTCCTGCTTTGGGCCCTGCCTTCCCCTAACACCCTCAGCACACAGAGCTTCTGTAACAATGTCATAGTCCCTGAGTCCTCAGACCTCCCCACTCCCCCACGAGTCGCTTCTGATGGATCTTACCCATGGTCTGTGTGGGGAGGAACGGCTACCTTGGCGTTGTCTTGGGACTGAGCATGTTGGTTACCCAGCTCCGCCAGGGTGGGTCTTCAATCGCAACGAAGAGAAAGCTGTAGTTTTATCTAGACTTTGCAGCATGGATGAATCTTTTTCAAGCTCTCCTCCCAGTAATAAGTGGCTTTGGGGATATCCAGTGCTGTTTCCAAGGTCTCCTTGGGTGACTATAAATGTTCTCCTGTACTGTCTTGCTTTGATCATGTGATAATGAGGGTAATAGACTACTTCTCTCAGTAAATGGTAGACAATAAGGTCCTCATCCTCCCAGGTTCGGAATACTATCCCTGGCTTCCAGGAAGGGAGATTTACACCATCTAAACTCTTCTCTATAGACTGGCTCCAATGCTATCTTCACAGCAGAAACCAAGGAGCTGAGGAGAAACCATCGGGTGTACCCTAGAGCAAAGGCAGAGCCAGTTGCAAAGATATTTATTAAAGGAAAGTTTCTAAGCCCACCATCCAGAGCCCATGTGAGTGCACACAGGTAAGACAGGCAGTAGAGCAGGCCCAGGGGCAGTGTTCAGAAAGCATGAAGGACATAAGCTGTTGATACCAGGCCAAAGCTGTGGGGCTCTCATGGATTCTCTGCATCAGGCCCACCCTCTGCTGTCCTCTGGGATGTGACTGAAGAGTGACAGATTCACCAGAATTTCCTTCCTTGCCTGTCACTACACTGACGCCAAACCACAGGTAACCCCCAGTTTTCTACTGGACTCCAGGTGGAGATATGATGTCTGTTGCCGGAGAGCAGAAATGTGTGTTCTCTAAAGCTAGCTAGCCTCTGCCCTCCAGACAGGTGCAAAGGCGAAGGGCGGTGTGGTTGGGGAAAATTGAATTTGAAGTGAGAAGAATGCAAGGAAATGGTGGTAACTGAGCTGGGTAACTAGCCTGGGGCTACACAGAGGGAGAGGAAGTCTTGTCTGCACCAAGTTTTCCCTCCTGGGTAGCCAGGGCTAAGGTGTACAAACCAAAGGAGACCCAGGGAAGTCAAGCTGAGATTAGAGTGTATAAACCATCAAATGTAAAAGATTTCTAACAATAAATTGTTCTTTAGCCGAA",
+    "orf": {
+      "start": 457,
+      "stop_start": 661,
+      "end_including_stop": 664,
+      "frame": 1,
+      "protein": "MVTIPAGSILAFRVAQLLIGSKWECPEHLQQQLLSHHSDTADGRGAPPGLCGRPGHQQPPPAHRPIGQ",
+      "coding_nt": 204
+    },
+    "junction_offset": 527,
+    "exon_path": [
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75736542,
+        "end": 75736966,
+        "strand": "+",
+        "exon_number": 1,
+        "source_row": 1481450,
+        "source_line": "chr15\tHAVANA\texon\t75736543\t75736966\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230571.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-204\"; exon_number 1; exon_id \"ENSMUSE00001437394.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171150.1\";"
+      },
+      {
+        "gene": "Gsdmd",
+        "chromosome": "chr15",
+        "start": 75737271,
+        "end": 75737374,
+        "strand": "+",
+        "exon_number": 2,
+        "source_row": 1481451,
+        "source_line": "chr15\tHAVANA\texon\t75737272\t75737374\t.\t+\t.\tgene_id \"ENSMUSG00000022575.6\"; transcript_id \"ENSMUST00000230571.2\"; gene_type \"protein_coding\"; gene_name \"Gsdmd\"; transcript_type \"retained_intron\"; transcript_name \"Gsdmd-204\"; exon_number 2; exon_id \"ENSMUSE00001438552.2\"; level 2; mgi_id \"MGI:1916396\"; tag \"mRNA_end_NF\"; havana_gene \"OTTMUSG00000070816.2\"; havana_transcript \"OTTMUST00000171150.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479678,
+        "end": 101479819,
+        "strand": "+",
+        "exon_number": 6,
+        "source_row": 1221179,
+        "source_line": "chr11\tHAVANA\texon\t101479679\t101479819\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 6; exon_id \"ENSMUSE00001226766.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101479923,
+        "end": 101479967,
+        "strand": "+",
+        "exon_number": 7,
+        "source_row": 1221181,
+        "source_line": "chr11\tHAVANA\texon\t101479924\t101479967\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 7; exon_id \"ENSMUSE00001294054.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101480760,
+        "end": 101480814,
+        "strand": "+",
+        "exon_number": 8,
+        "source_row": 1221183,
+        "source_line": "chr11\tHAVANA\texon\t101480761\t101480814\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 8; exon_id \"ENSMUSE00001216209.2\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      },
+      {
+        "gene": "Tmem106a",
+        "chromosome": "chr11",
+        "start": 101481158,
+        "end": 101482614,
+        "strand": "+",
+        "exon_number": 9,
+        "source_row": 1221185,
+        "source_line": "chr11\tHAVANA\texon\t101481159\t101482614\t.\t+\t.\tgene_id \"ENSMUSG00000034947.14\"; transcript_id \"ENSMUST00000100403.9\"; gene_type \"protein_coding\"; gene_name \"Tmem106a\"; transcript_type \"protein_coding\"; transcript_name \"Tmem106a-202\"; exon_number 9; exon_id \"ENSMUSE00000647520.3\"; level 2; protein_id \"ENSMUSP00000097971.3\"; transcript_support_level \"5\"; mgi_id \"MGI:1922056\"; tag \"alternative_5_UTR\"; tag \"basic\"; tag \"appris_principal_1\"; tag \"CCDS\"; ccdsid \"CCDS25476.1\"; havana_gene \"OTTMUSG00000002931.2\"; havana_transcript \"OTTMUST00000006009.1\";"
+      }
+    ]
+  }
+]

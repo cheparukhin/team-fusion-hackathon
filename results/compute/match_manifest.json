@@ -1,0 +1,10 @@
+{
+  "tolerance_nt": 10,
+  "coordinate_rule": "STAR intronic donor minus strand direction; acceptor plus strand direction; compare ordered exonic terminal bases in direct or reverse-complement-equivalent read orientation; canonical parent order retained and raw STAR order saved",
+  "junction_type_rule": "Require split junction type>=0; exclude encompassing-mate type-1",
+  "star_format_source": "https://github.com/alexdobin/STAR/blob/2.7.2a/extras/doc-latex/STARmanual.tex",
+  "junction_sha256": "457fb592ab65b28d2760315f282a310cf1ac404b4ae1aee2f749b7b752880d0a",
+  "probe_sha256": "553715b0cff1e6c8dbb8c0b97785e941e10f8d1efde9d770cb1e4f9cbc5ff89f",
+  "matched_pairs": 0,
+  "unique_read_ids": 0
+}

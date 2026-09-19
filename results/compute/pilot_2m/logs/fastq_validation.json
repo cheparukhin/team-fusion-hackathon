@@ -1,0 +1,24 @@
+{
+  "run_accession": "SRR37513722",
+  "paired_records": 2000000,
+  "read_lengths": [
+    151
+  ],
+  "first_read_ids": [
+    "@SRR37513722.1",
+    "@SRR37513722.2",
+    "@SRR37513722.3"
+  ],
+  "files": [
+    {
+      "name": "SRR37513722_1.fastq.gz",
+      "bytes": 142209527,
+      "sha256": "96dc328aca3c4501df1d9cbb6a29d2c2cdfa0905cbf98ca14d5c95702887bd6c"
+    },
+    {
+      "name": "SRR37513722_2.fastq.gz",
+      "bytes": 147168508,
+      "sha256": "af21f15528472b689acd0903e645fe0c31a52e513b5ec64fdb8f9ddec83c4202"
+    }
+  ]
+}

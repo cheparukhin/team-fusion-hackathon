@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chrna-prioritization"
+version = "0.1.0"
+description = "An evidence-preserving pilot benchmark for physiological chimeric RNAs"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26", "pandas>=2.2", "openpyxl>=3.1", "scipy>=1.13", "matplotlib>=3.9"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "nbformat>=5.10", "nbclient>=0.10", "nbconvert>=7.16", "ipykernel>=6.29"]
+model = ["torch>=2.2", "scikit-learn>=1.5"]
+structure = ["gemmi==0.6.5", "tqdm==4.67.1", "requests>=2.32.3"]
+
+[project.scripts]
+chrna = "chrna.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
