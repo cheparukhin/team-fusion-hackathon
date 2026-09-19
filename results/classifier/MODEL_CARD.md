@@ -9,8 +9,8 @@ Parent-gene connected components are kept entirely within folds; all displayed e
 
 | Method | N | Average precision | Supported / top 20 |
 |---|---:|---:|---:|
-| read_support | 479 | 0.268 | 10 / 20 |
-| rna | 479 | 0.296 | 11 / 20 |
+| read_support | 479 | 0.268 | 11.07 / 20 |
+| rna | 479 | 0.296 | 11.00 / 20 |
 
 Hi-C comparison trains and evaluates both models on identical rows with observed contact enrichment, within the original folds; see metrics.json.
 
@@ -20,6 +20,7 @@ Paper deviation: Paper describes merged replicates before processing. GEO suppli
 
 ## Limitations
 
+- Top-k metrics average uniformly over tied boundary scores; pair-ID ordering is retained only as an audit field.
 - The target is published NanoString support within a selected probe-design panel, not biological authenticity.
 - Unreported support is not a verified negative; testing and probe QC may be unknown.
 - Labels and predictions refer to ordered parent-gene pairs, not validated junction isoforms.

@@ -16,7 +16,7 @@ This is the working checklist from the [20 September assessment](docs/hackathon-
 - [ ] Review unsupported qualitative claims explicitly; citation-ID and numeric checks do not establish that a source supports a biological assertion.
 
 ## Priority 2 — demonstrate utility without overstating accuracy
-- [ ] Correct top-20 evaluation for tied scores. The read-count baseline has approximately 11.07 expected reported-supported pairs under random tie-breaking, compared with 11.00 for the RNA model.
+- [x] Correct top-20 evaluation for tied scores. The read-count baseline has approximately 11.07 expected reported-supported pairs under random tie-breaking, compared with 11.00 for the RNA model.
 - [ ] Retain the null Hi-C result: AP 0.296 to 0.300; paired interval includes zero.
 - [ ] Freeze 3–5 review cases before evaluation. Compare manual and assisted evidence review for accuracy, unsupported claims, usable recommendations and elapsed time; report the small sample honestly.
 - [ ] Have a biology reviewer sign off on presentation claims and distinguish published validation from this project's computations.
@@ -34,3 +34,16 @@ Suggested Sunday gates: scope 09:30; stable release 10:30; agent demonstration 1
 
 [Detailed rationale and evidence](docs/hackathon-assessment/assessment.md) · [Checkpoint contents](CURRENT_PROGRESS.md)
 
+
+## Overnight iteration plan — 20 September, 00:40 BST
+
+Deadline: 09:00 BST (08:00 UTC). Optimize the existing scientist-review workflow, not scope.
+
+1. Correct tied top-k evaluation; preserve the null Hi-C result and all saved predictions.
+2. Verify reproduction on the shared CPU in a separate directory, with bounded threads and no interference with teammates.
+3. Deliver a bounded evidence-checking agent demonstration with replay, claim-level review, and an honest human-review handoff.
+4. Package the strongest three-slide story and technical appendix, verify links and demo, and reassess remaining gaps.
+
+Compute inventory: controller and K562 CPU are running; both listed GPU/pilot instances are stopped. No new instance has been provisioned. User's combined rate ceiling is $400/hour; obtain live prices before any launch. Existing GPU evidence is sufficient for the next iteration.
+
+Iteration 1: top-k expectations now integrate boundary ties exactly, with attainable ranges and the previous pair-ID ordering preserved for audit. Exhaustive-permutation and edge-case tests pass on the shared CPU. Full-panel read-count baseline is approximately 11.07 expected supported pairs versus 11.00 for the model: do not claim top-20 uplift. Next priority is reliable reproduction and a useful evidence-review decision.

@@ -24,6 +24,7 @@ LIMITATIONS = [
     "Labels and predictions refer to ordered parent-gene pairs, not validated junction isoforms.",
     "Out-of-fold scores are not calibrated probabilities; all-data refit scores are not evaluation results.",
     "The selected panel and parent-gene grouping limit generalization to unseen tissues and datasets.",
+    "Top-k metrics average uniformly over tied boundary scores; pair-ID ordering is retained only as an audit field.",
     "Bootstrap intervals resample parent-gene components of fixed out-of-fold predictions; they do not capture model-refitting uncertainty.",
 ]
 
@@ -121,14 +122,26 @@ def evaluate(y, scores, ids, k=20) -> dict:
     y, scores, ids = y[valid], scores[valid], ids[valid]
     if not len(y):
         return {"n": 0, "status": "unavailable"}
+    if not isinstance(k, (int, np.integer)) or k < 1:
+        raise ValueError("k must be a positive integer")
     top = np.lexsort((ids, -scores))[:k]
+    cutoff = scores[top[-1]]
+    above, tied = scores > cutoff, scores == cutoff
+    slots = len(top) - int(above.sum())
+    expected = float(y[above].sum() + slots * y[tied].mean())
+    minimum = int(y[above].sum() + max(0, slots - int((1 - y[tied]).sum())))
+    maximum = int(y[above].sum() + min(slots, int(y[tied].sum())))
     positives = int(y.sum())
     return {
         "n": len(y), "positives": positives, "prevalence": float(y.mean()),
         "average_precision": float(average_precision_score(y, scores)) if positives and positives < len(y) else None,
-        "k": len(top), "supported_at_k": int(y[top].sum()),
-        "precision_at_k": float(y[top].mean()),
-        "recall_at_k": float(y[top].sum() / positives) if positives else None,
+        "k": len(top), "supported_at_k": expected,
+        "precision_at_k": expected / len(top),
+        "recall_at_k": expected / positives if positives else None,
+        "tie_policy": "expected_under_uniform_random_order_within_equal_scores",
+        "boundary_tie": {"score": float(cutoff), "size": int(tied.sum()), "slots": slots,
+                         "supported": int(y[tied].sum()), "supported_at_k_range": [minimum, maximum]},
+        "pair_id_tiebreak_supported_at_k": int(y[top].sum()),
     }
 
 
@@ -245,7 +258,7 @@ def model_card(metrics: dict) -> str:
              "", "## Evaluation", "", "| Method | N | Average precision | Supported / top 20 |", "|---|---:|---:|---:|"]
     for name, result in metrics["full_panel"].items():
         ap = result.get("average_precision")
-        lines.append(f"| {name} | {result['n']} | {ap:.3f} | {result['supported_at_k']} / {result['k']} |" if ap is not None else f"| {name} | {result['n']} | unavailable | |")
+        lines.append(f"| {name} | {result['n']} | {ap:.3f} | {result['supported_at_k']:.2f} / {result['k']} |" if ap is not None else f"| {name} | {result['n']} | unavailable | |")
     if metrics["matched_hic"]:
         lines += ["", "Hi-C comparison trains and evaluates both models on identical rows with observed contact enrichment, within the original folds; see metrics.json."]
     if metrics.get("hic_provenance") and metrics["hic_provenance"].get("method"):

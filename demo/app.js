@@ -54,7 +54,7 @@ function renderNvidiaPilot(){
 function metricTable(group,includeHic=false){
  const names={read_support:'Long-read ranking',rna:'RNA-only classifier',hic:'RNA + Hi-C classifier'};
  const requested=includeHic?['read_support','rna','hic']:['read_support','rna'];const keys=group?requested.filter(k=>group[k]):requested;
- return `<table class="metric-table"><thead><tr><th>Method</th><th>Average precision</th><th>Precision @ 20</th><th>Recall @ 20</th><th>Pairs</th></tr></thead><tbody>${keys.map(k=>{const m=group?.[k];return `<tr><td>${names[k]}</td><td>${num(m?.average_precision,3)}</td><td>${num(m?.precision_at_k,3)}</td><td>${num(m?.recall_at_k,3)}</td><td>${num(m?.n)}</td></tr>`;}).join('')}</tbody></table>`;
+ return `<table class="metric-table"><thead><tr><th>Method</th><th>Average precision</th><th>Expected precision @ 20</th><th>Expected recall @ 20</th><th>Pairs</th></tr></thead><tbody>${keys.map(k=>{const m=group?.[k];return `<tr><td>${names[k]}</td><td>${num(m?.average_precision,3)}</td><td>${num(m?.precision_at_k,3)}</td><td>${num(m?.recall_at_k,3)}</td><td>${num(m?.n)}</td></tr>`;}).join('')}</tbody></table>`;
 }
 function comparisonText(comparison){
  if(!comparison)return 'Candidate-level Hi-C is unavailable. The spatial hypothesis is untested; no improvement is claimed.';

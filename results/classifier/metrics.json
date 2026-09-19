@@ -74,7 +74,7 @@
       "input_integrity_verified": true
     }
   },
-  "model_code_sha256": "479ddcd8a4ffb8835d4fd3a89a8be2f2f3ec21c3c7ffd176eb8eef312a7c0180",
+  "model_code_sha256": "d55a3d43ee2c12a1baf8fcd9c3a0e5432a3fdfa59abcb36df48654e2978fe075",
   "cohort": {
     "n": 479,
     "positives": 109,
@@ -112,9 +112,21 @@
       "prevalence": 0.22755741127348644,
       "average_precision": 0.26784266406185164,
       "k": 20,
-      "supported_at_k": 10,
-      "precision_at_k": 0.5,
-      "recall_at_k": 0.09174311926605505
+      "supported_at_k": 11.066810344827587,
+      "precision_at_k": 0.5533405172413793,
+      "recall_at_k": 0.10153037013603292,
+      "tie_policy": "expected_under_uniform_random_order_within_equal_scores",
+      "boundary_tie": {
+        "score": 1.0,
+        "size": 464,
+        "slots": 5,
+        "supported": 99,
+        "supported_at_k_range": [
+          10,
+          15
+        ]
+      },
+      "pair_id_tiebreak_supported_at_k": 10
     },
     "rna": {
       "n": 479,
@@ -122,9 +134,21 @@
       "prevalence": 0.22755741127348644,
       "average_precision": 0.2961248743051378,
       "k": 20,
-      "supported_at_k": 11,
+      "supported_at_k": 11.0,
       "precision_at_k": 0.55,
-      "recall_at_k": 0.10091743119266056
+      "recall_at_k": 0.10091743119266056,
+      "tie_policy": "expected_under_uniform_random_order_within_equal_scores",
+      "boundary_tie": {
+        "score": 0.24953930274634398,
+        "size": 60,
+        "slots": 5,
+        "supported": 12,
+        "supported_at_k_range": [
+          10,
+          15
+        ]
+      },
+      "pair_id_tiebreak_supported_at_k": 11
     }
   },
   "matched_hic": {
@@ -134,9 +158,21 @@
       "prevalence": 0.22942643391521197,
       "average_precision": 0.2656357295167878,
       "k": 20,
-      "supported_at_k": 9,
-      "precision_at_k": 0.45,
-      "recall_at_k": 0.09782608695652174
+      "supported_at_k": 9.727506426735218,
+      "precision_at_k": 0.48637532133676087,
+      "recall_at_k": 0.1057337655079915,
+      "tie_policy": "expected_under_uniform_random_order_within_equal_scores",
+      "boundary_tie": {
+        "score": 1.0,
+        "size": 389,
+        "slots": 8,
+        "supported": 84,
+        "supported_at_k_range": [
+          8,
+          16
+        ]
+      },
+      "pair_id_tiebreak_supported_at_k": 9
     },
     "rna": {
       "n": 401,
@@ -144,9 +180,21 @@
       "prevalence": 0.22942643391521197,
       "average_precision": 0.2959500513014134,
       "k": 20,
-      "supported_at_k": 10,
-      "precision_at_k": 0.5,
-      "recall_at_k": 0.10869565217391304
+      "supported_at_k": 9.627906976744185,
+      "precision_at_k": 0.48139534883720925,
+      "recall_at_k": 0.10465116279069767,
+      "tie_policy": "expected_under_uniform_random_order_within_equal_scores",
+      "boundary_tie": {
+        "score": 0.23802281142357926,
+        "size": 43,
+        "slots": 3,
+        "supported": 9,
+        "supported_at_k_range": [
+          9,
+          12
+        ]
+      },
+      "pair_id_tiebreak_supported_at_k": 10
     },
     "hic": {
       "n": 401,
@@ -154,9 +202,21 @@
       "prevalence": 0.22942643391521197,
       "average_precision": 0.2995931726274509,
       "k": 20,
-      "supported_at_k": 9,
+      "supported_at_k": 9.0,
       "precision_at_k": 0.45,
-      "recall_at_k": 0.09782608695652174
+      "recall_at_k": 0.09782608695652174,
+      "tie_policy": "expected_under_uniform_random_order_within_equal_scores",
+      "boundary_tie": {
+        "score": 0.2853670292140384,
+        "size": 1,
+        "slots": 1,
+        "supported": 0,
+        "supported_at_k_range": [
+          9,
+          9
+        ]
+      },
+      "pair_id_tiebreak_supported_at_k": 9
     },
     "comparison": {
       "delta_average_precision": 0.0036431213260375017,
@@ -176,9 +236,21 @@
         "prevalence": 0.23770491803278687,
         "average_precision": 0.2549446609595948,
         "k": 20,
-        "supported_at_k": 5,
-        "precision_at_k": 0.25,
-        "recall_at_k": 0.08620689655172414
+        "supported_at_k": 6.1395348837209305,
+        "precision_at_k": 0.30697674418604654,
+        "recall_at_k": 0.10585404971932638,
+        "tie_policy": "expected_under_uniform_random_order_within_equal_scores",
+        "boundary_tie": {
+          "score": 0.23802281142357926,
+          "size": 43,
+          "slots": 15,
+          "supported": 9,
+          "supported_at_k_range": [
+            3,
+            12
+          ]
+        },
+        "pair_id_tiebreak_supported_at_k": 5
       },
       "hic": {
         "n": 244,
@@ -186,9 +258,21 @@
         "prevalence": 0.23770491803278687,
         "average_precision": 0.26000880792797254,
         "k": 20,
-        "supported_at_k": 7,
+        "supported_at_k": 7.0,
         "precision_at_k": 0.35,
-        "recall_at_k": 0.1206896551724138
+        "recall_at_k": 0.1206896551724138,
+        "tie_policy": "expected_under_uniform_random_order_within_equal_scores",
+        "boundary_tie": {
+          "score": 0.2569007824044599,
+          "size": 1,
+          "slots": 1,
+          "supported": 1,
+          "supported_at_k_range": [
+            7,
+            7
+          ]
+        },
+        "pair_id_tiebreak_supported_at_k": 7
       }
     },
     "fold_cohorts": [
@@ -237,9 +321,21 @@
       "prevalence": 0.24727272727272728,
       "average_precision": 0.2628342245989305,
       "k": 20,
-      "supported_at_k": 7,
-      "precision_at_k": 0.35,
-      "recall_at_k": 0.10294117647058823
+      "supported_at_k": 6.611111111111111,
+      "precision_at_k": 0.33055555555555555,
+      "recall_at_k": 0.09722222222222221,
+      "tie_policy": "expected_under_uniform_random_order_within_equal_scores",
+      "boundary_tie": {
+        "score": 1.0,
+        "size": 270,
+        "slots": 15,
+        "supported": 65,
+        "supported_at_k_range": [
+          3,
+          18
+        ]
+      },
+      "pair_id_tiebreak_supported_at_k": 7
     },
     "rna": {
       "n": 275,
@@ -247,12 +343,25 @@
       "prevalence": 0.24727272727272728,
       "average_precision": 0.2536281052927003,
       "k": 20,
-      "supported_at_k": 6,
+      "supported_at_k": 6.0,
       "precision_at_k": 0.3,
-      "recall_at_k": 0.08823529411764706
+      "recall_at_k": 0.08823529411764706,
+      "tie_policy": "expected_under_uniform_random_order_within_equal_scores",
+      "boundary_tie": {
+        "score": 0.24953930274634398,
+        "size": 60,
+        "slots": 15,
+        "supported": 12,
+        "supported_at_k_range": [
+          3,
+          15
+        ]
+      },
+      "pair_id_tiebreak_supported_at_k": 6
     }
   },
   "limitations": [
+    "Top-k metrics average uniformly over tied boundary scores; pair-ID ordering is retained only as an audit field.",
     "The target is published NanoString support within a selected probe-design panel, not biological authenticity.",
     "Unreported support is not a verified negative; testing and probe QC may be unknown.",
     "Labels and predictions refer to ordered parent-gene pairs, not validated junction isoforms.",
@@ -280,9 +389,21 @@
       "prevalence": 0.22755741127348644,
       "average_precision": 0.26784266406185164,
       "k": 20,
-      "supported_at_k": 10,
-      "precision_at_k": 0.5,
-      "recall_at_k": 0.09174311926605505
+      "supported_at_k": 11.066810344827587,
+      "precision_at_k": 0.5533405172413793,
+      "recall_at_k": 0.10153037013603292,
+      "tie_policy": "expected_under_uniform_random_order_within_equal_scores",
+      "boundary_tie": {
+        "score": 1.0,
+        "size": 464,
+        "slots": 5,
+        "supported": 99,
+        "supported_at_k_range": [
+          10,
+          15
+        ]
+      },
+      "pair_id_tiebreak_supported_at_k": 10
     },
     "rna": {
       "n": 479,
@@ -290,9 +411,21 @@
       "prevalence": 0.22755741127348644,
       "average_precision": 0.2961248743051378,
       "k": 20,
-      "supported_at_k": 11,
+      "supported_at_k": 11.0,
       "precision_at_k": 0.55,
-      "recall_at_k": 0.10091743119266056
+      "recall_at_k": 0.10091743119266056,
+      "tie_policy": "expected_under_uniform_random_order_within_equal_scores",
+      "boundary_tie": {
+        "score": 0.24953930274634398,
+        "size": 60,
+        "slots": 5,
+        "supported": 12,
+        "supported_at_k_range": [
+          10,
+          15
+        ]
+      },
+      "pair_id_tiebreak_supported_at_k": 11
     }
   }
 }

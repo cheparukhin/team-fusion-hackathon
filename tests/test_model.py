@@ -73,3 +73,27 @@ def test_end_to_end_preserves_missing_hic_and_metrics_cohort(tmp_path):
     assert result['matched_hic']['rna']['n'] == result['matched_hic']['hic']['n'] == hic.hic_contact_enrichment.notna().sum()
     assert any('recurrence is unavailable' in text for text in result['limitations'])
     assert json.loads((tmp_path / 'out/metrics.json').read_text())['status'] == 'complete'
+
+
+def test_top_k_ties_match_exhaustive_permutations():
+    from itertools import permutations
+    from chrna.model import evaluate
+    # One certain positive, then select two of a three-way tie with one positive.
+    labels, scores = [1, 1, 0, 0, 0], [3, 2, 2, 2, 1]
+    result = evaluate(labels, scores, list("abcde"), k=3)
+    outcomes = [1 + sum(order[:2]) for order in permutations([1, 0, 0])]
+    assert result['supported_at_k'] == pytest.approx(np.mean(outcomes))
+    assert result['boundary_tie']['supported_at_k_range'] == [min(outcomes), max(outcomes)]
+    assert result['precision_at_k'] == pytest.approx(np.mean(outcomes) / 3)
+    assert evaluate(labels, scores, list("edcba"), k=3)['supported_at_k'] == result['supported_at_k']
+
+
+def test_top_k_no_ties_small_cohort_and_missing_scores():
+    from chrna.model import evaluate
+    result = evaluate([1, 0, 1], [2, 1, np.nan], ['a', 'b', 'c'], k=20)
+    assert result['k'] == 2
+    assert result['supported_at_k'] == 1
+    assert result['boundary_tie']['supported_at_k_range'] == [1, 1]
+    assert evaluate([0, 0], [1, 1], ['a', 'b'])['recall_at_k'] is None
+    with pytest.raises(ValueError, match='positive integer'):
+        evaluate([1], [1], ['a'], k=0)
