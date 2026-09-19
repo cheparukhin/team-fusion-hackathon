@@ -1,0 +1,24 @@
+{
+  "frozen_at": "2026-09-19T23:40:03.367477+00:00",
+  "purpose": "Three prespecified demonstration cases spanning evidence conflicts, not a blinded utility evaluation",
+  "selection": "Selected after inspecting existing panel and assessment; no claim of prospective or random selection",
+  "cases": [
+    {
+      "pair_id": "Psap:Lgals3",
+      "reason": "Highest RNA model score without reported NanoString support; check whether pair-level read support applies to the probe junction"
+    },
+    {
+      "pair_id": "Gsdmd:Tmem106a",
+      "reason": "Published supported exemplar with independent pilot non-detection and a low-confidence cached structure"
+    },
+    {
+      "pair_id": "Cd274:Lacc1",
+      "reason": "Published supported exemplar with independent pilot non-detection and no complete candidate structure"
+    }
+  ],
+  "utility_study": {
+    "status": "not_performed",
+    "human_review": "pending",
+    "time_saving_claim": false
+  }
+}

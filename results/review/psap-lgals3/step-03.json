@@ -1,0 +1,39 @@
+{
+  "tool": "rematch_parabricks",
+  "pair_id": "Psap:Lgals3",
+  "output": {
+    "pair_id": "Psap:Lgals3",
+    "status": "not_detected_in_bounded_pilot",
+    "support": 0,
+    "read_ids": [],
+    "matches": [],
+    "tolerance_nt": 10,
+    "run_accession": "SRR37513722",
+    "read_pairs": 2000000,
+    "technology": "nvcr.io/nvidia/clara/clara-parabricks:4.7.1-1",
+    "container_digest": "sha256:191f3e113631493888c9a54534f6484614f645f6767cb0078c4f1b8ac116a34b",
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "coordinate_rule": "strand-aware exonic endpoints; direct or reverse-complement-equivalent orientation; split junctions only",
+    "interpretation_limit": "Non-detection in this deterministic prefix subsample is not a sensitivity estimate, assay failure, or evidence of biological absence."
+  },
+  "sources": [
+    {
+      "path": "demo/data.json",
+      "sha256": "348dac2008a3860a6107c60a96d1b42d10eb06bae1c44240b15dcba9d729c513"
+    },
+    {
+      "path": "results/compute/pilot_2m/output/Chimeric.out.junction",
+      "sha256": "457fb592ab65b28d2760315f282a310cf1ac404b4ae1aee2f749b7b752880d0a"
+    },
+    {
+      "path": "scripts/compute/match_junctions.py",
+      "sha256": "0c86a7beec29d8efd74c3ba6073f73be659e5458e0424524c26bdde0ac8fccc9"
+    }
+  ],
+  "duration_seconds": 1.271479,
+  "executed_at": "2026-09-19T23:40:32.781925+00:00",
+  "step": 3,
+  "action_reason": "Check whether the independent NVIDIA alignment supplies exact probe-junction support despite the long-read/probe discrepancy.",
+  "actor": "Codex assistant in the active project task",
+  "tool_code_sha256": "2d1e3a9724a6a3a7f4c89e669b8ca359f8b9ad56ac634a81951501824b27b055"
+}

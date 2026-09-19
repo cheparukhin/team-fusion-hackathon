@@ -1,0 +1,87 @@
+{
+  "pair_id": "Gsdmd:Tmem106a",
+  "headline": "Keep published RNA evidence separate from structural uncertainty",
+  "recommendation": "Retain this as a published RNA-supported reference case. Do not use the cached predicted fold to claim a stable or functional chimera.",
+  "decision": "retain_published_reference",
+  "claims": [
+    {
+      "kind": "observation",
+      "text": "The primary paper reports PCR/Sanger evidence for a Gsdmd\u2013Tmem106a junction and inflammation-responsive expression; those are published findings, not experiments performed here.",
+      "evidence": [
+        {
+          "step": 5,
+          "pointer": "/passages/1/text"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "text": "The probe and published read endpoints differ by one nucleotide on the second parent; coordinate conventions must be resolved before treating this as an exact match.",
+      "evidence": [
+        {
+          "step": 2,
+          "pointer": "/comparisons/0/published_offsets/0"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "text": "Our re-check of the bounded Parabricks sample finds zero matching probe-junction reads. This does not overturn the separate published evidence.",
+      "evidence": [
+        {
+          "step": 3,
+          "pointer": "/support"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "text": "The cached Boltz2 model has mean pLDDT 48.7 and is explicitly classified as low confidence.",
+      "evidence": [
+        {
+          "step": 4,
+          "pointer": "/predictions/0/confidence/mean_plddt"
+        }
+      ]
+    },
+    {
+      "kind": "inference",
+      "text": "The protein-model evidence cannot establish a stable fold, expression, or function. RNA evidence and structural confidence answer different questions.",
+      "evidence": [
+        {
+          "step": 4,
+          "pointer": "/predictions/0/interpretation"
+        }
+      ]
+    }
+  ],
+  "next_action": {
+    "question": "Does the specific protein product occur in the sample a scientist intends to study?",
+    "first_step": "Confirm the candidate sequence and sample context against the published construct and the source RNA evidence.",
+    "proposed_experiment": "For a translation-focused follow-up, discuss junction-spanning peptide evidence with a proteomics collaborator. The predicted fold alone should not determine the answer.",
+    "discriminating_outcome": "A sequence-specific peptide would address protein presence in that sample; it would still not by itself establish biological function.",
+    "status": "proposal_only_not_executed"
+  },
+  "created_at": "2026-09-19T23:44:16.599016+00:00",
+  "author": {
+    "system": "Codex",
+    "model": "gpt-6-astra",
+    "mode": "Active assistant chose and executed bounded tools, read returned evidence, and authored this decision; no Responses API call or autonomous background LLM loop claimed."
+  },
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "decision": null,
+    "note": null
+  },
+  "claim_review": {
+    "reviewer": "Codex active assistant",
+    "scope": "Qualitative source-support review, not an independent biology reviewer signoff",
+    "note": "Paper passage explicitly names the pair and RNA experiments. Structural statement is restricted to the cached model, with rounded pLDDT. No claim that protein evidence is absent from the full publication; the proposed follow-up refers to a new intended sample."
+  },
+  "limitations": [
+    "Three selected demonstration cases; no prospective or blinded evaluation.",
+    "No human time-saving or clinical/experimental utility measurement.",
+    "Recommendations are proposals requiring scientist review; no experiment was executed."
+  ]
+}

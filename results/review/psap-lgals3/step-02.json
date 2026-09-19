@@ -1,0 +1,52 @@
+{
+  "tool": "compare_probe_junctions",
+  "pair_id": "Psap:Lgals3",
+  "output": {
+    "pair_id": "Psap:Lgals3",
+    "comparisons": [
+      {
+        "probe_id": "Psap:Lgals3",
+        "probe_breakpoint1": 60138376,
+        "probe_breakpoint2": 47622982,
+        "published_offsets": [
+          {
+            "read_ids": "4b64b5d6-258f-468e-8998-243b495839bb",
+            "published_breakpoint1": 60138376,
+            "published_breakpoint2": 47622058,
+            "offset1": 0,
+            "offset2": -924
+          },
+          {
+            "read_ids": "01c53056-0db8-483f-ad0d-5400599b823a;b1b5d882-9f34-49dd-ad66-8d1a3ca07729;deb1feba-eaac-48db-b599-06f5ef943dfd;ff7126da-5d4f-43a2-9670-d9014ec6cb02",
+            "published_breakpoint1": 60138376,
+            "published_breakpoint2": 47616979,
+            "offset1": 0,
+            "offset2": -6003
+          },
+          {
+            "read_ids": "3d1cd4de-7d0d-4d67-8262-75c1310fb7c1",
+            "published_breakpoint1": 60138373,
+            "published_breakpoint2": 47616979,
+            "offset1": -3,
+            "offset2": -6003
+          }
+        ],
+        "closest_max_offset_nt": 924,
+        "same_locus_and_orientation_records": 3
+      }
+    ],
+    "interpretation_limit": "Descriptive coordinate comparison only. Published long-read coordinate conventions are not fully resolved. Small offsets may reflect convention or alignment; large offsets require source/read review. A pair-level label cannot validate every junction."
+  },
+  "sources": [
+    {
+      "path": "demo/data.json",
+      "sha256": "348dac2008a3860a6107c60a96d1b42d10eb06bae1c44240b15dcba9d729c513"
+    }
+  ],
+  "duration_seconds": 0.020087,
+  "executed_at": "2026-09-19T23:40:31.475841+00:00",
+  "step": 2,
+  "action_reason": "The six reads span three breakpoint records. Compare each to the designed probe before transferring pair-level support to a junction.",
+  "actor": "Codex assistant in the active project task",
+  "tool_code_sha256": "2d1e3a9724a6a3a7f4c89e669b8ca359f8b9ad56ac634a81951501824b27b055"
+}

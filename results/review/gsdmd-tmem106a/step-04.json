@@ -1,0 +1,50 @@
+{
+  "tool": "inspect_structure",
+  "pair_id": "Gsdmd:Tmem106a",
+  "output": {
+    "pair_id": "Gsdmd:Tmem106a",
+    "status": "available",
+    "predictions": [
+      {
+        "asset_id": "gsdmd_tmem106a_prediction",
+        "method": "Boltz2 2.2.1; reused actual prior GPU prediction",
+        "sequence_status": "reference_reconstruction_matching_published_constraints",
+        "confidence": {
+          "sequence_matches_coordinate_residues": true,
+          "experimental_shared_residues_match": true,
+          "mean_plddt": 48.704315185546875,
+          "mean_plddt_shared_1_73": 51.20903015136719,
+          "mean_plddt_novel_74_118": 44.641109466552734,
+          "fraction_below_50": 0.5338983050847458,
+          "ptm": 0.33591821789741516,
+          "parent_shared_residues_observed": 69,
+          "parent_shared_residues_missing": [
+            1,
+            71,
+            72,
+            73
+          ]
+        },
+        "interpretation": "Low-confidence candidate model; not experimental structure or proof of a stable fold, expression, function or druggability.",
+        "structure_file": "results/structures/gsdmd_tmem106a/model.cif"
+      }
+    ],
+    "scope": "Manifest confidence for a sequence-verified cached prediction; no new folding run or experimental validation."
+  },
+  "sources": [
+    {
+      "path": "results/structures/manifest.json",
+      "sha256": "0abd73741124511faba480b3259e6edbbae34e39bb031e53166b905c6ab340e6"
+    },
+    {
+      "path": "results/structures/gsdmd_tmem106a/model.cif",
+      "sha256": "d2b318e1f2ab28d8ef75df7e336b7022b583a608a9ca452685df7765a4421049"
+    }
+  ],
+  "duration_seconds": 0.000373,
+  "executed_at": "2026-09-19T23:41:28.651562+00:00",
+  "step": 4,
+  "action_reason": "Determine whether the available chimera model can justify a structural claim or should remain an uncertain hypothesis.",
+  "actor": "Codex assistant in the active project task",
+  "tool_code_sha256": "2d1e3a9724a6a3a7f4c89e669b8ca359f8b9ad56ac634a81951501824b27b055"
+}

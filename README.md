@@ -2,11 +2,19 @@
 
 **Saved checkpoint:** [current progress](CURRENT_PROGRESS.md) · [submission gaps and action plan](GAPS.md) · [detailed assessment](docs/hackathon-assessment/assessment.md)
 
-A minimal, reproducible test of whether 3D genome context helps rank published chimeric RNA candidates for independent assay support. This is a retrospective proof of concept, not a validated diagnostic or a claim of new biological discovery.
+An evidence-review assistant that helps scientists decide which chimeric-RNA junctions merit experimental follow-up. It checks the evidence behind a ranked pair, distinguishes conflicts from missing information, and proposes the next discriminating check for scientist review.
+
+The underlying ranking experiment tests whether 3D genome context adds useful signal. This is a retrospective proof of concept, not a claim of new biological discovery or measured improvement in scientific productivity.
 
 The reconstructed probe panel contains **479 eligible ordered gene pairs, including 109 reported NanoString positives**. Five-fold evaluation keeps all pairs sharing any parent gene in the same fold. The label is **reported NanoString support**, not RNA authenticity; an unreported candidate is not a proven negative.
 
 On the **401 pairs with complete Hi-C evidence**, average precision is **0.296 for RNA features versus 0.300 with Hi-C**. The paired difference is +0.00364, with a 95% component-bootstrap interval of [−0.0310, +0.0469]: this experiment **does not establish an improvement from Hi-C**. The useful deliverable is an audited, leakage-controlled experiment and an evidence explorer that makes that result inspectable.
+
+## Replay the scientist’s decision
+
+Three [recorded review cases](results/review/case_freeze.json) contain actual Codex-selected tool calls and source-linked decisions. Start with [Psap–Lgals3](results/review/psap-lgals3/decision.json): its high pair-level score hides a probe/read junction discrepancy. The review rechecks real NVIDIA Parabricks output and recommends resolving the junction before choosing an experiment.
+
+[Tool and replay instructions](scripts/review/README.md) · [Gsdmd–Tmem106a](results/review/gsdmd-tmem106a/decision.json) · [Cd274–Lacc1](results/review/cd274-lacc1/decision.json). Human review is pending; these selected cases are not a blinded utility study.
 
 ## Visual presentation and structure gallery
 

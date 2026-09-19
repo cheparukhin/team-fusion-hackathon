@@ -1,0 +1,107 @@
+{
+  "pair_id": "Psap:Lgals3",
+  "headline": "Resolve the junction before choosing the experiment",
+  "recommendation": "Review source reads and reconcile the probe junction before promoting this pair for junction-specific validation.",
+  "decision": "resolve_junction",
+  "claims": [
+    {
+      "kind": "observation",
+      "text": "The pair has six distinct published long-read IDs but is not listed as NanoString-supported; per-probe testing and QC remain unknown.",
+      "evidence": [
+        {
+          "step": 1,
+          "pointer": "/long_read_support"
+        },
+        {
+          "step": 1,
+          "pointer": "/label"
+        },
+        {
+          "step": 1,
+          "pointer": "/assay_tested"
+        },
+        {
+          "step": 1,
+          "pointer": "/assay_qc_status"
+        },
+        {
+          "step": 1,
+          "pointer": "/junctions"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "text": "The nearest recorded read endpoint differs from the designed probe by 924 nucleotides on the second parent. Other records differ by 6,003 nucleotides there.",
+      "evidence": [
+        {
+          "step": 2,
+          "pointer": "/comparisons/0/published_offsets"
+        }
+      ]
+    },
+    {
+      "kind": "observation",
+      "text": "Re-matching the real Parabricks output found no probe-junction support in the bounded two-million-pair sample.",
+      "evidence": [
+        {
+          "step": 3,
+          "pointer": "/support"
+        }
+      ]
+    },
+    {
+      "kind": "inference",
+      "text": "A high pair-level score does not tell us which of these junctions to test. The coordinate discrepancy is the immediate issue to resolve.",
+      "evidence": [
+        {
+          "step": 2,
+          "pointer": "/comparisons/0"
+        },
+        {
+          "step": 1,
+          "pointer": "/score_rna"
+        }
+      ]
+    },
+    {
+      "kind": "unknown",
+      "text": "The records do not establish whether this reflects alternative isoforms, a mapping discrepancy, or another explanation. Non-detection does not prove absence.",
+      "evidence": [
+        {
+          "step": 3,
+          "pointer": "/interpretation_limit"
+        }
+      ]
+    }
+  ],
+  "next_action": {
+    "question": "Which exact Psap\u2013Lgals3 junction is supported in the intended sample?",
+    "first_step": "Inspect the named source rows and original read alignments; reconcile the sequence-mapped probe with each published junction and its coordinate convention.",
+    "proposed_experiment": "Once a junction is resolved, ask a scientist to choose a junction-specific RNA confirmation assay in an independent matched sample, with sequence confirmation of the product.",
+    "discriminating_outcome": "A sequence-confirmed product identifies the tested junction; a negative result remains assay- and sample-limited. Neither outcome alone establishes protein production.",
+    "status": "proposal_only_not_executed"
+  },
+  "created_at": "2026-09-19T23:44:16.598478+00:00",
+  "author": {
+    "system": "Codex",
+    "model": "gpt-6-astra",
+    "mode": "Active assistant chose and executed bounded tools, read returned evidence, and authored this decision; no Responses API call or autonomous background LLM loop claimed."
+  },
+  "human_review": {
+    "status": "pending",
+    "reviewer": null,
+    "decision": null,
+    "note": null
+  },
+  "claim_review": {
+    "reviewer": "Codex active assistant",
+    "scope": "Qualitative source-support review, not an independent biology reviewer signoff",
+    "note": "Checked against the exact candidate fields and offset records. No paper passage specifically supporting this pair was used. Score is not called a probability. No false-negative label or protein claim."
+  },
+  "limitations": [
+    "Three selected demonstration cases; no prospective or blinded evaluation.",
+    "No human time-saving or clinical/experimental utility measurement.",
+    "Recommendations are proposals requiring scientist review; no experiment was executed."
+  ]
+}

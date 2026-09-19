@@ -1,0 +1,69 @@
+{
+  "tool": "retrieve_candidate",
+  "pair_id": "Gsdmd:Tmem106a",
+  "output": {
+    "pair_id": "Gsdmd:Tmem106a",
+    "species": "Mus musculus",
+    "assembly": "GRCm39",
+    "annotation": "GENCODE M28",
+    "label": 1,
+    "long_read_support": 1,
+    "sample_count": null,
+    "sample_count_status": "unavailable_read_to_sample_mapping",
+    "assay_tested": "unknown",
+    "assay_qc_status": "unknown",
+    "score_rna": 0.22699497370929003,
+    "score_hic": 0.2224044593326218,
+    "hic_status": "observed_all_replicates",
+    "short_read_reported_support": false,
+    "junctions": [
+      {
+        "pair_id": "Gsdmd:Tmem106a",
+        "chrom1": "chr15",
+        "breakpoint1": "75735477",
+        "strand1": "+",
+        "chrom2": "chr11",
+        "breakpoint2": "101479678",
+        "strand2": "+",
+        "read_ids": "337546ca-5d0f-4c0d-acdc-b66aa9a2cfbe",
+        "long_read_support": 1,
+        "source_rows": "118",
+        "assembly": "GRCm39",
+        "sample_ids": null,
+        "sample_count": null,
+        "source_id": "supplementary_table_3",
+        "coordinate_basis": "published coordinates preserved; see audit",
+        "sequence": null
+      }
+    ],
+    "probe_junctions": [
+      {
+        "probe_id": "Gsdmd:Tmem106a",
+        "pair_id": "Gsdmd:Tmem106a",
+        "chrom1": "chr15",
+        "breakpoint1": "75735477",
+        "strand1": "+",
+        "chrom2": "chr11",
+        "breakpoint2": "101479679",
+        "strand2": "+",
+        "assembly": "GRCm39",
+        "sequence": "GTTATTCATGTGTCAACCTGTCAATCAAGGACATCCTGGAGCCCAGTGCTCCAGAACCAGAATGTCCTGAACATCTTCAACAGCAACTTCTATCCCATCACAGTGACACAGCTGACGGCC",
+        "coordinate_basis": "1-based inclusive terminal parent bases from exact 60nt transcript matches",
+        "source_id": "supplementary_table_8+gencode_M28"
+      }
+    ],
+    "scope": "Pair-level reported support and held-out scores; not biological truth or protein function"
+  },
+  "sources": [
+    {
+      "path": "demo/data.json",
+      "sha256": "348dac2008a3860a6107c60a96d1b42d10eb06bae1c44240b15dcba9d729c513"
+    }
+  ],
+  "duration_seconds": 0.020685,
+  "executed_at": "2026-09-19T23:41:08.426336+00:00",
+  "step": 1,
+  "action_reason": "Use the published exemplar to distinguish pair-level support, exact junction evidence, and predicted protein structure.",
+  "actor": "Codex assistant in the active project task",
+  "tool_code_sha256": "2d1e3a9724a6a3a7f4c89e669b8ca359f8b9ad56ac634a81951501824b27b055"
+}

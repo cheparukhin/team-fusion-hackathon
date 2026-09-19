@@ -1,0 +1,22 @@
+{
+  "tool": "inspect_structure",
+  "pair_id": "Cd274:Lacc1",
+  "output": {
+    "pair_id": "Cd274:Lacc1",
+    "status": "unavailable",
+    "predictions": [],
+    "scope": "Manifest confidence for a sequence-verified cached prediction; no new folding run or experimental validation."
+  },
+  "sources": [
+    {
+      "path": "results/structures/manifest.json",
+      "sha256": "0abd73741124511faba480b3259e6edbbae34e39bb031e53166b905c6ab340e6"
+    }
+  ],
+  "duration_seconds": 0.000129,
+  "executed_at": "2026-09-19T23:41:45.300577+00:00",
+  "step": 3,
+  "action_reason": "Check availability before making any protein-structure claim.",
+  "actor": "Codex assistant in the active project task",
+  "tool_code_sha256": "2d1e3a9724a6a3a7f4c89e669b8ca359f8b9ad56ac634a81951501824b27b055"
+}

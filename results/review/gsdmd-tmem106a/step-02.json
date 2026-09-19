@@ -1,0 +1,38 @@
+{
+  "tool": "compare_probe_junctions",
+  "pair_id": "Gsdmd:Tmem106a",
+  "output": {
+    "pair_id": "Gsdmd:Tmem106a",
+    "comparisons": [
+      {
+        "probe_id": "Gsdmd:Tmem106a",
+        "probe_breakpoint1": 75735477,
+        "probe_breakpoint2": 101479679,
+        "published_offsets": [
+          {
+            "read_ids": "337546ca-5d0f-4c0d-acdc-b66aa9a2cfbe",
+            "published_breakpoint1": 75735477,
+            "published_breakpoint2": 101479678,
+            "offset1": 0,
+            "offset2": -1
+          }
+        ],
+        "closest_max_offset_nt": 1,
+        "same_locus_and_orientation_records": 1
+      }
+    ],
+    "interpretation_limit": "Descriptive coordinate comparison only. Published long-read coordinate conventions are not fully resolved. Small offsets may reflect convention or alignment; large offsets require source/read review. A pair-level label cannot validate every junction."
+  },
+  "sources": [
+    {
+      "path": "demo/data.json",
+      "sha256": "348dac2008a3860a6107c60a96d1b42d10eb06bae1c44240b15dcba9d729c513"
+    }
+  ],
+  "duration_seconds": 0.019689,
+  "executed_at": "2026-09-19T23:41:27.299295+00:00",
+  "step": 2,
+  "action_reason": "Resolve whether the long-read breakpoint and sequence-mapped probe describe nearby endpoints before interpreting pair support.",
+  "actor": "Codex assistant in the active project task",
+  "tool_code_sha256": "2d1e3a9724a6a3a7f4c89e669b8ca359f8b9ad56ac634a81951501824b27b055"
+}
