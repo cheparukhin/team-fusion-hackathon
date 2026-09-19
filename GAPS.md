@@ -12,7 +12,7 @@ This is the working checklist from the [20 September assessment](docs/hackathon-
 ## Priority 1 — demonstrate the scientist's decision
 - [ ] Agree one product statement: an assistant that helps scientists decide which chimeric-RNA candidates merit experimental validation.
 - [ ] Demonstrate an actual bounded agent run: retrieve candidate/junction evidence, choose an evidence check, interpret its result, recommend the next discriminating experiment, and record scientist review.
-- [ ] Show how actual NVIDIA-generated evidence informs that review. Retain inputs, outputs, versions and an offline replay.
+- [x] Show how actual NVIDIA-generated evidence informs that review. Retain inputs, outputs, versions and an offline replay.
 - [ ] Review unsupported qualitative claims explicitly; citation-ID and numeric checks do not establish that a source supports a biological assertion.
 
 ## Priority 2 — demonstrate utility without overstating accuracy
@@ -51,3 +51,5 @@ Iteration 1: top-k expectations now integrate boundary ties exactly, with attain
 Iteration 2: fresh environment installation and `scripts/reproduce.py --download` completed on the shared CPU. Rebuilt scientific inputs, folds and predictions match the checkpoint byte-for-byte; all 25 tests pass. No shared system packages changed. Next priority: the review demo. The Psap:Lgals3 case has a concrete probe-versus-read junction discrepancy worth showing rather than adding more models.
 
 Iteration 3: three bounded Codex review runs now retain actual tool outputs and source hashes. Re-matching uses the verified NVIDIA Parabricks junction file; decisions distinguish pair-level support, probe/read discrepancies, non-detection, and low-confidence/missing structures. These are selected demonstration cases, not a blinded study. Codex qualitative review is recorded; independent scientist signoff and measured utility remain pending. Next priority is a clear replay and scientist-review interface, followed by presentation packaging—not additional inference runs.
+
+Iteration 4: added an offline scientist-review page with three evidence-led cases, recorded-tool navigation, source-linked claims and locally saved/downloadable review receipts bound to the decision hash. Application logic checks pass for persistence, case isolation, required fields, stale records, storage failure and escaping. Browser/visual inspection remains OPEN: the Codex browser tool twice could not verify its enforced security policy; no alternative browser was used to bypass that check. Next priority is the submission story and remaining factual audit while browser access is unavailable. Do not present mock-document tests as browser validation or local self-reported receipts as independent signoff.

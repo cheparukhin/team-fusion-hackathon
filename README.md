@@ -12,6 +12,8 @@ On the **401 pairs with complete Hi-C evidence**, average precision is **0.296 f
 
 ## Replay the scientist’s decision
 
+**[Open the scientist review demo](demo/review/index.html)** — three cases, recorded evidence checks, and a downloadable local review receipt.
+
 Three [recorded review cases](results/review/case_freeze.json) contain actual Codex-selected tool calls and source-linked decisions. Start with [Psap–Lgals3](results/review/psap-lgals3/decision.json): its high pair-level score hides a probe/read junction discrepancy. The review rechecks real NVIDIA Parabricks output and recommends resolving the junction before choosing an experiment.
 
 [Tool and replay instructions](scripts/review/README.md) · [Gsdmd–Tmem106a](results/review/gsdmd-tmem106a/decision.json) · [Cd274–Lacc1](results/review/cd274-lacc1/decision.json). Human review is pending; these selected cases are not a blinded utility study.

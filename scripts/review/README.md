@@ -34,3 +34,17 @@ Replay recomputes outputs, checks the recorded implementation hash and source ha
 Decision prose received a qualitative review by the active Codex assistant against the referenced evidence. Pointer validation cannot prove that prose follows from its source. An independent biology reviewer has **not** signed off. Experiment suggestions are proposals only, and human review remains pending. No time-saving, accuracy gain, or wet-lab success has been measured.
 
 The selected-case freeze is in `results/review/case_freeze.json`. Tool durations exclude model reasoning and human work and must not be presented as end-to-end review time.
+
+## Scientist review page
+
+Open `demo/review/index.html` directly for offline use, or serve the repository and open `/demo/review/`. The page replays recorded outputs; it does not simulate live inference. Regenerate the bundle with `python scripts/review/export.py` after changing a frozen decision.
+
+The scientist can endorse, revise or defer the proposed next step. A name, decision and reason are required. The record is stored only in that browser and bound to the SHA-256 of the reviewed decision. Downloading exports a self-reported review receipt; it does not authenticate the reviewer or claim an experiment occurred. If browser storage is unavailable, saving downloads the receipt instead. No data is sent to a server. The published demonstration remains unsigned.
+
+Application-logic checks (mock document, not a browser or visual test):
+
+```sh
+node tests/test_review_ui.mjs
+```
+
+Visual inspection and real-browser interaction testing remain pending because the Codex browser security-policy check was unavailable during authoring. See `results/review/ui_validation.json` for the precise verification scope.

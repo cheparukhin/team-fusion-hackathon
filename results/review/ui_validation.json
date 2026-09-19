@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-09-19T23:54:04.373748+00:00",
+  "application_logic": "passed",
+  "method": "Node vm with mock document; no browser rendering or interaction",
+  "checks": [
+    "three case evidence values",
+    "empty required fields",
+    "local persistence and reload reconstruction",
+    "case/decision hash binding",
+    "download and clear",
+    "storage-unavailable download fallback",
+    "stale receipt rejection",
+    "text escaping"
+  ],
+  "browser_visual": "blocked",
+  "reason": "Codex browser tool could not verify admin-enforced policy; two direct attempts denied. No bypass attempted.",
+  "human_scientist_review": "pending",
+  "ui_test_reviewers": "Synthetic test-only names inside isolated mock state; not saved as scientist reviews."
+}
