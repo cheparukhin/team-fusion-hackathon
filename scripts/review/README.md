@@ -48,3 +48,14 @@ node tests/test_review_ui.mjs
 ```
 
 Visual inspection and real-browser interaction testing remain pending because the Codex browser security-policy check was unavailable during authoring. See `results/review/ui_validation.json` for the precise verification scope.
+
+
+## Direct source audit of the presentation case
+
+After downloading the pinned public inputs, run:
+
+```sh
+python scripts/review/audit_source_case.py
+```
+
+This reads Psap:Lgals3 directly from the source spreadsheets, finds each probe half in the reference transcripts, and maps it with explicitly expanded exon coordinates ordered by GTF exon number. It does not import the production reconstruction mapper or consume demo data. The result in `results/review/psap_source_audit.json` preserves source rows, sequence matches, source hashes, and the 924-nt nearest discrepancy. The audit verifies the descriptive coordinates; it cannot determine their biological explanation.

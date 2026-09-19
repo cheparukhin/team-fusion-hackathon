@@ -1,0 +1,236 @@
+{
+  "status": "passed",
+  "verified_at": "2026-09-19T23:57:22.688895+00:00",
+  "pair_id": "Psap:Lgals3",
+  "sources": [
+    {
+      "path": "data/raw/41586_2026_10982_MOESM5_ESM.xlsx",
+      "sha256": "26188b51627c0c804fd102b605e81c083866ae4253d845f2f3bbc45fcf3d71ce"
+    },
+    {
+      "path": "data/raw/41586_2026_10982_MOESM10_ESM.xlsx",
+      "sha256": "601adceec614d56f70f7ecd636278e8df13f2bf9c8dc96c6de0991ce5230cc00"
+    },
+    {
+      "path": "data/reference/gencode.vM28.annotation.gtf.gz",
+      "sha256": "ac3a1ecbc9c6e4eb332cc37fa98338d15e13185426ceb9c98d11e5f4e0e4341f"
+    },
+    {
+      "path": "data/reference/gencode.vM28.transcripts.fa.gz",
+      "sha256": "4e187c0e7d7e9020294c3012c0f4486409962238b8ad2db260b9048005358254"
+    }
+  ],
+  "raw_read_rows": [
+    {
+      "spreadsheet_row": 10418,
+      "Read_ID": "01c53056-0db8-483f-ad0d-5400599b823a",
+      "Chimera_ID": "Psap:Lgals3",
+      "Gene_A": "Psap",
+      "Chromosome_Gene_A": "chr10",
+      "Breakpoint_Coordinate_Gene_A": 60138376,
+      "Strand_Gene_A": "+",
+      "Gene_B": "Lgals3",
+      "Chromosome_Gene_B": "chr14",
+      "Breakpoint_Coordinate_Gene_B": 47616979,
+      "Strand_Gene_B": "+",
+      "Chromosomal_Status": "Interchromosomal"
+    },
+    {
+      "spreadsheet_row": 10419,
+      "Read_ID": "3d1cd4de-7d0d-4d67-8262-75c1310fb7c1",
+      "Chimera_ID": "Psap:Lgals3",
+      "Gene_A": "Psap",
+      "Chromosome_Gene_A": "chr10",
+      "Breakpoint_Coordinate_Gene_A": 60138373,
+      "Strand_Gene_A": "+",
+      "Gene_B": "Lgals3",
+      "Chromosome_Gene_B": "chr14",
+      "Breakpoint_Coordinate_Gene_B": 47616979,
+      "Strand_Gene_B": "+",
+      "Chromosomal_Status": "Interchromosomal"
+    },
+    {
+      "spreadsheet_row": 10420,
+      "Read_ID": "4b64b5d6-258f-468e-8998-243b495839bb",
+      "Chimera_ID": "Psap:Lgals3",
+      "Gene_A": "Psap",
+      "Chromosome_Gene_A": "chr10",
+      "Breakpoint_Coordinate_Gene_A": 60138376,
+      "Strand_Gene_A": "+",
+      "Gene_B": "Lgals3",
+      "Chromosome_Gene_B": "chr14",
+      "Breakpoint_Coordinate_Gene_B": 47622058,
+      "Strand_Gene_B": "+",
+      "Chromosomal_Status": "Interchromosomal"
+    },
+    {
+      "spreadsheet_row": 23245,
+      "Read_ID": "ff7126da-5d4f-43a2-9670-d9014ec6cb02",
+      "Chimera_ID": "Psap:Lgals3",
+      "Gene_A": "Psap",
+      "Chromosome_Gene_A": "chr10",
+      "Breakpoint_Coordinate_Gene_A": 60138376,
+      "Strand_Gene_A": "+",
+      "Gene_B": "Lgals3",
+      "Chromosome_Gene_B": "chr14",
+      "Breakpoint_Coordinate_Gene_B": 47616979,
+      "Strand_Gene_B": "+",
+      "Chromosomal_Status": "Interchromosomal"
+    },
+    {
+      "spreadsheet_row": 24507,
+      "Read_ID": "deb1feba-eaac-48db-b599-06f5ef943dfd",
+      "Chimera_ID": "Psap:Lgals3",
+      "Gene_A": "Psap",
+      "Chromosome_Gene_A": "chr10",
+      "Breakpoint_Coordinate_Gene_A": 60138376,
+      "Strand_Gene_A": "+",
+      "Gene_B": "Lgals3",
+      "Chromosome_Gene_B": "chr14",
+      "Breakpoint_Coordinate_Gene_B": 47616979,
+      "Strand_Gene_B": "+",
+      "Chromosomal_Status": "Interchromosomal"
+    },
+    {
+      "spreadsheet_row": 30742,
+      "Read_ID": "b1b5d882-9f34-49dd-ad66-8d1a3ca07729",
+      "Chimera_ID": "Psap:Lgals3",
+      "Gene_A": "Psap",
+      "Chromosome_Gene_A": "chr10",
+      "Breakpoint_Coordinate_Gene_A": 60138376,
+      "Strand_Gene_A": "+",
+      "Gene_B": "Lgals3",
+      "Chromosome_Gene_B": "chr14",
+      "Breakpoint_Coordinate_Gene_B": 47616979,
+      "Strand_Gene_B": "+",
+      "Chromosomal_Status": "Interchromosomal"
+    }
+  ],
+  "probe_spreadsheet_row": 412,
+  "probe_sequence": "GGACCTAGATTTTGTTTTGCACTAAAGTTTCTGTGACTTAATAAAGTTCTGTTAACCAACATACAAGTCCTGGTTGAAGCTGACCACTTCAAGGTTGCGGTCAACGATGCTCACCTACTG",
+  "independent_transcript_matches": [
+    {
+      "side": "a",
+      "gene": "Psap",
+      "transcript_id": "ENSMUST00000179238.8",
+      "transcript_offset_zero_based": 2597,
+      "chromosome": "chr10",
+      "strand": "+",
+      "terminal_genomic_base": 60138376,
+      "method": "Exact 60-nt match, explicitly expanded 1-based genomic exon coordinates"
+    },
+    {
+      "side": "a",
+      "gene": "Psap",
+      "transcript_id": "ENSMUST00000177779.8",
+      "transcript_offset_zero_based": 2597,
+      "chromosome": "chr10",
+      "strand": "+",
+      "terminal_genomic_base": 60138376,
+      "method": "Exact 60-nt match, explicitly expanded 1-based genomic exon coordinates"
+    },
+    {
+      "side": "a",
+      "gene": "Psap",
+      "transcript_id": "ENSMUST00000004316.15",
+      "transcript_offset_zero_based": 2594,
+      "chromosome": "chr10",
+      "strand": "+",
+      "terminal_genomic_base": 60138376,
+      "method": "Exact 60-nt match, explicitly expanded 1-based genomic exon coordinates"
+    },
+    {
+      "side": "a",
+      "gene": "Psap",
+      "transcript_id": "ENSMUST00000165878.2",
+      "transcript_offset_zero_based": 2504,
+      "chromosome": "chr10",
+      "strand": "+",
+      "terminal_genomic_base": 60138376,
+      "method": "Exact 60-nt match, explicitly expanded 1-based genomic exon coordinates"
+    },
+    {
+      "side": "b",
+      "gene": "Lgals3",
+      "transcript_id": "ENSMUST00000142734.8",
+      "transcript_offset_zero_based": 783,
+      "chromosome": "chr14",
+      "strand": "+",
+      "terminal_genomic_base": 47622982,
+      "method": "Exact 60-nt match, explicitly expanded 1-based genomic exon coordinates"
+    },
+    {
+      "side": "b",
+      "gene": "Lgals3",
+      "transcript_id": "ENSMUST00000150290.9",
+      "transcript_offset_zero_based": 734,
+      "chromosome": "chr14",
+      "strand": "+",
+      "terminal_genomic_base": 47622982,
+      "method": "Exact 60-nt match, explicitly expanded 1-based genomic exon coordinates"
+    },
+    {
+      "side": "b",
+      "gene": "Lgals3",
+      "transcript_id": "ENSMUST00000146468.4",
+      "transcript_offset_zero_based": 802,
+      "chromosome": "chr14",
+      "strand": "+",
+      "terminal_genomic_base": 47622982,
+      "method": "Exact 60-nt match, explicitly expanded 1-based genomic exon coordinates"
+    }
+  ],
+  "probe_endpoints": {
+    "a": [
+      60138376
+    ],
+    "b": [
+      47622982
+    ]
+  },
+  "read_offsets": [
+    {
+      "source_row": 10418,
+      "read_id": "01c53056-0db8-483f-ad0d-5400599b823a",
+      "offset1": 0,
+      "offset2": -6003
+    },
+    {
+      "source_row": 10419,
+      "read_id": "3d1cd4de-7d0d-4d67-8262-75c1310fb7c1",
+      "offset1": -3,
+      "offset2": -6003
+    },
+    {
+      "source_row": 10420,
+      "read_id": "4b64b5d6-258f-468e-8998-243b495839bb",
+      "offset1": 0,
+      "offset2": -924
+    },
+    {
+      "source_row": 23245,
+      "read_id": "ff7126da-5d4f-43a2-9670-d9014ec6cb02",
+      "offset1": 0,
+      "offset2": -6003
+    },
+    {
+      "source_row": 24507,
+      "read_id": "deb1feba-eaac-48db-b599-06f5ef943dfd",
+      "offset1": 0,
+      "offset2": -6003
+    },
+    {
+      "source_row": 30742,
+      "read_id": "b1b5d882-9f34-49dd-ad66-8d1a3ca07729",
+      "offset1": 0,
+      "offset2": -6003
+    }
+  ],
+  "unique_read_ids": 6,
+  "closest_max_endpoint_difference_nt": 924,
+  "conclusion": "The 924-nt nearest discrepancy is reproduced directly from the pinned source spreadsheets and M28 reference, independently of the demo and reconstruction mapper.",
+  "limits": [
+    "Published long-read base-origin convention remains unspecified; the discrepancy is descriptive.",
+    "This does not establish a mapping error, false RNA, probe failure, or alternative isoform. Original alignments/sample context require review."
+  ]
+}
