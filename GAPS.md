@@ -5,7 +5,7 @@ This is the working checklist from the [20 September assessment](docs/hackathon-
 ## Priority 0 — one reliable release
 - [x] Save the current implementation, demo, scientific outputs, and gap assessment in one GitHub repository.
 - [x] Keep published-panel results, mouse-pilot hypotheses, and ongoing K562 work explicitly separate.
-- [ ] Verify the full download/reproduction path from a clean checkout. Passing focused tests alone does not establish this.
+- [x] Verify the public-table/reference download and core reproduction path in a clean source directory and fresh environment. Twenty-five tests pass; rebuilt input, folds and predictions are byte-identical. Cached Hi-C and GPU outputs remain explicit inputs; see [validation](results/reproduction/clean_cpu_validation.json).
 - [ ] Freeze a final release; ensure slides, demo, downloadable bundle and README all refer to it.
 - [ ] Grant judges access when submitting; this checkpoint repository is private.
 
@@ -47,3 +47,5 @@ Deadline: 09:00 BST (08:00 UTC). Optimize the existing scientist-review workflow
 Compute inventory: controller and K562 CPU are running; both listed GPU/pilot instances are stopped. No new instance has been provisioned. User's combined rate ceiling is $400/hour; obtain live prices before any launch. Existing GPU evidence is sufficient for the next iteration.
 
 Iteration 1: top-k expectations now integrate boundary ties exactly, with attainable ranges and the previous pair-ID ordering preserved for audit. Exhaustive-permutation and edge-case tests pass on the shared CPU. Full-panel read-count baseline is approximately 11.07 expected supported pairs versus 11.00 for the model: do not claim top-20 uplift. Next priority is reliable reproduction and a useful evidence-review decision.
+
+Iteration 2: fresh environment installation and `scripts/reproduce.py --download` completed on the shared CPU. Rebuilt scientific inputs, folds and predictions match the checkpoint byte-for-byte; all 25 tests pass. No shared system packages changed. Next priority: the review demo. The Psap:Lgals3 case has a concrete probe-versus-read junction discrepancy worth showing rather than adding more models.

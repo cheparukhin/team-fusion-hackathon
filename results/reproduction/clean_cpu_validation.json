@@ -1,0 +1,27 @@
+{
+  "verified_at": "2026-09-19T23:41:08.682174+00:00",
+  "status": "passed",
+  "host": "chrna-controller",
+  "directory": "/home/ubuntu/workspace/fusion-overnight-20260920",
+  "source_commit": "90d9bdc",
+  "source_note": "Git archive of checkpoint plus iteration-1 model correction; source files transferred explicitly. No teammate working files modified.",
+  "environment": "Fresh .venv-clean via preinstalled user-space uv; requirements.lock installed without system-package changes",
+  "commands": [
+    "uv venv .venv-clean",
+    "uv pip install --python .venv-clean/bin/python -r requirements.lock",
+    "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 .venv-clean/bin/python scripts/reproduce.py --download",
+    "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 PYTHONPATH=src .venv-clean/bin/python -m pytest tests -q"
+  ],
+  "tests": {
+    "passed": 25
+  },
+  "data_rebuilt": true,
+  "public_download_path_executed": true,
+  "scientific_artifacts_byte_identical": {
+    "results/classifier/predictions.tsv": "012ca471c5ce4cd504f515b6e64a7d3d0c7321f1e63cd91e3cc500f4a7f1d4ca",
+    "results/classifier/folds.tsv": "c644b116a8ea7da606e99e1d75803a44501b2e239e29f11af6c3e3422b1cb0d5",
+    "results/dataset_reconstruction/model_input.tsv": "7bf400eb654782ea5f8a5ad5f492e17f344787e7c0d349fd39b248dc1d43303f"
+  },
+  "scope": "Public table/reference download, dataset reconstruction, model refitting/evaluation, plots, catalogue scoring and demo export. Uses committed processed Hi-C features and existing GPU artifacts; does not rerun GPU alignment or raw Hi-C processing.",
+  "requirements_sha256": "9fda379084a43edd4b9fd98b4721afc987a3b626dee93f0cf36c309e31e00a1a"
+}
