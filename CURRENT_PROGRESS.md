@@ -21,7 +21,7 @@ The separate mouse pilot reports 116 technically supported junctions and 10 froz
 The Parabricks pilot processed two million read pairs and found no fixed-criteria probe-junction matches. K562 progress is an in-progress snapshot; consult its timestamp, not this repository's creation time.
 
 ## Large files and exclusions
-The 147 MB 4K animation is stored as a release asset rather than a normal Git file. Its expected SHA-256 is recorded in the manifest; lower-resolution animations and render sources are included.
+The 147 MB 4K animation is stored in the [checkpoint release](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/checkpoint-2026-09-20) rather than a normal Git file. Its expected SHA-256 is recorded in the manifest; lower-resolution animations and render sources are included.
 
 Raw sequencing archives, reference/contact caches, model weights, Python environments, credential files, authentication caches and local infrastructure state are excluded. Fetch required public inputs using the documented commands. No GPU job or paid API call is triggered by cloning this repository.
 
