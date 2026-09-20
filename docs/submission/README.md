@@ -13,6 +13,8 @@ Three presented slides plus one non-presented technical appendix. The original o
 
 The complete timed script is in [speaker-notes.json](speaker-notes.json) and the native deck. These are planned timings, not completed rehearsals.
 
+[Scientific claim audit, judge questions and independent-review instructions](SCIENTIFIC_REVIEW.md).
+
 ## Evidence and limits
 
 Evidence snapshot: `644e3f8`. Scientific references are in the script and [slide-text.json](slide-text.json). Hi-C has no established gain. The three cases are selected demonstrations. Human review and measured utility are pending. Local review receipts are self-reported.

@@ -11,9 +11,10 @@ This is the working checklist from the [20 September assessment](docs/hackathon-
 
 ## Priority 1 — demonstrate the scientist's decision
 - [ ] Agree one product statement: an assistant that helps scientists decide which chimeric-RNA candidates merit experimental validation.
-- [ ] Demonstrate an actual bounded agent run: retrieve candidate/junction evidence, choose an evidence check, interpret its result, recommend the next discriminating experiment, and record scientist review.
+- [x] Record actual bounded Codex runs: retrieve candidate/junction evidence, choose checks, interpret results and propose the next discriminating experiment; twelve outputs replay exactly.
+- [ ] Complete independent scientist review of those decisions, recording acceptance, correction or deferral.
 - [x] Show how actual NVIDIA-generated evidence informs that review. Retain inputs, outputs, versions and an offline replay.
-- [ ] Review unsupported qualitative claims explicitly; citation-ID and numeric checks do not establish that a source supports a biological assertion.
+- [x] Review unsupported qualitative claims explicitly; [Codex claim-by-claim audit](docs/submission/SCIENTIFIC_REVIEW.md) separates observed facts, inferences and unanswered questions. This does not substitute for the independent biology signoff below.
 
 ## Priority 2 — demonstrate utility without overstating accuracy
 - [x] Correct top-20 evaluation for tied scores. The read-count baseline has approximately 11.07 expected reported-supported pairs under random tie-breaking, compared with 11.00 for the RNA model.
@@ -59,3 +60,5 @@ Iteration 5: independently rechecked Psap:Lgals3 against the original source spr
 Iteration 6: completed a native copy of the organiser template with three presented slides and technical appendix, centered on the verified Psap–Lgals3 decision. All four native thumbnails were visually inspected; one crowded workflow label was simplified and re-inspected. Preserved the null Hi-C result, selected-case limits and pending biology review. Planned five-minute script is included; rehearsals and video are not claimed. [Deck and snapshot](docs/submission/README.md). Reassessed priority: release consistency and an honest delivery path now matter more than new analysis. Independent review, browser verification and judge access remain open.
 
 Iteration 7: aligning the repository entry point, current deck and offline bundle. The earlier twelve-slide gallery is now explicitly supporting/historical material so its pre-correction snapshots cannot be mistaken for the current claim set. A direct browser retry still failed its enforced policy availability check; no workaround was used. The initial package failed on Unix-epoch file timestamps; fixed timestamp handling and made ZIP replacement atomic after full checksum verification. The 117-MB, 674-file bundle at `6784cc8` was extracted separately on the shared CPU: all file hashes matched, all 12 review outputs replayed exactly, 30 tests passed, and review application-logic checks passed. [Bundle validation](results/reproduction/bundle_validation.json). Next priority is an accessible release candidate and a focused judge-facing scientific audit, not further models.
+
+Iteration 8: audited the current story claim by claim, including qualitative interpretation and the distinction between independent assay evidence and independent reviewer validation. Added concise judge questions and a concrete reviewer handoff tied to frozen decision hashes. No scientific decision was changed, no review was fabricated, and no new assay/model was added. Reassessment: the evidence package is coherent; the remaining critical proof is human review and a demonstrated presentation, not another computational result.
