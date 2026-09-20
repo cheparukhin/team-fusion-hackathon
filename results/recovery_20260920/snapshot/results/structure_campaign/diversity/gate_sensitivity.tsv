@@ -1,0 +1,13 @@
+protocol_id	population	residue_plddt_threshold	primary_gate	minimum_span_aa	minimum_fraction_passing	planned_first_pass_peptides	actual_validated_peptide_denominator	unavailable_or_invalid_peptides	peptides_with_passing_spans	passing_spans	passing_peptide_fraction
+boltz2_2.2.1_precomputed	candidate	60	False	50	0.8	43	1	42	0	0	0.0
+boltz2_2.2.1_precomputed	candidate	70	True	50	0.8	43	1	42	0	0	0.0
+boltz2_2.2.1_precomputed	candidate	80	False	50	0.8	43	1	42	0	0	0.0
+boltz2_2.2.1_precomputed	control	60	False	50	0.8	8	0	8	0	0	
+boltz2_2.2.1_precomputed	control	70	True	50	0.8	8	0	8	0	0	
+boltz2_2.2.1_precomputed	control	80	False	50	0.8	8	0	8	0	0	
+boltz2_2.2.1_single_sequence	candidate	60	False	50	0.8	43	43	0	3	12	0.06976744186046512
+boltz2_2.2.1_single_sequence	candidate	70	True	50	0.8	43	43	0	2	7	0.046511627906976744
+boltz2_2.2.1_single_sequence	candidate	80	False	50	0.8	43	43	0	0	0	0.0
+boltz2_2.2.1_single_sequence	control	60	False	50	0.8	8	8	0	1	6	0.125
+boltz2_2.2.1_single_sequence	control	70	True	50	0.8	8	8	0	1	2	0.125
+boltz2_2.2.1_single_sequence	control	80	False	50	0.8	8	8	0	0	0	0.0

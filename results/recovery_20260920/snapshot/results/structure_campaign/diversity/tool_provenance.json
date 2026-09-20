@@ -1,0 +1,7 @@
+{
+  "source": "https://mmseqs.com/foldseek/foldseek-linux-avx2.tar.gz",
+  "archive_sha256": "f886374e29ebbf03849cd9c4c8929be00904856dd271627d8c3043607e2af95a",
+  "binary_sha256": "56ec365f98227b07b7de4eba97aa1ae5f3cbf70fd9819311fab98eec42ada6ae",
+  "version": "463739e0014a1549a527de589102cde98f802f37",
+  "usage": "Same-protocol actual-coordinate clustering only; not a novel-fold search against external databases."
+}

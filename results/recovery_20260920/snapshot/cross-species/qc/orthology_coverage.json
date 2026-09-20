@@ -1,0 +1,20 @@
+{
+  "pair_rows": {
+    "canis_lupus_familiaris|homo_sapiens": 22161,
+    "bos_taurus|homo_sapiens": 22223,
+    "homo_sapiens|rattus_norvegicus": 23865,
+    "homo_sapiens|mus_musculus": 25439,
+    "canis_lupus_familiaris|mus_musculus": 22297,
+    "bos_taurus|mus_musculus": 24992,
+    "mus_musculus|rattus_norvegicus": 42433,
+    "bos_taurus|rattus_norvegicus": 27377,
+    "canis_lupus_familiaris|rattus_norvegicus": 23351,
+    "bos_taurus|canis_lupus_familiaris": 22883
+  },
+  "types": {
+    "ortholog_one2many": 32865,
+    "ortholog_one2one": 166300,
+    "ortholog_many2many": 57856
+  },
+  "note": "Source homologies need not be stored in both species directories; check union across all species before declaring missing."
+}

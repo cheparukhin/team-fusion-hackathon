@@ -1,0 +1,42 @@
+{
+  "status": "passed",
+  "reference_pairs": 109,
+  "unique_peptides": 934,
+  "complete_crossing_orfs_checked": 4438,
+  "mapped_residues_checked": 2147491,
+  "residue_source_classes": {
+    "parent_a_canonical": 1603988,
+    "parent_b_canonical": 244105,
+    "junction_split_codon": 1724,
+    "parent_b_upstream_of_annotated_CDS": 8929,
+    "parent_a_out_of_frame": 10662,
+    "parent_b_unannotated_CDS": 42460,
+    "parent_b_out_of_frame": 63050,
+    "parent_a_unannotated_CDS": 108463,
+    "parent_a_downstream_of_annotated_CDS": 59667,
+    "parent_b_downstream_of_annotated_CDS": 3560,
+    "parent_a_upstream_of_annotated_CDS": 883
+  },
+  "gsdmd118_reference_origin_hypotheses_checked": 8,
+  "conditional188_consensus30_sensitivity746_fasta_counts_match": true,
+  "source_mapping_triplets_and_order_checked": true,
+  "all_recorded_output_and_code_hashes_match": true,
+  "strict_primary_fasta_empty": true,
+  "resolved_validation_finding": "Partial-parent CDS mapping previously depended on complete parental ORF availability. Corrected to actual GTF CDS intervals and annotated start; partial-parent retained canonical regions now map correctly. Eight focused tests pass. Peptide sequences and eligibility counts unchanged.",
+  "validation_scope": "Output integrity,complete start/stop/crossing conditions,sequence hashes,per-ORF residue map cardinality/order/identity and known Gsdmd residue-origin boundary. No new evidence of observed exon chains or protein translation.",
+  "explicit_full_parent_control_link_validation": {
+    "status": "passed",
+    "linked_source_orfs": 4194,
+    "full_parent_links_checked": 7052,
+    "control_links_sha256": "87c050ff65e56f2a21171269bb16b23e27adbdc6756c006bacb69f3f94358f4e",
+    "cohort_manifest_sha256": "a0e86af028a3f265c8d23142ff84e09a212f57000aa66a31683ae591e556c671",
+    "note": "Full-parent explicit ORF links added; peptide and residue sequence output unchanged. All current code/output hashes rechecked."
+  },
+  "reference_membership_path_migration": {
+    "status": "passed",
+    "reference_sha256_unchanged": "7b93e2a2e5edf834826452f20e38b09b6a850f0726892f48fe00d3abae73ade9",
+    "cohort_manifest_sha256": "b79792bc80cc1e8a303994857cff09102397fe6b531e9d3f05b48ba4d659a87e",
+    "reconstruction_code_sha256": "d78362e7cfa955ca7edb3f587b5ea59308c55f2104ffd3bede6f254438220e03",
+    "all_existing_scientific_output_sha256_unchanged": true
+  }
+}

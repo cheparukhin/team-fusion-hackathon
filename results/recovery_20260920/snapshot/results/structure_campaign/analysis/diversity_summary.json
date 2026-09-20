@@ -1,0 +1,85 @@
+{
+  "status": "computed_from_actual_available_model_snapshot",
+  "input_jobs": "/home/ubuntu/workspace/quick_hack/results/structure_campaign/compute/jobs.json",
+  "input_jobs_sha256": "5ad34ad320e55b34fb08da58ece9a41ba9f052381167a439a0072c5b27a9a0eb",
+  "job_snapshot": "results/structure_campaign/diversity/snapshots/8a5ae8c8c9cbc370/jobs.json",
+  "input_jobs_changed_during_run": false,
+  "pfam_domain_hits_sha256": "dbddb67b1146067d551d09acc4ea391417a09ad5c8305323fcf68ffb0c00c4b4",
+  "driver_sha256": "4fc20ec213ad3a5948ac865a21a2a6bcce2b5813fcb9cb4669ec4f85791831b7",
+  "foldseek_version": "463739e0014a1549a527de589102cde98f802f37",
+  "foldseek_binary_sha256": "56ec365f98227b07b7de4eba97aa1ae5f3cbf70fd9819311fab98eec42ada6ae",
+  "protocols": [
+    {
+      "protocol_id": "boltz2_2.2.1_precomputed",
+      "status": "no_qualified_domains",
+      "error": "",
+      "planned_model_jobs": 51,
+      "first_pass_unique_sequences": 51,
+      "actual_validated_first_pass_models": 1,
+      "unavailable_first_pass_models": 50,
+      "invalid_coordinate_or_confidence_models": 0,
+      "unclassified_validated_models": 1,
+      "qualified_domains": 0,
+      "actual_clusters": 0,
+      "candidate_peptides_in_rarefaction_denominator": 1,
+      "rarefaction_status": "too_few_actual_peptides_or_clusters_descriptive_only"
+    },
+    {
+      "protocol_id": "boltz2_2.2.1_single_sequence",
+      "status": "actual_structure_clusters_complete",
+      "error": "",
+      "planned_model_jobs": 67,
+      "first_pass_unique_sequences": 51,
+      "actual_validated_first_pass_models": 51,
+      "unavailable_first_pass_models": 0,
+      "invalid_coordinate_or_confidence_models": 0,
+      "unclassified_validated_models": 48,
+      "qualified_domains": 9,
+      "actual_clusters": 3,
+      "candidate_peptides_in_rarefaction_denominator": 43,
+      "rarefaction_status": "finite_observed_peptide_rarefaction_not_population_inference"
+    }
+  ],
+  "domain_gate": {
+    "minimum_contiguous_span_aa": 50,
+    "minimum_residue_plddt": 70,
+    "minimum_fraction_passing": 0.8
+  },
+  "clustering": {
+    "method": "connected_components_of_thresholded_exhaustive_actual_domain_TMalign_edges",
+    "alignment_TM_min": 0.5,
+    "query_coverage_min": 0.8,
+    "target_coverage_min": 0.8,
+    "candidate_engine_threshold": 0.499999,
+    "note": "A tiny permissive engine threshold preserves the inclusive >=0.5 post-filter; edges are rechecked from saved scores. Components may connect transitively, not all member pairs necessarily pass."
+  },
+  "DSSP_status": "unavailable_not_run",
+  "elapsed_seconds": 7.791344597004354,
+  "limitations": [
+    "Only actual sequence-verified coordinates are used; no synthetic result structures.",
+    "Protocols are never pooled for clustering.",
+    "Reference/pilot selection limits generalization; finite observed rarefaction is descriptive, not diversity of all109pairs.",
+    "No qualified span, no search hit, or singleton cluster is not evidence of a novel fold.",
+    "Whole contiguous Pfam alignment spans retained including permitted low-confidence positions; confident residues are not concatenated.",
+    "Exact duplicate Pfam spans merged; other overlapping annotations remain explicit and are not independent biological observations.",
+    "Additional seeds retained in model audit but excluded from first-pass diversity; no confidence/success-based replacement.",
+    "Only internal modeled-set clustering is performed; no external reference-fold novelty search."
+  ],
+  "output_sha256": {
+    "ESMFOLD_FEASIBILITY.md": "4ab1f8b05758052c8d304d527ec0e5f37dd8c4a6c5ae2d2876b9f0bf4e61b74e",
+    "FIRST_PASS_51_COVERAGE.json": "bbe37b1ca235461dadba8132ede05ac2512dddca6e7c9640e0fc8122f3ea6d79",
+    "FOLDSEEK_NUMERICAL_NOTE.md": "fbc29934d99eb77129b9a99b6c6158c85ea0ec29b4ffb08b5afa2c9cfe360779",
+    "INDEPENDENT_REPORT_REVIEW.md": "05d3d2cc87c9b1e4ad52e07bf79932065f77b90dc861b1700c440ad7ec0dcb29",
+    "METHODS.md": "08c8c0d8d3eb74eb14ad4fe670d41714b7f95db1decf76fcc7d116e18dd4eb37",
+    "alignments.tsv": "03380fa5288abb925558d4631c836b9276bdf606b4f39a07ad9f29d203cd25bd",
+    "clusters.tsv": "8419fd1ea2b8009608b126b2fbab394a41592803855f36b46b84e40c332f3204",
+    "domain_audit.tsv": "40e12f6f24584958b2bdad6c0eb8b7334ffce86938bcc5a3104bf77eebe584ed",
+    "foldseek_easy_search_help.txt": "e3d86da0ec201d2bd34523ee81c7b4debb2cc5936b55b4f796b6986c062fe00f",
+    "gate_sensitivity.tsv": "77d5862cea66c3acf5deea0182ad960aa13cc74627f72e742f5f20ae10263ffd",
+    "gate_sensitivity_provenance.json": "d4e25b7ebecebf5b361cc0db35450f366ef1b70cad57ace6fcfc57501dd1f87d",
+    "model_audit.tsv": "e40cc8d1df5ed3de84f76ec40b0855681c29dd8e876f015d199aa86c3b26dac4",
+    "rarefaction.tsv": "11d5b5e9e4488cfa87c3c06d88a75e74b49d6a1683fe4f3b6792204c146cf62d",
+    "tool_provenance.json": "7598f4b620ba38e0cfaad1dc96c06a3d23218fac2530c4e9898657c6e1d4699d",
+    "FINAL_LEDGER_VERIFICATION.json": "d12d6771afcc9e891186f4fda895d444280d11c80df84d38bfe9f3c65eec14ff"
+  }
+}

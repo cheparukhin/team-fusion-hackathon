@@ -1,0 +1,18 @@
+{
+  "n_conditional_peptides": 188,
+  "n_source_pairs": 91,
+  "n_reference_pairs": 109,
+  "n_pairs_without_eligible_conditional_peptide": 18,
+  "n_predominantly_disordered_v3": 42,
+  "fraction_predominantly_disordered_v3": 0.22340425531914893,
+  "n_predominantly_disordered_v1": 18,
+  "fraction_predominantly_disordered_v1": 0.09574468085106383,
+  "peptide_equal_mean_f_idr": 0.3072025973996525,
+  "peptide_equal_median_f_idr": 0.2067097946429462,
+  "residue_weighted_f_idr": 0.27077112999540653,
+  "pair_equal_mean_hypothesis_f_idr": 0.2886714061831458,
+  "pair_equal_mean_fraction_predominantly_disordered": 0.1955738705738706,
+  "n_pairs_all_hypotheses_predominantly_disordered": 15,
+  "n_pairs_any_hypothesis_predominantly_disordered": 22,
+  "interpretation": "Computed finite conditional hypothesis census. Equal hypothesis weights within a pair are a descriptive convention, not probabilities of isoform expression or translation. No statistical confidence interval is claimed for predictor accuracy."
+}

@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "final_jobs_sha256": "5ad34ad320e55b34fb08da58ece9a41ba9f052381167a439a0072c5b27a9a0eb",
+  "single_sequence_verified_jobs": 67,
+  "single_sequence_first_pass_models": 51,
+  "diagnostic_seed_jobs_excluded_from_diversity": 16,
+  "primary_cluster_and_rarefaction_bytes_unchanged": {
+    "clusters.tsv": true,
+    "rarefaction.tsv": true
+  },
+  "alignment_records_exactly_equal_after_sorting_query_target": true,
+  "alignment_note": "Multithreaded Foldseek row order changed; all29actual alignment records, numeric scores, coverage and sequences equal after sorting. Primary cluster memberships and rarefaction bytes unchanged.",
+  "all_manifest_output_hashes_verified": true,
+  "candidate_models": 43,
+  "candidate_models_with_qualified_spans": 2,
+  "qualified_candidate_spans": 7,
+  "candidate_clusters": 2,
+  "interpretation": "Selected confidence-qualified domain coverage only; repeats add no independent diversity units."
+}

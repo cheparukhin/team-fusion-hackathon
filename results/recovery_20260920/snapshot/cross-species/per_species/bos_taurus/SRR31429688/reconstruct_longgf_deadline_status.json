@@ -1,0 +1,6 @@
+{
+  "stage": "reconstruct_longgf",
+  "status": "failed or cutoff; not a biological negative",
+  "error": "GeneA FASTA extraction failed: /home/ubuntu/cross-species/per_species/bos_taurus/SRR31429688/reconstruction_longgf_only/exon_repair/Fasta_geneA_not_collapse.fa",
+  "finished_utc": "2026-09-20T10:43:26.835646+00:00"
+}

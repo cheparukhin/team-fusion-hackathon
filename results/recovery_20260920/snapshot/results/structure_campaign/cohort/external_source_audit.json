@@ -1,0 +1,39 @@
+{
+  "retrieval_date": "2026-09-20",
+  "geo_metadata": [
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE267147&targ=self&form=text&view=brief",
+      "local_file": "GSE267147_self_metadata.txt",
+      "sha256": "6184a2c9392046ac1a6f2512439f9425c6121347e91bda436f1ae6451ef43b29",
+      "http_status": 200
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE267147&targ=gsm&form=text&view=brief",
+      "local_file": "GSE267147_gsm_metadata.txt",
+      "sha256": "7060aa0b896214914432cdf92bb54c5ab1aab52213fa9f1cb15d4917adbd8a47",
+      "http_status": 200
+    }
+  ],
+  "interpretation": "Series and sample supplementary listings identify expression estimate XLSX and Salmon quant.sf archives; no repaired chimera transcript FASTA listed. RAW.tar contents were not downloaded; sample listings identify the deposited quantification files.",
+  "paper_methods_url": "https://www.nature.com/articles/s41586-026-10982-x",
+  "paper_table3_columns": [
+    "Read_ID",
+    "Chimera_ID",
+    "Gene_A",
+    "Chromosome_Gene_A",
+    "Breakpoint_Coordinate_Gene_A",
+    "Strand_Gene_A",
+    "Gene_B",
+    "Chromosome_Gene_B",
+    "Breakpoint_Coordinate_Gene_B",
+    "Strand_Gene_B",
+    "Chromosomal_Status"
+  ],
+  "paper_table4_columns": [
+    "LongGF",
+    "JaffaL",
+    "Genion"
+  ],
+  "cached_TYPHON_source": "/home/ubuntu/workspace/chrna/runs/intake-20260919/upstream/erenada-TYPHON-2179e9d",
+  "cached_TYPHON_source_sequence_file_search": "No fa/fasta/fna/faa/csv/tsv/bed/gff/gtf matching files found in bounded source-tree file search."
+}

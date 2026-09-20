@@ -1,0 +1,93 @@
+{
+  "stage": "complete_51_first_pass_before_diagnostic_seed_ledger_merge",
+  "input_jobs_sha256": "873fa7dac7672a9556e6f7804e8ddf875e5b58b5a067099ba8c64d875b14a75b",
+  "protocol_id": "boltz2_2.2.1_single_sequence",
+  "verified_models": 51,
+  "candidate_models": 43,
+  "control_models": 8,
+  "candidates_with_qualified_spans": 2,
+  "qualified_candidate_spans": 7,
+  "candidate_clusters": 2,
+  "qualified_all_spans": 9,
+  "all_clusters": 3,
+  "candidate_span_records": [
+    {
+      "protocol_id": "boltz2_2.2.1_single_sequence",
+      "cluster_id": "cluster_fd1beb45412ff7b5fab2",
+      "domain_id": "domain_012aae784d9c2f9afa567302",
+      "peptide_id": "peptide_ca2772f82b0e861861636ddd31697e08475ddd2b2f93467e300b85d3aa0b3c75",
+      "job_id": "protein_ca2772f82b0e861861636ddd31697e08475ddd2b2f93467e300b85d3aa0b3c75_single_sequence_seed20260919",
+      "role": "sensitivity",
+      "pfam_accessions": "PF00435.28",
+      "domain_length_aa": 94
+    },
+    {
+      "protocol_id": "boltz2_2.2.1_single_sequence",
+      "cluster_id": "cluster_fd1beb45412ff7b5fab2",
+      "domain_id": "domain_5697e02af99c262488197d03",
+      "peptide_id": "peptide_ca2772f82b0e861861636ddd31697e08475ddd2b2f93467e300b85d3aa0b3c75",
+      "job_id": "protein_ca2772f82b0e861861636ddd31697e08475ddd2b2f93467e300b85d3aa0b3c75_single_sequence_seed20260919",
+      "role": "sensitivity",
+      "pfam_accessions": "PF00435.28",
+      "domain_length_aa": 100
+    },
+    {
+      "protocol_id": "boltz2_2.2.1_single_sequence",
+      "cluster_id": "cluster_fd1beb45412ff7b5fab2",
+      "domain_id": "domain_99e642c07a95d216ea3f5faa",
+      "peptide_id": "peptide_ca2772f82b0e861861636ddd31697e08475ddd2b2f93467e300b85d3aa0b3c75",
+      "job_id": "protein_ca2772f82b0e861861636ddd31697e08475ddd2b2f93467e300b85d3aa0b3c75_single_sequence_seed20260919",
+      "role": "sensitivity",
+      "pfam_accessions": "PF00435.28",
+      "domain_length_aa": 107
+    },
+    {
+      "protocol_id": "boltz2_2.2.1_single_sequence",
+      "cluster_id": "cluster_d21c3659e7677c2b6db9",
+      "domain_id": "domain_43775318fbb82962611b9708",
+      "peptide_id": "peptide_7b0d5d3c3a31c1168531049ad5eb4bf68c7070067b6a2cd48ed4f7d87f40e85a",
+      "job_id": "protein_7b0d5d3c3a31c1168531049ad5eb4bf68c7070067b6a2cd48ed4f7d87f40e85a_single_sequence_seed20260919",
+      "role": "sensitivity",
+      "pfam_accessions": "PF00520.38",
+      "domain_length_aa": 255
+    },
+    {
+      "protocol_id": "boltz2_2.2.1_single_sequence",
+      "cluster_id": "cluster_d21c3659e7677c2b6db9",
+      "domain_id": "domain_521f9dd61764eae434b7c54a",
+      "peptide_id": "peptide_7b0d5d3c3a31c1168531049ad5eb4bf68c7070067b6a2cd48ed4f7d87f40e85a",
+      "job_id": "protein_7b0d5d3c3a31c1168531049ad5eb4bf68c7070067b6a2cd48ed4f7d87f40e85a_single_sequence_seed20260919",
+      "role": "sensitivity",
+      "pfam_accessions": "PF00520.38",
+      "domain_length_aa": 278
+    },
+    {
+      "protocol_id": "boltz2_2.2.1_single_sequence",
+      "cluster_id": "cluster_d21c3659e7677c2b6db9",
+      "domain_id": "domain_c52505ed6597f48577200e77",
+      "peptide_id": "peptide_7b0d5d3c3a31c1168531049ad5eb4bf68c7070067b6a2cd48ed4f7d87f40e85a",
+      "job_id": "protein_7b0d5d3c3a31c1168531049ad5eb4bf68c7070067b6a2cd48ed4f7d87f40e85a_single_sequence_seed20260919",
+      "role": "sensitivity",
+      "pfam_accessions": "PF00520.38",
+      "domain_length_aa": 291
+    },
+    {
+      "protocol_id": "boltz2_2.2.1_single_sequence",
+      "cluster_id": "cluster_d21c3659e7677c2b6db9",
+      "domain_id": "domain_f4ba46069a4655e235980e23",
+      "peptide_id": "peptide_7b0d5d3c3a31c1168531049ad5eb4bf68c7070067b6a2cd48ed4f7d87f40e85a",
+      "job_id": "protein_7b0d5d3c3a31c1168531049ad5eb4bf68c7070067b6a2cd48ed4f7d87f40e85a_single_sequence_seed20260919",
+      "role": "sensitivity",
+      "pfam_accessions": "PF00520.38",
+      "domain_length_aa": 236
+    }
+  ],
+  "rarefaction_interpretation": "Two candidate clusters are each observed in one of43modeled candidates; finite-set expected richness equals2*n/43. It describes selected observed coverage only, not unseen or population fold diversity.",
+  "output_sha256": {
+    "model_audit.tsv": "e321e2aaf4c8316cf7197167d6d837a55dee1ff90b603f8a1845630dd70bebb1",
+    "domain_audit.tsv": "c992a2c3e25ac1db8aadeb4cbcf9195e0b213727aae49f108a2077dd3b3e1a0e",
+    "clusters.tsv": "8419fd1ea2b8009608b126b2fbab394a41592803855f36b46b84e40c332f3204",
+    "alignments.tsv": "bf73cfa43515078d8a646bfdc700c6ab4c8d94f06e93ccd7da2e45b3af4ff4d9",
+    "rarefaction.tsv": "11d5b5e9e4488cfa87c3c06d88a75e74b49d6a1683fe4f3b6792204c146cf62d"
+  }
+}

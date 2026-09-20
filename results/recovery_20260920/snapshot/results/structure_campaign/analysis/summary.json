@@ -1,0 +1,47 @@
+{
+  "status": "complete",
+  "input_fasta": "results/structure_campaign/cohort/conditional_peptides.fasta",
+  "input_fasta_sha256": "da527d904e98c453951de50453a6437bdf0b0305e9c2679afdf061d24dce52b0",
+  "metadata_sha256": "45c6ce523915f4e2baa65e1926c4ab386dcfcf6427fa23852bd7c81d8d01d042",
+  "n_records": 188,
+  "n_unique_sequences": 188,
+  "groups": {
+    "candidate:conditional_consensus": {
+      "n_peptides": 30,
+      "n_predominantly_disordered": 6,
+      "fraction_predominantly_disordered": 0.2,
+      "mean_f_idr": 0.3121537477660158,
+      "median_f_idr": 0.20889010089991816,
+      "residue_weighted_f_idr": 0.2465894465894466,
+      "v1_fraction_predominantly_disordered": 0.06666666666666667,
+      "v1_v3_majority_agreement": 0.8666666666666667
+    },
+    "candidate:conditional_annotated_start": {
+      "n_peptides": 158,
+      "n_predominantly_disordered": 36,
+      "fraction_predominantly_disordered": 0.22784810126582278,
+      "mean_f_idr": 0.306262505557938,
+      "median_f_idr": 0.20455886639791254,
+      "residue_weighted_f_idr": 0.2738068310337028,
+      "v1_fraction_predominantly_disordered": 0.10126582278481013,
+      "v1_v3_majority_agreement": 0.8734177215189873
+    }
+  },
+  "versions": {
+    "metapredict": "3.0.2",
+    "torch": "2.8.0+cpu",
+    "numpy": "2.5.3"
+  },
+  "method": {
+    "primary": "metapredict V3 disorder network",
+    "residue_threshold": 0.5,
+    "comparison": ">=",
+    "protein_predominantly_disordered_threshold": 0.5,
+    "protein_comparison": ">",
+    "sensitivity": "metapredict V1, threshold >=0.42; related method, not independent validation",
+    "iupred_status": "unavailable: official download requires academic registration/license; no user identity or affiliation supplied",
+    "iupred_source": "https://iupred3.elte.hu/download_new",
+    "v3_training_caveat": "V3 training includes AlphaFold-derived information; correlation with folding confidence is not independent validation."
+  },
+  "wall_seconds": 21.260170519002713
+}

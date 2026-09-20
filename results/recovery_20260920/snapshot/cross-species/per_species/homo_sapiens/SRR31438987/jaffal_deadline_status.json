@@ -1,0 +1,6 @@
+{
+  "stage": "jaffal",
+  "status": "failed or cutoff; not a biological negative",
+  "error": "Command '['/home/ubuntu/cross-species/software/jaffal/homo_sapiens/tools/bin/bpipe', 'run', '-p', 'threads=4', '/home/ubuntu/cross-species/software/jaffal/homo_sapiens/JAFFAL.groovy', '/home/ubuntu/cross-species/software/jaffal/homo_sapiens/fasta_files/SRR31438987.fasta']' returned non-zero exit status 1.",
+  "finished_utc": "2026-09-20T11:12:50.197326+00:00"
+}

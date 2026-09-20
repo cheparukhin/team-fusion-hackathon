@@ -1,0 +1,16 @@
+{
+  "inputs": {
+    "cohort/manifest.json": "b79792bc80cc1e8a303994857cff09102397fe6b531e9d3f05b48ba4d659a87e",
+    "analysis/census_summary.json": "6859d69fbe61d44b67a2455ac31db322f1f8822c53df7764e0b2bca28cc223ea",
+    "analysis/summary.json": "bc2c9647cbd4e5bfe4474d177ddc03cbfb128df722e45a907c27d08ecaf20667",
+    "analysis/region_summary.json": "67b718f3721ae5403a3275e927b598d55bdff53e085f835fd38c4ce957bc0e61",
+    "domains/manifest.json": "18944a27c25a8c46beac1e235cd32990379b690913063c8ba9994099ae25f09d",
+    "analysis/diversity_summary.json": "aa89cb598ea7677848f49c314ef8bcbbf90571fd7465f885374ef8f78d828da1",
+    "diversity/clusters.tsv": "8419fd1ea2b8009608b126b2fbab394a41592803855f36b46b84e40c332f3204",
+    "diversity/gate_sensitivity.tsv": "77d5862cea66c3acf5deea0182ad960aa13cc74627f72e742f5f20ae10263ffd",
+    "analysis/structure_metric_summary.json": "e8d9dff1775845201099ddede8a9679541669723e0dc52789b8e5f493495239a",
+    "compute/model_metrics.tsv": "0a59132c00802d3f1e623d6dc744daa5ba50b9941db2aabe337a0eb8acc8edee"
+  },
+  "code_sha256": "666c7aedadee92055658cb6efd2468707389010a03c66276bc8c63b97ce07448",
+  "output_sha256": "6a7e265e7236091775fcc1ee198852004dec76cfaf9c0452d599ef2e506b7a65"
+}

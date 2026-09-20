@@ -1,0 +1,19 @@
+{
+  "source_commit": "60a046b94294b324ba39f9cc9dc5a1c0d7a47057",
+  "compared_main": "daa9130a1b437f970083df9c76ea7a9355c98f8e",
+  "recovered_files": 2303,
+  "recovered_bytes": 683924307,
+  "integrated_files": 134,
+  "integrated_bytes": 11717804,
+  "main_comparisons": {
+    "different": 44,
+    "identical": 292,
+    "missing": 1967
+  },
+  "dispositions": {
+    "retain_current_main": 44,
+    "already_integrated_duplicate": 292,
+    "local_archive_only": 1833,
+    "integrated_historical_evidence": 134
+  }
+}

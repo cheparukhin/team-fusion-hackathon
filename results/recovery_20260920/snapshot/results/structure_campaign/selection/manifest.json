@@ -1,0 +1,20 @@
+{
+  "status": "frozen",
+  "strict_primary_count": 0,
+  "conditional_candidates": 43,
+  "controls": 8,
+  "seed": 42,
+  "purpose": "Conditional descriptive panel, not representative of all109pairs or all188hypotheses. Consensus census plus one random ambiguous peptide per nonempty length/disorder stratum and published reference.",
+  "deep_dive": "Select after first-pass confidence results, at most20 with twoextra seeds; separate frozen stage.",
+  "inputs": {
+    "results/structure_campaign/cohort/peptides.tsv": "45c6ce523915f4e2baa65e1926c4ab386dcfcf6427fa23852bd7c81d8d01d042",
+    "results/structure_campaign/analysis/disorder_summary.tsv": "31241e811f0671a2ff0342a8abacc1d56e999b262c1bf784127c81f340372473",
+    "results/structure_campaign/selection/source_snapshot/control_links.tsv": "06ddc7905532743a9f2d52b91fbbb6e8c2bd6d442450bf6efea503b2615bd113"
+  },
+  "outputs": {
+    "selected.fasta": "50193f3971c70abc4b5d64bd1ac481f6daff803a9934ee698c6afaf7b6a74596",
+    "control_links.tsv": "4d43c870913373d103bc946d58883334d27bd71a4b0484c85f278628f9ac7616",
+    "selection.tsv": "aaf6b97e901c0cd683c1c35e7ccda0a1a6030ceb533d96372e4182467b2eec51"
+  },
+  "control_link_note": "Selection used the preserved original fragment-control links. Subsequent addition of explicit full-parent links expands sequence/domain comparisons but does not alter this frozen 8-control structure panel."
+}

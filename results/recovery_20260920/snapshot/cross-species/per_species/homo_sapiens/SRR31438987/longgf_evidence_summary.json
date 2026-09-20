@@ -1,0 +1,9 @@
+{
+  "read_evidence_rows": 40,
+  "unique_read_ids": 40,
+  "ordered_pairs": 36,
+  "alignment_qc_passing_reads": 27,
+  "coordinate_convention": "genomic between-base boundaries 0-based; interval starts inclusive ends exclusive",
+  "conservation": "not evaluated",
+  "biological_validation": "pending other callers, parent checking, exon reconstruction, replication"
+}
