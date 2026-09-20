@@ -1,32 +1,13 @@
-# Current submission status
+# Project results
 
-**Controller integration:** newer source is consolidated at the existing workflow paths; the duplicate recovery source snapshot was removed. Large evidence is stored in [release assets with a verified restore command](preservation/controller-20260920/README.md), outside Git history. Superseded remote project copies were discarded.
+The [FINAL tab](https://docs.google.com/document/d/1suaqiVIxDCT2D8bvYndyFK6X1NSLv9tCG7VbrBRzrG4/edit?tab=t.ge1x7g3r1m8e) defines three contributions. The [claim-to-evidence map](docs/submission/README.md) links their methods, results and interpretation.
 
-**Final narrative update (20 September 2026):** ranking, disorder analysis and the structure dashboard are now the three entry points. See [submission guide](docs/submission/README.md). The final deck is different from the older reviewed seven-slide deck and still had template placeholders when checked. The public dashboard access mode was confirmed through Sites; fresh browser checks remain blocked. The recovered disorder campaign is on main and includes 188 conditional peptide hypotheses, not a completed full-cohort sequencing run.
+| Contribution | Result | Scope |
+| --- | --- | --- |
+| RNA ranking | Focused pilot: 116 technically supported junction proposals and ten frozen protein hypotheses. Separate RNA/Hi-C benchmark: AP 0.296 vs 0.300 on 401 matched pairs. | One-library junction assessment and gene-pair benchmark are different analyses. No established Hi-C gain or biological-independence conclusion. |
+| Disorder and folding | 188 conditional hypotheses from 91/109 supported pairs; 42 predominantly disordered by V3, 18 by V1. Six-model Gsdmd comparison across Boltz2, AF2 and ESMFold. | Predictors and protocols are reported separately. Confidence/disorder does not establish function or druggability. |
+| Dashboard | Ten mouse pilot hypotheses and one literature control linked to RNA, exon and predicted-structure views. | The control was not recovered by the pilot; protein expression/function of the pilot candidates remains unknown. |
 
-**Cleanup validation:** fresh Python 3.12 CPU-only install succeeded; 30 core tests, 12 evidence-output replays and Node review-logic checks passed. The native Hi-C reader is an optional extra. See [cleanup receipt](docs/submission/cleanup-validation.json).
+[Source and local viewer](dashboard/README.md) · [Reproduction](README.md#reproduce) · [Large evidence files](preservation/controller-20260920/README.md).
 
-## Earlier reviewed baseline
-
-Updated 20 September 2026. The repository is **public**; anonymous GitHub access was verified. The Google Slides deck still awaits owner-enabled link sharing. The [reviewed release](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-expanded-2026-09-20) supplies the consolidated ZIP, public slide preview and narrated fallback.
-
-User-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) is complete: source-coordinate reconstruction, held-out metrics, gene separation and twelve tool replays passed the recorded CPU checks. The Gsdmd case now explicitly acknowledges published protein and functional evidence. Independent human review remains unperformed.
-
-## Delivered and verified
-
-- [Folding supplement](results/folding_expansion/README.md): 383 validated models (341 candidate peptides across 223 RNA pairs, 42 controls), 117 missing at cutoff; 34 matched fragment comparisons. All 2,211 archive hashes and the clean-extraction verifier passed. These are conditional reference models, not validated proteins.
-
-- 479 eligible ordered pairs, 109 reported NanoString-supported pairs; 401 complete Hi-C pairs. Unknown assay support is not a biological negative.
-- Matched AP: RNA 0.296, RNA + Hi-C 0.300; paired interval spans zero. Tie-aware expected top-20: full-panel read support 11.07 versus RNA 11.00; matched read support 9.73, RNA 9.63, Hi-C 9.00. No established ranking gain.
-- Three recorded Codex review cases, twelve exact tool-output replays, source-linked proposals and local scientist-review receipts. All three independent scientist reviews remain pending.
-- The Psap–Lgals3 924-nt endpoint discrepancy was independently recalculated from source tables/reference transcripts. None of its six published read UUIDs was found in the one cached mouse library checked; the originating alignments remain unresolved.
-- Real Parabricks A100 output: two million paired reads, 85.49 seconds alignment, zero fixed-rule probe-junction matches. Non-detection is not absence; no CPU speedup claim.
-- Clean CPU reconstruction produced identical input/folds/predictions. The current code passed 30 Python tests, twelve exact tool replays and keyboard-focus logic checks on the clean extracted bundle on Brev. **The new review page has not passed real-browser or visual checks.** Older explorer browser receipts apply only to their saved version.
-- Organiser-template deck: seven presented slides plus appendix, current native snapshots, PDF preview and timed script. A 4:06 synthetic-narration slide walkthrough is available; it is not a browser recording or human rehearsal.
-- Compute policy: reserve `chrna-controller` for lightweight shared-repository work. Analysis, tests, rendering, compression and other heavy jobs run on separate worker instances under the shared $200/hour ceiling and fixed shutdown controls. Check stale jobs and the fallback launcher before any controller restart; this policy authorizes no restart or extension.
-
-## Remaining gates
-
-Browser verification of the latest review page; human rehearsal; deck sharing. Full-cohort sequencing remained incomplete at cutoff; its saved partial outputs are preserved but are not a completed result. Prospective utility remains unmeasured. K562 completion metadata reports 8/8 stages but does not establish a ranker gain; it stays outside the core story.
-
-[Start here](START_HERE.md) · [Gaps and next actions](GAPS.md)
+The evidence-review companion, bounded Parabricks run, separate folding supplement, K562 extension and partial cross-species study remain supporting work with separate cohorts. Full-cohort sequencing was incomplete at cutoff. [Limitations and next steps](GAPS.md).

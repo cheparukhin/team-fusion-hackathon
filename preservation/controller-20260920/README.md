@@ -72,26 +72,8 @@ model weights, and public raw-read downloads must be installed or fetched for a
 full scientific rerun; restoration alone does not run analyses or provision
 compute. See each canonical workflow's instructions.
 
-## Selection and verification
+## Inputs and exclusions
 
-The read-only source inventory covered `~/workspace/chrna` and
-`~/workspace/quick_hack`, and checked related workspace folders. All 6,040
-selected loose files were copied locally before consolidation. A final remote
-size/timestamp check found no changes in those files. Thirty-six original
-bundles were inspected to catch archive-only work; one unique scientific input
-was retained, while obsolete source/tool bundles and duplicate results were
-discarded. Related workspace copies were older submission/prototype/folding
-snapshots already represented by the current repository and its existing
-folding release, so they were not published as extra projects.
+Raw public sequencing/Hi-C downloads, large rebuildable reference/index databases, model weights, installed runtimes and credentials are excluded. Source accessions, pinned inputs, derived evidence and reconstruction methods are retained where available. Distinct partial or unsuccessful experiment records remain labeled as such.
 
-Files excluded from publication include replaceable raw public sequencing/Hi-C
-inputs, large rebuildable genome/index databases, model weights, installed
-software/environments, authentication material, runtime state, and superseded
-project copies. The file-decision table records their treatment; large runtime
-trees are summarized in [the exclusion record](excluded-runtime-summary.json).
-No controller source files were edited/deleted, and no heavy analysis,
-compression, hashing, restart, or provisioning ran on that machine.
-
-The [validation receipt](validation.json) records tests, archive verification,
-source stability, secret scanning, and the remaining Linux/tool-dependent
-checks. It distinguishes saved-artifact integrity from scientific validity.
+[File checksums](files.tsv), [input dispositions](file-dispositions.tsv), and [verification](validation.json) support provenance and reproducibility. These checks establish artifact integrity, not biological validity.

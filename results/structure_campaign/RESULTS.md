@@ -40,14 +40,12 @@ Each eligible span is a contiguous Pfam alignment of at least 50 residues, with 
 
 The robustness audit contains **24 same-protocol seed-pair comparisons**. Fitted coordinate RMSD measures prediction reproducibility, not thermodynamic stability. See [seed comparisons](analysis/seed_robustness.tsv), [junction confidence and cross-junction PAE](analysis/model_region_metrics.tsv), and [structural-diversity methods](diversity/METHODS.md). Missing qualified structure remains unresolved rather than classified as disordered or nonfunctional.
 
-## Deliverables
+## Inspect and reproduce
 
-- [Offline searchable atlas](report/index.html)
-- [PowerPoint gallery](report/structure_campaign_gallery.pptx)
-- [Figure generation and interpretation guide](report/FIGURE_GUIDE.md)
-- [Cohort methods](cohort/METHODS.md), [disorder methods](analysis/METHODS.md), [domain methods](domains/METHODS.md)
-- [Execution changes, constraints and reproduction commands](EXECUTION.md)
-- [Frozen folding selection](selection/selection.tsv) and [diagnostic repeat selection](selection/seed_repeats/selection.tsv)
-- [Joined candidate evidence table](analysis/candidate_evidence_table.tsv)
+[Analysis source](../../scripts/structure_campaign/README.md) · [Gsdmd cross-model comparison shown in the final slides](cross_model_gsdmd/README.md) · [Claim-to-evidence map](../../docs/submission/README.md).
 
-All derived campaign data and caches are under `results/structure_campaign/`. No claim of translation, novel function, druggability, or population-wide disorder prevalence follows from these predictions.
+The full atlas, technical structure gallery, figure guide and execution log are in the [verified evidence release](../../preservation/controller-20260920/README.md). Restore them into the existing repository paths before use: `results/structure_campaign/report/index.html`, `report/structure_campaign_gallery.pptx`, `report/FIGURE_GUIDE.md`, and `results/structure_campaign/EXECUTION.md`. These are artifact paths after restoration, not live GitHub file links.
+
+[Cohort methods](cohort/METHODS.md), [disorder methods](analysis/METHODS.md), [domain methods](domains/METHODS.md), [frozen selection](selection/selection.tsv), [repeat selection](selection/seed_repeats/selection.tsv), and [joined evidence table](analysis/candidate_evidence_table.tsv) are versioned here.
+
+All peptide and structural conclusions remain conditional. No claim of translation, novel function, druggability, or population-wide disorder prevalence follows from these predictions.

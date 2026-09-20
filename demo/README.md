@@ -1,6 +1,6 @@
 # Offline demos
 
-Start with the [scientist review](review/index.html): three recorded Codex cases, source-linked evidence and locally saved review receipts. The [full explorer](index.html) shows all 479 eligible probe-panel pairs and their saved out-of-fold scores.
+The [ranking explorer](index.html) shows all 479 eligible probe-panel pairs and their saved out-of-fold scores. It supports the FINAL tab’s ranking contribution. The presented fusion-protein dashboard is [maintained separately](../dashboard/README.md). The [scientist review](review/index.html) is a supplemental three-case Codex demonstration, not a fourth headline deliverable.
 
 From the repository root:
 
@@ -10,7 +10,7 @@ python3 scripts/demo/serve.py
 # http://127.0.0.1:8000/demo/
 ```
 
-Cached viewing needs no credentials or paid services. Receipts are browser-local and self-reported, not authenticated scientific endorsements. All three independent reviews are pending. The review page passes application-logic checks; real-browser and visual verification remain blocked by unavailable enforced browser-policy verification. Resolve that check before browser testing.
+Cached viewing needs no credentials or paid services. Receipts are browser-local and self-reported, not authenticated scientific endorsements. All three independent reviews are pending. The review page has recorded application-logic checks. It remains a demonstration rather than a validated measure of scientific decision quality.
 
 ## Maintain the explorer
 

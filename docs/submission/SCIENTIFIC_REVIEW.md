@@ -1,4 +1,6 @@
-# Scientific review
+# Ranking and evidence-review audit
+
+This dated audit covers the gene-pair benchmark and three review cases. It does not constitute independent validation of all three FINAL-tab contributions. Use the [current claim map](README.md) for presentation scope.
 
 **Verdict: scientifically defensible as a retrospective evidence-review demonstration, with the limits below.** Reviewed by Codex at the user's request on 20 September 2026. This is an AI review, not independent human signoff or experimental validation. [Verification receipt](../../results/review/scientific_review.json).
 
@@ -23,7 +25,7 @@
 - For Gsdmd–Tmem106a, the 118-aa sequence is a reference reconstruction and the cached Boltz2 mean pLDDT is 48.7. Neither low confidence nor a missing model refutes protein evidence. The publication's experiments remain attributed to its authors.
 - RNA confirmation proposals need appropriate negative controls, attention to reverse-transcription artifacts, sequence identity and sample context. A peptide follow-up requires sequence uniqueness and identification-quality review; a generic peptide hit would not establish the chimera or its function. No assay was performed by this project.
 
-## Presentation wording
+## Earlier evidence-review narrative
 
 “We demonstrate three recorded, source-linked evidence reviews. In our retrospective ranking experiment, adding Hi-C did not establish a gain. The Psap–Lgals3 example exposes a coordinate discrepancy that should be resolved before selecting a junction assay. The workflow's effect on scientific decisions or time has not yet been measured.”
 

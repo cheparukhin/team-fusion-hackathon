@@ -1,74 +1,37 @@
-# Hackathon submission guide
+# Final presentation: scope, claims and evidence
 
-The [shared group doc, FINAL tab](https://docs.google.com/document/d/1suaqiVIxDCT2D8bvYndyFK6X1NSLv9tCG7VbrBRzrG4/edit?tab=t.ge1x7g3r1m8e) defines three contributions: ranking, fusion-protein disorder analysis and the fusion-protein dashboard.
+**Scope authority:** the [FINAL tab of TeamFusion-Wilbe2026](https://docs.google.com/document/d/1suaqiVIxDCT2D8bvYndyFK6X1NSLv9tCG7VbrBRzrG4/edit?tab=t.ge1x7g3r1m8e). Earlier tabs contain plans, not additional completed-deliverable claims. The three contributions are ranking, fusion-protein disorder analysis, and the fusion-protein dashboard.
 
-- **Final team deck:** [Fusion chRNA Slides](https://docs.google.com/presentation/d/1qZ2owRuz6j3A48Y_XcheWADuoPh6HYkmn2NCLqFDybk/edit).
-- **Single repository:** [team-fusion-hackathon](https://github.com/cheparukhin/team-fusion-hackathon).
-- **Live demo:** [Chimeric RNA Structure Explorer](https://chimeric-rna-exon-structures.a-cheparukhin.chatgpt.site).
-- **Local demo and code:** [portable dashboard](../../dashboard/README.md), [ranking reproduction](../../README.md#reproduce), [disorder methods and source](../../scripts/structure_campaign/README.md).
-
-## Submission gates
-
-At the 20 September 2026 cleanup check, the final deck still contained organizer-template placeholders (team names, workflow, evidence, repository URL and reproduction instructions). Another presentation task is editing it. Complete and check that deck before submission; the older PDFs below do not represent it. Confirm anonymous viewer access and rehearse the five-minute talk.
-
-The organizer asks for a five-minute presentation using its template and access to one GitHub repository containing reproduction/demo code. This repository includes the portable dashboard renderer and frozen inputs; full disorder score profiles and model coordinates are published as [versioned release assets](../../preservation/controller-20260920/README.md), with a verified restore command. Fresh browser interaction checks are blocked by the browser tool's unavailable policy check. No organizer submission has been sent by this cleanup.
+**Presentation:** [Fusion chRNA Slides](https://docs.google.com/presentation/d/1qZ2owRuz6j3A48Y_XcheWADuoPh6HYkmn2NCLqFDybk/edit). The deck covers the sequence-led workflow, folding/disorder comparison, and dashboard.
 
 ## Claim-to-evidence map
 
-| Contribution | Supported statement | Evidence |
+| FINAL-tab contribution or framing | What the repository supports | Evidence and limit |
 | --- | --- | --- |
-| Ranking | No established improvement from Hi-C in this retrospective evaluation | [Metrics](../../results/classifier/metrics.json), [model card](../../results/classifier/MODEL_CARD.md) |
-| Disorder | 42/188 V3 vs 18/188 V1 predominantly-disordered conditional hypotheses | [Report](../../results/structure_campaign/RESULTS.md), [summary](../../results/structure_campaign/analysis/summary.json) |
-| Dashboard | Ten pilot protein hypotheses and a separate literature control linked to exon origins | [Source, frozen inputs and rebuild](../../dashboard/README.md) |
-| NVIDIA | Real Parabricks A100 processing and Boltz-2 structure predictions | [Compute evidence](../../results/compute/STATUS.md), [folding supplement](../../results/folding_expansion/README.md) |
-| OpenAI | Codex-assisted implementation and three recorded, source-linked evidence reviews | [Replay instructions](../../scripts/review/README.md), [scientific review](SCIENTIFIC_REVIEW.md) |
+| Ranking: sequence-first analysis | One mouse library was assessed with LongGF and independent split/single-transcript alignment checks; 116 exact-junction proposals met technical support rules; ten reference-assisted hypotheses were frozen for folding. | [Workflow and rules](../../workflows/mouse-pilot/README.md). One caller and one biological sample do not establish multi-caller consensus or biological truth. The diagram shows the broader architecture, not universal completion. |
+| Test whether 3D context helps ranking | On 401 complete-contact gene pairs, AP is 0.296 for RNA and 0.300 with Hi-C; the paired interval is −0.0310 to +0.0469. | [Metrics](../../results/classifier/metrics.json), [model card](../../results/classifier/MODEL_CARD.md). This is a separate gene-pair benchmark, not the exact-junction ranker. No established predictive gain; no conclusion of biological independence or condensate causation. CTCF knockout remains a proposed direction. |
+| Analyze the NanoString-supported subset | 109 reported supported RNA pairs led to 188 eligible conditional annotated-start hypotheses from 91 pairs; 18 pairs had no eligible reconstruction. | [Cohort results](../../results/structure_campaign/RESULTS.md), [cohort methods](../../results/structure_campaign/cohort/METHODS.md). Pair-level support does not validate every peptide, exon chain, isoform or protein. |
+| Estimate disorder and inspect domains | Metapredict V3: 42/188 predominantly disordered; V1: 18/188. Pfam matches occur in 151/188 conditional peptides. | [Disorder methods](../../results/structure_campaign/analysis/METHODS.md), [domain methods](../../results/structure_campaign/domains/METHODS.md). Predictors are reported separately; there is no validated aggregate fitness score. Domain matches do not prove folding or function. |
+| Generate and compare structures | The supported campaign has 67 single-sequence Boltz2 predictions across 51 sequences plus one cached MSA-backed result. The presented Gsdmd comparison uses four cached Boltz2 predictions and two new local predictions: AF2 and ESMFold. | [Campaign ledger summary](../../results/structure_campaign/RESULTS.md), [cross-model evidence](../../results/structure_campaign/cross_model_gsdmd/README.md). Seed repeats and cached predictions are not new proteins; not all 109 pairs were folded. |
+| Dashboard for experimental follow-up | Eleven linked RNA/exon/structure views: ten single-read pilot hypotheses plus a separately reconstructed literature control. | [Public dashboard](https://chimeric-rna-exon-structures.a-cheparukhin.chatgpt.site), [source and rebuild](../../dashboard/README.md). It is a tool to inspect hypotheses, not a calibrated probability of existence. Prospective usefulness has not been measured. |
+| New drug targets / functional chRNAs | This motivates the project and describes a possible future use. Published functional evidence is attributed to Venezia et al. | The project performed no functional or druggability assay. Predicted order, low confidence and model disagreement neither prove nor disprove biological function. |
 
-A null ranking comparison does not demonstrate that RNA formation is independent of 3D genome organization. Predicted disorder or low model confidence does not establish absence of function. The published Gsdmd–Tmem106a evidence remains distinct from the pilot's failure to recover it.
+The FINAL tab also contains exploratory language about a 1,000-structure sample, cross-species conservation, an atlas, CTCF perturbation and NMD/export mechanisms. These are not completed headline results. The separate [383-model supplement](../../results/folding_expansion/README.md), [partial cross-species comparison](../../workflows/cross-species/README.md), and K562 extension remain labeled supporting work. Do not combine their counts with the supported disorder cohort or dashboard pilot.
 
----
+## Presented model-disagreement example
 
-The material below is retained as a historical fallback. Its deck permissions, timing and validation statements refer to that older version only.
+The exact 118-aa conditional Gsdmd–Tmem106a sequence has mean pLDDT 48.7 in cached MSA-backed Boltz2, 41.6/41.7/42.4 in three Boltz2 single-sequence seeds, 65.5 in AF2, and 47.2 in ESMFold. Whole-sequence disorder calls are 100.0% for V3, 48.3% for V1 and 44.9% for MoreRONN. [Numerical records, thresholds and provenance](../../results/structure_campaign/cross_model_gsdmd/README.md).
 
-# Historical evidence-review presentation
+Confidence is not calibrated across engines, pLDDT is not an experimental disorder measurement, and the reconstruction is not a solved fusion structure. The retained donor and novel-frame tail have different evidential roles. The paper's functional experiments remain independent evidence.
 
-[Editable organiser-template deck](https://docs.google.com/presentation/d/1bnxMDj1dVAnIauboX6clVpuLMnzJVSns28jrIecd8QE/edit) · [PDF slide preview](slides-preview.pdf) · [Narrated fallback](evidence-walkthrough.mp4)
+## Tools actually used
 
-Seven presented slides plus a technical appendix. All eight native slide images were inspected. The PDF is a raster preview of those images, not a native editable export. Google Slides retains the editable presentation. Deck link-sharing is awaiting the owner's change.
+Codex assisted implementation, orchestration, evidence inspection and communication. Boltz2 generated saved structural predictions; the cross-model example added local AF2 and ESMFold. The separate [Parabricks run](../../results/compute/STATUS.md) processed two million short-read pairs on an A100. Prepared hosted AF2/OpenFold NIM routes were blocked by missing credentials and submitted no prediction requests. The optional live OpenAI report adapter was not validated as a live service. Avoid implying every illustrated integration ran successfully.
 
-## Submission links
+## Use and reproduce
 
-| Material | Public access |
-| --- | --- |
-| [Presentation PDF](https://github.com/cheparukhin/team-fusion-hackathon/releases/download/submission-expanded-2026-09-20/slides-preview.pdf) | Anonymous download and checksum verified |
-| [4:06 narrated fallback](https://github.com/cheparukhin/team-fusion-hackathon/releases/download/submission-expanded-2026-09-20/evidence-walkthrough.mp4) | Anonymous download and checksum verified |
-| [Reproducible core ZIP](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-expanded-2026-09-20) | Published; pinned to source 928b7bc |
-| [Verified folding supplement](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/folding-evidence-2026-09-20) | Published; 383 models and complete frozen artifacts |
-| [Current repository](https://github.com/cheparukhin/team-fusion-hackathon) | Public; current methods, status and operating policy |
+The presentation uses the [v4 animation](https://drive.google.com/file/d/1TRs6OyIeDtm3aj2tgsS_WBLGzfPSLUF7/view). Its 4K master is also preserved in the evidence release at `animation/trans_splicing_v4_4k_30s.mp4` after restoration. The original renderer in `animation/` documents the illustrative method; it is not the final presentation export.
 
-The core ZIP contains the presentation and original evidence workflow. The separate folding archive adds 341 candidate peptide models across 223 RNA pairs and 42 controls; 117 selected predictions are missing. Both archives retain their exact source manifests. [Access-check receipt](public-access-check.json).
+[Open the dashboard](https://chimeric-rna-exon-structures.a-cheparukhin.chatgpt.site), [run it locally](../../dashboard/README.md), or [reproduce the RNA/Hi-C benchmark](../../README.md#reproduce). [Restore the large evidence files](../../preservation/controller-20260920/README.md) for model coordinates, full profiles and reports.
 
-**Owner actions:** enable anyone-with-link viewing on the editable deck, rehearse the five-minute talk, and submit the deck/repository through the organiser's submission route. No submission has been sent by this task. The public PDF and video remain available independently of Google Slides permissions.
-
-## Five-minute presentation
-
-- **0:00–0:30:** which fusion is worth testing?
-- **0:30–1:00:** distinguish gene-pair, exact-junction and protein evidence.
-- **1:00–1:45:** show what Codex and NVIDIA actually contributed.
-- **1:45–2:40:** trace the 924-base endpoint discrepancy visually.
-- **2:40–3:20:** interpret the Gsdmd model alongside published experiments.
-- **3:20–4:05:** compare held-out RNA and Hi-C results with uncertainty.
-- **4:05–4:50:** close with the delivered workflow and next validation; ten seconds of buffer.
-
-[Speaker notes](speaker-notes.json) contain the complete planned script and sources. These timings are not a completed human rehearsal. The fallback has disclosed synthetic narration and uses native slide images; it is not a browser recording or live inference. [Transcript](walkthrough-transcript.md) · [Media validation](walkthrough-validation.json).
-
-## Current scientific scope
-
-The [AI scientific review](SCIENTIFIC_REVIEW.md) is complete. The reviewed scientific source version is `76fb5de`; the submission ZIP manifest identifies its complete packaged version. The public repository contains the current source; [download the reviewed release](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-expanded-2026-09-20).
-
-The three cases are selected demonstrations. Hi-C has no established ranking gain. The 924-base discrepancy is a genomic-coordinate comparison, not proof of a bad probe or false RNA. Gsdmd–Tmem106a has published protein and functional evidence that our weak model does not contradict. Independent human review and utility measurement remain unperformed.
-
-The **two-million short-read pairs** processed by Parabricks are separate from the mouse **long-read** cohort. The expanded sequencing analysis did not finish within its cutoff; unrecovered or incomplete results are excluded from the presentation.
-
-Real-browser verification, human rehearsal and final access checks remain open. See [GAPS.md](../../GAPS.md). To rebuild the synthetic fallback on a Mac with Daniel, ffmpeg and ffprobe installed, run `python3 scripts/presentation/build_walkthrough.py`; the ordinary scientific reproduction does not need these media tools.
-
-The [verified folding supplement](../../results/folding_expansion/README.md) is available separately for technical inspection. It does not change the seven-slide core story or establish new biological findings.
+The linked Google Slides deck is the current presentation. The [earlier frozen release](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-expanded-2026-09-20) preserves superseded slide exports; they are no longer current repository entry points.

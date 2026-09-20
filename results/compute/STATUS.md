@@ -23,7 +23,7 @@ Artifacts:
 - `parabricks_junction_matches.tsv` and `_raw.tsv`: correctly empty match tables with schemas.
 - `pilot_2m/logs/` and `pilot_2m/output/Chimeric.out.junction`: real final logs and raw junction records.
 
-Local exported final FASTQs, BAM and junction file were checked against remote SHA256 records before deletion. Large raw bundles, FASTQs and BAMs are cached locally and excluded from Git.
+Local exported final FASTQs, BAM and junction file were checked against remote SHA256 records before deletion. The retained alignment BAM and logs are available through the [evidence release](../../preservation/controller-20260920/README.md). Raw FASTQ/SRA downloads and replaceable reference indexes are excluded and must be re-fetched for a full rerun.
 
 Run cost and cleanup evidence are retained in `spending_manifest.json`. These are run-specific receipts, not a live inventory or billing total.
 

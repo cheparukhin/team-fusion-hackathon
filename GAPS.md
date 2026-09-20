@@ -1,41 +1,13 @@
-# Current gaps and next actions
+# Scientific limitations and next steps
 
-Updated 20 September 2026 after controller integration. Code and saved evidence
-have been preserved; the duplicate recovery source tree and superseded remote
-project copies have been removed. See [current status](STATUS.md) and
-[the evidence restore guide](preservation/controller-20260920/README.md).
+These limits apply to the three contributions in the [FINAL-tab claim map](docs/submission/README.md).
 
-1. **Final presentation and access.** Finish and verify the
-   [final team deck](https://docs.google.com/presentation/d/1qZ2owRuz6j3A48Y_XcheWADuoPh6HYkmn2NCLqFDybk/edit),
-   which still had template placeholders at the earlier cleanup check. Public
-   viewing and a human rehearsal remain unverified. Older seven-slide materials
-   are historical fallbacks, not the final deck.
-2. **Browser validation.** The latest review demo and public dashboard still
-   require recorded interaction/visual checks. Earlier browser receipts apply
-   only to the versions they checked. Application-logic tests do not establish
-   browser behavior.
-3. **Scientific completion.** Full-cohort sequencing stopped without a complete
-   result. Its preserved partial outputs must not be presented as a completed
-   study. The verified short-read result remains the two-million paired-read
-   Parabricks run. K562 metadata and restored evidence do not establish a ranking
-   gain; keep K562 outside the core submission claims.
-4. **Independent evaluation.** Human scientific signoff and prospective utility
-   measurement remain unperformed. Three selected review cases do not establish
-   broad accuracy or time savings. The earlier AI scientific review is not human
-   signoff.
-5. **Reproduction inputs.** Full saved disorder profiles, coordinates, confidence
-   arrays, reports, and distinct run evidence are now in the release assets.
-   Restore them into the existing workflow paths. Large raw public reads,
-   reference/index databases, installed tools, and model weights were excluded
-   and must be fetched/rebuilt where a full scientific rerun needs them.
+- **RNA identity and support:** technical junction-support criteria do not establish biological truth. NanoString labels refer to gene pairs, not every junction isoform or peptide. Missing reported support is not a verified negative.
+- **Ranking:** the null Hi-C comparison does not demonstrate independence from 3D genome organization. The probe panel is selected, contact resolution is coarse, and assay timing differs. Broader generalization and perturbation studies remain open.
+- **Protein hypotheses:** full exon-chain and translation-start usage remain uncertain. The 188-peptide cohort is a conditional reference reconstruction. Predicted disorder, domain matches and model confidence are not validated measures of expression, functional fitness or druggability.
+- **Experimental validation:** this project performed no new protein-function or druggability assays. Independent human scientific signoff and prospective usefulness measurements remain unperformed.
+- **Extended datasets:** full-cohort sequencing remained incomplete. Cross-species results are partial and do not establish conserved exon junctions. K562 and the separate folding supplement do not change the main claim set.
 
-The frozen folding supplement still contains 341 candidate peptide models across
-223 RNA pairs plus 42 controls, with 117 of 500 selected predictions missing.
-Keep sequence hypotheses, RNA pairs, controls, and repeated-seed model records
-separate. Neither a structure prediction nor missing assay support establishes
-protein function, biological absence, or population prevalence. The partial
-cross-species comparison is not a completed conservation study.
+Priorities are independent-sample validation, better junction/isoform resolution, prospective evaluation of ranking usefulness, and targeted experimental tests. CTCF perturbation, a cross-species atlas, and NMD/export mechanisms are open directions rather than completed findings.
 
-No new computation, provisioning, restart, or deadline extension is authorized
-by this integration. Current placement, rate limits, and shutdown requirements
-remain in [AGENTS.md](AGENTS.md).
+[Restore saved evidence](preservation/controller-20260920/README.md) for inspection. Full reruns additionally require the documented raw inputs, references, external tools and model weights.

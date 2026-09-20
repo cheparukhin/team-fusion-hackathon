@@ -1,5 +1,7 @@
 # chRNA hackathon coordination
 
+Current scope is the FINAL tab of the shared team document: RNA ranking, fusion-protein disorder/folding analysis, and the dashboard. Read `docs/submission/README.md` for the current claim-to-evidence map. Earlier plans and supplemental experiments do not expand the claimed deliverables.
+
 Read GAPS.md and STATUS.md before implementation. The coordinator owns shared contracts, root dependencies, src/chrna/model.py, tests/test_model.py, README.md, and final integration.
 
 Worker ownership:
