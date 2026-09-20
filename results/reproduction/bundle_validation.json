@@ -1,0 +1,28 @@
+{
+  "validated_utc": "2026-09-20T00:16:15.281665+00:00",
+  "git_commit": "6784cc82e3f43f4b19985527680b8a56c60f3734",
+  "archive_sha256": "80f8b736b92cc37443b498a2d87ec3e1d2e3f918e9a456163dbf7522c4700ee2",
+  "archive_bytes": 117028652,
+  "tracked_files": 674,
+  "host": "chrna-controller",
+  "working_directory": "/home/ubuntu/workspace/fusion-overnight-20260920/bundle-6784cc8/chrna",
+  "environment": "Existing fresh .venv-clean from prior reproduction; extracted bundle, no raw source/reference caches copied",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": 1,
+    "OMP_NUM_THREADS": 1
+  },
+  "checks": {
+    "archive_crc": "passed",
+    "all_extracted_file_hashes_and_lengths": "passed",
+    "exact_review_tool_replay": "12 of 12 passed",
+    "pytest": "30 passed in 4.92 seconds",
+    "review_ui_mock_document": "passed; not a browser test"
+  },
+  "not_verified": [
+    "Browser rendering or interaction",
+    "Human scientific endorsement",
+    "Prospective utility",
+    "Judge account access"
+  ],
+  "additional_compute_provisioned": false
+}
