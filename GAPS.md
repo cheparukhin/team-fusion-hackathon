@@ -6,7 +6,7 @@ Delivered capabilities and verification are listed in [STATUS.md](STATUS.md). Th
 
 Work window extended by the user to **13:07 BST on 20 September 2026**.
 
-**Current integration blocker:** the coordinating task reports `chrna-controller` unhealthy. The published release and local source are available independently. Sequencing and folding owners are preserving outputs and enforcing their worker cutoffs independently of the controller; recovery is coordinated before any reboot. New results remain unverified.
+**Current integration blocker:** host access to `chrna-controller` reportedly recovered, but severe memory pressure remains (about 243 MB available, no swap). Keep integration local. The published release is available independently; analysis owners are recovering outputs and maintaining independent worker cutoffs. Do not add controller load or assume controller-based watchers are healthy. New results remain unverified.
 
 ## Next actions, in priority order
 
