@@ -18,9 +18,15 @@ Three [recorded review cases](results/review/case_freeze.json) contain actual Co
 
 [Tool and replay instructions](scripts/review/README.md) · [Gsdmd–Tmem106a](results/review/gsdmd-tmem106a/decision.json) · [Cd274–Lacc1](results/review/cd274-lacc1/decision.json). Human review is pending; these selected cases are not a blinded utility study.
 
-## Visual presentation and structure gallery
+## Submission presentation
 
-- [PowerPoint gallery](results/presentation/chRNA_gallery.pptx): twelve workflow-first visual slides, with editable diagrams/charts and blue/red parent colors.
+[Three-slide organiser-template deck, technical appendix and timed script](docs/submission/README.md). This is the current submission narrative. The slide previews were visually inspected; independent biology review, final release and external judge access remain pending.
+
+## Supporting visual gallery
+
+The twelve-slide gallery below is an earlier exploration, not the submission deck. Use the current three-slide story and `results/classifier/metrics.json` for current claims; historical figure snapshots may precede the tie-aware evaluation correction.
+
+- [PowerPoint gallery](results/presentation/chRNA_gallery.pptx): reusable diagrams/charts and blue/red parent colors.
 - [PowerPoint-rendered PDF](results/presentation/chRNA_gallery.pdf) for immediate preview.
 - [Figure guide](results/presentation/FIGURE_GUIDE.md): each figure’s inputs, generation method, interpretation and limitations.
 - [Five-minute runbook](results/presentation/PRESENTATION_RUNBOOK.md) and [gallery contact sheet](results/presentation/gallery_contact_sheet.png).
@@ -34,7 +40,7 @@ The dataset directory is now `results/dataset_reconstruction/`; [migration verif
 .venv/bin/python scripts/demo/serve.py
 ```
 
-Open `http://127.0.0.1:8000/demo/`. The browser loads cached data, evidence, and reports without external services. From your own computer with Brev authenticated, run `brev port-forward chrna-controller -p 8000:8000`, then open the same URL. The static `demo/index.html` also embeds its data through `data.js`; linked provenance and animation are easiest to use through the local server.
+Open **`http://127.0.0.1:8000/demo/review/`** for the scientist-review story, or `http://127.0.0.1:8000/demo/` for the full evidence explorer. The browser loads cached data, evidence, and reports without external services. From your own computer with Brev authenticated, run `brev port-forward chrna-controller -p 8000:8000`, then open the same URL. The static `demo/index.html` also embeds its data through `data.js`; linked provenance and animation are easiest to use through the local server.
 
 ## Reproduce
 
