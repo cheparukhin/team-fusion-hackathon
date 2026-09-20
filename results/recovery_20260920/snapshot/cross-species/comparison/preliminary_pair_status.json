@@ -1,0 +1,10 @@
+{
+  "species_with_QC_passing_LongGF_evidence": [
+    "bos_taurus",
+    "homo_sapiens"
+  ],
+  "ordered_pairs": 170,
+  "cross_species_ordered_pair_matches": 0,
+  "status": "partial caller/sample coverage; not a conserved-chRNA list",
+  "missing_species": "not biological negatives"
+}

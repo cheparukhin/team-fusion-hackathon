@@ -1,0 +1,50 @@
+{
+  "status": "complete",
+  "engine": "pyhmmer.hmmsearch",
+  "pyhmmer_version": "0.12.3",
+  "pfam_release": "38.2",
+  "profiles_processed": 30134,
+  "candidate_sequences": 188,
+  "control_sequences": 529,
+  "target_sequences": 717,
+  "included_domain_hits": 1750,
+  "candidate_sequences_with_hits": 151,
+  "control_sequences_with_hits": 463,
+  "parent_domain_retention_rows": 3025,
+  "linked_full_parent_controls_not_in_target_inventory": 0,
+  "cpus": 2,
+  "profile_batch_size": 32,
+  "elapsed_seconds": 95.5211398100073,
+  "max_rss_kib": 571604,
+  "thresholds": "Pfam model-specific gathering score thresholds; both hit and domain must be included",
+  "hmmsearch_Z": 717,
+  "seed": 42,
+  "coordinate_convention": "all reported protein and HMM boundaries are 1-based inclusive",
+  "input_sha256": {
+    "results/structure_campaign/reference/pfam/Pfam-A.hmm.gz": "2d82087b6c5c60d762cc767f98e8260b273134c215ab7efccf7440614a4e5dab",
+    "results/structure_campaign/reference/pfam/relnotes.txt": "f84c96d00633adaae19227bd15625cfad87929b1b6c18fcc981050896c6b7d34",
+    "results/structure_campaign/cohort/peptides.tsv": "45c6ce523915f4e2baa65e1926c4ab386dcfcf6427fa23852bd7c81d8d01d042",
+    "results/structure_campaign/cohort/conditional_peptides.fasta": "da527d904e98c453951de50453a6437bdf0b0305e9c2679afdf061d24dce52b0",
+    "results/structure_campaign/cohort/orf_hypotheses.tsv": "8bfe3c74d7a7a6873e6e2be41f9364e2fa36d63ffbbe1a29431478801b241582",
+    "results/structure_campaign/cohort/control_links.tsv": "87c050ff65e56f2a21171269bb16b23e27adbdc6756c006bacb69f3f94358f4e",
+    "results/structure_campaign/analysis/controls/metadata.tsv": "12a69d48aa6f9f7a485718530ec0384946a29b5a766cf101772bdab0638b3477",
+    "results/structure_campaign/analysis/controls/sequences.fasta": "16290ef4d77f4cebde69146efd7e4bd002335c5e4b544980808cf9a5ed38a9e4"
+  },
+  "code_sha256": "6d3f6a6d4cfa5b6f7d613e4e7abb259886200015c786213abc2cca750a83a6d1",
+  "limitations": [
+    "No sequence upload.",
+    "No-hit does not imply no domain, no function, or a novel fold.",
+    "HMM span coverage is profile-coordinate coverage, not sequence identity or proof of a complete domain.",
+    "Overlapping GA hits retained; no clan-competition filtering because no pinned clan mapping is supplied.",
+    "E-values use the searched small sequence database, not the number of Pfam models.",
+    "Parent retention is mapped canonical amino-acid span overlap; no out-of-frame annotation transfer.",
+    "All candidates remain conditional reference hypotheses, not established translated proteins."
+  ],
+  "output_sha256": {
+    "METHODS.md": "3ea07bec7d502f10591aa14c3a471b4e2929504965b45d47a14e1b72f832013d",
+    "alignments.jsonl": "076e632bfa15297cadd6902a5a4cca24536d71c3566d46ee99c4ac8207300b1c",
+    "architectures.tsv": "99a3bb5c26979f2e125960d78acd8e2ca4a6f085f4235b6cc44b76a9499161c4",
+    "domain_hits.tsv": "dbddb67b1146067d551d09acc4ea391417a09ad5c8305323fcf68ffb0c00c4b4",
+    "parent_domain_retention.tsv": "4700c91d046be907dcbb27a09d4d5cb4481eef709507e99c866e65b43ddecb5f"
+  }
+}

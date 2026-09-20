@@ -1,0 +1,7 @@
+{
+  "n_paired_peptides": 58,
+  "median_out_of_frame_fraction": 0.617515756302521,
+  "median_retained_donor_fraction": 0.20184799399118514,
+  "median_paired_difference": 0.0,
+  "note": "Exploratory within-hypothesis source-region comparison; short tails, unequal lengths, shared parents and alternative mappings limit inference. Means across valid source ORFs are a descriptive convention."
+}

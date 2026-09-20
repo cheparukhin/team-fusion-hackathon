@@ -1,0 +1,57 @@
+{
+  "status": "complete",
+  "input_fasta": "results/structure_campaign/analysis/controls/sequences.fasta",
+  "input_fasta_sha256": "16290ef4d77f4cebde69146efd7e4bd002335c5e4b544980808cf9a5ed38a9e4",
+  "metadata_sha256": "12a69d48aa6f9f7a485718530ec0384946a29b5a766cf101772bdab0638b3477",
+  "n_records": 529,
+  "n_unique_sequences": 529,
+  "groups": {
+    "control:annotated_parent_complete_ORF": {
+      "n_peptides": 343,
+      "n_predominantly_disordered": 74,
+      "fraction_predominantly_disordered": 0.21574344023323616,
+      "mean_f_idr": 0.2959648488056018,
+      "median_f_idr": 0.21253644314868805,
+      "residue_weighted_f_idr": 0.297313875465378,
+      "v1_fraction_predominantly_disordered": 0.07871720116618076,
+      "v1_v3_majority_agreement": 0.8571428571428571
+    },
+    "control:retained_canonical_fragment": {
+      "n_peptides": 181,
+      "n_predominantly_disordered": 50,
+      "fraction_predominantly_disordered": 0.27624309392265195,
+      "mean_f_idr": 0.3035536716331392,
+      "median_f_idr": 0.16326530612244897,
+      "residue_weighted_f_idr": 0.24512022630834512,
+      "v1_fraction_predominantly_disordered": 0.19889502762430938,
+      "v1_v3_majority_agreement": 0.8784530386740331
+    },
+    "control:annotated_parent_complete_ORF;retained_canonical_fragment": {
+      "n_peptides": 5,
+      "n_predominantly_disordered": 1,
+      "fraction_predominantly_disordered": 0.2,
+      "mean_f_idr": 0.1272121734137238,
+      "median_f_idr": 0.0,
+      "residue_weighted_f_idr": 0.09592760180995476,
+      "v1_fraction_predominantly_disordered": 0.0,
+      "v1_v3_majority_agreement": 0.8
+    }
+  },
+  "versions": {
+    "metapredict": "3.0.2",
+    "torch": "2.8.0+cpu",
+    "numpy": "2.5.3"
+  },
+  "method": {
+    "primary": "metapredict V3 disorder network",
+    "residue_threshold": 0.5,
+    "comparison": ">=",
+    "protein_predominantly_disordered_threshold": 0.5,
+    "protein_comparison": ">",
+    "sensitivity": "metapredict V1, threshold >=0.42; related method, not independent validation",
+    "iupred_status": "unavailable: official download requires academic registration/license; no user identity or affiliation supplied",
+    "iupred_source": "https://iupred3.elte.hu/download_new",
+    "v3_training_caveat": "V3 training includes AlphaFold-derived information; correlation with folding confidence is not independent validation."
+  },
+  "wall_seconds": 12.425733102005324
+}

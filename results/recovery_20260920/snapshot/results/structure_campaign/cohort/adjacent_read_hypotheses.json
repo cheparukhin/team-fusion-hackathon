@@ -1,0 +1,58 @@
+[
+  {
+    "protein_id": "protein_c238b7951ad3db3502867ea62c768bae54c310934fda3936f65a43f3ca151592",
+    "sequence_sha256": "c238b7951ad3db3502867ea62c768bae54c310934fda3936f65a43f3ca151592",
+    "sequence": "MPISGLMPGSGHSRCLLNKPSLGSGLPLEYRSTGYLPEISDIVPFLSPNKRQSKKKVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM",
+    "junction_id": "junction_3e3c81c7540f0d6b230c4cbbc2913a8322cd4dbab085e9897cc7b15c17dcf091",
+    "read_id": "SRR28984805.899279/1",
+    "rna_rank": 22,
+    "gene_name_5p": "Tyrobp",
+    "gene_name_3p": "B2m",
+    "orf": {
+      "start": 413,
+      "stop_start": 800,
+      "end_including_stop": 803,
+      "frame": 2,
+      "coding_nt": 387
+    },
+    "sequence_source": "reference_assisted",
+    "sequence_resolved_under_assumptions": false,
+    "longest_spanning_orf_for_read": true,
+    "deferral_reasons": [
+      {
+        "reason": "untemplated_gap_sequence_below_Q30",
+        "gap_nt": 4
+      }
+    ],
+    "protein_existence": "UNKNOWN",
+    "function": "UNKNOWN"
+  },
+  {
+    "protein_id": "protein_079a74eac37b16fdd5a8af0125bbd402e702e473ca4e1fa9a6984471fa467c60",
+    "sequence_sha256": "079a74eac37b16fdd5a8af0125bbd402e702e473ca4e1fa9a6984471fa467c60",
+    "sequence": "MPGSGHSRCLLNKPSLGSGLPLEYRSTGYLPEISDIVPFLSPNKRQSKKKVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM",
+    "junction_id": "junction_3e3c81c7540f0d6b230c4cbbc2913a8322cd4dbab085e9897cc7b15c17dcf091",
+    "read_id": "SRR28984805.899279/1",
+    "rna_rank": 22,
+    "gene_name_5p": "Tyrobp",
+    "gene_name_3p": "B2m",
+    "orf": {
+      "start": 431,
+      "stop_start": 800,
+      "end_including_stop": 803,
+      "frame": 2,
+      "coding_nt": 369
+    },
+    "sequence_source": "reference_assisted",
+    "sequence_resolved_under_assumptions": false,
+    "longest_spanning_orf_for_read": false,
+    "deferral_reasons": [
+      {
+        "reason": "untemplated_gap_sequence_below_Q30",
+        "gap_nt": 4
+      }
+    ],
+    "protein_existence": "UNKNOWN",
+    "function": "UNKNOWN"
+  }
+]

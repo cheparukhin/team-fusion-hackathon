@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "manifest_files": 2303,
+  "validated_model_jobs": 68,
+  "protocol_counts": {
+    "boltz2_2.2.1_precomputed": 1,
+    "boltz2_2.2.1_single_sequence": 67
+  },
+  "limitations": "Artifact integrity and prediction consistency; no translation or function validation."
+}

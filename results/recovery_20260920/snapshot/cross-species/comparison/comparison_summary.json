@@ -1,0 +1,25 @@
+{
+  "scope": "one human run versus one cow run; preliminary",
+  "tiers": {
+    "primary_candidate": {
+      "human_ordered_pairs": 25,
+      "cow_ordered_pairs": 153,
+      "shared_ordered_pairs": 0,
+      "human_pairs_with_both_one_to_one_cow_orthologs": 19
+    },
+    "exploratory_including_statistical_failures": {
+      "human_ordered_pairs": 27,
+      "cow_ordered_pairs": 164,
+      "shared_ordered_pairs": 0,
+      "human_pairs_with_both_one_to_one_cow_orthologs": 21
+    },
+    "all_reported_including_low_MAPQ": {
+      "human_ordered_pairs": 38,
+      "cow_ordered_pairs": 200,
+      "shared_ordered_pairs": 0,
+      "human_pairs_with_both_one_to_one_cow_orthologs": 23
+    }
+  },
+  "conserved_chRNAs_established": 0,
+  "reason": "Ordered-pair recurrence alone cannot establish homologous junctions or biological replication"
+}

@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "input_fasta": "results/structure_campaign/cohort/sensitivity_peptides.fasta",
+  "input_fasta_sha256": "274ee4a30e28dcf7d566abb5aecd454bbdae550b4de47c18331a0603c5120322",
+  "metadata_sha256": "45c6ce523915f4e2baa65e1926c4ab386dcfcf6427fa23852bd7c81d8d01d042",
+  "n_records": 746,
+  "n_unique_sequences": 746,
+  "groups": {
+    "candidate:alternative_start_sensitivity": {
+      "n_peptides": 746,
+      "n_predominantly_disordered": 132,
+      "fraction_predominantly_disordered": 0.1769436997319035,
+      "mean_f_idr": 0.2789394661264582,
+      "median_f_idr": 0.177390007071282,
+      "residue_weighted_f_idr": 0.18741925712096508,
+      "v1_fraction_predominantly_disordered": 0.054959785522788206,
+      "v1_v3_majority_agreement": 0.8672922252010724
+    }
+  },
+  "versions": {
+    "metapredict": "3.0.2",
+    "torch": "2.8.0+cpu",
+    "numpy": "2.5.3"
+  },
+  "method": {
+    "primary": "metapredict V3 disorder network",
+    "residue_threshold": 0.5,
+    "comparison": ">=",
+    "protein_predominantly_disordered_threshold": 0.5,
+    "protein_comparison": ">",
+    "sensitivity": "metapredict V1, threshold >=0.42; related method, not independent validation",
+    "iupred_status": "unavailable: official download requires academic registration/license; no user identity or affiliation supplied",
+    "iupred_source": "https://iupred3.elte.hu/download_new",
+    "v3_training_caveat": "V3 training includes AlphaFold-derived information; correlation with folding confidence is not independent validation."
+  },
+  "wall_seconds": 48.15919289299927
+}

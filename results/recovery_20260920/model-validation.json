@@ -1,0 +1,625 @@
+{
+  "validated_jobs": 68,
+  "protocols": {
+    "boltz2_2.2.1_precomputed": 1,
+    "boltz2_2.2.1_single_sequence": 67
+  },
+  "single_sequence_unique_sequences": 51,
+  "single_sequence_sequence_overlap_with_expansion": 0,
+  "single_sequence_sequences_absent_from_expansion": 51,
+  "exact_coordinate_duplicates_with_expansion": 0,
+  "rows": [
+    {
+      "job_id": "protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa_precomputed_seed20260919",
+      "sequence_sha256": "f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa",
+      "protocol": "boltz2_2.2.1_precomputed",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "d2b318e1f2ab28d8ef75df7e336b7022b583a608a9ca452685df7765a4421049",
+      "mean_plddt": 48.704315185546875
+    },
+    {
+      "job_id": "protein_1bce31ef49449220635ddadc203907308fc7f2ec67e7d48732292471c9bbe3df_single_sequence_seed20260919",
+      "sequence_sha256": "1bce31ef49449220635ddadc203907308fc7f2ec67e7d48732292471c9bbe3df",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "adbfee01b912da33061985b6c44b6bfdf5e4428aef5db74e125319ce781c2540",
+      "mean_plddt": 85.89279174804688
+    },
+    {
+      "job_id": "protein_1e8bc65243a9facc8e4feddf58cbbe693b2477dfe7a89be4bd6f1930464904dc_single_sequence_seed20260919",
+      "sequence_sha256": "1e8bc65243a9facc8e4feddf58cbbe693b2477dfe7a89be4bd6f1930464904dc",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "225f676e465c42ef868702bad0eac24686544788e823f8c12cfb4bd85c93cba7",
+      "mean_plddt": 71.17115020751953
+    },
+    {
+      "job_id": "protein_6de3b695e6fb7625fb0b645afd1d9dbcedf1ea280f2faf93d7ebafbd589a09ef_single_sequence_seed20260919",
+      "sequence_sha256": "6de3b695e6fb7625fb0b645afd1d9dbcedf1ea280f2faf93d7ebafbd589a09ef",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "ae96a15e0324c69bdef9f4295c282cd717d429dddc252ccd71754924ab3bc843",
+      "mean_plddt": 41.311344146728516
+    },
+    {
+      "job_id": "protein_7c620433a33c479bd09812150c15d2e0accd796c3cd40b057543080302fe009b_single_sequence_seed20260919",
+      "sequence_sha256": "7c620433a33c479bd09812150c15d2e0accd796c3cd40b057543080302fe009b",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "5ca58c82122f44231f6f9a917f7738516b374f2174de9ece91d781129e1afeb6",
+      "mean_plddt": 83.54053497314453
+    },
+    {
+      "job_id": "protein_91b6c2354036f74992cb5f2520a3614bb2b0ecc3feab662dbb7e791accc4b3b7_single_sequence_seed20260919",
+      "sequence_sha256": "91b6c2354036f74992cb5f2520a3614bb2b0ecc3feab662dbb7e791accc4b3b7",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "22c0c2d1d7a0c01b138f9c88f5090f2361eba3f2ad9c826af21d489560e22e4e",
+      "mean_plddt": 31.64936637878418
+    },
+    {
+      "job_id": "protein_9a99577ea77e93a51bb896132001fac6caa242ee517a62995ddef9d39a72f54a_single_sequence_seed20260919",
+      "sequence_sha256": "9a99577ea77e93a51bb896132001fac6caa242ee517a62995ddef9d39a72f54a",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "84deb6e3bc2d291f8052f44487a10677637b47f01c014b56c8557bb83edfe664",
+      "mean_plddt": 45.717742919921875
+    },
+    {
+      "job_id": "protein_ca2772f82b0e861861636ddd31697e08475ddd2b2f93467e300b85d3aa0b3c75_single_sequence_seed20260919",
+      "sequence_sha256": "ca2772f82b0e861861636ddd31697e08475ddd2b2f93467e300b85d3aa0b3c75",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "ce51940925bd21f8378bb5649523d1e3b84bd7ca0919f0b12e79bdb30bac2f29",
+      "mean_plddt": 70.95394134521484
+    },
+    {
+      "job_id": "protein_dba94fe4564b656dcb4c88ed9c0af05dfe78a7d6ea0ef18b1c71b29fe58fa0d9_single_sequence_seed20260919",
+      "sequence_sha256": "dba94fe4564b656dcb4c88ed9c0af05dfe78a7d6ea0ef18b1c71b29fe58fa0d9",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "2dbef20d4497674785da3fda6e08c6832fcf099832512880b58aa9ed33feadb6",
+      "mean_plddt": 56.03831481933594
+    },
+    {
+      "job_id": "protein_e5af13d33e889258c3c023a666c476f620d82348973f983e518b9779866522d1_single_sequence_seed20260919",
+      "sequence_sha256": "e5af13d33e889258c3c023a666c476f620d82348973f983e518b9779866522d1",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "781895cc7585f2a092c65a454942c338cdcd025ce1823456595f7d2ed02dc918",
+      "mean_plddt": 60.67978286743164
+    },
+    {
+      "job_id": "protein_eaadb81f5c70805626da52cd61e57438d32bf21d9a2d8384477f99624294a992_single_sequence_seed20260919",
+      "sequence_sha256": "eaadb81f5c70805626da52cd61e57438d32bf21d9a2d8384477f99624294a992",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "d3e2fcf356a8d15369380edd48f7931874d1acafe1ecad441fb9e225a3d75389",
+      "mean_plddt": 35.059730529785156
+    },
+    {
+      "job_id": "protein_06a47ea8fb14decf2e1f83ce3d7b3bc9900a29ed89cc722332a43a369472b176_single_sequence_seed20260919",
+      "sequence_sha256": "06a47ea8fb14decf2e1f83ce3d7b3bc9900a29ed89cc722332a43a369472b176",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "4bb11f01d285e3160ba66e566159988df59bf5c379517b2e13df7d0adc99fced",
+      "mean_plddt": 39.424591064453125
+    },
+    {
+      "job_id": "protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa_single_sequence_seed20260919",
+      "sequence_sha256": "f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "a0d605c70053a20e3c02077184f41f17cd185bda2756113c53811565a0b98eac",
+      "mean_plddt": 41.62141036987305
+    },
+    {
+      "job_id": "protein_1bb99356d918b0fbaa9b069fdeb691f9390e078bfa32068a8186f372bbfd91a3_single_sequence_seed20260919",
+      "sequence_sha256": "1bb99356d918b0fbaa9b069fdeb691f9390e078bfa32068a8186f372bbfd91a3",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "control",
+      "seed": 20260919,
+      "model_sha256": "1eefb35a221e9df501fef7663e16b1f8740402867c75ba2372c51e4afccee56c",
+      "mean_plddt": 54.881710052490234
+    },
+    {
+      "job_id": "protein_4d8da7a249b8e2edf2d48ecc95d93eb6898532d6e07ed982fec0fc4c9c14e12a_single_sequence_seed20260919",
+      "sequence_sha256": "4d8da7a249b8e2edf2d48ecc95d93eb6898532d6e07ed982fec0fc4c9c14e12a",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "control",
+      "seed": 20260919,
+      "model_sha256": "3b316b96ff5023dd74671c36c2fe3e68e8b19222066aa319811e555234179339",
+      "mean_plddt": 78.81968688964844
+    },
+    {
+      "job_id": "protein_13af641587610835ccf13231157fe90ef6e91f0485fa14f7ec5a46506b5a8823_single_sequence_seed20260919",
+      "sequence_sha256": "13af641587610835ccf13231157fe90ef6e91f0485fa14f7ec5a46506b5a8823",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "control",
+      "seed": 20260919,
+      "model_sha256": "fb613c19ac94448374513dcea1b86a247ab59ef0222030d1fb87b8dffa381da7",
+      "mean_plddt": 55.24551773071289
+    },
+    {
+      "job_id": "protein_345129754ff0ccc173929ddf22b27736775c4329d5023cd85485e4a3b98d6af1_single_sequence_seed20260919",
+      "sequence_sha256": "345129754ff0ccc173929ddf22b27736775c4329d5023cd85485e4a3b98d6af1",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "control",
+      "seed": 20260919,
+      "model_sha256": "77a168ed221ae2e13b5e05579a88094a479698f84759d32d4fa3eb237aa6a315",
+      "mean_plddt": 33.563507080078125
+    },
+    {
+      "job_id": "protein_61a6c306c0a882793e9a0eb0f38e9dffb4ad15d1ae413e718969b8f43c6e86e4_single_sequence_seed20260919",
+      "sequence_sha256": "61a6c306c0a882793e9a0eb0f38e9dffb4ad15d1ae413e718969b8f43c6e86e4",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "control",
+      "seed": 20260919,
+      "model_sha256": "605278496be89e0416ee49eadaa437abe127b4110c141f553cb7ffd3744f8554",
+      "mean_plddt": 36.97886657714844
+    },
+    {
+      "job_id": "protein_8500b17b3f5cc9f4deaed97ff0ad19025d5d94095c67bb9c969910558b69f1f8_single_sequence_seed20260919",
+      "sequence_sha256": "8500b17b3f5cc9f4deaed97ff0ad19025d5d94095c67bb9c969910558b69f1f8",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "control",
+      "seed": 20260919,
+      "model_sha256": "b24180d900efe1108188533080c92c906ee6f12d4eef2071734770b1b82ea223",
+      "mean_plddt": 38.78268814086914
+    },
+    {
+      "job_id": "protein_c4c915da39d6ec74952059215262a9989ad6435c495f79363d36b565c91f216d_single_sequence_seed20260919",
+      "sequence_sha256": "c4c915da39d6ec74952059215262a9989ad6435c495f79363d36b565c91f216d",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "control",
+      "seed": 20260919,
+      "model_sha256": "1ee36212bf09ea3803b39f75b7b4181a2baa304d95a2398b298893bb6aaa6475",
+      "mean_plddt": 51.86315155029297
+    },
+    {
+      "job_id": "protein_ff94800e922179729e86c53f89319115126e45abae0220aa9052e0fb76f532c1_single_sequence_seed20260919",
+      "sequence_sha256": "ff94800e922179729e86c53f89319115126e45abae0220aa9052e0fb76f532c1",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "control",
+      "seed": 20260919,
+      "model_sha256": "ea1177cef01fb00c50527115ccaf9ae3761b24b4ad0f4cf6815ebe4934ce032f",
+      "mean_plddt": 56.60386657714844
+    },
+    {
+      "job_id": "protein_00fb8657255fb894315401cecb9ab9e3047ef7b3d1f0d35d357663269780201c_single_sequence_seed20260919",
+      "sequence_sha256": "00fb8657255fb894315401cecb9ab9e3047ef7b3d1f0d35d357663269780201c",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "2548993c9bccce6b20f3b247535badd453bbf59c336e3298ed3ca3f978fb980f",
+      "mean_plddt": 64.86199951171875
+    },
+    {
+      "job_id": "protein_101700281cde078bee94b7382d6e603a4babf7b2c6c73ebf43d4a469d59c79f5_single_sequence_seed20260919",
+      "sequence_sha256": "101700281cde078bee94b7382d6e603a4babf7b2c6c73ebf43d4a469d59c79f5",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "6be1b8be24c5c6e4f451d2aef4de37e3b7a705dae1f290d96a5cc7ad32c1d983",
+      "mean_plddt": 40.058372497558594
+    },
+    {
+      "job_id": "protein_17d111deb4d6dc3037080cfa51b4f13d1b3e22d45fa78ccc97a0cca4c2afed7e_single_sequence_seed20260919",
+      "sequence_sha256": "17d111deb4d6dc3037080cfa51b4f13d1b3e22d45fa78ccc97a0cca4c2afed7e",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "27f8ca01247c5df794bf2b78341a072003d7324ac8cf9b04890d0d71cd079dfa",
+      "mean_plddt": 47.40483474731445
+    },
+    {
+      "job_id": "protein_2f5ccec75975e3c6f577920bce8d2353c43c2083ced5a445cd4306874aa49f96_single_sequence_seed20260919",
+      "sequence_sha256": "2f5ccec75975e3c6f577920bce8d2353c43c2083ced5a445cd4306874aa49f96",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "440cb3bc9f2958a2ec69612493976873f2a4e9df5606b165093f5f5da3068224",
+      "mean_plddt": 60.829830169677734
+    },
+    {
+      "job_id": "protein_3538354085b81ef36c100a2816d54993d184f50f51149beb3c72110afb62890b_single_sequence_seed20260919",
+      "sequence_sha256": "3538354085b81ef36c100a2816d54993d184f50f51149beb3c72110afb62890b",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "193af7c3d486a502568c63ec28025957bc87513707885960fa5e15bba04113de",
+      "mean_plddt": 52.41388702392578
+    },
+    {
+      "job_id": "protein_3868fed335582b3a056d423efc2dbae9dfa7c7350d3572a0f67798065f307d53_single_sequence_seed20260919",
+      "sequence_sha256": "3868fed335582b3a056d423efc2dbae9dfa7c7350d3572a0f67798065f307d53",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "59be28e84ae5a3fa7849a9d91220c8aae97366ad47429416478b65d51d9972ac",
+      "mean_plddt": 53.30686569213867
+    },
+    {
+      "job_id": "protein_3efb26690c36c414062c23d0c47a34fbb57d8f10f8edf672769c2cddb8218cfa_single_sequence_seed20260919",
+      "sequence_sha256": "3efb26690c36c414062c23d0c47a34fbb57d8f10f8edf672769c2cddb8218cfa",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "406aa7cc6704ea80ab5d205f9ac6509a9c251cae2bda9c921d2f2f0f99e0b833",
+      "mean_plddt": 33.2018928527832
+    },
+    {
+      "job_id": "protein_5e0a55ceea7aa5596a1130b2f7a693b8a52acf6bf2ac12e69951ade5c9fb2d52_single_sequence_seed20260919",
+      "sequence_sha256": "5e0a55ceea7aa5596a1130b2f7a693b8a52acf6bf2ac12e69951ade5c9fb2d52",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "53855436930b5d4160507470b1ef2fb825dbaffac42ad8bc4866b68cff5bb547",
+      "mean_plddt": 37.95859146118164
+    },
+    {
+      "job_id": "protein_61dbcd41ff74ad3f3b63240c13327fee06c0feb5d06fe4cf72c1220d5d18bb06_single_sequence_seed20260919",
+      "sequence_sha256": "61dbcd41ff74ad3f3b63240c13327fee06c0feb5d06fe4cf72c1220d5d18bb06",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "371b3ec216039813611c629c68731e81d9253f21259d1a511f1683eb0039efaa",
+      "mean_plddt": 50.705780029296875
+    },
+    {
+      "job_id": "protein_7153a9988f10e3f16ef9401be9c3ebf0e792e0075a0738bde80362e44019b419_single_sequence_seed20260919",
+      "sequence_sha256": "7153a9988f10e3f16ef9401be9c3ebf0e792e0075a0738bde80362e44019b419",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "641b78d548c3f8a8579187318fada550be9845d0e55e53e39984640db774a9d2",
+      "mean_plddt": 38.7589111328125
+    },
+    {
+      "job_id": "protein_74500f70e6a9f3f7e33db93e70c8610c8c7af7704f8522687bc26abc4cd3eb18_single_sequence_seed20260919",
+      "sequence_sha256": "74500f70e6a9f3f7e33db93e70c8610c8c7af7704f8522687bc26abc4cd3eb18",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "877ff198e18f7193f78b250eee30ac8545aa0331264428721f9aa48a90c8ef16",
+      "mean_plddt": 65.052490234375
+    },
+    {
+      "job_id": "protein_7a9f6f4887bd814b003cf10313fd2533c1efedd27d7e63a1d4f1508167c28ace_single_sequence_seed20260919",
+      "sequence_sha256": "7a9f6f4887bd814b003cf10313fd2533c1efedd27d7e63a1d4f1508167c28ace",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "40823ab5134396d1377740e862ce8787fffb38447451a6aa9b545343decd658f",
+      "mean_plddt": 87.41344451904297
+    },
+    {
+      "job_id": "protein_899325e73395c7c25bfb100e110524886b8177bae90a0ab97604b66f4b77da1e_single_sequence_seed20260919",
+      "sequence_sha256": "899325e73395c7c25bfb100e110524886b8177bae90a0ab97604b66f4b77da1e",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "8aab175055508ef43fd2b01aceeec345e6764cadb930ff7bd091d7e2c69e2c4b",
+      "mean_plddt": 50.851863861083984
+    },
+    {
+      "job_id": "protein_b0d22e27937167cce8168e89f2f47683b4ada96ad48b9ebb22e347b9e99abcb8_single_sequence_seed20260919",
+      "sequence_sha256": "b0d22e27937167cce8168e89f2f47683b4ada96ad48b9ebb22e347b9e99abcb8",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "63ac5ff80fa107cbff05de1f0065225c162c9aa61e1d8eced18d697d0fe86458",
+      "mean_plddt": 50.87779235839844
+    },
+    {
+      "job_id": "protein_b537f99b45ff96dfbe025055a4ef53a4d336495d89f7355a3e01399abae3638e_single_sequence_seed20260919",
+      "sequence_sha256": "b537f99b45ff96dfbe025055a4ef53a4d336495d89f7355a3e01399abae3638e",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "40bbc0673b821895f45d8f1fb086de7b922f5ed1104b6fe4e3c8eee5823aa969",
+      "mean_plddt": 44.18708419799805
+    },
+    {
+      "job_id": "protein_d09ba36d63b4b05b94c1787f8ea186e5b841f5920b3ffb5356533bd95afd68da_single_sequence_seed20260919",
+      "sequence_sha256": "d09ba36d63b4b05b94c1787f8ea186e5b841f5920b3ffb5356533bd95afd68da",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "dd32065905c1eac77dda09f62df0b1f886a2d6a3935e17731ba04b57aa7f7773",
+      "mean_plddt": 56.679237365722656
+    },
+    {
+      "job_id": "protein_dfb8a2ccde79614b69b3425f8cd6ffcf0f2bddaf437ae76facc8bb7ebdfacb2e_single_sequence_seed20260919",
+      "sequence_sha256": "dfb8a2ccde79614b69b3425f8cd6ffcf0f2bddaf437ae76facc8bb7ebdfacb2e",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "25709e31b33320a031e428acaa0de82f17bade5d54a33aa5a3bb783f7bfa23e3",
+      "mean_plddt": 31.234756469726562
+    },
+    {
+      "job_id": "protein_e6bde9e98c0c71a406cda37d339a2829de1ba0ba203b851d67e4082deda858a7_single_sequence_seed20260919",
+      "sequence_sha256": "e6bde9e98c0c71a406cda37d339a2829de1ba0ba203b851d67e4082deda858a7",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "1c7c11a18b22d08d556e52ed0223c7da6fa9d6bdd0841e46a0961a0089133d68",
+      "mean_plddt": 37.484832763671875
+    },
+    {
+      "job_id": "protein_f3b157eea4a7b3afed59584e95a707bc05cb7cf6e128952858f1c030fdca8e9f_single_sequence_seed20260919",
+      "sequence_sha256": "f3b157eea4a7b3afed59584e95a707bc05cb7cf6e128952858f1c030fdca8e9f",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "1e52ef38d6252ccf2c85e817b6a772579a9f613f4e26616ff5b5c6cbc17af3e5",
+      "mean_plddt": 50.60160827636719
+    },
+    {
+      "job_id": "protein_ff641b7f66baa209ff86e50cff70775b9fc1fd0004872ad33a501711d57eaf5e_single_sequence_seed20260919",
+      "sequence_sha256": "ff641b7f66baa209ff86e50cff70775b9fc1fd0004872ad33a501711d57eaf5e",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "2991b90b0b1204a00627e96d781bbc88f1242e90111b43f8720cadcb712a8897",
+      "mean_plddt": 51.05569839477539
+    },
+    {
+      "job_id": "protein_19394e5c359c5a82b8cb1bd0ed1fa1b68fb38f6139c5c1acdf5b19900a03299a_single_sequence_seed20260919",
+      "sequence_sha256": "19394e5c359c5a82b8cb1bd0ed1fa1b68fb38f6139c5c1acdf5b19900a03299a",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "7058e2312efef53f076d9077add5f9e225f0ffeb8b362eb29be0dd7f92240831",
+      "mean_plddt": 40.66495895385742
+    },
+    {
+      "job_id": "protein_d9dadae508e1aba65519f0bec221151e33dd065734ac6bd7d657c57034b61154_single_sequence_seed20260919",
+      "sequence_sha256": "d9dadae508e1aba65519f0bec221151e33dd065734ac6bd7d657c57034b61154",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "157f2f3f78eae5dafb5cc94921367202dbb5afc0cb72901842e25c6ef70b6eb3",
+      "mean_plddt": 60.84474182128906
+    },
+    {
+      "job_id": "protein_b38a46e68fa112ecb3d07b06ff9f3c00cfbcb19b8f9098cd396c99a0030c80ca_single_sequence_seed20260919",
+      "sequence_sha256": "b38a46e68fa112ecb3d07b06ff9f3c00cfbcb19b8f9098cd396c99a0030c80ca",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "7b409d6246d0c1aabbf69697303df2f20e945931c708e4329d813af563e2d5d6",
+      "mean_plddt": 42.900447845458984
+    },
+    {
+      "job_id": "protein_70b1ed4ba81a68375cfb42e68d1af3b9cf1105b34faaa49a883b93a8bfa81b6c_single_sequence_seed20260919",
+      "sequence_sha256": "70b1ed4ba81a68375cfb42e68d1af3b9cf1105b34faaa49a883b93a8bfa81b6c",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "c6313f04bc82f3440fd1903c6dd87618b622bb5a26e1b30bdc80e4c7066ad1e4",
+      "mean_plddt": 46.24773406982422
+    },
+    {
+      "job_id": "protein_6ae36d8a89ac3ac04b43b02983f3cb8994037ee6cadc0be1d50523eaca3430e4_single_sequence_seed20260919",
+      "sequence_sha256": "6ae36d8a89ac3ac04b43b02983f3cb8994037ee6cadc0be1d50523eaca3430e4",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "8f9a49d9f516dfc8b69388467a7961d2a337ef212939ef2023b31bc5f8be43fa",
+      "mean_plddt": 36.644256591796875
+    },
+    {
+      "job_id": "protein_d12ded276778cca561f61708455f059a1bccb3f6e5b75d6ea02f274ab7b9a20d_single_sequence_seed20260919",
+      "sequence_sha256": "d12ded276778cca561f61708455f059a1bccb3f6e5b75d6ea02f274ab7b9a20d",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "d51f0261207585457939e531b91c50a3b79f3aff2347e0192b75bc2a67487d81",
+      "mean_plddt": 40.3947868347168
+    },
+    {
+      "job_id": "protein_bcd139b19630cb31f3a89703fedd00936138336ed28e45f87045ef3f8222c90c_single_sequence_seed20260919",
+      "sequence_sha256": "bcd139b19630cb31f3a89703fedd00936138336ed28e45f87045ef3f8222c90c",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "50d60936e1292fdd579e2faebd64634c5a0fcf0230a9b91ad4025e4611d4bd10",
+      "mean_plddt": 43.414920806884766
+    },
+    {
+      "job_id": "protein_2fd568c243ae5fc146a0c3231fbaef7e40cf01dbf9a2cc5cea6ca2f10c9a8f54_single_sequence_seed20260919",
+      "sequence_sha256": "2fd568c243ae5fc146a0c3231fbaef7e40cf01dbf9a2cc5cea6ca2f10c9a8f54",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "5c0dd4bd6626e6099157b35a84aa2248ac4dac4928512acd75216e3534021de8",
+      "mean_plddt": 32.13313674926758
+    },
+    {
+      "job_id": "protein_1148a09617eba2312e87a99c5e199bf30521982cb6c30cc7354ca5f31aa604ee_single_sequence_seed20260919",
+      "sequence_sha256": "1148a09617eba2312e87a99c5e199bf30521982cb6c30cc7354ca5f31aa604ee",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "1fed87a7f406f3ef12107358c2bdeacc90f9a608b7196b222c97940e51d9de8e",
+      "mean_plddt": 34.92095947265625
+    },
+    {
+      "job_id": "protein_7b0d5d3c3a31c1168531049ad5eb4bf68c7070067b6a2cd48ed4f7d87f40e85a_single_sequence_seed20260919",
+      "sequence_sha256": "7b0d5d3c3a31c1168531049ad5eb4bf68c7070067b6a2cd48ed4f7d87f40e85a",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "a108693b9c357d670a8e04cabf73776b47335f3e791d0d2cf9584b8ee16ad40c",
+      "mean_plddt": 67.47438049316406
+    },
+    {
+      "job_id": "protein_fa6506540deb5226f196b5e2c3dc3fd6a10972fec505231d4d43a33b7e157c2a_single_sequence_seed20260919",
+      "sequence_sha256": "fa6506540deb5226f196b5e2c3dc3fd6a10972fec505231d4d43a33b7e157c2a",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260919,
+      "model_sha256": "480b66cf4088cbac0c16ed0e1eb2bcd48a5a54b043ae908d48f9878ac8525013",
+      "mean_plddt": 31.588390350341797
+    },
+    {
+      "job_id": "protein_00fb8657255fb894315401cecb9ab9e3047ef7b3d1f0d35d357663269780201c_single_sequence_seed20260920",
+      "sequence_sha256": "00fb8657255fb894315401cecb9ab9e3047ef7b3d1f0d35d357663269780201c",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260920,
+      "model_sha256": "bce2f5b052a5c1862bf342fcb10fd7657feaf4bc572bfc1c89e352f8dafb723f",
+      "mean_plddt": 64.79042053222656
+    },
+    {
+      "job_id": "protein_00fb8657255fb894315401cecb9ab9e3047ef7b3d1f0d35d357663269780201c_single_sequence_seed20260921",
+      "sequence_sha256": "00fb8657255fb894315401cecb9ab9e3047ef7b3d1f0d35d357663269780201c",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260921,
+      "model_sha256": "4176ff8149fa03e430eaeaabbd94d9b4a25413528e999c5261b9995fdcbb9830",
+      "mean_plddt": 67.25130462646484
+    },
+    {
+      "job_id": "protein_17d111deb4d6dc3037080cfa51b4f13d1b3e22d45fa78ccc97a0cca4c2afed7e_single_sequence_seed20260920",
+      "sequence_sha256": "17d111deb4d6dc3037080cfa51b4f13d1b3e22d45fa78ccc97a0cca4c2afed7e",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260920,
+      "model_sha256": "24504e3855bb652f1e8ff1171349244cda1341f04180b34fc9a7293e2acffe09",
+      "mean_plddt": 47.746337890625
+    },
+    {
+      "job_id": "protein_17d111deb4d6dc3037080cfa51b4f13d1b3e22d45fa78ccc97a0cca4c2afed7e_single_sequence_seed20260921",
+      "sequence_sha256": "17d111deb4d6dc3037080cfa51b4f13d1b3e22d45fa78ccc97a0cca4c2afed7e",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260921,
+      "model_sha256": "a0b5af81193bd6000fbdfe7c5edcb88f4638821b943b83470928745ca9e33bdd",
+      "mean_plddt": 46.38542556762695
+    },
+    {
+      "job_id": "protein_1bce31ef49449220635ddadc203907308fc7f2ec67e7d48732292471c9bbe3df_single_sequence_seed20260920",
+      "sequence_sha256": "1bce31ef49449220635ddadc203907308fc7f2ec67e7d48732292471c9bbe3df",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260920,
+      "model_sha256": "22f37a456336051c6aa9cf81c2949debdb32c2d726947f1ceb5769cac705ff73",
+      "mean_plddt": 87.69857788085938
+    },
+    {
+      "job_id": "protein_1bce31ef49449220635ddadc203907308fc7f2ec67e7d48732292471c9bbe3df_single_sequence_seed20260921",
+      "sequence_sha256": "1bce31ef49449220635ddadc203907308fc7f2ec67e7d48732292471c9bbe3df",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260921,
+      "model_sha256": "2e10741fa7eba227db50125f5e93e2df59df7c2ea7f0b556b93f78889753eb83",
+      "mean_plddt": 88.4555892944336
+    },
+    {
+      "job_id": "protein_1e8bc65243a9facc8e4feddf58cbbe693b2477dfe7a89be4bd6f1930464904dc_single_sequence_seed20260920",
+      "sequence_sha256": "1e8bc65243a9facc8e4feddf58cbbe693b2477dfe7a89be4bd6f1930464904dc",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260920,
+      "model_sha256": "f8a568a725814924251a4c9b9ceb74e69285fdfe8017fef9c152c87f74d2f0af",
+      "mean_plddt": 62.149845123291016
+    },
+    {
+      "job_id": "protein_1e8bc65243a9facc8e4feddf58cbbe693b2477dfe7a89be4bd6f1930464904dc_single_sequence_seed20260921",
+      "sequence_sha256": "1e8bc65243a9facc8e4feddf58cbbe693b2477dfe7a89be4bd6f1930464904dc",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260921,
+      "model_sha256": "590f663a4618fd23635deee991f38ec617bb5d9020d65a8b33d99ff1bf6f7894",
+      "mean_plddt": 69.17831420898438
+    },
+    {
+      "job_id": "protein_7a9f6f4887bd814b003cf10313fd2533c1efedd27d7e63a1d4f1508167c28ace_single_sequence_seed20260920",
+      "sequence_sha256": "7a9f6f4887bd814b003cf10313fd2533c1efedd27d7e63a1d4f1508167c28ace",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260920,
+      "model_sha256": "6e26272c970b3c9b0d89e12bc0c25eb2f5a3dcf5b18ccb5a1bce25d438fd6b68",
+      "mean_plddt": 88.73089599609375
+    },
+    {
+      "job_id": "protein_7a9f6f4887bd814b003cf10313fd2533c1efedd27d7e63a1d4f1508167c28ace_single_sequence_seed20260921",
+      "sequence_sha256": "7a9f6f4887bd814b003cf10313fd2533c1efedd27d7e63a1d4f1508167c28ace",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260921,
+      "model_sha256": "3db1c539e8d69c61f9f162d82db0008e015e388c34d2d124eac5a68b8de04fc8",
+      "mean_plddt": 86.56045532226562
+    },
+    {
+      "job_id": "protein_06a47ea8fb14decf2e1f83ce3d7b3bc9900a29ed89cc722332a43a369472b176_single_sequence_seed20260920",
+      "sequence_sha256": "06a47ea8fb14decf2e1f83ce3d7b3bc9900a29ed89cc722332a43a369472b176",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260920,
+      "model_sha256": "9cf078138997b230d3d7ff5d3feb7b6313053d0e6cd2663e6ee5cdbcf35ffb67",
+      "mean_plddt": 41.73148727416992
+    },
+    {
+      "job_id": "protein_06a47ea8fb14decf2e1f83ce3d7b3bc9900a29ed89cc722332a43a369472b176_single_sequence_seed20260921",
+      "sequence_sha256": "06a47ea8fb14decf2e1f83ce3d7b3bc9900a29ed89cc722332a43a369472b176",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260921,
+      "model_sha256": "46a8cbe366eda46d2ddc18f2dc066cffd287fb7be8d093d181c7c35737e3447b",
+      "mean_plddt": 43.03013229370117
+    },
+    {
+      "job_id": "protein_2fd568c243ae5fc146a0c3231fbaef7e40cf01dbf9a2cc5cea6ca2f10c9a8f54_single_sequence_seed20260920",
+      "sequence_sha256": "2fd568c243ae5fc146a0c3231fbaef7e40cf01dbf9a2cc5cea6ca2f10c9a8f54",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260920,
+      "model_sha256": "f8b2b9cc0f98c799a8ad3c227650c93f6673edf8e512e749b1da32c5fbb4761c",
+      "mean_plddt": 32.806453704833984
+    },
+    {
+      "job_id": "protein_2fd568c243ae5fc146a0c3231fbaef7e40cf01dbf9a2cc5cea6ca2f10c9a8f54_single_sequence_seed20260921",
+      "sequence_sha256": "2fd568c243ae5fc146a0c3231fbaef7e40cf01dbf9a2cc5cea6ca2f10c9a8f54",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260921,
+      "model_sha256": "05c0a91897e6a7ba5ed08fb7225d4dbe3425dc84d242548da9fde5230df46999",
+      "mean_plddt": 32.3781623840332
+    },
+    {
+      "job_id": "protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa_single_sequence_seed20260920",
+      "sequence_sha256": "f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260920,
+      "model_sha256": "80f2ed0ebfde05acc63e3fd5d3fa38f3024df58bb4815ee1dde2a9f940a21627",
+      "mean_plddt": 41.701690673828125
+    },
+    {
+      "job_id": "protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa_single_sequence_seed20260921",
+      "sequence_sha256": "f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa",
+      "protocol": "boltz2_2.2.1_single_sequence",
+      "role": "sensitivity",
+      "seed": 20260921,
+      "model_sha256": "34d1faf6ecd27c3ff99cadefb0361c9c56020ff809f5e6925ea427a4449403bd",
+      "mean_plddt": 42.3551025390625
+    }
+  ]
+}

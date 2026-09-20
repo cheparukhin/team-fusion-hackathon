@@ -1,0 +1,10 @@
+from pathlib import Path
+import json
+import pandas as pd
+ROOT=Path(__file__).resolve().parents[2];b=ROOT/'results/structure_campaign';p=pd.read_csv(b/'analysis/disorder_summary.tsv',sep='\t')
+expanded=p[['peptide_id','pair_ids','f_idr','v1_f_idr','length']].copy();expanded['pair_id']=expanded.pair_ids.str.split(';');expanded=expanded.explode('pair_id')
+expanded['predominantly_disordered']=expanded.f_idr.gt(.5)
+g=expanded.groupby('pair_id').agg(n_hypotheses=('peptide_id','nunique'),mean_f_idr=('f_idr','mean'),min_f_idr=('f_idr','min'),max_f_idr=('f_idr','max'),fraction_hypotheses_predominantly_disordered=('predominantly_disordered','mean')).reset_index()
+g.to_csv(b/'analysis/pair_weighted_summary.tsv',sep='\t',index=False)
+res={'n_conditional_peptides':len(p),'n_source_pairs':len(g),'n_reference_pairs':109,'n_pairs_without_eligible_conditional_peptide':109-len(g),'n_predominantly_disordered_v3':int(p.f_idr.gt(.5).sum()),'fraction_predominantly_disordered_v3':float(p.f_idr.gt(.5).mean()),'n_predominantly_disordered_v1':int(p.v1_f_idr.gt(.5).sum()),'fraction_predominantly_disordered_v1':float(p.v1_f_idr.gt(.5).mean()),'peptide_equal_mean_f_idr':float(p.f_idr.mean()),'peptide_equal_median_f_idr':float(p.f_idr.median()),'residue_weighted_f_idr':float((p.f_idr*p.length).sum()/p.length.sum()),'pair_equal_mean_hypothesis_f_idr':float(g.mean_f_idr.mean()),'pair_equal_mean_fraction_predominantly_disordered':float(g.fraction_hypotheses_predominantly_disordered.mean()),'n_pairs_all_hypotheses_predominantly_disordered':int(g.min_f_idr.gt(.5).sum()),'n_pairs_any_hypothesis_predominantly_disordered':int(g.max_f_idr.gt(.5).sum()),'interpretation':'Computed finite conditional hypothesis census. Equal hypothesis weights within a pair are a descriptive convention, not probabilities of isoform expression or translation. No statistical confidence interval is claimed for predictor accuracy.'}
+(b/'analysis/census_summary.json').write_text(json.dumps(res,indent=2)+'\n');print(json.dumps(res,indent=2))

@@ -1,0 +1,12 @@
+{
+  "status": "frozen before candidate inspection; pilot feasibility may trigger documented amendments",
+  "quality": {"minimum_mean_phred_from_error_probability":7,"minimum_read_length":0,"preserve_original_ids":true,"duplicate_ids":"fail validation"},
+  "discovery": {"caller_min_support":1,"longgf_min_map_len":100,"longgf_min_overlap_len":100},
+  "strict_evidence": {"unique_reads_per_species":3,"independent_biological_samples_per_species":2,"minimum_mapq_per_arm":20,"minimum_aligned_nt_per_parent":100},
+  "strong_replicated_evidence": {"reads_per_sample":2,"independent_samples":2},
+  "sensitivity": {"minimum_aligned_nt_per_parent":50,"separate_from_primary":true},
+  "conservation": {"preserve_5prime_3prime_parent_order":true,"primary_orthology":"one-to-one","junction_match":"both homologous exon boundaries, not raw coordinate distance or same gene pair","human_anchor_required":false},
+  "dog":"exclude from strict replicated claims until tissue and donor conflicts resolved",
+  "absence":"nondetection distinct from unevaluable coverage or missing caller",
+  "tissue":"bulk liver; no purified-hepatocyte claim"
+}

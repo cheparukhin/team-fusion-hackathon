@@ -1,0 +1,45 @@
+{
+  "structure_tests": {
+    "passed": 19
+  },
+  "ordered_pair_tests": {
+    "passed": 2
+  },
+  "cross_species_replay_exact_files": {
+    "comparison_summary.json": true,
+    "all_read_evidence.tsv": true,
+    "preliminary_pair_status.json": true,
+    "preliminary_ordered_pair_matches.tsv": true,
+    "reviewed_pair_matches.tsv": true
+  },
+  "reference_adapter_test": "blocked: samtools unavailable; one test error, not a scientific assertion failure",
+  "not_rerun": [
+    "LongGF synthetic executable controls",
+    "raw sequencing pipelines",
+    "disorder inference",
+    "Pfam search",
+    "Foldseek execution",
+    "browser/visual checks"
+  ],
+  "targeted_remote_stability": {
+    "files": [
+      "results/structure_campaign/compute/jobs.json",
+      "results/structure_campaign/summary_provenance.json",
+      "cross-species/comparison/comparison_summary.json"
+    ],
+    "size_and_mtime_match": true,
+    "source_commit_unchanged": true,
+    "atomic_snapshot": false
+  },
+  "credential_pattern_review": "One AWS-shaped match inside canonical amino-acid sequence in parent_controls.fasta; biological sequence false positive. No credentials found in promoted files.",
+  "clean_archive_extraction": {
+    "status": "passed",
+    "manifest_files": 2303,
+    "validated_model_jobs": 68,
+    "protocol_counts": {
+      "boltz2_2.2.1_precomputed": 1,
+      "boltz2_2.2.1_single_sequence": 67
+    },
+    "limitations": "Artifact integrity and prediction consistency; no translation or function validation."
+  }
+}

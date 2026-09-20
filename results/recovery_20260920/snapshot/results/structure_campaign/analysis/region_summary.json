@@ -1,0 +1,10 @@
+{
+  "n_annotated_start_orfs": 665,
+  "n_region_rows": 2441,
+  "n_deduplicated_retained_fragment_comparisons": 267,
+  "retained_fragment_median_delta_f_idr": 0.0,
+  "caveat": "Delta compares identical amino acids predicted in full fusion context versus isolated fragment. It is not a biological effect size or independent experimental validation. Mapping alternatives are retained, not chosen by best prediction.",
+  "n_deduplicated_native_context_comparisons": 372,
+  "native_context_median_delta_f_idr": 0.0,
+  "native_context_mean_delta_f_idr": -0.006171238465045222
+}

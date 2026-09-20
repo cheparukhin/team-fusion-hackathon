@@ -1,0 +1,10 @@
+{
+  "debug_rows": 5259,
+  "morphology_PASS_rows": 873,
+  "normalized_rows": 873,
+  "unique_PASS_reads": 873,
+  "alignment_qc_PASS_reads": 100,
+  "alignment_and_statistical_PASS_reads": 81,
+  "statistical_failures": "retained separately, not accepted strict evidence",
+  "unresolved_order_or_arms": 0
+}

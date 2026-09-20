@@ -1,0 +1,9 @@
+# Install torch first from https://download.pytorch.org/whl/cpu
+# uv pip install --python .venv-disorder/bin/python torch==2.8.0 --index-url https://download.pytorch.org/whl/cpu
+metapredict==3.0.2
+pandas==3.0.6
+biopython==1.88
+numpy==2.5.3
+matplotlib==3.11.2
+pyhmmer==0.12.3
+gemmi==0.7.5

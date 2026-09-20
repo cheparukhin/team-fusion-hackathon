@@ -1,0 +1,322 @@
+{
+  "method": "Actual validated first-seed coordinate/confidence identities and existing Pfam GA alignment spans; minimum50aa and80%residues passing fixed; residue pLDDT thresholds60,70,80. Only70defines primary clusters. No alternate-gate cluster inference.",
+  "denominator": "Actual validated first-pass peptides including no-Pfam-hit peptides; planned missing/invalid peptides reported separately. Controls separate from candidates, protocols never pooled.",
+  "overlap": "Exact duplicate intervals merged; other overlapping annotations remain explicit, not independent biological domains.",
+  "input_jobs_sha256": "5ad34ad320e55b34fb08da58ece9a41ba9f052381167a439a0072c5b27a9a0eb",
+  "pfam_domain_hits_sha256": "dbddb67b1146067d551d09acc4ea391417a09ad5c8305323fcf68ffb0c00c4b4",
+  "driver_sha256": "4fc20ec213ad3a5948ac865a21a2a6bcce2b5813fcb9cb4669ec4f85791831b7",
+  "sources": [
+    {
+      "job_id": "protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa_precomputed_seed20260919",
+      "sequence_sha256": "f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa",
+      "coordinate_sha256": "d2b318e1f2ab28d8ef75df7e336b7022b583a608a9ca452685df7765a4421049",
+      "confidence_sha256": "8e89453d72b8212c4ce5f9c9d396a50b64abc276d46318375e1df2e984c65ed3"
+    },
+    {
+      "job_id": "protein_00fb8657255fb894315401cecb9ab9e3047ef7b3d1f0d35d357663269780201c_single_sequence_seed20260919",
+      "sequence_sha256": "00fb8657255fb894315401cecb9ab9e3047ef7b3d1f0d35d357663269780201c",
+      "coordinate_sha256": "2548993c9bccce6b20f3b247535badd453bbf59c336e3298ed3ca3f978fb980f",
+      "confidence_sha256": "54bd36033bc1a3517d2e8631c0c227380c445bc512777f17b33f6f81b56e42fa"
+    },
+    {
+      "job_id": "protein_06a47ea8fb14decf2e1f83ce3d7b3bc9900a29ed89cc722332a43a369472b176_single_sequence_seed20260919",
+      "sequence_sha256": "06a47ea8fb14decf2e1f83ce3d7b3bc9900a29ed89cc722332a43a369472b176",
+      "coordinate_sha256": "4bb11f01d285e3160ba66e566159988df59bf5c379517b2e13df7d0adc99fced",
+      "confidence_sha256": "bd09c39fb92c08d389c1cdb5fb575e52c55b2fbcde046d82f47e8e0e458fd726"
+    },
+    {
+      "job_id": "protein_101700281cde078bee94b7382d6e603a4babf7b2c6c73ebf43d4a469d59c79f5_single_sequence_seed20260919",
+      "sequence_sha256": "101700281cde078bee94b7382d6e603a4babf7b2c6c73ebf43d4a469d59c79f5",
+      "coordinate_sha256": "6be1b8be24c5c6e4f451d2aef4de37e3b7a705dae1f290d96a5cc7ad32c1d983",
+      "confidence_sha256": "13e60249d6a429227651528fa6411abce6fca1090fefd306c3e7a94ad0a1a78f"
+    },
+    {
+      "job_id": "protein_1148a09617eba2312e87a99c5e199bf30521982cb6c30cc7354ca5f31aa604ee_single_sequence_seed20260919",
+      "sequence_sha256": "1148a09617eba2312e87a99c5e199bf30521982cb6c30cc7354ca5f31aa604ee",
+      "coordinate_sha256": "1fed87a7f406f3ef12107358c2bdeacc90f9a608b7196b222c97940e51d9de8e",
+      "confidence_sha256": "2e27ec8702e64ea87ac8d263dd59493f40f64cfb620adb06cdf875c914aa48b6"
+    },
+    {
+      "job_id": "protein_13af641587610835ccf13231157fe90ef6e91f0485fa14f7ec5a46506b5a8823_single_sequence_seed20260919",
+      "sequence_sha256": "13af641587610835ccf13231157fe90ef6e91f0485fa14f7ec5a46506b5a8823",
+      "coordinate_sha256": "fb613c19ac94448374513dcea1b86a247ab59ef0222030d1fb87b8dffa381da7",
+      "confidence_sha256": "358c9231fcf66838762cb945f1080665e3156ce4f6ccb2bc4ad8d01d0bfe359f"
+    },
+    {
+      "job_id": "protein_17d111deb4d6dc3037080cfa51b4f13d1b3e22d45fa78ccc97a0cca4c2afed7e_single_sequence_seed20260919",
+      "sequence_sha256": "17d111deb4d6dc3037080cfa51b4f13d1b3e22d45fa78ccc97a0cca4c2afed7e",
+      "coordinate_sha256": "27f8ca01247c5df794bf2b78341a072003d7324ac8cf9b04890d0d71cd079dfa",
+      "confidence_sha256": "6509e8878d691ca24fe1a7e6e25b6ea3b95b0f37c2992d816332c2f246c9c75d"
+    },
+    {
+      "job_id": "protein_19394e5c359c5a82b8cb1bd0ed1fa1b68fb38f6139c5c1acdf5b19900a03299a_single_sequence_seed20260919",
+      "sequence_sha256": "19394e5c359c5a82b8cb1bd0ed1fa1b68fb38f6139c5c1acdf5b19900a03299a",
+      "coordinate_sha256": "7058e2312efef53f076d9077add5f9e225f0ffeb8b362eb29be0dd7f92240831",
+      "confidence_sha256": "07e592175858a236389a3b7290376e66691f3d34c1e9c0ead05bf61261e875d5"
+    },
+    {
+      "job_id": "protein_1bb99356d918b0fbaa9b069fdeb691f9390e078bfa32068a8186f372bbfd91a3_single_sequence_seed20260919",
+      "sequence_sha256": "1bb99356d918b0fbaa9b069fdeb691f9390e078bfa32068a8186f372bbfd91a3",
+      "coordinate_sha256": "1eefb35a221e9df501fef7663e16b1f8740402867c75ba2372c51e4afccee56c",
+      "confidence_sha256": "7fad839579981a138d9a549818df67e28989c3a7b698acbc23b66266df1c0170"
+    },
+    {
+      "job_id": "protein_1bce31ef49449220635ddadc203907308fc7f2ec67e7d48732292471c9bbe3df_single_sequence_seed20260919",
+      "sequence_sha256": "1bce31ef49449220635ddadc203907308fc7f2ec67e7d48732292471c9bbe3df",
+      "coordinate_sha256": "adbfee01b912da33061985b6c44b6bfdf5e4428aef5db74e125319ce781c2540",
+      "confidence_sha256": "5cca0246977bada534b420264696459aa55ab152a4d7c86611b8aaaafb51b49e"
+    },
+    {
+      "job_id": "protein_1e8bc65243a9facc8e4feddf58cbbe693b2477dfe7a89be4bd6f1930464904dc_single_sequence_seed20260919",
+      "sequence_sha256": "1e8bc65243a9facc8e4feddf58cbbe693b2477dfe7a89be4bd6f1930464904dc",
+      "coordinate_sha256": "225f676e465c42ef868702bad0eac24686544788e823f8c12cfb4bd85c93cba7",
+      "confidence_sha256": "09a7bee1c681890eb7df5ee4e7cbc0a848f67ff6bb52cb305bd5197e636c5dc9"
+    },
+    {
+      "job_id": "protein_2f5ccec75975e3c6f577920bce8d2353c43c2083ced5a445cd4306874aa49f96_single_sequence_seed20260919",
+      "sequence_sha256": "2f5ccec75975e3c6f577920bce8d2353c43c2083ced5a445cd4306874aa49f96",
+      "coordinate_sha256": "440cb3bc9f2958a2ec69612493976873f2a4e9df5606b165093f5f5da3068224",
+      "confidence_sha256": "fb9e6dd8fd06565391f64e9512397d458ec0427b392bc079fdf9f55797109949"
+    },
+    {
+      "job_id": "protein_2fd568c243ae5fc146a0c3231fbaef7e40cf01dbf9a2cc5cea6ca2f10c9a8f54_single_sequence_seed20260919",
+      "sequence_sha256": "2fd568c243ae5fc146a0c3231fbaef7e40cf01dbf9a2cc5cea6ca2f10c9a8f54",
+      "coordinate_sha256": "5c0dd4bd6626e6099157b35a84aa2248ac4dac4928512acd75216e3534021de8",
+      "confidence_sha256": "561c67a2959da2557dead24603ae2503bb3941d7a0a530a838f3b66a9269cb50"
+    },
+    {
+      "job_id": "protein_345129754ff0ccc173929ddf22b27736775c4329d5023cd85485e4a3b98d6af1_single_sequence_seed20260919",
+      "sequence_sha256": "345129754ff0ccc173929ddf22b27736775c4329d5023cd85485e4a3b98d6af1",
+      "coordinate_sha256": "77a168ed221ae2e13b5e05579a88094a479698f84759d32d4fa3eb237aa6a315",
+      "confidence_sha256": "c7b7451c84c08bb7831895189190adb171204e2bb4ae323c429b7180021d8cd1"
+    },
+    {
+      "job_id": "protein_3538354085b81ef36c100a2816d54993d184f50f51149beb3c72110afb62890b_single_sequence_seed20260919",
+      "sequence_sha256": "3538354085b81ef36c100a2816d54993d184f50f51149beb3c72110afb62890b",
+      "coordinate_sha256": "193af7c3d486a502568c63ec28025957bc87513707885960fa5e15bba04113de",
+      "confidence_sha256": "4d63ab3a39c6002be0962ac0f487737ff4f76ac4c8765a012af14e119b38d5b4"
+    },
+    {
+      "job_id": "protein_3868fed335582b3a056d423efc2dbae9dfa7c7350d3572a0f67798065f307d53_single_sequence_seed20260919",
+      "sequence_sha256": "3868fed335582b3a056d423efc2dbae9dfa7c7350d3572a0f67798065f307d53",
+      "coordinate_sha256": "59be28e84ae5a3fa7849a9d91220c8aae97366ad47429416478b65d51d9972ac",
+      "confidence_sha256": "aefb343103501f256475a81edc7a819e56be9eeff4aae26b0d74ba82a2e5b004"
+    },
+    {
+      "job_id": "protein_3efb26690c36c414062c23d0c47a34fbb57d8f10f8edf672769c2cddb8218cfa_single_sequence_seed20260919",
+      "sequence_sha256": "3efb26690c36c414062c23d0c47a34fbb57d8f10f8edf672769c2cddb8218cfa",
+      "coordinate_sha256": "406aa7cc6704ea80ab5d205f9ac6509a9c251cae2bda9c921d2f2f0f99e0b833",
+      "confidence_sha256": "bf458daeeb3bb954d5ecc4f2493ef272b09dd399e0973fc5ad58b471fde08751"
+    },
+    {
+      "job_id": "protein_4d8da7a249b8e2edf2d48ecc95d93eb6898532d6e07ed982fec0fc4c9c14e12a_single_sequence_seed20260919",
+      "sequence_sha256": "4d8da7a249b8e2edf2d48ecc95d93eb6898532d6e07ed982fec0fc4c9c14e12a",
+      "coordinate_sha256": "3b316b96ff5023dd74671c36c2fe3e68e8b19222066aa319811e555234179339",
+      "confidence_sha256": "416a8556e388edb9827efbb954c3cf1986956d26080e89f04e26dfc07c76a532"
+    },
+    {
+      "job_id": "protein_5e0a55ceea7aa5596a1130b2f7a693b8a52acf6bf2ac12e69951ade5c9fb2d52_single_sequence_seed20260919",
+      "sequence_sha256": "5e0a55ceea7aa5596a1130b2f7a693b8a52acf6bf2ac12e69951ade5c9fb2d52",
+      "coordinate_sha256": "53855436930b5d4160507470b1ef2fb825dbaffac42ad8bc4866b68cff5bb547",
+      "confidence_sha256": "42f8d4bfe3531aa8179bfa734c34ae3e64af7ee675964a36cab62db35ae40a05"
+    },
+    {
+      "job_id": "protein_61a6c306c0a882793e9a0eb0f38e9dffb4ad15d1ae413e718969b8f43c6e86e4_single_sequence_seed20260919",
+      "sequence_sha256": "61a6c306c0a882793e9a0eb0f38e9dffb4ad15d1ae413e718969b8f43c6e86e4",
+      "coordinate_sha256": "605278496be89e0416ee49eadaa437abe127b4110c141f553cb7ffd3744f8554",
+      "confidence_sha256": "ae1f2c43ef00df6639767fa8c6f6e1ff54892f89acac3fd236ba61ede14d039b"
+    },
+    {
+      "job_id": "protein_61dbcd41ff74ad3f3b63240c13327fee06c0feb5d06fe4cf72c1220d5d18bb06_single_sequence_seed20260919",
+      "sequence_sha256": "61dbcd41ff74ad3f3b63240c13327fee06c0feb5d06fe4cf72c1220d5d18bb06",
+      "coordinate_sha256": "371b3ec216039813611c629c68731e81d9253f21259d1a511f1683eb0039efaa",
+      "confidence_sha256": "ae5e4ebb9d372bbd6b317f5915a3c982bb017650fba01e9610172015db25827e"
+    },
+    {
+      "job_id": "protein_6ae36d8a89ac3ac04b43b02983f3cb8994037ee6cadc0be1d50523eaca3430e4_single_sequence_seed20260919",
+      "sequence_sha256": "6ae36d8a89ac3ac04b43b02983f3cb8994037ee6cadc0be1d50523eaca3430e4",
+      "coordinate_sha256": "8f9a49d9f516dfc8b69388467a7961d2a337ef212939ef2023b31bc5f8be43fa",
+      "confidence_sha256": "585e6475b11f4b27b4ad6148a5d04ece3055ad4eaa0039be069f781bfe360b84"
+    },
+    {
+      "job_id": "protein_6de3b695e6fb7625fb0b645afd1d9dbcedf1ea280f2faf93d7ebafbd589a09ef_single_sequence_seed20260919",
+      "sequence_sha256": "6de3b695e6fb7625fb0b645afd1d9dbcedf1ea280f2faf93d7ebafbd589a09ef",
+      "coordinate_sha256": "ae96a15e0324c69bdef9f4295c282cd717d429dddc252ccd71754924ab3bc843",
+      "confidence_sha256": "4a83d4a018beead8a34e4ab2ff4c2a07d13f9186a5db05e96e2d8e4c12c2c492"
+    },
+    {
+      "job_id": "protein_70b1ed4ba81a68375cfb42e68d1af3b9cf1105b34faaa49a883b93a8bfa81b6c_single_sequence_seed20260919",
+      "sequence_sha256": "70b1ed4ba81a68375cfb42e68d1af3b9cf1105b34faaa49a883b93a8bfa81b6c",
+      "coordinate_sha256": "c6313f04bc82f3440fd1903c6dd87618b622bb5a26e1b30bdc80e4c7066ad1e4",
+      "confidence_sha256": "af613d4aad283e4a67e2318588f9a31bfe55e30d5943f8265e636d00b25266ca"
+    },
+    {
+      "job_id": "protein_7153a9988f10e3f16ef9401be9c3ebf0e792e0075a0738bde80362e44019b419_single_sequence_seed20260919",
+      "sequence_sha256": "7153a9988f10e3f16ef9401be9c3ebf0e792e0075a0738bde80362e44019b419",
+      "coordinate_sha256": "641b78d548c3f8a8579187318fada550be9845d0e55e53e39984640db774a9d2",
+      "confidence_sha256": "26e5b4324f7cc64c6c231c69e84181a623e9b3c5f2b11252bc068017345b6cab"
+    },
+    {
+      "job_id": "protein_74500f70e6a9f3f7e33db93e70c8610c8c7af7704f8522687bc26abc4cd3eb18_single_sequence_seed20260919",
+      "sequence_sha256": "74500f70e6a9f3f7e33db93e70c8610c8c7af7704f8522687bc26abc4cd3eb18",
+      "coordinate_sha256": "877ff198e18f7193f78b250eee30ac8545aa0331264428721f9aa48a90c8ef16",
+      "confidence_sha256": "6ebd1c51f5e6047b64b9cf9219a7e747e1420397e00a8e1bc79510ddf4663f3e"
+    },
+    {
+      "job_id": "protein_7a9f6f4887bd814b003cf10313fd2533c1efedd27d7e63a1d4f1508167c28ace_single_sequence_seed20260919",
+      "sequence_sha256": "7a9f6f4887bd814b003cf10313fd2533c1efedd27d7e63a1d4f1508167c28ace",
+      "coordinate_sha256": "40823ab5134396d1377740e862ce8787fffb38447451a6aa9b545343decd658f",
+      "confidence_sha256": "465644674e5edcef7f75fbb25ceafb6d0896b6bbc3d94e888949d922112fd166"
+    },
+    {
+      "job_id": "protein_7b0d5d3c3a31c1168531049ad5eb4bf68c7070067b6a2cd48ed4f7d87f40e85a_single_sequence_seed20260919",
+      "sequence_sha256": "7b0d5d3c3a31c1168531049ad5eb4bf68c7070067b6a2cd48ed4f7d87f40e85a",
+      "coordinate_sha256": "a108693b9c357d670a8e04cabf73776b47335f3e791d0d2cf9584b8ee16ad40c",
+      "confidence_sha256": "8694a9e29cedcc62d1e446aaae0daf7513ec675c5d534bb289370c98f7c3a91c"
+    },
+    {
+      "job_id": "protein_7c620433a33c479bd09812150c15d2e0accd796c3cd40b057543080302fe009b_single_sequence_seed20260919",
+      "sequence_sha256": "7c620433a33c479bd09812150c15d2e0accd796c3cd40b057543080302fe009b",
+      "coordinate_sha256": "5ca58c82122f44231f6f9a917f7738516b374f2174de9ece91d781129e1afeb6",
+      "confidence_sha256": "a70724a29ff3145d7a1c6d7cbdef07d0b929db83dcfad134029e41e6ddfc5aae"
+    },
+    {
+      "job_id": "protein_8500b17b3f5cc9f4deaed97ff0ad19025d5d94095c67bb9c969910558b69f1f8_single_sequence_seed20260919",
+      "sequence_sha256": "8500b17b3f5cc9f4deaed97ff0ad19025d5d94095c67bb9c969910558b69f1f8",
+      "coordinate_sha256": "b24180d900efe1108188533080c92c906ee6f12d4eef2071734770b1b82ea223",
+      "confidence_sha256": "68613eee1f167a1d755dbaeceea8ed40132e002f34e3e335efe4a308388845bf"
+    },
+    {
+      "job_id": "protein_899325e73395c7c25bfb100e110524886b8177bae90a0ab97604b66f4b77da1e_single_sequence_seed20260919",
+      "sequence_sha256": "899325e73395c7c25bfb100e110524886b8177bae90a0ab97604b66f4b77da1e",
+      "coordinate_sha256": "8aab175055508ef43fd2b01aceeec345e6764cadb930ff7bd091d7e2c69e2c4b",
+      "confidence_sha256": "1726a4f1d07863375e4fd43749e7c2534febcf2e66c85b35e8be2eab918215a3"
+    },
+    {
+      "job_id": "protein_91b6c2354036f74992cb5f2520a3614bb2b0ecc3feab662dbb7e791accc4b3b7_single_sequence_seed20260919",
+      "sequence_sha256": "91b6c2354036f74992cb5f2520a3614bb2b0ecc3feab662dbb7e791accc4b3b7",
+      "coordinate_sha256": "22c0c2d1d7a0c01b138f9c88f5090f2361eba3f2ad9c826af21d489560e22e4e",
+      "confidence_sha256": "87b200a769182c6472c2d21faf1ad44da7f293f575b3160cf09f8286fcee4a05"
+    },
+    {
+      "job_id": "protein_9a99577ea77e93a51bb896132001fac6caa242ee517a62995ddef9d39a72f54a_single_sequence_seed20260919",
+      "sequence_sha256": "9a99577ea77e93a51bb896132001fac6caa242ee517a62995ddef9d39a72f54a",
+      "coordinate_sha256": "84deb6e3bc2d291f8052f44487a10677637b47f01c014b56c8557bb83edfe664",
+      "confidence_sha256": "b266b54095abf8832a42dccf4e100b763f4f511d9767cce4f14285e50f758212"
+    },
+    {
+      "job_id": "protein_b0d22e27937167cce8168e89f2f47683b4ada96ad48b9ebb22e347b9e99abcb8_single_sequence_seed20260919",
+      "sequence_sha256": "b0d22e27937167cce8168e89f2f47683b4ada96ad48b9ebb22e347b9e99abcb8",
+      "coordinate_sha256": "63ac5ff80fa107cbff05de1f0065225c162c9aa61e1d8eced18d697d0fe86458",
+      "confidence_sha256": "a6521059cbd7dadf8e8e706142c0f896d7bfac9e913178ee6edd41994ba9b13c"
+    },
+    {
+      "job_id": "protein_b38a46e68fa112ecb3d07b06ff9f3c00cfbcb19b8f9098cd396c99a0030c80ca_single_sequence_seed20260919",
+      "sequence_sha256": "b38a46e68fa112ecb3d07b06ff9f3c00cfbcb19b8f9098cd396c99a0030c80ca",
+      "coordinate_sha256": "7b409d6246d0c1aabbf69697303df2f20e945931c708e4329d813af563e2d5d6",
+      "confidence_sha256": "0388ae71650ef6d50fc7566995e0a269b882e3775aff5adaa3d635f36a570bb7"
+    },
+    {
+      "job_id": "protein_b537f99b45ff96dfbe025055a4ef53a4d336495d89f7355a3e01399abae3638e_single_sequence_seed20260919",
+      "sequence_sha256": "b537f99b45ff96dfbe025055a4ef53a4d336495d89f7355a3e01399abae3638e",
+      "coordinate_sha256": "40bbc0673b821895f45d8f1fb086de7b922f5ed1104b6fe4e3c8eee5823aa969",
+      "confidence_sha256": "2f6e045faabb4f4aa50683a65c433c4905f3ae34e41ddb97a932b8650bb28737"
+    },
+    {
+      "job_id": "protein_bcd139b19630cb31f3a89703fedd00936138336ed28e45f87045ef3f8222c90c_single_sequence_seed20260919",
+      "sequence_sha256": "bcd139b19630cb31f3a89703fedd00936138336ed28e45f87045ef3f8222c90c",
+      "coordinate_sha256": "50d60936e1292fdd579e2faebd64634c5a0fcf0230a9b91ad4025e4611d4bd10",
+      "confidence_sha256": "0e335f59b028a90d5eff5b8fe96642a7b9d53f025c3d5c58aa8c513a48f48130"
+    },
+    {
+      "job_id": "protein_c4c915da39d6ec74952059215262a9989ad6435c495f79363d36b565c91f216d_single_sequence_seed20260919",
+      "sequence_sha256": "c4c915da39d6ec74952059215262a9989ad6435c495f79363d36b565c91f216d",
+      "coordinate_sha256": "1ee36212bf09ea3803b39f75b7b4181a2baa304d95a2398b298893bb6aaa6475",
+      "confidence_sha256": "3a95a6600bfd3e01214ee3fc882f3a828dc157284ef47a8c11dc5c9ea844cd51"
+    },
+    {
+      "job_id": "protein_ca2772f82b0e861861636ddd31697e08475ddd2b2f93467e300b85d3aa0b3c75_single_sequence_seed20260919",
+      "sequence_sha256": "ca2772f82b0e861861636ddd31697e08475ddd2b2f93467e300b85d3aa0b3c75",
+      "coordinate_sha256": "ce51940925bd21f8378bb5649523d1e3b84bd7ca0919f0b12e79bdb30bac2f29",
+      "confidence_sha256": "da02f7ec12f7d01798d0d560b509ffd991eb182e7ae8475d4b3619f1d860419b"
+    },
+    {
+      "job_id": "protein_d09ba36d63b4b05b94c1787f8ea186e5b841f5920b3ffb5356533bd95afd68da_single_sequence_seed20260919",
+      "sequence_sha256": "d09ba36d63b4b05b94c1787f8ea186e5b841f5920b3ffb5356533bd95afd68da",
+      "coordinate_sha256": "dd32065905c1eac77dda09f62df0b1f886a2d6a3935e17731ba04b57aa7f7773",
+      "confidence_sha256": "79efa93d0b2ac302995080ab43264e31a92fabb5bb1a64d4233be8490f5abada"
+    },
+    {
+      "job_id": "protein_d12ded276778cca561f61708455f059a1bccb3f6e5b75d6ea02f274ab7b9a20d_single_sequence_seed20260919",
+      "sequence_sha256": "d12ded276778cca561f61708455f059a1bccb3f6e5b75d6ea02f274ab7b9a20d",
+      "coordinate_sha256": "d51f0261207585457939e531b91c50a3b79f3aff2347e0192b75bc2a67487d81",
+      "confidence_sha256": "b4583658b09438d5e89fb20a4065c35757c8dc69b6171632707dc666eaa4ade6"
+    },
+    {
+      "job_id": "protein_d9dadae508e1aba65519f0bec221151e33dd065734ac6bd7d657c57034b61154_single_sequence_seed20260919",
+      "sequence_sha256": "d9dadae508e1aba65519f0bec221151e33dd065734ac6bd7d657c57034b61154",
+      "coordinate_sha256": "157f2f3f78eae5dafb5cc94921367202dbb5afc0cb72901842e25c6ef70b6eb3",
+      "confidence_sha256": "d23c759ed5bc58dc7189b477423c9afb33bee4941a6a7c16dff25344cfa5b95e"
+    },
+    {
+      "job_id": "protein_dba94fe4564b656dcb4c88ed9c0af05dfe78a7d6ea0ef18b1c71b29fe58fa0d9_single_sequence_seed20260919",
+      "sequence_sha256": "dba94fe4564b656dcb4c88ed9c0af05dfe78a7d6ea0ef18b1c71b29fe58fa0d9",
+      "coordinate_sha256": "2dbef20d4497674785da3fda6e08c6832fcf099832512880b58aa9ed33feadb6",
+      "confidence_sha256": "c73db746e57eaee8439c7d84c344b4b855bc6b6de2ca2e3b2d827374acccb753"
+    },
+    {
+      "job_id": "protein_dfb8a2ccde79614b69b3425f8cd6ffcf0f2bddaf437ae76facc8bb7ebdfacb2e_single_sequence_seed20260919",
+      "sequence_sha256": "dfb8a2ccde79614b69b3425f8cd6ffcf0f2bddaf437ae76facc8bb7ebdfacb2e",
+      "coordinate_sha256": "25709e31b33320a031e428acaa0de82f17bade5d54a33aa5a3bb783f7bfa23e3",
+      "confidence_sha256": "07d86c669829ef3f8ed012ed49899985321fa1d57b35b94cd2e5ff26b0b089b7"
+    },
+    {
+      "job_id": "protein_e5af13d33e889258c3c023a666c476f620d82348973f983e518b9779866522d1_single_sequence_seed20260919",
+      "sequence_sha256": "e5af13d33e889258c3c023a666c476f620d82348973f983e518b9779866522d1",
+      "coordinate_sha256": "781895cc7585f2a092c65a454942c338cdcd025ce1823456595f7d2ed02dc918",
+      "confidence_sha256": "38b643ba60b452e060d07e6fc967d97910c748c1d2b219e4adfb40eb60f54928"
+    },
+    {
+      "job_id": "protein_e6bde9e98c0c71a406cda37d339a2829de1ba0ba203b851d67e4082deda858a7_single_sequence_seed20260919",
+      "sequence_sha256": "e6bde9e98c0c71a406cda37d339a2829de1ba0ba203b851d67e4082deda858a7",
+      "coordinate_sha256": "1c7c11a18b22d08d556e52ed0223c7da6fa9d6bdd0841e46a0961a0089133d68",
+      "confidence_sha256": "d7670e1c0ce24029ac7faed01df85579f08e0afe4233e087b90dc65a49256959"
+    },
+    {
+      "job_id": "protein_eaadb81f5c70805626da52cd61e57438d32bf21d9a2d8384477f99624294a992_single_sequence_seed20260919",
+      "sequence_sha256": "eaadb81f5c70805626da52cd61e57438d32bf21d9a2d8384477f99624294a992",
+      "coordinate_sha256": "d3e2fcf356a8d15369380edd48f7931874d1acafe1ecad441fb9e225a3d75389",
+      "confidence_sha256": "8487177f3a458e0549c8b38e4613942904f48aa8ffe537bed5b51b74811d342d"
+    },
+    {
+      "job_id": "protein_f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa_single_sequence_seed20260919",
+      "sequence_sha256": "f0766d124b52f0061597ce4e822e9275a04152df574f9a512631a0fa6ed8a2fa",
+      "coordinate_sha256": "a0d605c70053a20e3c02077184f41f17cd185bda2756113c53811565a0b98eac",
+      "confidence_sha256": "6c9e0dca685d1e620cadb3ca60299bed2ddaadc1d808cdc0634f7190a8dc87c7"
+    },
+    {
+      "job_id": "protein_f3b157eea4a7b3afed59584e95a707bc05cb7cf6e128952858f1c030fdca8e9f_single_sequence_seed20260919",
+      "sequence_sha256": "f3b157eea4a7b3afed59584e95a707bc05cb7cf6e128952858f1c030fdca8e9f",
+      "coordinate_sha256": "1e52ef38d6252ccf2c85e817b6a772579a9f613f4e26616ff5b5c6cbc17af3e5",
+      "confidence_sha256": "5f6366c62e89a2167e94d4d7b9ccded8db011877b8ec4ba35cc4eaa8af391c0b"
+    },
+    {
+      "job_id": "protein_fa6506540deb5226f196b5e2c3dc3fd6a10972fec505231d4d43a33b7e157c2a_single_sequence_seed20260919",
+      "sequence_sha256": "fa6506540deb5226f196b5e2c3dc3fd6a10972fec505231d4d43a33b7e157c2a",
+      "coordinate_sha256": "480b66cf4088cbac0c16ed0e1eb2bcd48a5a54b043ae908d48f9878ac8525013",
+      "confidence_sha256": "a448d1f897c723dba4193e3795c76383437cbe8101975c5620f3b8838ab10417"
+    },
+    {
+      "job_id": "protein_ff641b7f66baa209ff86e50cff70775b9fc1fd0004872ad33a501711d57eaf5e_single_sequence_seed20260919",
+      "sequence_sha256": "ff641b7f66baa209ff86e50cff70775b9fc1fd0004872ad33a501711d57eaf5e",
+      "coordinate_sha256": "2991b90b0b1204a00627e96d781bbc88f1242e90111b43f8720cadcb712a8897",
+      "confidence_sha256": "80c3bbd69fce5372143ec3b91062ea2548a2b85248e8dd108f05c1cf9d182eb0"
+    },
+    {
+      "job_id": "protein_ff94800e922179729e86c53f89319115126e45abae0220aa9052e0fb76f532c1_single_sequence_seed20260919",
+      "sequence_sha256": "ff94800e922179729e86c53f89319115126e45abae0220aa9052e0fb76f532c1",
+      "coordinate_sha256": "ea1177cef01fb00c50527115ccaf9ae3761b24b4ad0f4cf6815ebe4934ce032f",
+      "confidence_sha256": "c45bcc701040909dd6085ac3fa1833aabf4a514336e4e8a1713b3bba5e174ca7"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "purpose": "Prediction robustness, not thermodynamic ensembles; diagnostic purposive sample, not population sampling.",
+  "n_peptides": 8,
+  "new_seed_jobs": 16,
+  "first_seed": "reuse actual matching single-sequence20260919 results",
+  "additional_seeds": [
+    20260920,
+    20260921
+  ],
+  "selection_rule": "Gsdmd reference if complete; two lowest peptide hashes in each f_IDR>0.5 x mean_pLDDT>=70 quadrant; stable hash fill to8. Empty quadrants explicit in table.",
+  "source_metrics_sha256": "e9f75b6f162411d85941c7fbb0a7f60d13e4ee765a0d62fa567c293921f8599c",
+  "source_metrics_snapshot": "results/structure_campaign/selection/seed_repeats/source_snapshot/model_metrics.tsv",
+  "source_selection_sha256": "aaf6b97e901c0cd683c1c35e7ccda0a1a6030ceb533d96372e4182467b2eec51",
+  "code_sha256": "b89f35b1f156280f0220c792e5e539904ce842b7b7ebe8cc7a65b3d8ac340054",
+  "output_sha256": {
+    "selection.tsv": "588ce9f372677b0ecce1d57ff2a8f38acd66807ea296bd2b601436b6f27a2e17",
+    "selected.fasta": "5931d9d5cd1ad49273ea708e935a1dcb5da4d83d62d70a3ceb86595100e8c353"
+  }
+}

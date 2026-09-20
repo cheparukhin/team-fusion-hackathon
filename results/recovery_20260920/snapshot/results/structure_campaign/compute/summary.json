@@ -1,0 +1,21 @@
+{
+  "status": "protocol_separated_ledger",
+  "protocols": {
+    "boltz2_2.2.1_precomputed": {
+      "planned_models": 51,
+      "verified_models": 1,
+      "cached_models": 1,
+      "failed_models": 0,
+      "not_run_or_deferred": 50
+    },
+    "boltz2_2.2.1_single_sequence": {
+      "planned_models": 67,
+      "verified_models": 67,
+      "cached_models": 0,
+      "failed_models": 0,
+      "not_run_or_deferred": 0
+    }
+  },
+  "strict_primary_peptides": 0,
+  "scientific_scope": "Conditional reference hypotheses; no biological translation/function validation. Single-sequence mode reduces accuracy and is separately interpreted."
+}
