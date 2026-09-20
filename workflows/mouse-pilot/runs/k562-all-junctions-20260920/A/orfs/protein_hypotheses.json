@@ -1,0 +1,234 @@
+[
+  {
+    "protein_id": "protein_77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c",
+    "sequence_sha256": "77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c",
+    "sequence": "MKAGRARGAAPRPGAGVSERESGARVAGAARPGAPALRPPAPRPPPPPPPPLLRWRRNPVDKALLFHDGCIFIEENFSLKCPKHKRLP",
+    "junction_id": "junction_cad519f4e259b2358e1d53ec32c7363a98f67159dc9602983e3cc9452c437621",
+    "read_id": "ca41371a-2dc5-4078-b21b-60801f8c0ee0",
+    "rna_rank": 138,
+    "gene_name_5p": "BICRAL",
+    "gene_name_3p": "RAI1",
+    "orf": {
+      "start": 100,
+      "stop_start": 364,
+      "end_including_stop": 367,
+      "frame": 1,
+      "coding_nt": 264
+    },
+    "sequence_source": "reference_assisted",
+    "sequence_resolved_under_assumptions": true,
+    "longest_spanning_orf_for_read": true,
+    "deferral_reasons": [],
+    "protein_existence": "UNKNOWN",
+    "function": "UNKNOWN"
+  },
+  {
+    "protein_id": "protein_0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905",
+    "sequence_sha256": "0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905",
+    "sequence": "MERIEGASVGRCAASPYLRPLTLHYRQAITIEAEPRADGSRRTTRYDIDMTKCIYCGFCQEACPVDAIVEARPQL",
+    "junction_id": "junction_263b3ad38c525197cb5be132ea17a5b5956fe3c269a52e71832187bf8ee7ae05",
+    "read_id": "05b05ebc-8cbe-4385-8718-a10a58dea74c",
+    "rna_rank": 209,
+    "gene_name_5p": "NUDT14",
+    "gene_name_3p": "NDUFS8",
+    "orf": {
+      "start": 92,
+      "stop_start": 317,
+      "end_including_stop": 320,
+      "frame": 2,
+      "coding_nt": 225
+    },
+    "sequence_source": "reference_assisted",
+    "sequence_resolved_under_assumptions": true,
+    "longest_spanning_orf_for_read": true,
+    "deferral_reasons": [],
+    "protein_existence": "UNKNOWN",
+    "function": "UNKNOWN"
+  },
+  {
+    "protein_id": "protein_f7363ddbdb5926fbae6a8cf4570eda7819dc30b1093812504750dacfc08d275f",
+    "sequence_sha256": "f7363ddbdb5926fbae6a8cf4570eda7819dc30b1093812504750dacfc08d275f",
+    "sequence": "MKLLQERDLIKRPKKKKSVAVAMLLQLGYKASINLQDQLEKTALSALKQFSEQGLDPIDGAMNIEKGSLEKQAKHLREKADNNQAPPGSIAQDCKKSNSAV",
+    "junction_id": "junction_dfbab0a9981f6ea02d09fa7fa679a7d76761fc6a38e2c123bd76e30a9eabccda",
+    "read_id": "a6754059-d197-47b4-beb1-9d1ef6f91760",
+    "rna_rank": 173,
+    "gene_name_5p": "STAU2P1",
+    "gene_name_3p": "STAU2",
+    "orf": {
+      "start": 1194,
+      "stop_start": 1497,
+      "end_including_stop": 1500,
+      "frame": 0,
+      "coding_nt": 303
+    },
+    "sequence_source": "reference_assisted",
+    "sequence_resolved_under_assumptions": false,
+    "longest_spanning_orf_for_read": true,
+    "deferral_reasons": [
+      {
+        "reason": "overlap_has_different_reference_sequences",
+        "overlap_nt": 6
+      }
+    ],
+    "protein_existence": "UNKNOWN",
+    "function": "UNKNOWN"
+  },
+  {
+    "protein_id": "protein_2cd11a3af00978166bb5bdcfa668d2e6fd96b8093eba303f361536ad75c79a04",
+    "sequence_sha256": "2cd11a3af00978166bb5bdcfa668d2e6fd96b8093eba303f361536ad75c79a04",
+    "sequence": "MLLQLGYKASINLQDQLEKTALSALKQFSEQGLDPIDGAMNIEKGSLEKQAKHLREKADNNQAPPGSIAQDCKKSNSAV",
+    "junction_id": "junction_dfbab0a9981f6ea02d09fa7fa679a7d76761fc6a38e2c123bd76e30a9eabccda",
+    "read_id": "a6754059-d197-47b4-beb1-9d1ef6f91760",
+    "rna_rank": 173,
+    "gene_name_5p": "STAU2P1",
+    "gene_name_3p": "STAU2",
+    "orf": {
+      "start": 1260,
+      "stop_start": 1497,
+      "end_including_stop": 1500,
+      "frame": 0,
+      "coding_nt": 237
+    },
+    "sequence_source": "reference_assisted",
+    "sequence_resolved_under_assumptions": false,
+    "longest_spanning_orf_for_read": false,
+    "deferral_reasons": [
+      {
+        "reason": "overlap_has_different_reference_sequences",
+        "overlap_nt": 6
+      }
+    ],
+    "protein_existence": "UNKNOWN",
+    "function": "UNKNOWN"
+  },
+  {
+    "protein_id": "protein_9e0c2fe17dd8bc42f3808e11455faf8295be30f8fed5a14abf18b3e81c20da2e",
+    "sequence_sha256": "9e0c2fe17dd8bc42f3808e11455faf8295be30f8fed5a14abf18b3e81c20da2e",
+    "sequence": "MRLARPQSTRAALSVWRPRSRRAASEDAAGPEPRGKCWPSPLSAPRGVREALPRPQSRLPG",
+    "junction_id": "junction_8a4294392928945f5d005188aa179bdd7a94121a4548ce6aa3785a8fbc291205",
+    "read_id": "4c47ceb2-bbce-4460-bf66-e49b4f749093",
+    "rna_rank": 191,
+    "gene_name_5p": "ARF5",
+    "gene_name_3p": "CRKL",
+    "orf": {
+      "start": 163,
+      "stop_start": 346,
+      "end_including_stop": 349,
+      "frame": 1,
+      "coding_nt": 183
+    },
+    "sequence_source": "reference_assisted",
+    "sequence_resolved_under_assumptions": false,
+    "longest_spanning_orf_for_read": true,
+    "deferral_reasons": [
+      {
+        "reason": "untemplated_gap_sequence_below_Q30",
+        "gap_nt": 1
+      }
+    ],
+    "protein_existence": "UNKNOWN",
+    "function": "UNKNOWN"
+  },
+  {
+    "protein_id": "protein_a0099f94b3ed812a31185e7b03023ff9b64596d5949e98f686e474411810cc6b",
+    "sequence_sha256": "a0099f94b3ed812a31185e7b03023ff9b64596d5949e98f686e474411810cc6b",
+    "sequence": "MMNSMLGSLLLEVPSLKDDATLSGKRMQSLSLNK",
+    "junction_id": "junction_a81ae9355ef5ff6609708d59c21fbff3199574575b57b0104332323bd4811743",
+    "read_id": "168de63a-03b0-4f1b-b177-25e740236bd1",
+    "rna_rank": 48,
+    "gene_name_5p": "HSP90AB1",
+    "gene_name_3p": "PDAP1",
+    "orf": {
+      "start": 533,
+      "stop_start": 635,
+      "end_including_stop": 638,
+      "frame": 2,
+      "coding_nt": 102
+    },
+    "sequence_source": "reference_assisted",
+    "sequence_resolved_under_assumptions": false,
+    "longest_spanning_orf_for_read": true,
+    "deferral_reasons": [
+      {
+        "reason": "high_quality_insertion",
+        "query_position": 67,
+        "length": 1
+      },
+      {
+        "reason": "deletion_with_high_quality_flanks",
+        "query_position": 406,
+        "length": 1
+      }
+    ],
+    "protein_existence": "UNKNOWN",
+    "function": "UNKNOWN"
+  },
+  {
+    "protein_id": "protein_bca1f16a1c4b13d5674780e67498eaa2b422d82dc2a85919567a914ea282971c",
+    "sequence_sha256": "bca1f16a1c4b13d5674780e67498eaa2b422d82dc2a85919567a914ea282971c",
+    "sequence": "MNSMLGSLLLEVPSLKDDATLSGKRMQSLSLNK",
+    "junction_id": "junction_a81ae9355ef5ff6609708d59c21fbff3199574575b57b0104332323bd4811743",
+    "read_id": "168de63a-03b0-4f1b-b177-25e740236bd1",
+    "rna_rank": 48,
+    "gene_name_5p": "HSP90AB1",
+    "gene_name_3p": "PDAP1",
+    "orf": {
+      "start": 536,
+      "stop_start": 635,
+      "end_including_stop": 638,
+      "frame": 2,
+      "coding_nt": 99
+    },
+    "sequence_source": "reference_assisted",
+    "sequence_resolved_under_assumptions": false,
+    "longest_spanning_orf_for_read": false,
+    "deferral_reasons": [
+      {
+        "reason": "high_quality_insertion",
+        "query_position": 67,
+        "length": 1
+      },
+      {
+        "reason": "deletion_with_high_quality_flanks",
+        "query_position": 406,
+        "length": 1
+      }
+    ],
+    "protein_existence": "UNKNOWN",
+    "function": "UNKNOWN"
+  },
+  {
+    "protein_id": "protein_8c8782597e7ef31531f7aaaa4c8ffd4bc2ee16842adea0d3183ad017a93dc6db",
+    "sequence_sha256": "8c8782597e7ef31531f7aaaa4c8ffd4bc2ee16842adea0d3183ad017a93dc6db",
+    "sequence": "MLGSLLLEVPSLKDDATLSGKRMQSLSLNK",
+    "junction_id": "junction_a81ae9355ef5ff6609708d59c21fbff3199574575b57b0104332323bd4811743",
+    "read_id": "168de63a-03b0-4f1b-b177-25e740236bd1",
+    "rna_rank": 48,
+    "gene_name_5p": "HSP90AB1",
+    "gene_name_3p": "PDAP1",
+    "orf": {
+      "start": 545,
+      "stop_start": 635,
+      "end_including_stop": 638,
+      "frame": 2,
+      "coding_nt": 90
+    },
+    "sequence_source": "reference_assisted",
+    "sequence_resolved_under_assumptions": false,
+    "longest_spanning_orf_for_read": false,
+    "deferral_reasons": [
+      {
+        "reason": "high_quality_insertion",
+        "query_position": 67,
+        "length": 1
+      },
+      {
+        "reason": "deletion_with_high_quality_flanks",
+        "query_position": 406,
+        "length": 1
+      }
+    ],
+    "protein_existence": "UNKNOWN",
+    "function": "UNKNOWN"
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "status": "reconstructed_not_selected_or_frozen",
+  "rna_junctions_considered": 199,
+  "read_reconstructions": 208,
+  "distinct_protein_hypotheses": 12,
+  "batch_limit": 199,
+  "remaining_supported_rna_junctions_deferred": 0
+}

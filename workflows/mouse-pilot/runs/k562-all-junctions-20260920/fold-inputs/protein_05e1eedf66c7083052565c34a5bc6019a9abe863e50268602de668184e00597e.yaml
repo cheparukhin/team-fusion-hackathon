@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "sequences": [
+    {
+      "protein": {
+        "id": "A",
+        "sequence": "MAGLSRGSARALLAALLASTLLALLVSPARGRGGRDHGDWDEASRLVRCARGVPARPERAS",
+        "msa": "protein_05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e.a3m"
+      }
+    }
+  ]
+}

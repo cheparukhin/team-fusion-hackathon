@@ -1,0 +1,17 @@
+{
+  "rendered_structures": 6,
+  "candidate_choices": 414,
+  "tested_candidates": 12,
+  "tested_reads": 61,
+  "tested_ORFs": 8,
+  "tested_terminal_residues": 16,
+  "selected_proteins_seen": 6,
+  "shared_codon": "Residue 36 Q \u00b7 RNA base 325: BAG6 E2 (ENST00000211379.9) + SLC44A4 non-exonic in this reference choice (ENST00000229729.11); RNA base 326: BAG6 E2 (ENST00000211379.9) + SLC44A4 non-exonic in this reference choice (ENST00000229729.11); RNA base 327: BAG6 E2 (ENST00000211379.9) + SLC44A4 non-exonic in this reference choice (ENST00000229729.11) \u00b7 structural confidence: unavailable",
+  "errors": [],
+  "narrow_layout": {
+    "width": 308,
+    "scroll": 308
+  },
+  "full_RNA_replays_verified": 450,
+  "scope": "Rendered representative coverage; all six selected proteins and shared codon; all 414 candidate choices present"
+}

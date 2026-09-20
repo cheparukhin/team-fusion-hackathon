@@ -1,0 +1,3174 @@
+{
+  "selected": [
+    {
+      "protein_id": "protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1",
+      "sequence_sha256": "3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1",
+      "sequence": "MASKILKSYESSLPQTQQVDLDLSRPLFTSAALLSACKILKLKVDKNKMVATSGVKKAIFDRLCKQLEKIGQQVDRGDVKVTHLAGRH",
+      "junction_id": "junction_f5ca9cf75da600f1c8b13a2ace697d4e271c346f52ccd720802fc26bebde2216",
+      "read_id": "9a42777d-4e34-47e3-84d2-42505f88f3ce",
+      "rna_rank": 51,
+      "gene_name_5p": "ORC6",
+      "gene_name_3p": "HNRNPDL",
+      "orf": {
+        "start": 345,
+        "stop_start": 609,
+        "end_including_stop": 612,
+        "frame": 0,
+        "coding_nt": 264
+      },
+      "sequence_source": "reference_assisted",
+      "sequence_resolved_under_assumptions": true,
+      "longest_spanning_orf_for_read": true,
+      "deferral_reasons": [],
+      "protein_existence": "UNKNOWN",
+      "function": "UNKNOWN",
+      "library": "B",
+      "sample_alias": "SGNex_K562_directRNA_replicate5_run1",
+      "selection_reason": "top_ranked_distinct_protein",
+      "selection_order": 1,
+      "junction_class": [
+        "interchromosomal",
+        "+-",
+        1,
+        2
+      ],
+      "protein_supporting_read_ids": [
+        "9a42777d-4e34-47e3-84d2-42505f88f3ce"
+      ],
+      "rna_rank_min": 51,
+      "rna_rank_max": 51
+    },
+    {
+      "protein_id": "protein_d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2",
+      "sequence_sha256": "d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2",
+      "sequence": "MCQSLTWRKQHQVDYILETWTSGRAELAGLYCRARRALQRPWGSA",
+      "junction_id": "junction_de16a5bbbaa21fe33756248431d996bad7893a8da00ececbd2950ecb9f4cab4d",
+      "read_id": "f18db252-3baf-4876-ab4e-8cc63ef653f9",
+      "rna_rank": 91,
+      "gene_name_5p": "SEC14L1",
+      "gene_name_3p": "GMNN",
+      "orf": {
+        "start": 311,
+        "stop_start": 446,
+        "end_including_stop": 449,
+        "frame": 2,
+        "coding_nt": 135
+      },
+      "sequence_source": "reference_assisted",
+      "sequence_resolved_under_assumptions": true,
+      "longest_spanning_orf_for_read": true,
+      "deferral_reasons": [],
+      "protein_existence": "UNKNOWN",
+      "function": "UNKNOWN",
+      "library": "B",
+      "sample_alias": "SGNex_K562_directRNA_replicate5_run1",
+      "selection_reason": "top_ranked_distinct_protein",
+      "selection_order": 2,
+      "junction_class": [
+        "interchromosomal",
+        "++",
+        2,
+        2
+      ],
+      "protein_supporting_read_ids": [
+        "f18db252-3baf-4876-ab4e-8cc63ef653f9"
+      ],
+      "rna_rank_min": 91,
+      "rna_rank_max": 91
+    },
+    {
+      "protein_id": "protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49",
+      "sequence_sha256": "3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49",
+      "sequence": "MPNKNKKEKESPKAGKSGKSSKEGQDTVESEQISVRKNSLVAVPSTVSAKIKVPVSQPIVKKDKRQNSSRFSASNNRELQKLPSLKGAEIRSVCTEAGMFAIRARRKIATEKDFLEAVNKVIKSYAKFSATPRYMTYN",
+      "junction_id": "junction_6ee4f73916f3149f91f947aed932d45160f632ae9fdc82c1e9652ce2a7d2abc8",
+      "read_id": "ef149f6c-87c1-4ce3-a757-8d67596f1622",
+      "rna_rank": 131,
+      "gene_name_5p": "PPP2R5C",
+      "gene_name_3p": "PSMC2",
+      "orf": {
+        "start": 178,
+        "stop_start": 592,
+        "end_including_stop": 595,
+        "frame": 1,
+        "coding_nt": 414
+      },
+      "sequence_source": "reference_assisted",
+      "sequence_resolved_under_assumptions": true,
+      "longest_spanning_orf_for_read": true,
+      "deferral_reasons": [],
+      "protein_existence": "UNKNOWN",
+      "function": "UNKNOWN",
+      "library": "B",
+      "sample_alias": "SGNex_K562_directRNA_replicate5_run1",
+      "selection_reason": "top_ranked_distinct_protein",
+      "selection_order": 3,
+      "junction_class": [
+        "interchromosomal",
+        "++",
+        0,
+        0
+      ],
+      "protein_supporting_read_ids": [
+        "ef149f6c-87c1-4ce3-a757-8d67596f1622"
+      ],
+      "rna_rank_min": 131,
+      "rna_rank_max": 131
+    },
+    {
+      "protein_id": "protein_05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e",
+      "sequence_sha256": "05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e",
+      "sequence": "MAGLSRGSARALLAALLASTLLALLVSPARGRGGRDHGDWDEASRLVRCARGVPARPERAS",
+      "junction_id": "junction_b3054be85dc21ca9b59c8632a09a62b9e1aea02352d71c98cd596a2477bf176b",
+      "read_id": "4baf9cc2-a2b2-4340-ab7a-9502c36a0865",
+      "rna_rank": 175,
+      "gene_name_5p": "CREG1",
+      "gene_name_3p": "CDKN1C",
+      "orf": {
+        "start": 13,
+        "stop_start": 196,
+        "end_including_stop": 199,
+        "frame": 1,
+        "coding_nt": 183
+      },
+      "sequence_source": "reference_assisted",
+      "sequence_resolved_under_assumptions": true,
+      "longest_spanning_orf_for_read": true,
+      "deferral_reasons": [],
+      "protein_existence": "UNKNOWN",
+      "function": "UNKNOWN",
+      "library": "B",
+      "sample_alias": "SGNex_K562_directRNA_replicate5_run1",
+      "selection_reason": "top_ranked_distinct_protein",
+      "selection_order": 4,
+      "junction_class": [
+        "interchromosomal",
+        "--",
+        2,
+        2
+      ],
+      "protein_supporting_read_ids": [
+        "4baf9cc2-a2b2-4340-ab7a-9502c36a0865"
+      ],
+      "rna_rank_min": 175,
+      "rna_rank_max": 175
+    }
+  ],
+  "decisions": [
+    {
+      "junction_id": "junction_1aa9415c4721e844442fc19bb8bf6262845d66bd16e987b8416ae8e35f274d7c",
+      "rna_rank": 1,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 1,
+      "rna_rank_max": 1,
+      "distinct_qualifying_reads": 6,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "primary_sequence_unresolved"
+      ],
+      "primary_sequence_ids": [
+        "protein_867736aa34a3d4eb0b797162ba73ee2c0b07a69f768c05bdcdb4041df22d2432"
+      ],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_0976323c2f73e1ee33239ec5dfb70469410381d9bc6aa7871541046840d55439",
+      "rna_rank": 2,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 2,
+      "rna_rank_max": 2,
+      "distinct_qualifying_reads": 4,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_594ea6570d80250655814a0d5a3fc5ce240421123436d8b19e9611978aa1e5fe",
+      "rna_rank": 3,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 3,
+      "rna_rank_max": 3,
+      "distinct_qualifying_reads": 2,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_4c5abbdbd4fd49323bf1837d684e7dc1bc82807d7dde6a55f06686bffb5a21aa",
+      "rna_rank": 4,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 4,
+      "rna_rank_max": 4,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_30aa37e4698619d36f07be9cfd1cc3e208c5a71b381bd6e72f02f99543ad4ef2",
+      "rna_rank": 5,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 5,
+      "rna_rank_max": 5,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_10f17bda6434d8f9bc8c1ca56ef033116138cf4afaef63ee74edcf6efaf5799d",
+      "rna_rank": 6,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 6,
+      "rna_rank_max": 6,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_c394ea0bb6fc3e9b07708dd88495e9701b21533d6b15d15d9add8ddd45eaccbd",
+      "rna_rank": 7,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 7,
+      "rna_rank_max": 7,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_a16fbe28b6da60da557ff633865007e0d0458cbd9d0a66f4e03a3e35cf43e764",
+      "rna_rank": 8,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 8,
+      "rna_rank_max": 8,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_dfa2a8aa912e60a4258a9acdcc243adf2e2c27b0d7d60fc9c42082d6ec624447",
+      "rna_rank": 9,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 9,
+      "rna_rank_max": 9,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_32cd2d46115ce239efaa0755048c14c472e61da8a5728a4d88be0f884b73677d",
+      "rna_rank": 10,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 10,
+      "rna_rank_max": 10,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_ae82a7ba8ff7b94d3acfa561dbbec88e10866bb594487e761db008ec059c4a43",
+      "rna_rank": 11,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 11,
+      "rna_rank_max": 11,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_119a6782d3acff396dda46fcf27506694546e8e2e9bdcf6b1fbce37a284e5279",
+      "rna_rank": 12,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 12,
+      "rna_rank_max": 12,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_c6855db8b86329990355c825acc8552bdc7a7b644c0ce83963d5e0a3607b8a74",
+      "rna_rank": 13,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 13,
+      "rna_rank_max": 13,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_92141c598823c7801cb0659f173a3e691717c4551fde809eb88ba251a50dfc29",
+      "rna_rank": 14,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 14,
+      "rna_rank_max": 14,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_955aad4a6b42670489ddf528240d7e8cb28c5f1d6d467138111f9a29ece8daf6",
+      "rna_rank": 15,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 15,
+      "rna_rank_max": 15,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_34f8d3dbc6dbdc57efbd206f1fe9fa03a6c19ae11d8420c917a8aaea78c57657",
+      "rna_rank": 16,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 16,
+      "rna_rank_max": 16,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_f2aefa02bdb880fe0547529ebaf1e68d184bf5a761e8209f9d32414ec93e8be2",
+      "rna_rank": 17,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 17,
+      "rna_rank_max": 17,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_81ce40788bcb304c4544417cb8473d86dd8128b97875b2398ae4d752b90072e4",
+      "rna_rank": 18,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 18,
+      "rna_rank_max": 18,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_eaba22bd3ad2b9851528e9bcd0d4aa5c79da89287231afbd320b7d4adbede7c1",
+      "rna_rank": 19,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 19,
+      "rna_rank_max": 19,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_756639dad27fbb83a5eea2e956be9f764743e91512db94c82eb04286a22a95c1",
+      "rna_rank": 20,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 20,
+      "rna_rank_max": 20,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_4a6550e2a84419f3b50effc91f39f1a104893ad88b3bc31309215e14d5e4428d",
+      "rna_rank": 21,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 21,
+      "rna_rank_max": 21,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_f8b71a9b3f634b4bff37f006d54f630ec6b898bf0bc91e66ec03532944a3c109",
+      "rna_rank": 22,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 22,
+      "rna_rank_max": 22,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_6d4c773275782c54b7ef0922635a9dd16ef146c99f15f5ef4d39a801d70cfe75",
+      "rna_rank": 23,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 23,
+      "rna_rank_max": 23,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_490ba6513329180dc0349b7d3640e4e496c11371d7ce9d9127c03702bfba4c36",
+      "rna_rank": 24,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 24,
+      "rna_rank_max": 24,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_4e7a06c0bce4549c859d102f5e5988372ff99ead843457e916fe49f41bbf62e1",
+      "rna_rank": 25,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 25,
+      "rna_rank_max": 25,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_ebcbfd4691f8a2ff271cc99cd7f219b3ad666d5cee8d5aa199c2a5793cbbbb67",
+      "rna_rank": 26,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 26,
+      "rna_rank_max": 26,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_a9294e46b87795b91ea49b3a1644af890650dca2629f30e9295a0795d215b565",
+      "rna_rank": 27,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 27,
+      "rna_rank_max": 27,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_68e1d6cdceae06f6f2815051dfd2bba0a5f04c1e0ff911e4192ebca869f28a53",
+      "rna_rank": 28,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 28,
+      "rna_rank_max": 28,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_3140d553fa89de142e460e30c2179a191a4e18722588f97ce69a6c0062ed3a42",
+      "rna_rank": 29,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 29,
+      "rna_rank_max": 29,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_2e89940b74959d30bf7b317fb12b797d5191a8f35db3a1d55424ead01bd80908",
+      "rna_rank": 30,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 30,
+      "rna_rank_max": 30,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_7d8d0bb12471f2e1f9028e04f16ad2432f30d0afc1dcf49f1370db49d596abb8",
+      "rna_rank": 31,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 31,
+      "rna_rank_max": 31,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_b104174a5444deeb8f618cae4e5aa00ad2a30455cdcf81548535e2e5a6bf49e5",
+      "rna_rank": 32,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 32,
+      "rna_rank_max": 32,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_623864f8423efce0cd8467f44866d80aa69f0d9b3b6dd7fbeb6245c7a5f91d88",
+      "rna_rank": 33,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 33,
+      "rna_rank_max": 33,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_edf6944ae31a07234ee167898e448085ece90abf338b240eb156f5c483f09a19",
+      "rna_rank": 34,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 34,
+      "rna_rank_max": 34,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_d5964c580e7d6616e0f929b281cfa27a59b250dde1ed700ad7456d5c72f224b8",
+      "rna_rank": 35,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 35,
+      "rna_rank_max": 35,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_15c20d455c6baabbaf642e2b59d9c6042c80692561d38d8d74fe4e8d975b9063",
+      "rna_rank": 36,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 36,
+      "rna_rank_max": 36,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_cd2a588d52477bf4d896ee6ba9edbb5c8a3f16f1e55619962a7f7bf25d4da4e9",
+      "rna_rank": 37,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 37,
+      "rna_rank_max": 37,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_f0a98fd4a8b9ba2e7d21e08a6c5a843cac13f3164a3805f0ae4ec76c5662b374",
+      "rna_rank": 38,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 38,
+      "rna_rank_max": 38,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_522e8a60773c0b0be56690165e29b001671c436ca6e57806bcfffe067a958ace",
+      "rna_rank": 39,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 39,
+      "rna_rank_max": 39,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_8ce33952698e37ffab52252783eaccfc9dc0a1d853c852d125cb0a16055391a1",
+      "rna_rank": 40,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 40,
+      "rna_rank_max": 40,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_1cb48b356bab269ab5bd76bcd4b9ee8f2a4b8c8a50eb2ad5152f336da3bb61c8",
+      "rna_rank": 41,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 41,
+      "rna_rank_max": 41,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_b5b839bf718573d271b9c860e0c419475462b81f9886ce75d1dda2d0a12840ba",
+      "rna_rank": 42,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 42,
+      "rna_rank_max": 42,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_5b50efa91b7b6b27d67055c8c631a1651fe641998faab27dfe4042af1719d9a1",
+      "rna_rank": 43,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 43,
+      "rna_rank_max": 43,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_afb4491ca6f82fa0c56e8d70a3e03918e2be6bac5b4ee89e1037d5aebcf67a24",
+      "rna_rank": 44,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 44,
+      "rna_rank_max": 44,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_7d4dc9def29e7ee75e453e9dea7c5c7ed9b2519288ad927bbb24cbed3b9c40ce",
+      "rna_rank": 45,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 45,
+      "rna_rank_max": 45,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "primary_sequence_unresolved"
+      ],
+      "primary_sequence_ids": [
+        "protein_28c7e5d6e1c51d4bc185d6ba9a3091333c248528f3691df212b6f33d6a3f68e9"
+      ],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_ebe3c42580d43c2375f6a9303c47e3c841bcf3a807b4e7fb23e803942181e3ee",
+      "rna_rank": 46,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 46,
+      "rna_rank_max": 46,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_8e05acc274f09cf4bb93d7246f0092d64dbcac05234130a8389f0daa4b7439d9",
+      "rna_rank": 47,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 47,
+      "rna_rank_max": 47,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_735935a5be525bedd840eda406010fab26876d0463ca7d90546724e602b3ce9b",
+      "rna_rank": 48,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 48,
+      "rna_rank_max": 48,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_63ebb13a468c686f9db2338b20be7c8facea08ceb6b9d82f1028af4311e78ecd",
+      "rna_rank": 49,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 49,
+      "rna_rank_max": 49,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_2a47cdb30226431440b8c08ad11e790ea8c27034e9a43c10e2d5199d71efd32d",
+      "rna_rank": 50,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 50,
+      "rna_rank_max": 50,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_f5ca9cf75da600f1c8b13a2ace697d4e271c346f52ccd720802fc26bebde2216",
+      "rna_rank": 51,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 51,
+      "rna_rank_max": 51,
+      "distinct_qualifying_reads": 1,
+      "status": "selected",
+      "reasons": [
+        "top_ranked_distinct_protein"
+      ],
+      "primary_sequence_ids": [
+        "protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1"
+      ],
+      "protein_id": "protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1",
+      "junction_class": [
+        "interchromosomal",
+        "+-",
+        1,
+        2
+      ],
+      "protein_supporting_read_ids": [
+        "9a42777d-4e34-47e3-84d2-42505f88f3ce"
+      ],
+      "supporting_reads_without_complete_ORF": [],
+      "disposition_category": "selected_for_folding"
+    },
+    {
+      "junction_id": "junction_5b2709b2dd89adc2542e4a480045a2dc197ad49be5dbe5b82f6a952d30fa5541",
+      "rna_rank": 52,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 52,
+      "rna_rank_max": 52,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_a142713d84fc0e53e2456b7712c2026b2773e08ac948c8c9d5a6bfc33f846c79",
+      "rna_rank": 53,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 53,
+      "rna_rank_max": 53,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_3ea8713e92601a2ead77e806891f987019920972ab7ccf341618912c3c225278",
+      "rna_rank": 54,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 54,
+      "rna_rank_max": 54,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_fb022d19b42fa7bfa8cbfe403924a8bb25e7a7480dec42ca6f51d540e45ed871",
+      "rna_rank": 55,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 55,
+      "rna_rank_max": 55,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_e620f54f798e4f93dcea83b6b801d2b61d4cf349f5092b74b88b97e8ce83499f",
+      "rna_rank": 56,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 56,
+      "rna_rank_max": 56,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_030d5ef43ed6bba0fa1af57186f47d1872b0aa90d53f8afeee681b4467cfa4e1",
+      "rna_rank": 57,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 57,
+      "rna_rank_max": 57,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_a0a0d3f1017bd63b349f9fc991d0d9f791426a5ac56778705582f68de94a3621",
+      "rna_rank": 58,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 58,
+      "rna_rank_max": 58,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_6f2a20249f3dc861b05680ebcc19b0490e4cd361a85a25512c65d70e1743c7b2",
+      "rna_rank": 59,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 59,
+      "rna_rank_max": 59,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_d61fbe164f47bdedc7892cc13af7e8828b6a326d6201849e8a3fd6b5116d5a16",
+      "rna_rank": 60,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 60,
+      "rna_rank_max": 60,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_0fde102c5817000c7442fd46766753eb83a7f973db8cb83e65c5f620bad27ee0",
+      "rna_rank": 61,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 61,
+      "rna_rank_max": 61,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_41e9bcd1e2c421fa7fdc9e19b21250c32575975df5c72b4aff782c841f1c472d",
+      "rna_rank": 62,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 62,
+      "rna_rank_max": 62,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_7c8a9c86d4e474178444c417fb20e47f4b3876e4f4959ff161ef35255293214e",
+      "rna_rank": 63,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 63,
+      "rna_rank_max": 63,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_d42def0315fa5f651d505821eee693314a44121add7a7f48ef6e359429346a86",
+      "rna_rank": 64,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 64,
+      "rna_rank_max": 64,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_7eda130bcfca06c2a0f74d4a469f6fbf31dc881bb49668e21e4b72f2158b9898",
+      "rna_rank": 65,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 65,
+      "rna_rank_max": 65,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_98831ff0c903d99b47f129fa37ddf331bfb7f4a75b56e45c8c6f738ae7f09b3f",
+      "rna_rank": 66,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 66,
+      "rna_rank_max": 66,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_3402486515abaacf782d71a65c7a227dd400e97150bbf9c88e438e9581289927",
+      "rna_rank": 67,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 67,
+      "rna_rank_max": 67,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_f3d070964b6269009ef4b4430167c1c625e3bf9339decb8a73382bf33d3da79c",
+      "rna_rank": 68,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 68,
+      "rna_rank_max": 68,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_bac5e2c8a0a25aaa06aad5f4c18acd77d6e0da47833820de259665d9fde13f03",
+      "rna_rank": 69,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 69,
+      "rna_rank_max": 69,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_b9ae1e5e992db15ae6363c764eaab88f0c2f375f58f89fab405cde3a2e724341",
+      "rna_rank": 70,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 70,
+      "rna_rank_max": 70,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_e1ef2fdcdfe64909dc152a1cfe97b9b42bfe2b2918afa96d10e653fc0f61f323",
+      "rna_rank": 71,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 71,
+      "rna_rank_max": 71,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_9ea64a0ce918b7b43f4f5524f0a4eaaf9e5c0b05df3b4a8cb0057a5b7365cfe1",
+      "rna_rank": 72,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 72,
+      "rna_rank_max": 72,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_14e7f044c91c73573afad76ef12a0c3e30c689fcb176a28a2bc58cf9aa1e643f",
+      "rna_rank": 73,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 73,
+      "rna_rank_max": 73,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_d3f37b46915eeb48631c2bc3b14227bebf758234f5c59ffa358e026155a8e3ce",
+      "rna_rank": 74,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 74,
+      "rna_rank_max": 74,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_80bd2b8ab3656c2b1bba715b237f0754c082293d15531bd703febfc86d338c60",
+      "rna_rank": 75,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 75,
+      "rna_rank_max": 75,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_01861dd40572017026bf070c37e5a4cf273fb490df5cab00b3e270ee39a18432",
+      "rna_rank": 76,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 76,
+      "rna_rank_max": 76,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_8a1401c4c9beb7720186e9e675dc8310af5e874e49029f7350d7cfbcc31be8a9",
+      "rna_rank": 77,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 77,
+      "rna_rank_max": 77,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_2ab6599fe82e9a7e557f5db18a17e94e776c5403e631d911a38dd91dd8f5afa5",
+      "rna_rank": 78,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 78,
+      "rna_rank_max": 78,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_9737356d5451cf11a7174bf6c951e02a34da15ec92dbc2b1dc06eb9a39ac60a9",
+      "rna_rank": 79,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 79,
+      "rna_rank_max": 79,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_2b76235ac98385cff06ca9df17e29ae413141d9507508fa34e5ebed434ecea0c",
+      "rna_rank": 80,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 80,
+      "rna_rank_max": 80,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_cf76e030bc0539a361560f94a9b78198e3970458c36965df989db3239bf9f4bd",
+      "rna_rank": 81,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 81,
+      "rna_rank_max": 81,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_f06d61df00319df983eeb7134473a82d6320e728829f31545a26b14a3a8f0b9b",
+      "rna_rank": 82,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 82,
+      "rna_rank_max": 82,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_f35b2ad27dc10a95a5e906aa2e66fe061fdf3465f5f94e814c76129161d66fd6",
+      "rna_rank": 83,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 83,
+      "rna_rank_max": 83,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_1d31508f95ff049a1cfb16d288d4161680872803814e4ef4dcb0fda05813ca20",
+      "rna_rank": 84,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 84,
+      "rna_rank_max": 84,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_bff8ab7ad04a11254e2250a33beab6c616035c80c2a82263682a1ad137bc89dc",
+      "rna_rank": 85,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 85,
+      "rna_rank_max": 85,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_727a3e204667d428b0dcfc0899d88580d445a180576bf0c7ebcaa9c193a6ff19",
+      "rna_rank": 86,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 86,
+      "rna_rank_max": 86,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_144850786b9b6d5ad4080439402d9aa47c4eb76355d2575687e11815bb27cc6b",
+      "rna_rank": 87,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 87,
+      "rna_rank_max": 87,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_c2a074a02773d0763c8b56109eb09f404ef7ad3a3c189271f2fbfc2efb662853",
+      "rna_rank": 88,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 88,
+      "rna_rank_max": 88,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_66fd39417c27bc9355617c6a28cbc25f63cd53c841a6a054d111b7f0121993dc",
+      "rna_rank": 89,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 89,
+      "rna_rank_max": 89,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_a98063293a8a782c6b2361d9b17a011cdb8a3115efe6ddd5ff6913a571d0027d",
+      "rna_rank": 90,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 90,
+      "rna_rank_max": 90,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_de16a5bbbaa21fe33756248431d996bad7893a8da00ececbd2950ecb9f4cab4d",
+      "rna_rank": 91,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 91,
+      "rna_rank_max": 91,
+      "distinct_qualifying_reads": 1,
+      "status": "selected",
+      "reasons": [
+        "top_ranked_distinct_protein"
+      ],
+      "primary_sequence_ids": [
+        "protein_d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2"
+      ],
+      "protein_id": "protein_d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2",
+      "junction_class": [
+        "interchromosomal",
+        "++",
+        2,
+        2
+      ],
+      "protein_supporting_read_ids": [
+        "f18db252-3baf-4876-ab4e-8cc63ef653f9"
+      ],
+      "supporting_reads_without_complete_ORF": [],
+      "disposition_category": "selected_for_folding"
+    },
+    {
+      "junction_id": "junction_8ae2bb85f7fd1766092ac52a5e31c343e8da5c13cf95175b35463cb060fba8f5",
+      "rna_rank": 92,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 92,
+      "rna_rank_max": 92,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_6653cbf941b1c339413dcdcd21f02026b7e935b8d50cbfa97c5949f399656296",
+      "rna_rank": 93,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 93,
+      "rna_rank_max": 93,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "primary_sequence_unresolved"
+      ],
+      "primary_sequence_ids": [
+        "protein_e73ae4f61dd79f572b118f023522acc92529d693a32496302eaa7be8bcd097a1"
+      ],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_ef448df18cafd0f61ea8e44d46cbfa496cdc5c5e5de2ad92bc84dc30202cbb3e",
+      "rna_rank": 94,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 94,
+      "rna_rank_max": 94,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_1199cca011caec6358390f3379eebab2e0303d5bc6ea9ca97aac298684fbdfff",
+      "rna_rank": 95,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 95,
+      "rna_rank_max": 95,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_669957b2e0c5fe04037480a19a2824d1058e6a84eb084bb4e9320c0f8b8297d1",
+      "rna_rank": 96,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 96,
+      "rna_rank_max": 96,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_5cf6d22177b2f32b4a06ec1b248c21f2db07626e53164e2c23078911d07fb1da",
+      "rna_rank": 97,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 97,
+      "rna_rank_max": 97,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_baebf04c37875115932dc9f83a8b712dc6dd18094c16693a4f817c7abd56814c",
+      "rna_rank": 98,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 98,
+      "rna_rank_max": 98,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_1588efabac7a304c7f40db4888807e7507aa0bc10da16240bcab29821a5aa58d",
+      "rna_rank": 99,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 99,
+      "rna_rank_max": 99,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_91f085c11bab793baa4c20bd958e87f60aca9537af83c0dd134e59bba3708b59",
+      "rna_rank": 100,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 100,
+      "rna_rank_max": 100,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_718e4b0e720d5211dd062a88838a1d9763386ea04f2ac12e9b6a3363d03342c2",
+      "rna_rank": 101,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 101,
+      "rna_rank_max": 101,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_0eb3e8ae9aa8d9cb5e13b8e487589d8baf37cc6deec6b2047dd95575643aa1e3",
+      "rna_rank": 102,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 102,
+      "rna_rank_max": 102,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_ded8963927ae8a822f18f48245842eefc5c0333502c016703051840a685360b0",
+      "rna_rank": 103,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 103,
+      "rna_rank_max": 103,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_26924083247f48037b695bb34519e9242eba9eccbced0a956bc5fdaefb0698e0",
+      "rna_rank": 104,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 104,
+      "rna_rank_max": 104,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_d1774c985313de890f7e2012785b5416ad5417f4ec26b38cc7c06acc248f80fe",
+      "rna_rank": 105,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 105,
+      "rna_rank_max": 105,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_9038956e71b8cd5a0ae7ebee0f8b6aac56798cbd8cd8835a8e06347c85f09079",
+      "rna_rank": 106,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 106,
+      "rna_rank_max": 106,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_52dc058b66170cd112939d114fd1e82acf98c26e397869c98f73c11e6fd352c8",
+      "rna_rank": 107,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 107,
+      "rna_rank_max": 107,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_ca709cbdaa5ce160afd9c14a0da4a0bdf07f52af1b6492774dcb2f09d42c2848",
+      "rna_rank": 108,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 108,
+      "rna_rank_max": 108,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_101b91773b9b95f98286672e8b430ae27734ae51e32b685d4c2cc19aa3a50ae9",
+      "rna_rank": 109,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 109,
+      "rna_rank_max": 109,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_2e791da801b070457a0317066868ed684c5ae8a08111ae7ec2cdafd2a3be8686",
+      "rna_rank": 110,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 110,
+      "rna_rank_max": 110,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_9c353a07445f94740c06eb5e579ce2c8e487551d422123490a912f35aaba1a96",
+      "rna_rank": 111,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 111,
+      "rna_rank_max": 111,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_7e78087dde49892b247fdcc361cc0444cf1ffa9afdeca5d9f48d1cb7f5f2d68a",
+      "rna_rank": 112,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 112,
+      "rna_rank_max": 112,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_29a25759cb9f5d91f77d1fd9f9932c64a7491439ff6a059a16ab62dc7f3bba2c",
+      "rna_rank": 113,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 113,
+      "rna_rank_max": 113,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_181eb1ee0e23546d517f515890408a6d910ac81b42037eed2b8f9f579f7acaee",
+      "rna_rank": 114,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 114,
+      "rna_rank_max": 114,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_a7856c450c61559bd3dff047181b47bd75f900c08558ae5cd27df5c07305a96d",
+      "rna_rank": 115,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 115,
+      "rna_rank_max": 115,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_40a8dbf7368a7dd37f3b74ff2355351889dfc5d115ff4f613b0f897243e5e0ad",
+      "rna_rank": 116,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 116,
+      "rna_rank_max": 116,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_23a80d850c9dfc877526ad3ab92cbd61ffeafb1f0e0b44c7f9dccf55eaf640c8",
+      "rna_rank": 117,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 117,
+      "rna_rank_max": 117,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_3f70ed2bbe61a614461fed27a9e97455297fd3582e6304ef9c440098b1e315c2",
+      "rna_rank": 118,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 118,
+      "rna_rank_max": 118,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_29b3ac170ac573032ac71bd67c74c7d488456792162945d7ea83797745c39777",
+      "rna_rank": 119,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 119,
+      "rna_rank_max": 119,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_3bc8d2977b6ca86c14470c0d2b887fa940460611a518d3cd93cd881b9dc2e264",
+      "rna_rank": 120,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 120,
+      "rna_rank_max": 120,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_6ae5a8c056dd64f70617165709ec8adb071ecafbb8168451ea6661949b586d7c",
+      "rna_rank": 121,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 121,
+      "rna_rank_max": 121,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_9287ed277267af2713c2a1f8bfca5c7c965d0a54f879473ef5bd04d5d36c9209",
+      "rna_rank": 122,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 122,
+      "rna_rank_max": 122,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_aedce3a6deac1636a7e7260ad732bf2079ba20e864bab27c0591b48f142b3de5",
+      "rna_rank": 123,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 123,
+      "rna_rank_max": 123,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_3cce0334662ee47f34abf006161a2fb434b30e2147de139be9e6fbea25f6d649",
+      "rna_rank": 124,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 124,
+      "rna_rank_max": 124,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_8c58d7a6f4772e4a13ca68a5ace8aa2309d71a5aa8bc52c6b4fea2105a3941dd",
+      "rna_rank": 125,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 125,
+      "rna_rank_max": 125,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_cef0e7365c8d95e405c2cb5d97c925baaf912499dfbf5ca111cbe37f44d22bc2",
+      "rna_rank": 126,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 126,
+      "rna_rank_max": 126,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_e6978378a0cb3671f4c49b83bd57ee6e35e55d395907a81911835091e98b51c5",
+      "rna_rank": 127,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 127,
+      "rna_rank_max": 127,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_715a0e160c3d9cd5c40ab298ca1f1c2ec9940ac79d2d93fc0bb03e89d7a893a7",
+      "rna_rank": 128,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 128,
+      "rna_rank_max": 128,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_62863cc2927b303a755babbee68ef4a0b1c24a57d6ec5cdf3aafec171aba2fac",
+      "rna_rank": 129,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 129,
+      "rna_rank_max": 129,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_a4e5fc12e2e48e280c6de2b5aca5ace3a4f319dfcf629c6e7290c06bed3339d5",
+      "rna_rank": 130,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 130,
+      "rna_rank_max": 130,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_6ee4f73916f3149f91f947aed932d45160f632ae9fdc82c1e9652ce2a7d2abc8",
+      "rna_rank": 131,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 131,
+      "rna_rank_max": 131,
+      "distinct_qualifying_reads": 1,
+      "status": "selected",
+      "reasons": [
+        "top_ranked_distinct_protein"
+      ],
+      "primary_sequence_ids": [
+        "protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49"
+      ],
+      "protein_id": "protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49",
+      "junction_class": [
+        "interchromosomal",
+        "++",
+        0,
+        0
+      ],
+      "protein_supporting_read_ids": [
+        "ef149f6c-87c1-4ce3-a757-8d67596f1622"
+      ],
+      "supporting_reads_without_complete_ORF": [],
+      "disposition_category": "selected_for_folding"
+    },
+    {
+      "junction_id": "junction_157c53fa3be166058c7e479dff5f104dc69323e141571bff3abcc48671eab5d9",
+      "rna_rank": 132,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 132,
+      "rna_rank_max": 132,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_d9365a79f8f142069cc581bbf0c9de2456a95103ba393b355172905e480b60ef",
+      "rna_rank": 133,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 133,
+      "rna_rank_max": 133,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_5c2a9a5dcbbcd1334252624695a448aff8963c940764958b2866e9391c454464",
+      "rna_rank": 134,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 134,
+      "rna_rank_max": 134,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_99d94c3e7d5c86e829e4bde2707a2967df96bd78bc6ad9895d8a31b1f9bc85ce",
+      "rna_rank": 135,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 135,
+      "rna_rank_max": 135,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_30bb08d36adb21999bc414d3c25aa41dea8ad06affd21cc7f3304a474bea2574",
+      "rna_rank": 136,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 136,
+      "rna_rank_max": 136,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "primary_sequence_unresolved"
+      ],
+      "primary_sequence_ids": [
+        "protein_26410eb3ff57f2d5276b90bb813ebc5cee9e4a11736b5d877e7fff2a3ebdff0c"
+      ],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_93dc83fa92ecf7fad11b4f4e6cb8c0f34b90907454858c5c4cdb1858b283e355",
+      "rna_rank": 137,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 137,
+      "rna_rank_max": 137,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_9484f7a8083396f4c35b85cb3533afe02c2cfdb84f9e9d221ff5b502ad88a776",
+      "rna_rank": 138,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 138,
+      "rna_rank_max": 138,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_c4b6121bdff6b756ef70ff40ecc49de6f4a0a49e30d8ed3392dbdd7f73bb57df",
+      "rna_rank": 139,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 139,
+      "rna_rank_max": 139,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_673940a89567e6dacda475076b6faefef8254b384972d199e017b13e3cdf0569",
+      "rna_rank": 140,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 140,
+      "rna_rank_max": 140,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_b82e69ba7f1fde861cf0434bafab636e8a5800c79c5d9b5e17299ef33e381eec",
+      "rna_rank": 141,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 141,
+      "rna_rank_max": 141,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_576544d6f32688ffc46ccc8baa661167a8e71cf108c7b9f3658f51babebfd091",
+      "rna_rank": 142,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 142,
+      "rna_rank_max": 142,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_f241a2a95d587f600cdb869b05c6aa7664cf88b142c777b4ec3c0e59e5e29828",
+      "rna_rank": 143,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 143,
+      "rna_rank_max": 143,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_ecacc05a85d68e32f62a21ae9eac29f281978da06c5ce74778126394574947bf",
+      "rna_rank": 144,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 144,
+      "rna_rank_max": 144,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_2879537043ae9d2f731ebab1550f4d75aabcf936535aef3c8daadbb5bc59e8bd",
+      "rna_rank": 145,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 145,
+      "rna_rank_max": 145,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_9bf7e163f143c86f8e8a283bb82e7ce5e4d30408bd5c7cd30caad9ab431cfa4d",
+      "rna_rank": 146,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 146,
+      "rna_rank_max": 146,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_028ff17b02024c73a06ab8d629efc59857050363ddd21b353e53f4affbbe6fda",
+      "rna_rank": 147,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 147,
+      "rna_rank_max": 147,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_6b5adf909169c834ba8c0353bd9d6181e9961a58f9fee191973e1d545a041e48",
+      "rna_rank": 148,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 148,
+      "rna_rank_max": 148,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_c29c807157a3271f43ee96a3a4b8abc387d7dd100173b111801948ed9ac262ed",
+      "rna_rank": 149,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 149,
+      "rna_rank_max": 149,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_38ae63ff04207f3da258366e18d21a6acc79b8ac6fe655d90894a0b0acc6100d",
+      "rna_rank": 150,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 150,
+      "rna_rank_max": 150,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_eb77eea70e9df1cf2a60d103d17fd30ace8bff460a6e31f47926108b6b9359e8",
+      "rna_rank": 151,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 151,
+      "rna_rank_max": 151,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_540271ea3bd19f561251162fde1bcd8af24bbaf121566e899477555105bb81b3",
+      "rna_rank": 152,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 152,
+      "rna_rank_max": 152,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_e3e96aca7ad1eb48ddda152e873cdd3d912df157c303aa607ee1a4ee8b906a98",
+      "rna_rank": 153,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 153,
+      "rna_rank_max": 153,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "primary_sequence_unresolved"
+      ],
+      "primary_sequence_ids": [
+        "protein_39d60cc63ea98d7eab30230aee52a2257de3dc33bc2caa4a239b56f6ffcef752"
+      ],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_ffb793b65aa47dba6a271f3139538d279f3321cf2a216b31cbb4d6770ed1a8d2",
+      "rna_rank": 154,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 154,
+      "rna_rank_max": 154,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_c4e4a70170db4091967cd1ffa8f9db6633a173e9070c522b052e86ebea3cb218",
+      "rna_rank": 155,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 155,
+      "rna_rank_max": 155,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_9b9209f2378f6566a450c3dbfc358211738f82b620ebc206874dbab5dcff13ab",
+      "rna_rank": 156,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 156,
+      "rna_rank_max": 156,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_8a49b3a53155e8fa7d8428017ed7a23369489407f19e8c2e3164434304e79a9e",
+      "rna_rank": 157,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 157,
+      "rna_rank_max": 157,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_72fe2d2f2dc985802569b71f8b5e6892fdd3309f951321988f1282793c2b25d0",
+      "rna_rank": 158,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 158,
+      "rna_rank_max": 158,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_52b3db2bc0f646c4c9468233409aa7ee072c0b43b113481e43884d0b864867c4",
+      "rna_rank": 159,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 159,
+      "rna_rank_max": 159,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_44943d6f9b90cd1f0167240bc2710ac951e07459efe9d0dbf41da9c43fb4c94b",
+      "rna_rank": 160,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 160,
+      "rna_rank_max": 160,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_109bc121df6aafa768cbf7530f2d78173d62e46e847f1c53d88c91e5fc93f45c",
+      "rna_rank": 161,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 161,
+      "rna_rank_max": 161,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_ec0bc0a5c99759d7d93e1065ae56c07754dca39ee1af833ed9d4bfc5908f5d13",
+      "rna_rank": 162,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 162,
+      "rna_rank_max": 162,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_65a9cb7c86eadf513eda52ab1fc3390ab1822fabc7283b8db6605d8790707f65",
+      "rna_rank": 163,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 163,
+      "rna_rank_max": 163,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_977684a1439fb99d1ee6779abc2066331a056bb50020a9fa3c7b95b71dcbc11c",
+      "rna_rank": 164,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 164,
+      "rna_rank_max": 164,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_8dfff495c9316eec16dcd770108398dfe5ceb634b9d853c9bb841ee86349a1b3",
+      "rna_rank": 165,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 165,
+      "rna_rank_max": 165,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_662007be41a327963da514a74ce9e2732fd86502ca6a69ff7f6150f100494223",
+      "rna_rank": 166,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 166,
+      "rna_rank_max": 166,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_25c86cb6790de03fab2727d704cbe12215d675237202b4611177ae248b75771a",
+      "rna_rank": 167,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 167,
+      "rna_rank_max": 167,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_8cea6378ce37aced872191f5d066371818a0d67fc971acab95e40887a05efff0",
+      "rna_rank": 168,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 168,
+      "rna_rank_max": 168,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_db994a67e2a18de180369cf5d3265f88a104bac46f106af4fd64045fc0b9c1c0",
+      "rna_rank": 169,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 169,
+      "rna_rank_max": 169,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_533be180df07504c75a5e568942bb5a096918458306513cb48294cee230805ab",
+      "rna_rank": 170,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 170,
+      "rna_rank_max": 170,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_6473fdb4f6372b4f14419167c0afa414c503a794793c252fa31e0c3357e4da4d",
+      "rna_rank": 171,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 171,
+      "rna_rank_max": 171,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_0d0f2263d8983dc92c23bf320456998e3ee6bdf4b48a709a2900dc15098ad05b",
+      "rna_rank": 172,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 172,
+      "rna_rank_max": 172,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_71da7decaea9e5c451feb965e9842135761315b3850bf066b440e60222d36969",
+      "rna_rank": 173,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 173,
+      "rna_rank_max": 173,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_11ab2ced7fe7316116f4994177e8a7d8e2df7e9988a99959494e9528c5eb50c2",
+      "rna_rank": 174,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 174,
+      "rna_rank_max": 174,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_b3054be85dc21ca9b59c8632a09a62b9e1aea02352d71c98cd596a2477bf176b",
+      "rna_rank": 175,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 175,
+      "rna_rank_max": 175,
+      "distinct_qualifying_reads": 1,
+      "status": "selected",
+      "reasons": [
+        "top_ranked_distinct_protein"
+      ],
+      "primary_sequence_ids": [
+        "protein_05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e"
+      ],
+      "protein_id": "protein_05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e",
+      "junction_class": [
+        "interchromosomal",
+        "--",
+        2,
+        2
+      ],
+      "protein_supporting_read_ids": [
+        "4baf9cc2-a2b2-4340-ab7a-9502c36a0865"
+      ],
+      "supporting_reads_without_complete_ORF": [],
+      "disposition_category": "selected_for_folding"
+    },
+    {
+      "junction_id": "junction_ec8d8df48e7479507770c9d832bc1c8b83f498926d6a67ffb5a0ddeb987f35e1",
+      "rna_rank": 176,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 176,
+      "rna_rank_max": 176,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_476606ff2c54156253757da30c78cd5acbdc62efccff1e5e045fae01fb6891ac",
+      "rna_rank": 177,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 177,
+      "rna_rank_max": 177,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_5419b03440aef4e20759602511754bb408732117e688c5d4b00788207e546fda",
+      "rna_rank": 178,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 178,
+      "rna_rank_max": 178,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_af7fc1af71a56db3dc20dfb4257fe0fb65ea3c7402bd7fbacd7d014c375da898",
+      "rna_rank": 179,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 179,
+      "rna_rank_max": 179,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_3df04bc9a77dd470daed94278ad48336b46c0cf7d2ec051a095ba03ad60b13b9",
+      "rna_rank": 180,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 180,
+      "rna_rank_max": 180,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_4f10c5340584000a7884176393ddacdfad8d91d5a4a31675c572fc9c15ca62a0",
+      "rna_rank": 181,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 181,
+      "rna_rank_max": 181,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_49e142b4354af413683fd0092538eef5f75094e5544d90c2c6738000531ef5cd",
+      "rna_rank": 182,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 182,
+      "rna_rank_max": 182,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_78f156d3becc0b2e3b419eeb4368224bcc7a8e06130dec409894dfac61b93704",
+      "rna_rank": 183,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 183,
+      "rna_rank_max": 183,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "primary_sequence_unresolved"
+      ],
+      "primary_sequence_ids": [
+        "protein_9b3b0d2dcdacaa39ffd71f24868b0014a7a7661474c8c6faed4a11544e90fab3"
+      ],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_995d8f38dd45b5455621bee45b7b8026895ad9768e979d1d40f9dbc85453f810",
+      "rna_rank": 184,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 184,
+      "rna_rank_max": 184,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_e1a65b1175ba7b51be8563bef34020ac134801e9b460dc4ef347660236e6a901",
+      "rna_rank": 185,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 185,
+      "rna_rank_max": 185,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_8f57e7ec3cf90f73cc3b47106ffbb61020962ff80dafb844630d451a113a4e0e",
+      "rna_rank": 186,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 186,
+      "rna_rank_max": 186,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_4003edbf44309d8cd23fdd73c8f76ffd088d22d2baa3950aaee001b45d6a2ac5",
+      "rna_rank": 187,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 187,
+      "rna_rank_max": 187,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_11accf5f36d1761892d5a82179c98f2ae3205a72df635b39b650a56845391abe",
+      "rna_rank": 188,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 188,
+      "rna_rank_max": 188,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_2a1ca4f7fdb5e3865e0596d85db03c7a126774f07d3f6eec7887cc1ddb6368f6",
+      "rna_rank": 189,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 189,
+      "rna_rank_max": 189,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_a62a5ce333b3bfe6b5ecd3f9e559d2fa8c95f9521274a7a035259f4b6795101f",
+      "rna_rank": 190,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 190,
+      "rna_rank_max": 190,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_41ee2df6aed44cf79ea9abc28f013a06ec7cf9522ab3b10969c04138e096ad8d",
+      "rna_rank": 191,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 191,
+      "rna_rank_max": 191,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_8ac26ca99172c08778849a26eac4fa1ef9b15882f3c1394a688b344cc5e7a91c",
+      "rna_rank": 192,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 192,
+      "rna_rank_max": 192,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_cf7e928108004ffe8e41a362db601160869237a32e698501ecc8a7fcf55a5138",
+      "rna_rank": 193,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 193,
+      "rna_rank_max": 193,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_8fde1b0d728be19a58735859549da939d1f5244e3655c8b5dcd0b3aeeb7b414e",
+      "rna_rank": 194,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 194,
+      "rna_rank_max": 194,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_b363c55dcd74551a7054b903571a78c8c25d499b06dda2a8ab73dfe2129267ac",
+      "rna_rank": 195,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 195,
+      "rna_rank_max": 195,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_d287357c52afc5d3677f047fccd8820da0ce50ac714c8fe592cf63a425cd63e0",
+      "rna_rank": 196,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 196,
+      "rna_rank_max": 196,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_2cc305cae9ec16ba7f7dee0a9b0cb3e524b4b274e3e6deb20ca115800cff5faa",
+      "rna_rank": 197,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 197,
+      "rna_rank_max": 197,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_1e3cb5b45726a5af54150c0dfae7b0de72c3e70ff97228beb5986471cbd75d38",
+      "rna_rank": 198,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 198,
+      "rna_rank_max": 198,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    },
+    {
+      "junction_id": "junction_ea4ca166b76e81504c4b4fba3da9a080ef38e2361ee3bc36c985e42acf85b847",
+      "rna_rank": 199,
+      "rna_evidence_state": "supported_two_gene_junction",
+      "rna_rank_min": 199,
+      "rna_rank_max": 199,
+      "distinct_qualifying_reads": 1,
+      "status": "deferred",
+      "reasons": [
+        "unresolved_sequence_in_supporting_reads",
+        "no_complete_junction_spanning_ORF"
+      ],
+      "primary_sequence_ids": [],
+      "disposition_category": "unresolved_protein_sequence_or_complete_ORF"
+    }
+  ],
+  "limitations": [
+    "Reference-assisted sequence hypotheses; protein existence and function UNKNOWN.",
+    "Read support from one sample is not biological replication.",
+    "Junction class uses chromosome, strand and reconstructed ORF boundary phase, not parental CDS frame.",
+    "RNA ties retain their rank interval; stable junction ID breaks display/selection ties.",
+    "Unreconstructed junctions are deferred, not absent proteins."
+  ]
+}

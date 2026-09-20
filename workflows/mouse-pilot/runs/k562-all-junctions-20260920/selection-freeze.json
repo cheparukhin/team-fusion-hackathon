@@ -1,0 +1,11 @@
+{
+  "utc": "2026-09-20T10:19:19.723629+00:00",
+  "frozen": true,
+  "selected": 6,
+  "inputs": {
+    "scope-freeze.json": "3366c9b76911b4a7e798b0d77e09802fd323f1224d6dc5d22e434f5f46d79614",
+    "selection.json": "6b0d537a8802ccdcc0701f8bce9f361672cc296401b3b3388ba9944e2628eee3",
+    "reconstructions.json": "8ad203e3869868c1ac64828278f20a2478ea221069fe82e431e8deb80ad704be",
+    "protein_hypotheses.json": "e3ea62d8c5f970f5533e70268408e04c1671a3bf7625fdfe46bd5cd4a52ff380"
+  }
+}

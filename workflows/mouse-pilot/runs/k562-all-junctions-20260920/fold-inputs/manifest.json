@@ -1,0 +1,108 @@
+{
+  "status": "inputs_prepared_not_inferred",
+  "selection_freeze_sha256": "1aac66501fcf262c0f27cfa7cc8a491e6ae48fcaf1b8f4d002923845549b2fce",
+  "jobs": [
+    {
+      "job_id": "protein_77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c",
+      "sequence": "MKAGRARGAAPRPGAGVSERESGARVAGAARPGAPALRPPAPRPPPPPPPPLLRWRRNPVDKALLFHDGCIFIEENFSLKCPKHKRLP",
+      "sequence_sha256": "77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c",
+      "amino_acids": 88,
+      "fasta": "protein_77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c.fasta",
+      "msa": "protein_77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c.a3m",
+      "yaml": "protein_77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c.yaml",
+      "roles": [
+        {
+          "role": "recovered_reference_assisted_hypothesis",
+          "junction_id": "junction_cad519f4e259b2358e1d53ec32c7363a98f67159dc9602983e3cc9452c437621",
+          "library": "A"
+        }
+      ]
+    },
+    {
+      "job_id": "protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1",
+      "sequence": "MASKILKSYESSLPQTQQVDLDLSRPLFTSAALLSACKILKLKVDKNKMVATSGVKKAIFDRLCKQLEKIGQQVDRGDVKVTHLAGRH",
+      "sequence_sha256": "3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1",
+      "amino_acids": 88,
+      "fasta": "protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1.fasta",
+      "msa": "protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1.a3m",
+      "yaml": "protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1.yaml",
+      "roles": [
+        {
+          "role": "recovered_reference_assisted_hypothesis",
+          "junction_id": "junction_f5ca9cf75da600f1c8b13a2ace697d4e271c346f52ccd720802fc26bebde2216",
+          "library": "B"
+        }
+      ]
+    },
+    {
+      "job_id": "protein_0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905",
+      "sequence": "MERIEGASVGRCAASPYLRPLTLHYRQAITIEAEPRADGSRRTTRYDIDMTKCIYCGFCQEACPVDAIVEARPQL",
+      "sequence_sha256": "0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905",
+      "amino_acids": 75,
+      "fasta": "protein_0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905.fasta",
+      "msa": "protein_0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905.a3m",
+      "yaml": "protein_0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905.yaml",
+      "roles": [
+        {
+          "role": "recovered_reference_assisted_hypothesis",
+          "junction_id": "junction_263b3ad38c525197cb5be132ea17a5b5956fe3c269a52e71832187bf8ee7ae05",
+          "library": "A"
+        }
+      ]
+    },
+    {
+      "job_id": "protein_d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2",
+      "sequence": "MCQSLTWRKQHQVDYILETWTSGRAELAGLYCRARRALQRPWGSA",
+      "sequence_sha256": "d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2",
+      "amino_acids": 45,
+      "fasta": "protein_d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2.fasta",
+      "msa": "protein_d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2.a3m",
+      "yaml": "protein_d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2.yaml",
+      "roles": [
+        {
+          "role": "recovered_reference_assisted_hypothesis",
+          "junction_id": "junction_de16a5bbbaa21fe33756248431d996bad7893a8da00ececbd2950ecb9f4cab4d",
+          "library": "B"
+        }
+      ]
+    },
+    {
+      "job_id": "protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49",
+      "sequence": "MPNKNKKEKESPKAGKSGKSSKEGQDTVESEQISVRKNSLVAVPSTVSAKIKVPVSQPIVKKDKRQNSSRFSASNNRELQKLPSLKGAEIRSVCTEAGMFAIRARRKIATEKDFLEAVNKVIKSYAKFSATPRYMTYN",
+      "sequence_sha256": "3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49",
+      "amino_acids": 138,
+      "fasta": "protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49.fasta",
+      "msa": "protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49.a3m",
+      "yaml": "protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49.yaml",
+      "roles": [
+        {
+          "role": "recovered_reference_assisted_hypothesis",
+          "junction_id": "junction_6ee4f73916f3149f91f947aed932d45160f632ae9fdc82c1e9652ce2a7d2abc8",
+          "library": "B"
+        }
+      ]
+    },
+    {
+      "job_id": "protein_05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e",
+      "sequence": "MAGLSRGSARALLAALLASTLLALLVSPARGRGGRDHGDWDEASRLVRCARGVPARPERAS",
+      "sequence_sha256": "05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e",
+      "amino_acids": 61,
+      "fasta": "protein_05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e.fasta",
+      "msa": "protein_05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e.a3m",
+      "yaml": "protein_05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e.yaml",
+      "roles": [
+        {
+          "role": "recovered_reference_assisted_hypothesis",
+          "junction_id": "junction_b3054be85dc21ca9b59c8632a09a62b9e1aea02352d71c98cd596a2477bf176b",
+          "library": "B"
+        }
+      ]
+    }
+  ],
+  "timing_pilot_job_ids": [
+    "protein_d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2",
+    "protein_77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c",
+    "protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49"
+  ],
+  "msa_unavailable_job_ids": []
+}

@@ -1,0 +1,103 @@
+<div id="k562-linked">
+<style>
+#k562-linked{color:var(--foreground);overflow-wrap:anywhere}#k562-linked .k-space{margin-block:16px}#k562-linked .k-lanes{display:grid;gap:16px}#k562-linked .k-figure{width:100%;display:block}#k562-linked .k-figure text{fill:var(--foreground);font-size:12px}#k562-linked .k-origin{display:inline-block;width:12px;height:12px;margin-right:6px}#k562-linked .k-seq{white-space:pre-wrap;overflow-wrap:anywhere}#k562-linked details{margin-block:12px}#k562-linked .k-controls{display:grid;gap:12px;min-width:0}#k562-linked .k-controls>label{min-width:0}#k562-linked .k-caption{margin-block:8px}
+</style>
+<h2>Human K562 · linked RNA evidence</h2>
+<div class="viz-row text-small"><span>GRCh38.p13 · GENCODE 43</span><span>RNA / ORF / structure assessment complete · six structures verified</span><span>Protein expression / function: unknown</span></div>
+<div class="k-space" id="k562-overview" aria-label="Whole-run counts"></div>
+<label class="form-label">Candidate · all 414 supported exact junctions<select id="k562-candidate" class="form-select"></select></label>
+<div id="k562-selected" class="k-caption" aria-live="polite"></div>
+<div class="table-responsive"><table class="table table-sm"><thead><tr><th>Evidence</th><th>Support</th><th>Scope</th></tr></thead><tbody id="k562-evidence"></tbody></table></div>
+<label class="form-label k-space">Assessed read · both libraries, including unresolved reads<select id="k562-read" class="form-select"></select></label>
+<div id="k562-readstate" class="k-caption" aria-live="polite"></div>
+<div class="viz-row text-small" id="k562-legend"></div>
+<svg id="k562-query" class="k-figure" role="img" aria-label="Aligned arms along the original read, including overlap or gap"></svg>
+<div id="k562-join" class="text-small"></div>
+<h3>Transcript-specific reference context</h3>
+<div class="text-small">Overlap-ranked reference choices · not demonstrated isoforms · only overlapping exons shown · schematic widths</div>
+<div class="k-lanes k-space" id="k562-arms"></div>
+<div class="k-caption" id="k562-exon-detail" aria-live="polite"></div>
+<h3>Executed follow-up · RNA to protein eligibility</h3>
+<div class="table-responsive"><table class="table table-sm"><tbody id="k562-followup"></tbody></table></div>
+<button type="button" class="btn" id="k562-orf-read" hidden>Inspect the ORF-bearing read</button>
+<div id="k562-orf-panel" hidden>
+<div id="k562-orf-status" class="k-caption"></div>
+<label class="form-label">Reference-assisted spanning ORF<select class="form-select" id="k562-orf-choice"></select></label>
+<label class="form-label">Hypothetical protein residue<select class="form-select" id="k562-residue"></select></label>
+<svg id="k562-protein-track" class="k-figure" role="img" aria-label="Provisional protein residues colored by RNA source"></svg>
+<div class="viz-row text-small"><span><span class="k-origin" style="background:var(--viz-series-3)"></span>Shared / cross-gene codon</span><span><span class="k-origin" style="background:var(--viz-series-4)"></span>Unassigned source</span></div>
+<div id="k562-residue-detail" class="k-caption" aria-live="polite"></div>
+<div id="k562-structure-status" class="k-caption"></div>
+<div id="k562-structure" style="position:relative;width:100%;height:320px" role="img" aria-label="Rotatable predicted protein structure colored by RNA source" hidden></div>
+</div>
+<details id="k562-rna-details"><summary>Observed versus reference-assisted RNA</summary><pre id="k562-rna-sequences" class="k-seq text-small"></pre></details>
+<div class="text-small">Sequence screening is partial: two RTA cores, both orientations, ≤20% edits. Raw-signal joining and sample-specific DNA origin remain unassessed.</div>
+<details><summary>Read audit and provenance</summary><pre id="k562-audit" class="k-seq text-small"></pre></details>
+<div class="text-small">Uncorroborated ≠ biological negative. RNA mapping support does not establish protein production or function.</div>
+<script src="https://cdn.jsdelivr.net/npm/3dmol@2.5.3/build/3Dmol-min.js"></script>
+<script type="application/json" id="k562-data">__DATA__</script>
+<script>
+(async()=>{
+const root=document.getElementById('k562-linked'),D=JSON.parse(await new Response(new Blob([Uint8Array.from(atob(root.querySelector('#k562-data').textContent),c=>c.charCodeAt(0))]).stream().pipeThrough(new DecompressionStream('gzip'))).text()),$=id=>root.querySelector('#'+id),ns='http://www.w3.org/2000/svg';let ci=0,ri=0,tx=[0,0],ex=[0,0],active=0;
+const el=(tag,attrs={},text)=>{const e=document.createElement(tag);for(const [k,v]of Object.entries(attrs))e.setAttribute(k,v);if(text!==undefined)e.textContent=text;return e;};
+function mark(svg,tag,a,text){const n=document.createElementNS(ns,tag);for(const[k,v]of Object.entries(a))n.setAttribute(k,v);if(text!==undefined)n.textContent=text;svg.append(n);return n;}
+function options(select,items){select.replaceChildren(...items.map((s,i)=>el('option',{value:i},s)));}
+function save(){if(window.openai?.setWidgetState)window.openai.setWidgetState({modelContent:{junction_id:D.candidates[ci].id,read_id:D.candidates[ci].reads[ri].id},privateContent:{ci,ri,tx,ex,active}}).catch(()=>{});}
+function current(){return D.candidates[ci].reads[ri];}
+function draw(){
+ const r=current(),svg=$('k562-query'),w=Math.max(240,svg.getBoundingClientRect().width),pad=12,L=r.arms[0].length,x=q=>pad+q/L*(w-2*pad);svg.replaceChildren();svg.setAttribute('viewBox',`0 0 ${w} 145`);
+ mark(svg,'text',{x:pad,y:16},'Original read · 0-based query coordinates');
+ r.arms.forEach((a,i)=>{const y=35+i*38;mark(svg,'line',{x1:pad,x2:w-pad,y1:y+8,y2:y+8,stroke:'var(--border)'});mark(svg,'rect',{x:x(a.qstart),y,width:Math.max(1,x(a.qend)-x(a.qstart)),height:16,fill:`var(--viz-series-${i+1})`});mark(svg,'text',{x:pad,y:y+31},`${i?'3′':'5′'} arm: [${a.qstart}, ${a.qend}) · MAPQ ${a.mapq}`);});
+ mark(svg,'text',{x:pad,y:140},'0');mark(svg,'text',{x:w-pad,y:140,'text-anchor':'end'},`${L.toLocaleString()} nt`);
+ for(let i=0;i<2;i++){
+ const a=r.arms[i],t=a.transcripts[tx[i]],s=$('k562-exons-'+i);if(!s)continue;const sw=Math.max(240,s.getBoundingClientRect().width),es=t?.exons||[],cell=(sw-24)/Math.max(es.length,1);s.replaceChildren();s.setAttribute('viewBox',`0 0 ${sw} 60`);
+ es.forEach((e,j)=>{mark(s,'rect',{x:12+j*cell,y:12,width:Math.max(2,cell-6),height:18,fill:`var(--viz-series-${i+1})`,opacity:j===ex[i]?1:0.35});if(es.length<=12||j===ex[i])mark(s,'text',{x:12+j*cell+Math.max(2,cell-6)/2,y:48,'text-anchor':'middle'},'E'+e.n);});
+ }
+}
+function exonDetail(){const a=current().arms[active],t=a.transcripts[tx[active]],e=t?.exons[ex[active]];$('k562-exon-detail').textContent=e?`${a.gene} · ${t.id} · exon ${e.n}: ${a.target}:[${e.start}, ${e.end}) ${a.strand}; ${e.overlap} aligned reference bases overlap. Partial overlap is not a complete-exon reconstruction. Exon context is reference-specific; any provisional ORF residues are shown below.`:'No overlapping reference exon available.';draw();proteinView();}
+function armPanel(i){const a=current().arms[i],wrap=el('div'),title=el('div',{},`${i?'3′':'5′'} source: ${a.gene} · ${a.target} ${a.strand}`),controls=el('div',{class:'k-controls'}),tl=el('label',{class:'form-label'},'Reference transcript'),ts=el('select',{class:'form-select',id:'k562-tx-'+i}),xl=el('label',{class:'form-label'},'Overlapping exon'),xs=el('select',{class:'form-select',id:'k562-exon-'+i}),svg=document.createElementNS(ns,'svg');svg.id='k562-exons-'+i;svg.classList.add('k-figure');svg.setAttribute('role','img');svg.setAttribute('aria-label',a.gene+' overlapping transcript exons, schematic');
+ options(ts,a.transcripts.map(t=>`${t.id} · ${t.overlap} bp overlap`));ts.value=String(tx[i]);function fill(){const t=a.transcripts[tx[i]];options(xs,(t?.exons||[]).map(e=>`Exon ${e.n} · ${e.overlap} / ${e.end-e.start} bp overlap`));xs.value=String(ex[i]);}fill();ts.onchange=()=>{tx[i]=+ts.value;ex[i]=0;active=i;fill();exonDetail();save();};xs.onchange=()=>{ex[i]=+xs.value;active=i;exonDetail();save();};tl.append(ts);xl.append(xs);controls.append(tl,xl);wrap.append(title,controls,svg);return wrap;}
+function selectedOrf(){return current().reconstruction?.orfs?.[+$('k562-orf-choice').value||0];}
+function proteinView(){
+ const o=selectedOrf(),svg=$('k562-protein-track');if(!o){svg.replaceChildren();return;}const w=Math.max(240,svg.getBoundingClientRect().width),cell=(w-24)/o.protein.length;svg.replaceChildren();svg.setAttribute('viewBox',`0 0 ${w} 70`);
+ const t=current().arms[active].transcripts[tx[active]],e=t?.exons[ex[active]],chosen=+$('k562-residue').value||0;
+ o.residues.forEach((r,i)=>{const refs=r.bases.flatMap(b=>b.reference_assignments),arms=[...new Set(refs.map(v=>v.arm))],shared=arms.length>1,matching=e&&refs.some(v=>v.arm===active&&v.position>=e.start&&v.position<e.end);mark(svg,'rect',{x:12+i*cell,y:12,width:Math.max(1,cell-0.6),height:20,fill:`var(--viz-series-${shared?3:arms.length?arms[0]+1:4})`,opacity:matching?1:0.3});if(i===chosen)mark(svg,'path',{d:`M ${12+i*cell+cell/2} 37 l -4 7 h 8 Z`,fill:'var(--foreground)'});});mark(svg,'text',{x:12,y:62},'1');mark(svg,'text',{x:w-12,y:62,'text-anchor':'end'},`${o.protein.length} aa · provisional`);
+ const count=e?o.residues.filter(v=>v.bases.some(b=>b.reference_assignments.some(ref=>ref.arm===active&&ref.position>=e.start&&ref.position<e.end))).length:0; $('k562-exon-detail').textContent=$('k562-exon-detail').textContent.split(' · Hypothetical residue contribution:')[0]+' · Hypothetical residue contribution: '+count+' (provisional ORF).';
+ const rec=current().reconstruction;const selected=current().fold_selected&&o===rec.orfs[0];$('k562-orf-status').textContent=`${o.protein.length}-aa reference-assisted hypothesis · ${rec.unresolved_sequence_reasons.length?'sequence unresolved':'sequence resolved under reconstruction assumptions'} · ${selected?'selected for folding':'not selected for folding'} · protein existence unknown`;
+ const r=o.residues[Math.min(chosen,o.residues.length-1)],labels=[];for(const b of r.bases){let origins=[];for(const ref of b.reference_assignments){const arm=current().arms[ref.arm],tr=arm.transcripts[tx[ref.arm]],ee=tr?.exons.filter(e=>e.start<=ref.position&&ref.position<e.end)||[];origins.push(`${arm.gene} ${ee.length?ee.map(e=>'E'+e.n).join('/'):'non-exonic in this reference choice'} (${tr?.id||'unknown transcript'})`);}labels.push(`RNA base ${b.rna_position}: ${origins.join(' + ')||'unassigned join base'}`);}
+ $('k562-residue-detail').textContent=`Residue ${r.residue} ${r.aa} · ${labels.join('; ')} · structural confidence: ${current().structure?.sequence_sha256===o.sequence_sha256?current().structure.plddt[r.residue-1].toFixed(1)+" pLDDT /100":"unavailable"}`;structureView(o,chosen+1);
+}
+let viewer=null,structureKey=null;
+function structureView(o,chosen){
+ const record=current().structure,box=$('k562-structure'),status=$('k562-structure-status');
+ if(!record||record.sequence_sha256!==o.sequence_sha256){box.hidden=true;status.textContent=current().fold_selected?'Selected for prediction; structure not available for this ORF.':'No predicted structure for this hypothesis.';return;}
+ if(!window.$3Dmol){box.hidden=true;status.textContent='Verified prediction available; 3D viewer failed to load.';return;}
+ box.hidden=false;const key=record.sequence_sha256;
+ if(!viewer)viewer=$3Dmol.createViewer(box,{backgroundAlpha:0});
+ const resolveColor=token=>{const probe=document.createElement('span');probe.style.color='var('+token+')';root.append(probe);const color=getComputedStyle(probe).color;probe.remove();return color;};const colors=[1,2,3,4].map(i=>resolveColor('--viz-series-'+i));
+ const toHex=color=>{const canvas=document.createElement('canvas'),ctx=canvas.getContext('2d');ctx.fillStyle=color;ctx.fillRect(0,0,1,1);return '#'+Array.from(ctx.getImageData(0,0,1,1).data).slice(0,3).map(v=>v.toString(16).padStart(2,'0')).join('');};
+ viewer.removeAllModels();viewer.removeAllShapes();
+ const point=i=>({x:record.ca_trace[i][0],y:record.ca_trace[i][1],z:record.ca_trace[i][2]});
+ for(let i=0;i<o.residues.length;i++){const residue=o.residues[i],arms=[...new Set(residue.bases.flatMap(b=>b.reference_assignments.map(ref=>ref.arm)))],color=toHex(colors[arms.length>1?2:arms.length?arms[0]:3]);if(i+1<o.residues.length)viewer.addCylinder({start:point(i),end:point(i+1),radius:0.22,color,fromCap:1,toCap:1});viewer.addSphere({center:point(i),radius:chosen===i+1?0.8:0.28,color,clickable:true,callback:()=>{$('k562-residue').value=String(i);proteinView();}});}
+ if(structureKey!==key){const atoms=record.ca_trace.map((v,i)=>({elem:'C',x:v[0],y:v[1],z:v[2],resi:i+1,chain:'A',atom:'CA'}));const model=viewer.addModel();model.addAtoms(atoms);viewer.setStyle({},{});viewer.zoomTo();structureKey=key;}
+ viewer.resize();viewer.render();status.textContent='Boltz-2 predicted Cα backbone trace · RNA-source colors · drag to rotate, scroll to zoom · mean pLDDT '+record.mean_plddt.toFixed(1)+'/100 · expression and function unknown';
+}
+function followupView(){const c=D.candidates[ci],r=current(),rec=r.reconstruction,s=c.extension,origin=c.origin;
+ const rows=[['RNA reconstruction',`${s.qualifying_reads_reconstructed} qualifying reads processed across A/B`],['Complete spanning ORF',`${s.observed_complete_spanning_ORF_reads} observed-read / ${s.reference_assisted_complete_spanning_ORF_reads} reference-assisted ORF-bearing reads`],['Protein eligibility by library',Object.entries(s.libraries).map(([lib,v])=>lib+': '+v.folding_status+' ('+v.folding_reasons.join('; ').replaceAll('_',' ')+')').join(' · ')],['Adapter-core / poly(A/T) flags',`${origin.internal_adapter_flagged_reads} / ${origin.internal_polyAT_flagged_reads} among ${origin.assessed_reads} assessed reads; sequence screen only`],['RNA-origin assessment',origin.origin_geometry+'; mechanism unresolved'],['Same-culture DNA / biological independence','Unavailable / unknown']];$('k562-followup').replaceChildren(...rows.map(row=>{const tr=el('tr');tr.append(el('th',{},row[0]),el('td',{},row[1]));return tr;}));
+ const oi=c.reads.findIndex(v=>v.reconstruction?.orfs.length);$('k562-orf-read').hidden=oi<0;$('k562-orf-read').onclick=()=>{ri=oi;tx=[0,0];ex=[0,0];active=0;$('k562-read').value=String(ri);renderRead();save();};
+ $('k562-rna-sequences').textContent=rec?`Read ${r.id}\nObserved RNA (${rec.observed_rna_length||rec.observed_rna.length} nt; uncorrected)\n${rec.observed_rna||rec.sequence_display}\n\nReference-assisted provisional RNA (${rec.reference_assisted_rna_length||rec.reference_assisted_rna.length} nt)\n${rec.reference_assisted_rna||rec.sequence_display}\n\nCorrection events: ${rec.correction_events}\nSequence issues: ${JSON.stringify(rec.unresolved_sequence_reasons)}\nNMD: ${rec.nmd}\nSHA256: ${rec.rna_sha256}`:'Not reconstructed: this read did not meet the frozen RNA support criteria.';
+ options($('k562-orf-choice'),(rec?.orfs||[]).map((o,i)=>`${i+1}: ${o.protein.length} aa · RNA [${o.start}, ${o.end_including_stop})`));$('k562-orf-choice').onchange=()=>{const o=selectedOrf();options($('k562-residue'),o.residues.map(v=>`${v.residue} · ${v.aa}`));proteinView();};
+ const o=selectedOrf();$('k562-orf-panel').hidden=!o;if(o){$('k562-orf-status').textContent=`${o.protein.length}-aa reference-assisted hypothesis · ${rec.unresolved_sequence_reasons.length?"sequence unresolved": "sequence resolved under reconstruction assumptions"} · ${r.fold_selected?"selected for folding":"not selected for folding"} · protein existence unknown`;options($('k562-residue'),o.residues.map(v=>`${v.residue} · ${v.aa}`));$('k562-residue').onchange=proteinView;proteinView();}else{$('k562-residue-detail').textContent='';$('k562-protein-track').replaceChildren();}
+}
+
+function renderRead(){const r=current();$('k562-readstate').textContent=`Library ${r.library} · ${r.state.replaceAll('_',' ')} · ${r.id}`;$('k562-legend').replaceChildren(...r.arms.map((a,i)=>{const s=el('span');const sw=el('span',{class:'k-origin',style:`background:var(--viz-series-${i+1})`});s.append(sw,document.createTextNode(`${i?'3′':'5′'} ${a.gene}`));return s;}));const gap=r.comparison.query_gap;$('k562-join').textContent=`Join: ${gap<0?`${-gap} shared query bases (not uniquely attributable to one arm)`:gap>0?`${gap} unassigned query bases`:'no query gap or overlap'} · split coverage ${(100*r.comparison.split_coverage).toFixed(1)}%`;
+ $('k562-arms').replaceChildren(armPanel(0),armPanel(1));$('k562-audit').textContent=JSON.stringify({junction_id:D.candidates[ci].id,reference:D.candidates[ci].coordinates,source_libraries:['SGNex_K562_directRNA_replicate4_run1','SGNex_K562_directRNA_replicate5_run1'],annotation_sha256:D.reference_sha256,read_id:r.id,reasons:r.reasons,comparison:r.comparison,longgf_ordered_pair_associations:r.caller_pairs,alignments:r.arms.map(a=>({gene:a.gene,gene_id:a.gene_id,cigar:a.cigar,sam_line:a.source_line,start:a.start,end:a.end,strand:a.strand})),transcript_choice:'Reference overlap only; no isoform inference',sequence_reconstruction:r.reconstruction?'EXECUTED_REFERENCE_ASSISTED':'RNA_SUPPORT_CRITERIA_NOT_MET'},null,2);followupView();exonDetail();}
+function renderCandidate(){const c=D.candidates[ci],co=c.coordinates;$('k562-selected').textContent=`${c.pair} · ${co.chromosome_5p}:${co.boundary_5p} (${co.strand_5p}) → ${co.chromosome_3p}:${co.boundary_3p} (${co.strand_3p}) · interbase coordinates${c.control?' · BCR:ABL1 detection control; not physiological RNA-joining validation':''}`;
+ const rows=[['Nanopore A',c.support[0]+' qualifying reads','Frozen A rank '+(c.rank[0]??'not proposed')],['Nanopore B',c.support[1]+' qualifying reads','Frozen B rank '+(c.rank[1]??'not proposed')],['Illumina',c.illumina===null?'Not joined in original A-only corroboration':c.illumina?c.illumina+' fragment IDs':'No qualifying exact support',c.illumina?c.geometry+' alignment geometries; not molecule counts':'Biological truth unknown']];$('k562-evidence').replaceChildren(...rows.map(row=>{const tr=el('tr');row.forEach(t=>tr.append(el('td',{},t)));return tr;}));options($('k562-read'),c.reads.map(r=>`${r.library} · ${r.id} · ${r.state.replaceAll('_',' ')}`));$('k562-read').value=String(ri);renderRead();}
+const s=D.summary;$('k562-overview').textContent=`Follow-up: 450 reconstructed reads · 15 ORF-bearing reads · 6 selected proteins. Whole run: 414 distinct junctions · ${s.a} A-supported · ${s.b} B-supported · ${s.intersection} shared exact junctions · ${s.illumina.primary_A_supported} A junction corroborated by Illumina`;
+options($('k562-candidate'),D.candidates.map(c=>`${c.reads.some(r=>r.fold_selected)?'★ ':''}${c.pair} · ${c.coordinates.boundary_5p} → ${c.coordinates.boundary_3p}`));$('k562-candidate').onchange=()=>{ci=+$('k562-candidate').value;ri=0;tx=[0,0];ex=[0,0];active=0;renderCandidate();save();};$('k562-read').onchange=()=>{ri=+$('k562-read').value;tx=[0,0];ex=[0,0];active=0;renderRead();save();};
+function restore(state){const p=state?.privateContent;if(p&&Number.isInteger(p.ci)&&D.candidates[p.ci]){ci=p.ci;ri=Number.isInteger(p.ri)&&D.candidates[ci].reads[p.ri]?p.ri:0;}else{ci=0;ri=0;}tx=[0,0];ex=[0,0];active=0;$('k562-candidate').value=String(ci);renderCandidate();}
+restore(window.openai?.widgetState);window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState)restore(e.detail.globals.widgetState);});new ResizeObserver(()=>{draw();proteinView();}).observe(root);
+})().catch(e=>{document.getElementById('k562-overview').textContent='View failed: '+e.message;console.error(e);});
+</script>
+</div>

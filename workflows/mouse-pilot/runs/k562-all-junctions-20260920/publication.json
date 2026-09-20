@@ -1,0 +1,31 @@
+{
+  "scope": "All scientific sequences and decision ledgers; raw sequencing archives, genome reference, model weights, authentication and live infrastructure state excluded",
+  "compressed_derived_ledgers": [
+    {
+      "original": "reconstructions.json",
+      "gzip": "reconstructions.json.gz",
+      "original_sha256": "8ad203e3869868c1ac64828278f20a2478ea221069fe82e431e8deb80ad704be",
+      "gzip_sha256": "970d7e4044115341369238e41ff61b3c7075dd0f5152033883060fabcbe64400"
+    },
+    {
+      "original": "read_decisions.json",
+      "gzip": "read_decisions.json.gz",
+      "original_sha256": "88fdb03917fe542d2540c615d1dd691333b8aceb7504e93a88001e8322309d6f",
+      "gzip_sha256": "c800f5e6707603c8b8e742f5841e78bdcb3f964622ae12a6c441317c27f33c5e"
+    },
+    {
+      "original": "data.json",
+      "gzip": "data.json.gz",
+      "original_sha256": "04a95b37f4894433dac17c03837f2d760ed652a242bc77c1026048e200a466be",
+      "gzip_sha256": "cd7ab6f77925f319ed3bc2b3e324600089dc54e0e5499962c933f3116e69b224"
+    },
+    {
+      "original": "dashboard-data.json",
+      "gzip": "dashboard-data.json.gz",
+      "original_sha256": "c1b7aa3de4444568842c2b47e752674f01c69ad57a6c259a306d7ec1e0c07683",
+      "gzip_sha256": "0fc53f69670e5f7d624e12ea7a0a69847e28b85b526f654143e4373541463bad"
+    }
+  ],
+  "restore": "gunzip -k *.json.gz; validate original_sha256 before replay",
+  "worker_compression": "Owned K562 folding worker; gzip -n -c"
+}

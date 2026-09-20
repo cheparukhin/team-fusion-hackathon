@@ -1,0 +1,38 @@
+[
+  {
+    "job_id": "protein_77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c",
+    "status": "verified",
+    "rows": 9,
+    "seconds": 16.27218222618103
+  },
+  {
+    "job_id": "protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1",
+    "status": "verified",
+    "rows": 1098,
+    "seconds": 16.32017493247986
+  },
+  {
+    "job_id": "protein_0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905",
+    "status": "verified",
+    "rows": 16664,
+    "seconds": 26.528433084487915
+  },
+  {
+    "job_id": "protein_d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2",
+    "status": "verified",
+    "rows": 872,
+    "seconds": 22.619011402130127
+  },
+  {
+    "job_id": "protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49",
+    "status": "verified",
+    "rows": 6993,
+    "seconds": 31.327473402023315
+  },
+  {
+    "job_id": "protein_05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e",
+    "status": "verified",
+    "rows": 34,
+    "seconds": 32.39929485321045
+  }
+]

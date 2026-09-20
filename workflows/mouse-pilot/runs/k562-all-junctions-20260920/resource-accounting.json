@@ -1,0 +1,13 @@
+{
+  "currency": "USD",
+  "quoted_hourly_upper_bound": 2.150148,
+  "launch_to_confirmed_stop_seconds": 826.089791,
+  "launch_to_confirmed_stop_quote_USD": 0.49339314220529673,
+  "billing_reconciled": false,
+  "new_workers": 1,
+  "verified_predictions": 6,
+  "shutdown": "STOPPED",
+  "deletion_remaining_status": [],
+  "other_instances_modified": false,
+  "note": "Conservative quote-based compute/storage estimate, not provider invoice. Shared controller and other tasks excluded; prior K562 CPU run separate."
+}

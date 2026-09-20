@@ -1,0 +1,6 @@
+# Preserve fixed-width scientific records and generated validation logs.
+*.pdb -whitespace
+*.cif -whitespace
+*.tsv whitespace=cr-at-eol
+*.a3m -whitespace
+*.log -whitespace

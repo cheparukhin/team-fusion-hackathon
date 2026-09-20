@@ -1,0 +1,22 @@
+{
+  "cores": {
+    "RTA_A": "GGCTTCTTCTTGCTCTTAGGTAGTAGGTTC",
+    "RTA_B_non_polyT": "GAGGCGAGCGGTCAATTTTCCTAAGAGCAAGAAGAAGCC"
+  },
+  "sources": [
+    "https://nanoporetech.com/document/direct-rna-sequencing-sequence-specific-sqk-rna004",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11895459/",
+    "https://nanoporetech.com/document/direct-rna-sequencing-sqk-rna002"
+  ],
+  "method": "Full-core semiglobal Levenshtein, both orientations; <=floor(0.2*core length) edits",
+  "internal": "At least 50 nt from both read ends",
+  "near_join": "Adapter interval intersects join interval +/-75 nt",
+  "homopolymer": "A or T run >=10 nt, same internal and near-join bounds",
+  "limitations": [
+    "Not all RNA002 RMX/motor adapters are represented.",
+    "Partial-core fragments and raw-signal read concatenation are not resolved.",
+    "Basecalled RNA may not represent the DNA adapters faithfully.",
+    "No hit is not proof of an artifact-free molecule.",
+    "Homopolymers can be biological; flags do not alter frozen RNA ranking."
+  ]
+}

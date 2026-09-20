@@ -1,0 +1,174 @@
+{
+  "a": 220,
+  "b": 199,
+  "intersection": 5,
+  "union": 414,
+  "a_to_b": 0.022727272727272728,
+  "b_to_a": 0.02512562814070352,
+  "ranker_top20": {
+    "k": 20,
+    "expected_supported": 5.0,
+    "fraction": 0.25
+  },
+  "read_count_top20": {
+    "k": 20,
+    "expected_supported": 5.0,
+    "fraction": 0.25
+  },
+  "interpretation": "Observed corroboration, not biological precision or sensitivity",
+  "without_BCR_ABL1": {
+    "a": 218,
+    "b": 197,
+    "intersection": 4,
+    "union": 411,
+    "a_to_b": 0.01834862385321101,
+    "b_to_a": 0.02030456852791878,
+    "ranker_top20": {
+      "k": 20,
+      "expected_supported": 4.0,
+      "fraction": 0.2
+    },
+    "read_count_top20": {
+      "k": 20,
+      "expected_supported": 4.0,
+      "fraction": 0.2
+    },
+    "interpretation": "Observed corroboration, not biological precision or sensitivity"
+  },
+  "strata": {
+    "cis": {
+      "a": 56,
+      "b": 48,
+      "intersection": 4,
+      "union": 100,
+      "a_to_b": 0.07142857142857142,
+      "b_to_a": 0.08333333333333333,
+      "ranker_top20": {
+        "k": 20,
+        "expected_supported": 4.0,
+        "fraction": 0.2
+      },
+      "read_count_top20": {
+        "k": 20,
+        "expected_supported": 4.0,
+        "fraction": 0.2
+      },
+      "interpretation": "Observed corroboration, not biological precision or sensitivity"
+    },
+    "trans": {
+      "a": 164,
+      "b": 151,
+      "intersection": 1,
+      "union": 314,
+      "a_to_b": 0.006097560975609756,
+      "b_to_a": 0.006622516556291391,
+      "ranker_top20": {
+        "k": 20,
+        "expected_supported": 1.0,
+        "fraction": 0.05
+      },
+      "read_count_top20": {
+        "k": 20,
+        "expected_supported": 1.0,
+        "fraction": 0.05
+      },
+      "interpretation": "Observed corroboration, not biological precision or sensitivity"
+    },
+    "min_reads_1": {
+      "a": 220,
+      "b": 199,
+      "intersection": 5,
+      "union": 414,
+      "a_to_b": 0.022727272727272728,
+      "b_to_a": 0.02512562814070352,
+      "ranker_top20": {
+        "k": 20,
+        "expected_supported": 5.0,
+        "fraction": 0.25
+      },
+      "read_count_top20": {
+        "k": 20,
+        "expected_supported": 5.0,
+        "fraction": 0.25
+      },
+      "interpretation": "Observed corroboration, not biological precision or sensitivity"
+    },
+    "min_reads_2": {
+      "a": 8,
+      "b": 3,
+      "intersection": 3,
+      "union": 8,
+      "a_to_b": 0.375,
+      "b_to_a": 1.0,
+      "ranker_top20": {
+        "k": 8,
+        "expected_supported": 3.0,
+        "fraction": 0.375
+      },
+      "read_count_top20": {
+        "k": 8,
+        "expected_supported": 3.0,
+        "fraction": 0.375
+      },
+      "interpretation": "Observed corroboration, not biological precision or sensitivity"
+    },
+    "min_reads_3": {
+      "a": 4,
+      "b": 2,
+      "intersection": 2,
+      "union": 4,
+      "a_to_b": 0.5,
+      "b_to_a": 1.0,
+      "ranker_top20": {
+        "k": 4,
+        "expected_supported": 2.0,
+        "fraction": 0.5
+      },
+      "read_count_top20": {
+        "k": 4,
+        "expected_supported": 2.0,
+        "fraction": 0.5
+      },
+      "interpretation": "Observed corroboration, not biological precision or sensitivity"
+    }
+  },
+  "illumina": {
+    "status": "processed",
+    "statistics": {
+      "records": 982856,
+      "discordant_or_unoriented": 979775,
+      "repeat_ambiguous": 2675,
+      "qualifying_records": 369,
+      "ambiguous_or_low_margin": 37
+    },
+    "primary_A_supported": 1,
+    "ranker_top20": {
+      "k": 20,
+      "expected_supported": 1.0,
+      "fraction": 0.05
+    },
+    "read_count_top20": {
+      "k": 20,
+      "expected_supported": 1.0,
+      "fraction": 0.05
+    },
+    "duplicate_resolution": "Fragment IDs and geometry reported; molecular duplicates UNKNOWN",
+    "without_BCR_ABL1": {
+      "primary_A_supported": 0,
+      "ranker_top20": {
+        "k": 20,
+        "expected_supported": 0.0,
+        "fraction": 0.0
+      },
+      "read_count_top20": {
+        "k": 20,
+        "expected_supported": 0.0,
+        "fraction": 0.0
+      }
+    }
+  },
+  "biological_independence": "UNKNOWN",
+  "adapter_status": "NOT_ASSESSED",
+  "origin": "NOT_ASSESSED",
+  "checkpoint_a": "processed"
+}

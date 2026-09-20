@@ -1,0 +1,37 @@
+[
+  {
+    "path": "src/chrna/pilot_orfs.py",
+    "url": "https://raw.githubusercontent.com/cheparukhin/team-fusion-hackathon/ff199b9e67e2f848a31771baecc4f8727976d625/workflows/mouse-pilot/src/chrna/pilot_orfs.py",
+    "repository_sha256": "d1fe74d96f6490747e4916c4adc9de4323eb5dede57cc38ca7b9b8a5f1e36207",
+    "local_sha256": "d1fe74d96f6490747e4916c4adc9de4323eb5dede57cc38ca7b9b8a5f1e36207",
+    "identical": true
+  },
+  {
+    "path": "src/chrna/pilot_selection.py",
+    "url": "https://raw.githubusercontent.com/cheparukhin/team-fusion-hackathon/ff199b9e67e2f848a31771baecc4f8727976d625/workflows/mouse-pilot/src/chrna/pilot_selection.py",
+    "repository_sha256": "0ddfa26eec76bcea3aa12c6cc6630bfb7de619cf7d6719979918d6fa2fd2966d",
+    "local_sha256": "0ddfa26eec76bcea3aa12c6cc6630bfb7de619cf7d6719979918d6fa2fd2966d",
+    "identical": true
+  },
+  {
+    "path": "scripts/prepare_boltz_msa.py",
+    "url": "https://raw.githubusercontent.com/cheparukhin/team-fusion-hackathon/ff199b9e67e2f848a31771baecc4f8727976d625/workflows/mouse-pilot/scripts/prepare_boltz_msa.py",
+    "repository_sha256": "4a84272e35268af54dde54dd4aeec5868e02b508fe79ec78793d6e3a1a06d3e4",
+    "local_sha256": "4a84272e35268af54dde54dd4aeec5868e02b508fe79ec78793d6e3a1a06d3e4",
+    "identical": true
+  },
+  {
+    "path": "scripts/boltz_worker.py",
+    "url": "https://raw.githubusercontent.com/cheparukhin/team-fusion-hackathon/ff199b9e67e2f848a31771baecc4f8727976d625/workflows/mouse-pilot/scripts/boltz_worker.py",
+    "repository_sha256": "3f9a344ec0f62197168f60700162e26872661839cfda0cccda6a8604aa14d02b",
+    "local_sha256": "3f9a344ec0f62197168f60700162e26872661839cfda0cccda6a8604aa14d02b",
+    "identical": true
+  },
+  {
+    "path": "scripts/setup_boltz_worker.sh",
+    "url": "https://raw.githubusercontent.com/cheparukhin/team-fusion-hackathon/ff199b9e67e2f848a31771baecc4f8727976d625/workflows/mouse-pilot/scripts/setup_boltz_worker.sh",
+    "repository_sha256": "404ae06e54187ebae23f2dda8855bca6e5df35cfb2da4f7923f3dab60b420f0b",
+    "local_sha256": "404ae06e54187ebae23f2dda8855bca6e5df35cfb2da4f7923f3dab60b420f0b",
+    "identical": true
+  }
+]

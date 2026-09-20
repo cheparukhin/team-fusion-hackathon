@@ -1,0 +1,44 @@
+{
+  "status": "completed",
+  "scope": {
+    "A": 220,
+    "B": 199,
+    "distinct_junctions": 414,
+    "shared": 5
+  },
+  "read_reconstructions": 450,
+  "observed_complete_spanning_ORF_reads": 0,
+  "reference_assisted_ORF_bearing_reads": 15,
+  "distinct_protein_hypotheses": 20,
+  "junction_stage_counts": {
+    "no_complete_spanning_ORF_in_reconstructed_reads": 399,
+    "ORF_sequence_unresolved": 9,
+    "selected_for_folding": 6
+  },
+  "selected_proteins": 6,
+  "MSAs_verified": 6,
+  "adapter_read_junction_records": 469,
+  "adapter_internal_flags": 0,
+  "polyAT_internal_flags": 7,
+  "new_GPU_instances": 1,
+  "new_worker_cost_USD": 0.49339314220529673,
+  "structure_status": "6 sequence/confidence-verified Boltz-2 predictions; protein expression and function UNKNOWN",
+  "validation": {
+    "pytest_passed": 119,
+    "data_build": "passed",
+    "development_benchmark": "passed",
+    "heldout_evaluated": false
+  },
+  "limitations": [
+    "Reference-assisted ORFs are sequence hypotheses, not evidence of protein production or function.",
+    "All six selected hypotheses have one qualifying read in one library.",
+    "No second-library or Illumina requirement was applied.",
+    "Adapter screen tests two full RTA cores only; raw signal and same-culture DNA were not assessed.",
+    "Dashboard includes two extra cross-library unresolved read records outside the local adapter/reconstruction scope; these remain unassessed."
+  ],
+  "verified_structures": 6,
+  "updated_utc": "2026-09-20T12:04:29.188794+00:00",
+  "worker_shutdown": "STOPPED_AND_DELETED",
+  "dashboard_rendered_structures": 6,
+  "delivery_deadline_UTC": "2026-09-20T12:46:40Z"
+}
