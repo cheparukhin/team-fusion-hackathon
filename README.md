@@ -110,3 +110,5 @@ Primary source: [Venezia et al., Nature (2026)](https://www.nature.com/articles/
 The bundle code passed 30 Python tests, twelve exact evidence replays and UI application-logic checks on the shared CPU. Real-browser verification and human rehearsal remain open. Full-dataset expansion is running separately; no incomplete result is promoted into this release.
 
 To package a Git checkout after committing changes, run `python3 scripts/package_submission.py`. Raw caches are excluded.
+
+[Verified folding supplement](results/folding_expansion/README.md): 341 candidate peptide models and 42 controls, independently checked; 117 planned predictions missing. These conditional models do not establish translation or function.

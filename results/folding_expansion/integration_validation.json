@@ -1,0 +1,24 @@
+{
+  "checked_utc": "2026-09-20T11:29:40.716757+00:00",
+  "archive_sha256": "bb7bd15873fa8f865bf16d72a936f2c63acd09f36485a4fa4e90e6a29644fdd8",
+  "archive_manifest_files_checked": 2211,
+  "clean_extraction_verifier": "passed",
+  "all_verified_model_rows_identical": true,
+  "all_parent_comparison_rows_identical": true,
+  "independent_model_parse": "383 models independently checked for exact sequence, single chain, finite CA, artifact hashes, pLDDT and PAE bounds/shapes",
+  "verified_models": 383,
+  "candidate_peptides": 341,
+  "controls": 42,
+  "candidate_rna_pairs": 223,
+  "parent_fragment_comparisons": 34,
+  "missing_models": 117,
+  "errors": 0,
+  "cloud_compute_used_for_integration": false,
+  "plot_review": "coverage and confidence plots visually inspected",
+  "limits": [
+    "Single-sequence reference hypotheses, not validated proteins",
+    "Enriched arm and cutoff missingness prevent population estimates",
+    "One random stratum has zero allocation",
+    "No new folding inference executed in verification"
+  ]
+}

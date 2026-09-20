@@ -1,0 +1,50 @@
+{
+  "created_epoch": 1789902327.8953867,
+  "recovery_reason": "Shared controller unhealthy; independently rebuild from public checkpoint and pinned GENCODE files",
+  "source_cohort_counts_match_controller": [
+    696,
+    390,
+    188
+  ],
+  "pfam_release_notes": "PFAM : Multiple alignments and profile HMMs of protein domains\n                        RELEASE 38.2\n            --------------------------------------\n\n1. INTRODUCTION\n\n   Pfam is a collection of protein family alignments which were\n   constructed semi-automatically using hidden Markov models (HMMs).\n   Sequences that are not covered by Pfam are clustered, aligned \n   automatically and released as Pfam-B. Pfam-B used to be integrated \n   into the Pfam website, in addition to being available as a",
+  "pfam_sha256": "2d82087b6c5c60d762cc767f98e8260b273134c215ab7efccf7440614a4e5dab",
+  "pfam_profiles": 30134,
+  "eligible_unique_peptides": 499,
+  "selected_candidate_peptides": 450,
+  "selected_unique_pairs": 266,
+  "selected_controls": 50,
+  "total_unique_sequences": 500,
+  "seed": 20260920,
+  "strata_population": {
+    "30-200|True": 86,
+    "201-500|True": 199,
+    "501-1000|True": 83,
+    "1001-1500|True": 19,
+    "30-200|False": 98,
+    "201-500|False": 13,
+    "501-1000|False": 1
+  },
+  "strata_draws": {
+    "30-200|True": 35,
+    "201-500|True": 80,
+    "501-1000|True": 33,
+    "1001-1500|True": 8,
+    "30-200|False": 39,
+    "201-500|False": 5,
+    "501-1000|False": 0
+  },
+  "selection_arms": {
+    "representative_stratified_random": 200,
+    "domain_diversity_enriched": 250,
+    "matched_parent_fragment_control": 50
+  },
+  "scope": "Probe-panel reference hypotheses beyond reported-supported cohort; no biological negatives",
+  "length_cap_aa": 1500,
+  "protocol_change": "length/domain stratification; disorder not used in recovered selection; batch8 RNG scope separately labeled",
+  "hashes": {
+    "eligible.tsv": "2c593cbcf7759db14a32e338b0d5a154efbfa870cbe1363be328cc6db19183f2",
+    "control_links.tsv": "1afe69d29cad87bebc9ce800256eff6f44b8ab64c5602cca4f3d08b77e6731c3",
+    "selected.fasta": "14f7bf691ff72abdd2fe1bf28bfc9b8c9ef012fee48d36781cd0136747456af4",
+    "selection.tsv": "2563e8904697862895d61710711c8eaf56619568be33c805765bb01fae5065c7"
+  }
+}

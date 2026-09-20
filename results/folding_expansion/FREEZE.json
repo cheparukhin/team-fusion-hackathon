@@ -1,0 +1,33 @@
+{
+  "created_utc": "2026-09-20T11:26:42.869611+00:00",
+  "inference_hard_cutoff_utc": "2026-09-20T11:20:30Z",
+  "worker_shutdown_cutoff_utc": "2026-09-20T11:22:00Z",
+  "task_one_hour_deadline_utc": "2026-09-20T11:26:00Z",
+  "status": "bounded_run_finished_with_partial_model_coverage",
+  "planned_models": 500,
+  "verified_models": 383,
+  "missing_models": 117,
+  "completion_by_arm": [
+    {
+      "arm": "domain_diversity_enriched",
+      "planned": 250,
+      "verified": 190,
+      "missing": 60
+    },
+    {
+      "arm": "matched_parent_fragment_control",
+      "planned": 50,
+      "verified": 42,
+      "missing": 8
+    },
+    {
+      "arm": "representative_stratified_random",
+      "planned": 200,
+      "verified": 151,
+      "missing": 49
+    }
+  ],
+  "source_checkpoint_commit": "a73daa80baaaf905cc8c904141730a201aee5cb1",
+  "validation": "All included verified models pass exactsequence,onechain,finiteCA,finiteconfidence/PAEshape/range andtransferhash checks",
+  "scientific_scope": "Conditional annotated-start reference peptide hypotheses. Pair RNA support is not exact transcript/protein validation. Unknown reporting is not negative.1500aa lengthcap. No population prevalence estimate; one randomsamplingstratum had zero allocation; cutoff causes missingness."
+}

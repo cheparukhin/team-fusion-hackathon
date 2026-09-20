@@ -25,3 +25,5 @@ The three cases are selected demonstrations. Hi-C has no established ranking gai
 The **two-million short-read pairs** processed by Parabricks are separate from the mouse **long-read** cohort. A concurrent task is expanding both sequencing workflows; unfinished results are not included in the presentation's claims.
 
 Real-browser verification, human rehearsal and final access checks remain open. See [GAPS.md](../../GAPS.md). To rebuild the synthetic fallback on a Mac with Daniel, ffmpeg and ffprobe installed, run `python3 scripts/presentation/build_walkthrough.py`; the ordinary scientific reproduction does not need these media tools.
+
+The [verified folding supplement](../../results/folding_expansion/README.md) is available separately for technical inspection. It does not change the seven-slide core story or establish new biological findings.

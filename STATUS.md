@@ -6,6 +6,8 @@ User-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) is c
 
 ## Delivered and verified
 
+- [Folding supplement](results/folding_expansion/README.md): 383 validated models (341 candidate peptides across 223 RNA pairs, 42 controls), 117 missing at cutoff; 34 matched fragment comparisons. All 2,211 archive hashes and the clean-extraction verifier passed. These are conditional reference models, not validated proteins.
+
 - 479 eligible ordered pairs, 109 reported NanoString-supported pairs; 401 complete Hi-C pairs. Unknown assay support is not a biological negative.
 - Matched AP: RNA 0.296, RNA + Hi-C 0.300; paired interval spans zero. Tie-aware expected top-20: full-panel read support 11.07 versus RNA 11.00; matched read support 9.73, RNA 9.63, Hi-C 9.00. No established ranking gain.
 - Three recorded Codex review cases, twelve exact tool-output replays, source-linked proposals and local scientist-review receipts. All three independent scientist reviews remain pending.
@@ -17,6 +19,6 @@ User-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) is c
 
 ## Remaining gates
 
-Authorized browser verification; human rehearsal; deck sharing; integration only of verified outputs from the separate sequencing and folding tasks. Prospective utility remains unmeasured. K562 completion metadata reports 8/8 stages but does not establish a ranker gain; it stays outside the core story.
+Authorized browser verification; human rehearsal; deck sharing; recovery and verification of remaining sequencing outputs. Prospective utility remains unmeasured. K562 completion metadata reports 8/8 stages but does not establish a ranker gain; it stays outside the core story.
 
 [Start here](START_HERE.md) · [Gaps and next actions](GAPS.md)

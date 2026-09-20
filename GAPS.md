@@ -6,11 +6,11 @@ Delivered capabilities and verification are listed in [STATUS.md](STATUS.md). Th
 
 Work window extended by the user to **13:07 BST on 20 September 2026**.
 
-**Current integration blocker:** sequencing stopped at its cutoff without a complete full-dataset result; folding collection is still in progress. The controller outage interrupted output recovery. Keep integration local and use only recovered, hash-checked artifacts; the public release remains the verified baseline.
+**Current integration blocker:** sequencing stopped at its cutoff without a complete full-dataset result; the frozen folding supplement is now independently verified. The controller outage interrupted output recovery. Keep integration local and use only recovered, hash-checked artifacts; the public release remains the verified baseline.
 
 ## Next actions, in priority order
 
-1. **Verify final analysis handoffs:** distinguish recovered artifacts from newer observed progress. For folding, check sequence provenance, planned/completed/missing counts, model hashes and controls. Keep RNA pairs, peptide hypotheses and models separate; do not infer translation or function from a fold.
+1. **Verify final analysis handoffs:** distinguish recovered artifacts from newer observed progress. Folding verification is complete; retain the explicit missingness and sequence-hypothesis limits. Keep RNA pairs, peptide hypotheses and models separate; do not infer translation or function from a fold.
 2. **Presentation and access:** seven presented slides and appendix are visually checked, with a 4:06 synthetic fallback. Deck metadata still reports owner-only access; verify after the owner enables link viewing. Human rehearsal and pronunciation review remain open.
 3. **Browser verification, when available:** the enforced policy check is blocked. Once restored, verify case switching, keyboard navigation, source links, review persistence and downloads. Mock-document checks do not establish browser behaviour; do not bypass the policy.
 4. **Utility:** independent reviewer evaluation remains unperformed. Report utility as unmeasured; three selected demonstrations cannot establish time savings or broad accuracy.
@@ -19,7 +19,7 @@ Work window extended by the user to **13:07 BST on 20 September 2026**.
 
 The sequencing owner confirmed all three workers stopped; its current local shutdown receipt was inspected. Complete full-cohort results are not recovered and verified, so the presentation retains the completed **two-million paired short-read Parabricks** result.
 
-The folding selection is frozen at **450 conditional candidate peptides from 266 RNA pairs plus 50 parental-fragment controls**. Integration independently checked all selection-file hashes, 500 unique sequence hashes and 50 exact fragment correspondences. These are selected-input counts, not completed structures; final model collection and validation are pending. The random and enriched selection arms must remain separate, and incomplete output coverage cannot support population-wide estimates.
+The [folding supplement](results/folding_expansion/README.md) contains **341 verified candidate peptide models across 223 RNA pairs plus 42 controls**, with 117 of 500 selected predictions missing. All archive hashes, model checks and 34 matched fragment comparisons passed independent review. Keep the random and enriched arms separate; neither model completion nor confidence establishes translation, function or population-wide prevalence.
 
 Keep K562 outside the current seven-slide story: completion metadata reports 8/8 stages, but the reported top-20 result ties the read-count baseline. The imported K562 worktree remains an older snapshot; do not silently combine its artifacts with the later completion metadata. This polishing task owns evidence review and submission integration. Separate tasks own the authorized sequencing and folding expansions; unfinished outputs do not change the submission claims.
 
