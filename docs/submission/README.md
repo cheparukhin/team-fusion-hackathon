@@ -17,7 +17,7 @@ Three presented slides plus one non-presented technical appendix. The original o
 
 The complete timed script is in [speaker-notes.json](speaker-notes.json) and the native deck. These are planned timings, not completed rehearsals.
 
-[Scientific claim audit, judge questions and independent-review instructions](SCIENTIFIC_REVIEW.md).
+[Scientific claim audit, judge questions and independent-review instructions](SCIENTIFIC_REVIEW.md) · [Requirement-by-requirement readiness audit](READINESS.md).
 
 ## Evidence and limits
 

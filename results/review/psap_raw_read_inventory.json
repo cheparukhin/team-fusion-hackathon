@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-09-20T00:31:59.517050+00:00",
+  "source_path": "/home/ubuntu/workspace/chrna/data/raw/fastq/SRR28984805.fastq",
+  "source_bytes": 4107433776,
+  "source_sha256": "3efd650f448ac2882d8e1b49c0b77412386f48568dea032765082fd9b90efb6e",
+  "records_scanned": 2238871,
+  "requested_read_ids": [
+    "01c53056-0db8-483f-ad0d-5400599b823a",
+    "3d1cd4de-7d0d-4d67-8262-75c1310fb7c1",
+    "4b64b5d6-258f-468e-8998-243b495839bb",
+    "b1b5d882-9f34-49dd-ad66-8d1a3ca07729",
+    "deb1feba-eaac-48db-b599-06f5ef943dfd",
+    "ff7126da-5d4f-43a2-9670-d9014ec6cb02"
+  ],
+  "matched_reads": [],
+  "missing_read_ids": [
+    "01c53056-0db8-483f-ad0d-5400599b823a",
+    "3d1cd4de-7d0d-4d67-8262-75c1310fb7c1",
+    "4b64b5d6-258f-468e-8998-243b495839bb",
+    "b1b5d882-9f34-49dd-ad66-8d1a3ca07729",
+    "deb1feba-eaac-48db-b599-06f5ef943dfd",
+    "ff7126da-5d4f-43a2-9670-d9014ec6cb02"
+  ],
+  "elapsed_seconds": 70.16,
+  "scope": "Exact original read-ID search in one existing cached mouse FASTQ; non-matches do not imply absence from other runs."
+}

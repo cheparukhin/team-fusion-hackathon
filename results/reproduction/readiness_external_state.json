@@ -1,0 +1,45 @@
+{
+  "checked_utc": "2026-09-20T00:33:45.194536+00:00",
+  "github_visibility": "PRIVATE",
+  "deck_permissions": "owner only",
+  "deck_id": "1bnxMDj1dVAnIauboX6clVpuLMnzJVSns28jrIecd8QE",
+  "k562_metadata_snapshot": {
+    "updated_utc": "2026-09-20T00:29:52.830525+00:00",
+    "phase": "Completed",
+    "stages_complete": 8,
+    "stages_total": 8,
+    "corroboration_intersection": 5,
+    "ranker_top20": {
+      "k": 20,
+      "expected_supported": 5.0,
+      "fraction": 0.25
+    },
+    "read_count_top20": {
+      "k": 20,
+      "expected_supported": 5.0,
+      "fraction": 0.25
+    },
+    "biological_independence": "UNKNOWN",
+    "repeatability_scope": "Real-read hash subset, not full-data bitwise reproducibility",
+    "shutdown": {
+      "utc": "2026-09-20T00:29:33.820610+00:00",
+      "name": "chrna-k562-cpu-20260919",
+      "instance_id": "t0zbsogjg",
+      "status": "STOPPED"
+    }
+  },
+  "scope_decision": "Exclude K562 from current three-slide narrative; metadata inspection is not independent validation. No ranker gain in reported top20.",
+  "brev_inventory_recheck": {
+    "running": [
+      "chrna-controller"
+    ],
+    "stopped": [
+      "chrna-boltz-20260919",
+      "chrna-pilot-cpu-20260919"
+    ],
+    "k562_instance": "not listed; no running K562 instance",
+    "new_instances_provisioned_by_this_task": 0,
+    "hourly_cap_usd": 400,
+    "billing_total_independently_verified": false
+  }
+}
