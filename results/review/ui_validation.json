@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-09-20T00:26:26.906719+00:00",
-  "application_logic": "passed",
+  "checked_at": "2026-09-20T10:22:48.925974+00:00",
+  "application_logic": "passed_on_clean_bundle_2bd1c15",
   "method": "Node vm with mock document; no browser rendering or interaction",
   "checks": [
     "three case evidence values",
@@ -14,7 +14,7 @@
     "focus restoration for case/evidence selection and claim-to-evidence navigation"
   ],
   "browser_visual": "blocked",
-  "reason": "Codex browser tool could not verify admin-enforced policy in three direct attempts. No bypass attempted.",
+  "reason": "Direct in-app-browser navigation failed the admin-enforced policy check again during the extended work window. No alternate browser or indirect bypass used.",
   "human_scientist_review": "pending",
   "ui_test_reviewers": "Synthetic test-only names inside isolated mock state; not saved as scientist reviews."
 }

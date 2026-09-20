@@ -15,7 +15,7 @@ Three presented slides plus a technical appendix. All four native slide images w
 
 ## Current scientific scope
 
-The [AI scientific review](SCIENTIFIC_REVIEW.md) is complete. The reviewed scientific source version is `76fb5de`; the submission ZIP manifest identifies its complete packaged version. The public repository contains the current source; the release candidate is being refreshed.
+The [AI scientific review](SCIENTIFIC_REVIEW.md) is complete. The reviewed scientific source version is `76fb5de`; the submission ZIP manifest identifies its complete packaged version. The public repository contains the current source; [download the reviewed release](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-reviewed-2026-09-20).
 
 The three cases are selected demonstrations. Hi-C has no established ranking gain. The 924-base discrepancy is a genomic-coordinate comparison, not proof of a bad probe or false RNA. Gsdmd–Tmem106a has published protein and functional evidence that our weak model does not contradict. Independent human review and utility measurement remain unperformed.
 

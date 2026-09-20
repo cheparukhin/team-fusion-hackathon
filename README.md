@@ -105,6 +105,8 @@ Primary source: [Venezia et al., Nature (2026)](https://www.nature.com/articles/
 
 ## Submission bundle
 
-The repository is public, but the current candidate release is still a draft at `e908480`; anonymous judges cannot download it. The older public “Latest” release is the initial checkpoint. The draft ZIP intentionally preserves its recorded source commit and does not include later documentation updates.
+[Download the reviewed submission](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-reviewed-2026-09-20): extract the ZIP and start with `START_HERE.md`. The package includes the offline demo, evidence, slide preview and narrated fallback. Its `SUBMISSION_MANIFEST.json` pins the exact source commit and every file hash; release validation states the tested scope.
 
-After committing the intended files, run `.venv/bin/python scripts/package_submission.py`. The ZIP in `dist/chrna_submission.zip` contains tracked code/artifacts and an internal SHA-256 manifest, with raw caches excluded.
+The bundle code passed 30 Python tests, twelve exact evidence replays and UI application-logic checks on the shared CPU. Real-browser verification and human rehearsal remain open. Full-dataset expansion is running separately; no incomplete result is promoted into this release.
+
+To package a Git checkout after committing changes, run `python3 scripts/package_submission.py`. Raw caches are excluded.

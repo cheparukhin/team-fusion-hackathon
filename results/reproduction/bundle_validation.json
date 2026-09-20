@@ -1,28 +1,136 @@
 {
-  "validated_utc": "2026-09-20T00:16:15.281665+00:00",
-  "git_commit": "6784cc82e3f43f4b19985527680b8a56c60f3734",
-  "archive_sha256": "80f8b736b92cc37443b498a2d87ec3e1d2e3f918e9a456163dbf7522c4700ee2",
-  "archive_bytes": 117028652,
-  "tracked_files": 674,
+  "checked_at": "2026-09-20T10:21:41.949635+00:00",
+  "status": "passed",
   "host": "chrna-controller",
-  "working_directory": "/home/ubuntu/workspace/fusion-overnight-20260920/bundle-6784cc8/chrna",
-  "environment": "Existing fresh .venv-clean from prior reproduction; extracted bundle, no raw source/reference caches copied",
-  "threads": {
-    "OPENBLAS_NUM_THREADS": 1,
-    "OMP_NUM_THREADS": 1
-  },
+  "working_directory": "/home/ubuntu/workspace/fusion-overnight-20260920/bundle-2bd1c15/chrna",
+  "source_commit": "2bd1c15c8e34018cc55f30771f7e06f09e9a9521",
+  "file_count": 640,
+  "archive_sha256": "45dd5c07933a34b529581777c19fc5d42487a0be874d5e6944e1b3ce3a522354",
   "checks": {
-    "archive_crc": "passed",
-    "all_extracted_file_hashes_and_lengths": "passed",
-    "exact_review_tool_replay": "12 of 12 passed",
-    "pytest": "30 passed in 4.92 seconds",
-    "review_ui_mock_document": "passed; not a browser test"
+    "python_tests": "..............................                                           [100%]\n30 passed in 16.41s",
+    "review_replay": {
+      "status": "passed",
+      "runs": [
+        {
+          "case": "cd274-lacc1",
+          "pair_id": "Cd274:Lacc1",
+          "status": "passed",
+          "checks": [
+            {
+              "step": 1,
+              "tool": "retrieve_candidate",
+              "output_identical": true,
+              "source_bytes_changed_but_relevant_output_identical": []
+            },
+            {
+              "step": 2,
+              "tool": "rematch_parabricks",
+              "output_identical": true,
+              "source_bytes_changed_but_relevant_output_identical": []
+            },
+            {
+              "step": 3,
+              "tool": "inspect_structure",
+              "output_identical": true,
+              "source_bytes_changed_but_relevant_output_identical": []
+            },
+            {
+              "step": 4,
+              "tool": "retrieve_sources",
+              "output_identical": true,
+              "source_bytes_changed_but_relevant_output_identical": []
+            }
+          ],
+          "decision_sha256": "12730365853f2571ededed7a62236b6655032ecabb349cd165a19be6e0130e9b",
+          "step_sha256": {
+            "step-01.json": "1574622297a32326124855ac0e27f2c1c98e8107d6fb5d7453bcd6b9c1f70ed5",
+            "step-02.json": "a76ca0d2706b3eec12b278ff273e51deeafd85638731b9d339170329a48b965e",
+            "step-03.json": "19e67802b3c5b2bcee67f4815c08c9200735a6732d30e858eae39d39c7c99835",
+            "step-04.json": "ec6ce309acad7c55a87f778c9700aaad84d7a7e1e134f7dd9e56650f045e5270"
+          },
+          "scope": "Recomputed tool outputs and resolved evidence pointers. Does not automatically verify natural-language entailment or substitute for scientist review."
+        },
+        {
+          "case": "gsdmd-tmem106a",
+          "pair_id": "Gsdmd:Tmem106a",
+          "status": "passed",
+          "checks": [
+            {
+              "step": 1,
+              "tool": "retrieve_candidate",
+              "output_identical": true,
+              "source_bytes_changed_but_relevant_output_identical": []
+            },
+            {
+              "step": 2,
+              "tool": "compare_probe_junctions",
+              "output_identical": true,
+              "source_bytes_changed_but_relevant_output_identical": []
+            },
+            {
+              "step": 3,
+              "tool": "rematch_parabricks",
+              "output_identical": true,
+              "source_bytes_changed_but_relevant_output_identical": []
+            },
+            {
+              "step": 4,
+              "tool": "inspect_structure",
+              "output_identical": true,
+              "source_bytes_changed_but_relevant_output_identical": []
+            },
+            {
+              "step": 5,
+              "tool": "retrieve_sources",
+              "output_identical": true,
+              "source_bytes_changed_but_relevant_output_identical": []
+            }
+          ],
+          "decision_sha256": "5da82f6494441b9cb023889033d46d425c3e0555f35f966d4d735e4772369cb5",
+          "step_sha256": {
+            "step-01.json": "69569a3327eb0913080563cd88fde9357ed752e6ae3ff68c36bd326a81e22cd0",
+            "step-02.json": "6e4134a5311e72d1447c5ad0ce4a42e94c3fa08172f1798de36ace19efa5ccb2",
+            "step-03.json": "548801727657cde2ca5b18a170c00445e3dc08eb561d5a976c9bb3351826a2f5",
+            "step-04.json": "f0573651916f9e33b2bc38c77807e5e4e1ea6edc572ea461676fd431b393be6c",
+            "step-05.json": "afe74c8b8c2d7843d9e08e523b919a40adaac7a208735d617f50f3b3dc5f74f8"
+          },
+          "scope": "Recomputed tool outputs and resolved evidence pointers. Does not automatically verify natural-language entailment or substitute for scientist review."
+        },
+        {
+          "case": "psap-lgals3",
+          "pair_id": "Psap:Lgals3",
+          "status": "passed",
+          "checks": [
+            {
+              "step": 1,
+              "tool": "retrieve_candidate",
+              "output_identical": true,
+              "source_bytes_changed_but_relevant_output_identical": []
+            },
+            {
+              "step": 2,
+              "tool": "compare_probe_junctions",
+              "output_identical": true,
+              "source_bytes_changed_but_relevant_output_identical": []
+            },
+            {
+              "step": 3,
+              "tool": "rematch_parabricks",
+              "output_identical": true,
+              "source_bytes_changed_but_relevant_output_identical": []
+            }
+          ],
+          "decision_sha256": "ed788295590e67e700cbddf543860085d5ce6910bbb4d3902ef2fe9e5032872d",
+          "step_sha256": {
+            "step-01.json": "d308cbe50ad758a0f00bdaf59dbcaf42ab93c4459fbaf676a830e337a322205a",
+            "step-02.json": "5cbb7de9a8ea25cd8b6ac171d0a52370f6065480d97f93c4f898cae12d33b122",
+            "step-03.json": "bdcd00686a9a11f868a526117d3a0fdb0ca48a73db5cb7c7c004bfbc8b105e65"
+          },
+          "scope": "Recomputed tool outputs and resolved evidence pointers. Does not automatically verify natural-language entailment or substitute for scientist review."
+        }
+      ]
+    },
+    "ui_logic": "Review application logic passed: three cases, empty-field rejection, persistence, case binding, export, clear, unavailable storage, stale record rejection, text escaping, keyboard focus handoff. Visual/browser verification not performed."
   },
-  "not_verified": [
-    "Browser rendering or interaction",
-    "Human scientific endorsement",
-    "Prospective utility",
-    "Judge account access"
-  ],
-  "additional_compute_provisioned": false
+  "scope": "Every archive CRC and manifest hash, Python suite, twelve recorded tool outputs and mock-document UI logic. No real browser/visual check or human review."
 }
