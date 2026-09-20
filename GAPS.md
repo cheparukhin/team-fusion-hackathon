@@ -6,18 +6,20 @@ Delivered capabilities and verification are listed in [STATUS.md](STATUS.md). Th
 
 Work window extended by the user to **13:07 BST on 20 September 2026**.
 
-**Current integration blocker:** host access to `chrna-controller` reportedly recovered, but severe memory pressure remains (about 243 MB available, no swap). Keep integration local. The published release is available independently; analysis owners are recovering outputs and maintaining independent worker cutoffs. Do not add controller load or assume controller-based watchers are healthy. New results remain unverified.
+**Current integration blocker:** sequencing stopped at its cutoff without a complete full-dataset result; folding collection is still in progress. The controller outage interrupted output recovery. Keep integration local and use only recovered, hash-checked artifacts; the public release remains the verified baseline.
 
 ## Next actions, in priority order
 
-1. **Real browser verification:** once the enforced browser-policy check is available, verify case switching, keyboard navigation, evidence links, review persistence and downloads. Current mock-document tests are not browser tests. Do not bypass the policy check.
-2. **Presentation and access:** native slides and notes now reflect the public repository and completed AI review. Verify link sharing after the owner enables it; rehearse twice under five minutes and check fallback pronunciation. The video is not an interactive demo recording or a human rehearsal.
-3. **New-results integration:** inspect the sequencing and folding tasks’ completed outputs and provenance before changing any scientific claim. Distinguish supported RNA pairs, conditional peptide hypotheses and completed models. A public reviewed release of the current evidence workflow is available with an exact source manifest and clean-bundle validation. Keep a usable release available if the full analysis is incomplete at its cutoff.
-4. **Utility evaluation:** use a prespecified comparison with actual reviewers if feasible. Otherwise report utility as unmeasured. The three selected demonstrations cannot establish time savings or broad accuracy.
+1. **Verify final analysis handoffs:** distinguish recovered artifacts from newer observed progress. For folding, check sequence provenance, planned/completed/missing counts, model hashes and controls. Keep RNA pairs, peptide hypotheses and models separate; do not infer translation or function from a fold.
+2. **Presentation and access:** seven presented slides and appendix are visually checked, with a 4:06 synthetic fallback. Deck metadata still reports owner-only access; verify after the owner enables link viewing. Human rehearsal and pronunciation review remain open.
+3. **Browser verification, when available:** the enforced policy check is blocked. Once restored, verify case switching, keyboard navigation, source links, review persistence and downloads. Mock-document checks do not establish browser behaviour; do not bypass the policy.
+4. **Utility:** independent reviewer evaluation remains unperformed. Report utility as unmeasured; three selected demonstrations cannot establish time savings or broad accuracy.
 
 ## Scope and compute
 
-A separate task is expanding both sequencing workflows, including ten mouse long-read samples (~52.9 million reads), under its one-hour cutoff. No full-cohort result is verified yet; the presentation still cites the completed **two-million paired short-read Parabricks** run. Integrate only completed, source-checked findings; preserve sample identity and distinguish the two assays.
+The sequencing owner confirmed all three workers stopped; its current local shutdown receipt was inspected. Complete full-cohort results are not recovered and verified, so the presentation retains the completed **two-million paired short-read Parabricks** result.
+
+The folding selection is frozen at **450 conditional candidate peptides from 266 RNA pairs plus 50 parental-fragment controls**. Integration independently checked all selection-file hashes, 500 unique sequence hashes and 50 exact fragment correspondences. These are selected-input counts, not completed structures; final model collection and validation are pending. The random and enriched selection arms must remain separate, and incomplete output coverage cannot support population-wide estimates.
 
 Keep K562 outside the current seven-slide story: completion metadata reports 8/8 stages, but the reported top-20 result ties the read-count baseline. The imported K562 worktree remains an older snapshot; do not silently combine its artifacts with the later completion metadata. This polishing task owns evidence review and submission integration. Separate tasks own the authorized sequencing and folding expansions; unfinished outputs do not change the submission claims.
 
