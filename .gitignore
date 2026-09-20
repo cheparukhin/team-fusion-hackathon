@@ -20,3 +20,10 @@ results/hic/raw/
 *.tar.gz
 *.zip
 dist/
+
+# Local editor and test caches
+.DS_Store
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/

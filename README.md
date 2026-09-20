@@ -1,6 +1,19 @@
-# chRNA evidence prioritization
+# Team Fusion — chimeric RNA evidence and protein hypotheses
 
 **Current submission:** [start here](START_HERE.md) · [verified status](STATUS.md) · [gaps and action plan](GAPS.md)
+
+Three complementary hackathon outputs: **RNA ranking**, **fusion-protein disorder analysis**, and an **RNA/exon/structure dashboard**. We investigate which chimeric-RNA hypotheses merit follow-up; predicted proteins are not evidence of translation or function.
+
+| Explore | Evidence / reproduction |
+| --- | --- |
+| [Public structure dashboard](https://chimeric-rna-exon-structures.a-cheparukhin.chatgpt.site) | [Portable source and local viewer](dashboard/README.md): ten pilot hypotheses plus a separate literature control |
+| Ranking with RNA and 3D-genome features | [Held-out metrics](results/classifier/metrics.json): no established Hi-C gain |
+| Fusion-protein disorder | [Recovered campaign](results/recovery_20260920/snapshot/results/structure_campaign/RESULTS.md): 188 conditional hypotheses; V3/V1 sensitivity reported separately |
+| [Team's final presentation](https://docs.google.com/presentation/d/1qZ2owRuz6j3A48Y_XcheWADuoPh6HYkmn2NCLqFDybk/edit) | [Submission guide and remaining gates](docs/submission/README.md) |
+
+Scope follows the [shared doc's FINAL tab](https://docs.google.com/document/d/1suaqiVIxDCT2D8bvYndyFK6X1NSLv9tCG7VbrBRzrG4/edit?tab=t.ge1x7g3r1m8e), checked 20 September 2026. See [START_HERE.md](START_HERE.md) for the shortest judge walkthrough.
+
+## Evidence-review companion
 
 An evidence-review assistant that helps scientists decide which chimeric-RNA junctions merit experimental follow-up. It checks the evidence behind a ranked pair, distinguishes conflicts from missing information, and proposes the next discriminating check for scientist review.
 
@@ -20,12 +33,12 @@ Three [recorded review cases](results/review/case_freeze.json) contain actual Co
 
 ## Submission presentation
 
-[Seven-slide organiser-template deck, technical appendix and timed script](docs/submission/README.md). This is the current submission narrative. The slide previews were visually inspected and the reviewed release is public. Independent human review, browser verification, rehearsal and Google Slides sharing remain pending.
+The [submission guide](docs/submission/README.md) links the final team deck and maps all three contributions to code and evidence. The older evidence-review deck, PDF and narrated video remain available as **historical fallback materials**, not snapshots of the final team presentation.
 
 ## Open the demo
 
 ```bash
-.venv/bin/python scripts/demo/serve.py
+python3 scripts/demo/serve.py
 ```
 
 Open **`http://127.0.0.1:8000/demo/review/`** for the scientist-review story, or `http://127.0.0.1:8000/demo/` for the full evidence explorer. The browser loads cached data, evidence, and reports without external services. For a remote demo, run the server on a separate worker instance and forward port 8000 from that worker; reserve `chrna-controller` for lightweight repository operations. The static `demo/index.html` also embeds its data through `data.js`; linked provenance and animation are easiest to use through the local server.
@@ -35,13 +48,13 @@ Open **`http://127.0.0.1:8000/demo/review/`** for the scientist-review story, or
 Python 3.12 and `uv` are used here. To rebuild the environment:
 
 ```bash
-uv venv .venv
-uv pip install --python .venv/bin/python -r requirements.lock
+uv venv --python 3.12 .venv
+uv pip install --python .venv/bin/python -r requirements-core.lock
 ```
 
-The optional native Hi-C reader needs a C++ compiler, Python headers, libcurl and zlib headers; on Ubuntu these are `g++ python3-dev libcurl4-openssl-dev zlib1g-dev`.
+The default install uses the bundled Hi-C feature table and needs no native Hi-C reader. Only for `--download-hic` or `--rebuild-hic`, install `uv pip install --python .venv/bin/python -r requirements.lock`. The optional native Hi-C reader needs a C++ compiler, Python headers, libcurl and zlib headers; on Ubuntu these are `g++ python3-dev libcurl4-openssl-dev zlib1g-dev`.
 
-Rebuild from the cached published inputs and cached Hi-C feature table:
+If the ignored source-input caches are already present, rebuild from those inputs and the bundled Hi-C feature table:
 
 ```bash
 .venv/bin/python scripts/reproduce.py
@@ -103,11 +116,13 @@ Large raw sequencing/contact files and downloaded reference assets are excluded 
 
 Primary source: [Venezia et al., Nature (2026)](https://www.nature.com/articles/s41586-026-10982-x). See the source manifest for exact supplementary files and GENCODE inputs.
 
-## Submission bundle
+## Historical submission bundle
 
-[Download the reviewed submission](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-expanded-2026-09-20): extract the ZIP and start with `START_HERE.md`. The package includes the offline demo, evidence, slide preview and narrated fallback. Its `SUBMISSION_MANIFEST.json` pins the exact source commit and every file hash; release validation states the tested scope.
+[Download the earlier reviewed evidence-workflow submission](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-expanded-2026-09-20): extract the ZIP and start with `START_HERE.md`. The package includes the offline demo, evidence, slide preview and narrated fallback. Its `SUBMISSION_MANIFEST.json` pins the exact source commit and every file hash; release validation states the tested scope.
 
 The bundle code passed 30 Python tests, twelve exact evidence replays and UI application-logic checks in the recorded CPU validation. Real-browser verification and human rehearsal remain open. The full-dataset analysis did not finish within its cutoff; incomplete results are excluded.
+
+That frozen release predates the final team narrative, recovered disorder source and portable structure dashboard; use the current repository for these additions.
 
 To package a Git checkout after committing changes, run `python3 scripts/package_submission.py`. Raw caches are excluded.
 

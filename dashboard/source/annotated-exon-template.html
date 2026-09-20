@@ -1,0 +1,67 @@
+<section id="annotated-chrna">
+<style>
+#annotated-chrna .meta{margin:8px 0;overflow-wrap:anywhere}
+#annotated-chrna .source{margin:20px 0}
+#annotated-chrna .swatch{display:inline-block;width:12px;height:12px;margin-right:6px}
+#annotated-chrna svg{display:block;width:100%;overflow:visible}
+#annotated-chrna svg text{fill:var(--foreground);font-size:12px}
+#annotated-chrna .lane-heading{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:6px}
+#annotated-chrna .legend{display:flex;flex-wrap:wrap;gap:14px;margin:12px 0}
+#annotated-chrna .dna{font-family:monospace;overflow-wrap:anywhere}
+#annotated-chrna details{margin-top:14px}
+#annotated-chrna .facts{display:grid;gap:6px;margin:10px 0}
+</style>
+<h2>Which gene contributes each exon?</h2>
+<div class="viz-controls"><label class="form-label">Predicted sequence<select class="form-select" id="anno-candidate"></select></label></div>
+<div class="meta text-small" id="anno-context"></div>
+<div class="legend text-small"><span><i class="swatch" style="background:var(--viz-series-1)"></i><span id="legend-a"></span></span><span><i class="swatch" style="background:var(--viz-series-2)"></i><span id="legend-b"></span></span><span>┄ skipped genomic span / intron</span><span>* partial exon</span><span>extra nt: outside annotated exons</span></div>
+<div id="anno-sources"></div>
+<h3>Reconstructed chimeric RNA and predicted coding region</h3>
+<div id="anno-rna" role="img" aria-label="Gene contributions to the RNA and its predicted coding region"></div>
+<div id="anno-facts" class="facts text-small" aria-live="polite"></div>
+<details><summary>Exon coordinates and coding overlap</summary><div id="anno-table"></div></details>
+<div class="meta text-small text-muted">GRCm39 · GENCODE M28 · Genomic positions: 1-based inclusive · RNA offsets: 0-based, end-exclusive · Exon numbers belong to the displayed transcript.</div>
+<script type="application/json" id="anno-data">__ANNOTATION_DATA__</script>
+<script>
+(()=>{
+const root=document.getElementById('annotated-chrna'), all=JSON.parse(root.querySelector('#anno-data').textContent).candidates;
+const picker=root.querySelector('#anno-candidate'), sources=root.querySelector('#anno-sources'), chart=root.querySelector('#anno-rna');
+let candidate=8, choices=[0,0];
+const fmt=n=>n.toLocaleString(), esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const text=(x,y,s,anchor='start')=>`<text x="${x}" y="${y}" text-anchor="${anchor}">${esc(s)}</text>`;
+const current=()=>all[candidate];
+function state(s){const i=Number(s?.privateContent?.candidate);if(Number.isInteger(i)&&i>=0&&i<all.length){candidate=i;choices=[0,0];const c=s.privateContent.choices;if(Array.isArray(c)&&c.length===2)choices=c.map((n,j)=>Number.isInteger(n)&&n>=0&&n<all[i].arms[j].choices.length?n:0);}}
+state(window.openai?.widgetState);
+function save(){window.openai?.setWidgetState?.({modelContent:{candidate:current().name,transcripts:current().arms.map((a,i)=>a.choices[choices[i]].id)},privateContent:{candidate,choices}})?.catch(()=>{});}
+all.forEach((d,i)=>{const o=document.createElement('option');o.value=i;o.textContent=d.name;picker.appendChild(o)});picker.value=candidate;
+function table(){const d=current();let rows='';d.arms.forEach((a,i)=>{const t=a.choices[choices[i]],offset=i?d.junction[1]+Math.min(0,d.query_gap):0;t.segments.forEach(s=>{const r0=offset+s.rna_start,r1=offset+s.rna_end;const coding=Math.max(0,Math.min(r1,d.orf.stop_start)-Math.max(r0,d.orf.start));rows+=`<tr><td>${esc(a.gene)} ${s.kind==='exon'?'E'+s.number+(s.partial?'*':''):'non-exonic'}</td><td>${esc(a.chromosome)}:${fmt(s.start+1)}–${fmt(s.end)}<br><span class="text-small">${esc(t.name)}</span></td><td>${s.end-s.start}</td><td>${coding}</td></tr>`;});});root.querySelector('#anno-table').innerHTML=`<table class="table table-sm"><thead><tr><th>RNA segment</th><th>Genomic bases / transcript</th><th>RNA nt</th><th>Within ORF, nt</th></tr></thead><tbody>${rows}</tbody></table><div class="text-small text-muted">The shared junction overlap can occur in both arm rows. Non-exonic means outside this transcript’s annotated exons; it is not a validated retained intron.</div>`;}
+function sourceDOM(){const d=current();sources.replaceChildren();d.arms.forEach((a,i)=>{const t=a.choices[choices[i]],section=document.createElement('div');section.className='source';section.innerHTML=`<div class="lane-heading"><i class="swatch" style="background:var(--viz-series-${i+1})"></i><span>${esc(a.gene)} · ${i?'3′ downstream source':'5′ upstream source'}</span></div><label class="form-label">Reference transcript for exon labels<select class="form-select" id="anno-tx-${i}"></select></label><div class="meta text-small text-muted" id="anno-txmeta-${i}"></div><div id="anno-lane-${i}" role="img" aria-label="${esc(a.gene)} mapped exon blocks in RNA order"></div>`;sources.appendChild(section);const select=section.querySelector('select');a.choices.forEach((tx,j)=>{const opt=document.createElement('option');opt.value=j;opt.textContent=`${tx.name} · ${tx.id}`;select.appendChild(opt)});select.value=choices[i];select.addEventListener('change',()=>{choices[i]=Number(select.value);render();save();});});}
+function drawSource(a,i,W){const t=a.choices[choices[i]],color=`var(--viz-series-${i+1})`,n=a.blocks.length;const cols=Math.max(1,Math.floor((W+12)/112)),gap=16,cw=(W-(cols-1)*gap)/cols,rows=Math.ceil(n/cols),h=rows*72+22;let out=`<svg viewBox="0 0 ${W} ${h}" role="img"><title>${esc(a.gene)} aligned blocks in 5-prime to 3-prime RNA order. Intron lengths are compressed.</title>`;
+for(let b=0;b<n;b++){const x=(b%cols)*(cw+gap),y=24+Math.floor(b/cols)*72,parts=t.segments.filter(s=>s.block===b+1),ex=parts.filter(s=>s.kind==='exon'),nums=[...new Set(ex.map(s=>s.number))],extra=parts.filter(s=>s.kind!=='exon').reduce((n,s)=>n+s.end-s.start,0),label=nums.length?'E'+nums.join('/E')+(ex.some(s=>s.partial)?'*':''):'non-exonic';const coords=`${a.chromosome}:${fmt(a.blocks[b][0]+1)}–${fmt(a.blocks[b][1])}`;const tip=`${a.gene} · ${t.name} · ${label}; ${coords}; ${a.blocks[b][1]-a.blocks[b][0]} reference-assisted nt${extra?'; '+extra+' nt outside annotated exons':''}`;
+out+=text(x+cw/2,y-6,label,'middle');out+=`<rect x="${x}" y="${y}" width="${cw}" height="18" fill="${color}" opacity="${nums.length?'.8':'.22'}" data-tooltip="${esc(tip)}"/>`;
+if(extra)out+=text(x+cw/2,y+35,`${extra} extra nt`,'middle');else out+=text(x+cw/2,y+35,`${a.blocks[b][1]-a.blocks[b][0]} nt`,'middle');
+if(b+1<n){if((b+1)%cols!==0)out+=`<line x1="${x+cw}" x2="${x+cw+gap}" y1="${y+9}" y2="${y+9}" stroke="var(--muted-foreground)" stroke-dasharray="3 3"/>`;else out+=text(W,y+52,'↳ continues','end');}}
+out+=text(0,h-1,'5′ → 3′ RNA order · block widths schematic');out+='</svg>';root.querySelector('#anno-lane-'+i).innerHTML=out;
+const pct=(100*t.covered_nt/t.projected_nt).toFixed(1);root.querySelector('#anno-txmeta-'+i).textContent=`${a.chromosome} (${a.strand} strand) · ${a.biotype} · ${pct}% of this arm overlaps these exons. ${choices[i]===0?'Default is a display choice; '+a.equally_scored_transcripts+' transcript(s) tie on coverage/splice score.':'Alternative transcript annotation; not an isoform assignment.'}`;}
+function drawRNA(W){const d=current(),L=20,R=W-20,wide=R-L,x=n=>L+wide*n/d.length_nt,j=d.junction,top=26,orfY=102;let out=`<svg viewBox="0 0 ${W} 156" role="img"><title>${esc(d.name)} RNA fragment, junction, and hypothetical coding region</title>`;
+out+=text(L,17,d.arms[0].gene+' (5′)');out+=text(R,17,d.arms[1].gene+' (3′)','end');
+out+=`<rect x="${L}" y="${top}" width="${x(j[0])-L}" height="24" fill="var(--viz-series-1)"/><rect x="${x(j[1])}" y="${top}" width="${R-x(j[1])}" height="24" fill="var(--viz-series-2)"/>`;
+d.arms.forEach((a,i)=>{const offset=i?j[1]+Math.min(0,d.query_gap):0;for(const s of a.choices[choices[i]].segments){const pos=offset+s.rna_start;if(pos>0&&pos<d.length_nt)out+=`<line x1="${x(pos)}" x2="${x(pos)}" y1="${top}" y2="${top+24}" stroke="var(--background)" stroke-width="1"/>`;}});
+const mid=x((j[0]+j[1])/2);out+=`<line x1="${mid}" x2="${mid}" y1="${top-4}" y2="${orfY+20}" stroke="var(--foreground)" stroke-dasharray="3 3"/><rect x="${x(j[0])}" y="${top-4}" width="${Math.max(3,x(j[1])-x(j[0]))}" height="32" fill="var(--viz-series-3)"/>`;
+out+=text(L,73,`Join: ${j[0]}–${j[1]} nt${d.query_gap<0?' · '+(-d.query_gap)+' nt shared overlap':d.query_gap>0?' · '+d.query_gap+' nt gap':' · no overlap'}`);
+out+=text(L,94,'Hypothetical coding region');out+=`<rect x="${x(d.orf.start)}" y="${orfY}" width="${x(d.orf.stop_start)-x(d.orf.start)}" height="14" fill="var(--foreground)" opacity=".65"/>`;
+out+=text(L,139,`RNA: ${fmt(d.length_nt)} nt · ORF: ${d.orf.start}–${d.orf.stop_start} nt`);out+=text(R,156,`${d.length_aa} amino acids · scale: reconstructed RNA nt`,'end');chart.innerHTML=out+'</svg>';}
+function facts(){const d=current(),a=d.arms[0],b=d.arms[1],ta=a.choices[choices[0]],tb=b.choices[choices[1]],uniqueLeft=Math.max(0,d.junction[0]-d.orf.start),uniqueRight=Math.max(0,d.orf.stop_start-d.junction[1]);
+function codingExons(arm,i){const tx=arm.choices[choices[i]],offset=i?d.junction[1]+Math.min(0,d.query_gap):0;return [...new Set(tx.segments.filter(s=>s.kind==='exon'&&Math.min(offset+s.rna_end,d.orf.stop_start)>Math.max(offset+s.rna_start,d.orf.start)).map(s=>'E'+s.number))].join(', ');}
+const leftPure=Math.floor(uniqueLeft/3),rightFirst=Math.ceil((d.junction[1]-d.orf.start)/3)+1;
+const lines=[`Coding exon overlaps: ${a.gene} ${codingExons(a,0)} → ${b.gene} ${codingExons(b,1)}.`,
+`Protein positions: residues 1–${leftPure} use only ${a.gene}-side RNA; ${rightFirst}–${d.length_aa} use only ${b.gene}-side RNA${rightFirst-leftPure>1?'; intervening residue(s) cross or overlap the junction.':'.'}`,
+`These are RNA source labels, not proof that the parental proteins’ reading frames are retained.`];
+if(ta.nonexonic_nt+tb.nonexonic_nt)lines.push(`${ta.nonexonic_nt+tb.nonexonic_nt} projected arm nt fall outside the displayed transcripts’ exons; inspect the coordinate table. This can reflect alignment boundaries, annotation differences, or intronic sequence.`);
+root.querySelector('#anno-facts').replaceChildren(...lines.map(s=>{const el=document.createElement('div');el.textContent=s;return el}));}
+function draw(){const W=Math.max(260,root.getBoundingClientRect().width);current().arms.forEach((a,i)=>drawSource(a,i,W));drawRNA(W);}
+function render(){const d=current();root.querySelector('#anno-context').textContent=`${d.name} · ${d.length_aa} aa · ${d.read_count} supporting read · reference-assisted reconstruction`;root.querySelector('#legend-a').textContent=d.arms[0].gene;root.querySelector('#legend-b').textContent=d.arms[1].gene;sourceDOM();draw();facts();table();root.dataset.candidate=String(candidate);}
+picker.addEventListener('change',()=>{candidate=Number(picker.value);choices=[0,0];render();save();});new ResizeObserver(draw).observe(root);window.addEventListener('openai:set_globals',e=>{if(e.detail?.globals?.widgetState){state(e.detail.globals.widgetState);picker.value=candidate;render();}});render();
+})();
+</script>
+</section>

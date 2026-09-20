@@ -1,5 +1,16 @@
 # Current gaps and action plan
 
+## Final team submission gates — 20 September 2026
+
+1. Finish the [final team deck](https://docs.google.com/presentation/d/1qZ2owRuz6j3A48Y_XcheWADuoPh6HYkmn2NCLqFDybk/edit), which still had template placeholders at the cleanup check; verify public viewing and rehearse. The seven-slide deck below is an older fallback.
+2. Perform real-browser checks of the public dashboard and review demo once the enforced browser policy check is available. Application-logic tests do not close this gate.
+3. The recovered disorder source and summary tables are included, but full score profiles/coordinates and historical report assets are still in the local recovery archive. Do not claim that the compact snapshot is a complete standalone scientific rerun.
+4. Human scientific signoff and prospective utility measurements remain unperformed.
+
+[Current entry points](START_HERE.md) · [Submission guide](docs/submission/README.md). No new scientific computation or paid infrastructure is required for the cleanup.
+
+## Earlier closeout notes (historical)
+
 Updated 20 September 2026 after repository publication and documentation audit. AI scientific review is complete for the current claim set; presentation and delivery checks remain open.
 
 Delivered capabilities and verification are listed in [STATUS.md](STATUS.md). The user-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) confirmed the core calculations and corrected missing protein-evidence context. Independent human review remains unperformed; this AI review must not be presented as human signoff.

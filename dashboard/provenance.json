@@ -1,0 +1,24 @@
+{
+  "source": "/home/ubuntu/workspace/chrna and dashboard visualization assets",
+  "retrieved_date": "2026-09-20",
+  "original_standalone_sha256": "b31f832444e60e4c49c12e7d5fb03ab6b05d1374f4446639e5fe9da5615d32d7",
+  "adaptations": [
+    "Resolve all builder inputs relative to this directory",
+    "Use portable control provenance link",
+    "Preserve standalone frame, styles, host bridge and security policy from original HTML"
+  ],
+  "inputs": {
+    "inputs/exon_annotations_20260920.json": "e068eeea842be76677634da45930f731e3b60b6f14eb03cce358cc426e237abf",
+    "inputs/flagship_stage_trace.json": "02e086af6232c0a9fbd0c2748c34df8c4109735bb583b131b7e3559ecb87b2f3",
+    "inputs/provenance.json": "d87be49aa7ef35b7e45a5213708e58a53e8bca93a66256732eab45592d3593c4"
+  },
+  "source_files": {
+    "source/annotated-exon-template.html": "7a2a060ff2af39ded6dbb879cb14995eb89e8e0e5cb2405d53e6b4521e5a6e5f",
+    "source/combined-dashboard-template.html": "a2953c729e7208635caa27829f63a1a60c99a74db78dd268a820925eaa29b562",
+    "source/combined-structure-addon.js": "986491187196aa0aaacfb342f36682b0b2bb5ea5064409c9b3afb09d0381052a",
+    "source/frame-template.html": "eec5af1b55bd78f8016c785e76762c0ee6f1549663875a5f089086d7d99fdad3",
+    "source/predicted-structures.html": "35e3b863a779c519dcf470b67292e2180f3f8b8c4455b34c43ff8dd47e32a423",
+    "source/shell-template.html": "864b15b250868ea1cd6b3a9ebcc0c903a15ad50fe4f127116aedce2b5386d1c3"
+  },
+  "scope": "Frozen mouse pilot dashboard, not the later K562 expansion. No inference or biological analysis rerun."
+}

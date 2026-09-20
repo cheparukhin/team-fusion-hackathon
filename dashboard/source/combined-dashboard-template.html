@@ -1,0 +1,47 @@
+<section id="annotated-chrna">
+<style>
+#annotated-chrna .meta{margin:8px 0;overflow-wrap:anywhere}
+#annotated-chrna .source{margin:18px 0}
+#annotated-chrna .swatch{display:inline-block;width:12px;height:12px;margin-right:6px}
+#annotated-chrna svg{display:block;width:100%;overflow:visible}
+#annotated-chrna svg text{fill:var(--foreground);font-size:12px}
+#annotated-chrna .lane-heading{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:6px}
+#annotated-chrna .legend{display:flex;flex-wrap:wrap;gap:14px;margin:12px 0}
+#annotated-chrna details{margin-top:14px}
+#annotated-chrna .facts{display:grid;gap:6px;margin:10px 0}
+#annotated-chrna .linked-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:24px}
+#annotated-chrna .molecule{position:relative;width:100%;height:360px;overflow:hidden;touch-action:none}
+#annotated-chrna .detail{min-height:42px;overflow-wrap:anywhere;margin:8px 0}
+@media(max-width:680px){#annotated-chrna .linked-grid{grid-template-columns:minmax(0,1fr)}#annotated-chrna .molecule{height:320px}}
+</style>
+<h2>Chimeric RNA → exon origin → predicted structure</h2>
+<div class="viz-controls"><label class="form-label">Sequence · 10 pilot candidates + literature control<select class="form-select" id="anno-candidate"></select></label><label class="form-label">Highlight RNA segment / exon<select class="form-select" id="linked-exon"></select></label></div>
+<div class="meta text-small" id="anno-context"></div>
+<div class="legend text-small"><span><i class="swatch" style="background:var(--viz-series-1)"></i><span id="legend-a"></span></span><span><i class="swatch" style="background:var(--viz-series-2)"></i><span id="legend-b"></span></span><span><i class="swatch" style="background:var(--viz-series-3)"></i>Shared / cross-junction</span><span><i class="swatch" style="background:var(--viz-series-4)"></i>Outside annotated exons</span></div>
+<div class="linked-grid">
+<div>
+<h3>RNA and coding region</h3>
+<div id="anno-rna" role="img" aria-label="Gene contributions to RNA and its predicted coding region"></div>
+<div id="linked-track"></div>
+<div id="anno-sources"></div>
+<div class="text-small text-muted">┄ skipped genomic span / intron · * partial exon · extra nt: outside annotated exons</div>
+</div>
+<div>
+<h3>Predicted protein · matching source colors</h3>
+<div class="viz-controls"><label class="form-label">Representation<select class="form-select" id="linked-style"><option value="cartoon">Ribbon</option><option value="both">Ribbon + sticks</option><option value="stick">Sticks</option></select></label><button class="btn" type="button" id="linked-center">Recenter</button></div>
+<div class="molecule" id="linked-molecule" role="img" aria-label="Interactive predicted structure colored by RNA source"></div>
+<div class="text-small" id="linked-confidence"></div>
+<div class="detail text-small" id="linked-detail" aria-live="polite">Loading structure…</div>
+<div class="text-small text-muted">Drag to rotate · scroll / pinch to zoom · click a residue for gene, exon and confidence</div>
+<div id="anno-facts" class="facts text-small" aria-live="polite"></div>
+</div>
+</div>
+<details><summary>Exon coordinates and coding overlap</summary><div id="anno-table"></div></details>
+<div class="meta text-small text-muted">GRCm39 · GENCODE M28 · Genomic positions: 1-based inclusive · RNA offsets: 0-based, end-exclusive · Transcript-specific exon labels · Protein expression/function unknown</div>
+<script type="application/json" id="anno-data">__ANNOTATION_DATA__</script>
+<script type="application/json" id="linked-structures">__STRUCTURES__</script>
+<script src="https://cdn.jsdelivr.net/npm/3dmol@2.5.3/build/3Dmol-min.js"></script>
+<script>
+__MAIN_SCRIPT__
+</script>
+</section>
