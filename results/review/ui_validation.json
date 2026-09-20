@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-19T23:54:04.373748+00:00",
+  "checked_at": "2026-09-20T00:26:26.906719+00:00",
   "application_logic": "passed",
   "method": "Node vm with mock document; no browser rendering or interaction",
   "checks": [
@@ -10,10 +10,11 @@
     "download and clear",
     "storage-unavailable download fallback",
     "stale receipt rejection",
-    "text escaping"
+    "text escaping",
+    "focus restoration for case/evidence selection and claim-to-evidence navigation"
   ],
   "browser_visual": "blocked",
-  "reason": "Codex browser tool could not verify admin-enforced policy; two direct attempts denied. No bypass attempted.",
+  "reason": "Codex browser tool could not verify admin-enforced policy in three direct attempts. No bypass attempted.",
   "human_scientist_review": "pending",
   "ui_test_reviewers": "Synthetic test-only names inside isolated mock state; not saved as scientist reviews."
 }

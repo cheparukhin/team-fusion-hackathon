@@ -57,19 +57,19 @@ function render(){
  const a=d.next_action;
  $('next-action').innerHTML=`<div class="next-action"><h3>The question</h3><p>${esc(a.question)}</p><h3>First, resolve this</h3><p>${esc(a.first_step)}</p><details><summary>Proposed experiment and its limits</summary><p>${esc(a.proposed_experiment)}</p><p>${esc(a.discriminating_outcome)}</p><p class="small">Proposal only. Not executed.</p></details></div>`;
  $('decision-source').href=path('decision.json');
- $('claim-list').innerHTML=d.claims.map(c=>`<article class="claim"><span class="kind">${esc(c.kind)}</span><div><p>${esc(c.text)}</p>${[...new Set(c.evidence.map(e=>e.step))].map(n=>`<a href="#recorded-step" data-evidence="${n-1}">Check ${n} · ${esc(toolNames[current.steps[n-1].tool])} ↗</a>`).join('')}</div></article>`).join('');
+ $('claim-list').innerHTML=d.claims.map(c=>`<article class="claim"><span class="kind">${esc(c.kind)}</span><div><p>${esc(c.text)}</p>${[...new Set(c.evidence.map(e=>e.step))].map(n=>`<a href="#step-detail" data-evidence="${n-1}">Check ${n} · ${esc(toolNames[current.steps[n-1].tool])} ↗</a>`).join('')}</div></article>`).join('');
  renderStep();renderSaved();
 }
 function switchCase(slug){
  if(slug===current.slug)return;
  drafts.set(current.slug,{reviewer:$('reviewer').value,verdict:$('verdict').value,note:$('note').value});
- current=data.cases.find(c=>c.slug===slug)||current;stepIndex=0;try{history.replaceState(null,'',`#${current.slug}`);}catch(e){}render();
+ current=data.cases.find(c=>c.slug===slug)||current;stepIndex=0;try{history.replaceState(null,'',`#${current.slug}`);}catch(e){}render();$('cases').querySelector(`[data-case="${current.slug}"]`)?.focus();
 }
 $('cases').addEventListener('click',e=>{const b=e.target.closest('[data-case]');if(b)switchCase(b.dataset.case);});
-$('step-nav').addEventListener('click',e=>{const b=e.target.closest('[data-step]');if(b){stepIndex=Number(b.dataset.step);renderStep();}});
+$('step-nav').addEventListener('click',e=>{const b=e.target.closest('[data-step]');if(b){stepIndex=Number(b.dataset.step);renderStep();$('step-nav').querySelector(`[data-step="${stepIndex}"]`)?.focus();}});
 $('previous').onclick=()=>{if(stepIndex>0){stepIndex--;renderStep();}};
 $('next').onclick=()=>{if(stepIndex<current.steps.length-1){stepIndex++;renderStep();}};
-$('claim-list').addEventListener('click',e=>{const link=e.target.closest('[data-evidence]');if(link){e.preventDefault();stepIndex=Number(link.dataset.evidence);renderStep();$('step-detail').scrollIntoView({block:'center'});}});
+$('claim-list').addEventListener('click',e=>{const link=e.target.closest('[data-evidence]');if(link){e.preventDefault();stepIndex=Number(link.dataset.evidence);renderStep();$('step-detail').focus({preventScroll:true});$('step-detail').scrollIntoView({block:'center'});}});
 function download(record){const blob=new Blob([JSON.stringify(record,null,2)+'\n'],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download=`chrna-review-${current.slug}.json`;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 $('review-form').addEventListener('submit',e=>{
  e.preventDefault();
