@@ -1,6 +1,6 @@
 # Current submission status
 
-Updated 20 September 2026. The repository is **public**; anonymous GitHub access was verified. The Google Slides deck still awaits owner-enabled link sharing. The [reviewed release](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-reviewed-2026-09-20) supplies the consolidated ZIP, public slide preview and narrated fallback.
+Updated 20 September 2026. The repository is **public**; anonymous GitHub access was verified. The Google Slides deck still awaits owner-enabled link sharing. The [reviewed release](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-expanded-2026-09-20) supplies the consolidated ZIP, public slide preview and narrated fallback.
 
 User-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) is complete: source-coordinate reconstruction, held-out metrics, gene separation and twelve tool replays were checked on the shared CPU. The Gsdmd case now explicitly acknowledges published protein and functional evidence. Independent human review remains unperformed.
 
@@ -12,7 +12,7 @@ User-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) is c
 - The Psap–Lgals3 924-nt endpoint discrepancy was independently recalculated from source tables/reference transcripts. None of its six published read UUIDs was found in the one cached mouse library checked; the originating alignments remain unresolved.
 - Real Parabricks A100 output: two million paired reads, 85.49 seconds alignment, zero fixed-rule probe-junction matches. Non-detection is not absence; no CPU speedup claim.
 - Clean CPU reconstruction produced identical input/folds/predictions. The current code passed 30 Python tests, twelve exact tool replays and keyboard-focus logic checks on the clean extracted bundle on Brev. **The new review page has not passed real-browser or visual checks.** Older explorer browser receipts apply only to their saved version.
-- Organiser-template deck: three presented slides plus appendix, current native snapshots, PDF preview and timed script. A 2:19 synthetic-narration slide walkthrough is available; it is not a browser recording or human rehearsal.
+- Organiser-template deck: seven presented slides plus appendix, current native snapshots, PDF preview and timed script. A 4:06 synthetic-narration slide walkthrough is available; it is not a browser recording or human rehearsal.
 - No new cloud instance was provisioned by the overnight improvement task. Separate sequencing and folding tasks own their active workers and shutdowns. No teammate resource was altered; billing is not independently audited.
 
 ## Remaining gates

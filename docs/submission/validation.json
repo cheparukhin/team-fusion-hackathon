@@ -1,22 +1,28 @@
 {
-  "checked_at": "2026-09-20T10:13:09.602564+00:00",
+  "checked_at": "2026-09-20T10:35:17.754163+00:00",
   "presentation_url": "https://docs.google.com/presentation/d/1bnxMDj1dVAnIauboX6clVpuLMnzJVSns28jrIecd8QE",
   "template_id": "1Gh_loKW2OFL-wi1wUd6lGqa67wVCpw6ARQZ6U82Ms1w",
-  "revision_id": "SyJrTo8kHeBr7w",
+  "revision_id": "IPw8PR0D4CauUQ",
   "evidence_commit": "76fb5de",
   "status": "AI scientific review complete; human review, rehearsal and deck sharing unverified",
-  "visual_inspection": "All four native thumbnails inspected; slide 3 action shortened and re-inspected. No clipping or overlapping text.",
+  "visual_inspection": "All eight native thumbnails inspected; one consolidated repair pass fixed wrapping and crowded captions. Changed slides re-inspected. No clipping or overlapping text.",
   "layout_warning_disposition": "11pt team byline is retained template typography; legible in native rendering.",
   "export_limitation": "Native PDF export did not materialize. slides-preview.pdf is a raster PDF assembled from inspected native thumbnails; native editable deck remains on Google Slides.",
   "files_sha256": {
-    "slide-1.png": "562afb4f69f76a9fb445c1313828e3afcf24582d517bac0b074b468f423f3593",
-    "slide-2.png": "f602af21dd87dec4f14339a0c3e635558c8b58b7aa98e2e9f36babe662e0d99d",
-    "slide-3.png": "2e0840294efdf93e4e7b081a0b721710cb6a132981eedb93161d24422cfd8bc3",
-    "slide-4.png": "3255f6675dddd3762176908a2ccb4054783eede7d65291f0117b7ed7c88b9333",
-    "slide-text.json": "9b298f38cf22bc743d51a7ae99008257a57984b2c961d7cc53204d5cbd5c4511",
-    "speaker-notes.json": "b7a6fd9b814fd1269bc85fc6d0156b72a428fc0401d61634d53f246b6f43dd2f",
-    "slides-preview.pdf": "e65ac991048c95365d8c886af6480c06dd7b5e712c257f66a6383ff64c05ef58",
-    "layout-check.json": "6aa18cb2eccfccf9416ce10403a75bf288bd612548355ddd833fc0753d2188ef"
+    "slide-1.png": "7dfbe475fd6709252a9a211ad62cab760ba82a3ba3b7331bee2bcb9e984b563c",
+    "slide-2.png": "310ac89ea55cc9568e25770fb02c88f8b5d63370ade2c645adbbb12ad313adaa",
+    "slide-3.png": "f602af21dd87dec4f14339a0c3e635558c8b58b7aa98e2e9f36babe662e0d99d",
+    "slide-4.png": "70078090b6796821890a4b599fee96d82f7855bff9a0147442f6e1062a0def30",
+    "slide-5.png": "6659cfb62b5fd00064ed095e3b3b6e6f840dc9588c229259df4f11dbf2e88b2c",
+    "slide-6.png": "69980d9b6a3a27cb0a01f42bec55aeac40cfbb000b8f2e753ea51aa7703d130f",
+    "slide-7.png": "3050a9d93143be8624321ea2103189cfe9aa7417cc401f16adb53066c95b701f",
+    "slide-8.png": "3255f6675dddd3762176908a2ccb4054783eede7d65291f0117b7ed7c88b9333",
+    "slide-text.json": "3494fa2525594ce7397c029f8ccac1922fbed4905abc5bbc271e491e4d051226",
+    "speaker-notes.json": "5d8e0818779791f55c0493889aa3415ae852f8e0a312c54ef9af5fb33ad86705",
+    "slides-preview.pdf": "21bf5563eba04c73d3509559e83effc912f3b801214f0de44c4ae613d0ff605d",
+    "layout-check.json": "b18c3e240778cdf582f674ca704a63bef36bcb412d8c8a4efe4b019d6760b5e3"
   },
-  "preview_pdf_validation": "All four raster PDF pages rendered and inspected; same aspect ratio and readable slide contents."
+  "preview_pdf_validation": "All eight raster PDF pages rendered and inspected in a contact sheet; native slides also inspected at full resolution.",
+  "slide_count": 8,
+  "presented_slide_count": 7
 }

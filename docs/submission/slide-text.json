@@ -4,7 +4,7 @@
     "text": [
       {
         "id": "s1_title",
-        "text": "chRNA evidence review\n"
+        "text": "Which fusion is worth testing?\n"
       },
       {
         "id": "s1_team",
@@ -12,7 +12,7 @@
       },
       {
         "id": "s1_tag",
-        "text": "Helping scientists choose which chimeric-RNA junction to test next.\n"
+        "text": "Team Fusion turns scattered chimeric-RNA evidence into a source-linked next experiment.\n"
       },
       {
         "id": "s1_problem_h",
@@ -20,7 +20,7 @@
       },
       {
         "id": "s1_problem",
-        "text": "A gene-pair score does not identify a testable junction. Evidence is scattered across reads, probes and papers.\n"
+        "text": "A ranked gene pair is not yet an exact RNA junction\u2014or a functional protein.\n"
       },
       {
         "id": "s1_approach_h",
@@ -28,7 +28,68 @@
       },
       {
         "id": "s1_approach",
-        "text": "Codex chooses evidence checks, reviews the results, and proposes a next step. A scientist can revise or defer it.\n"
+        "text": "Trace each claim to reads, probes, structures and the paper. Let the evidence determine the next check.\n"
+      }
+    ]
+  },
+  {
+    "id": "fusion_ladder",
+    "text": [
+      {
+        "id": "fusion_ladder_s2_title",
+        "text": "RNA, junction, protein: separate the proof\n"
+      },
+      {
+        "id": "fusion_ladder_g409e190953d_1_0",
+        "text": "Reported RNA support is a starting point. Each next claim needs its own evidence.\n"
+      },
+      {
+        "id": "lad_h0",
+        "text": "01  RNA PAIR\n"
+      },
+      {
+        "id": "lad_b0",
+        "text": "Do these genes\nappear together?\n"
+      },
+      {
+        "id": "lad_c0",
+        "text": "109 reported\nNanoString-supported pairs\n"
+      },
+      {
+        "id": "lad_arrow0",
+        "text": "\u2192\n"
+      },
+      {
+        "id": "lad_h1",
+        "text": "02  EXACT JUNCTION\n"
+      },
+      {
+        "id": "lad_b1",
+        "text": "Where do the two\nsequences join?\n"
+      },
+      {
+        "id": "lad_c1",
+        "text": "Read alignments +\nprobe coordinates\n"
+      },
+      {
+        "id": "lad_arrow1",
+        "text": "\u2192\n"
+      },
+      {
+        "id": "lad_h2",
+        "text": "03  PROTEIN\n"
+      },
+      {
+        "id": "lad_b2",
+        "text": "Is it translated\nand functional?\n"
+      },
+      {
+        "id": "lad_c2",
+        "text": "Protein and functional\nexperiments\n"
+      },
+      {
+        "id": "lad_note",
+        "text": "One evidence layer cannot stand in for the next.\n"
       }
     ]
   },
@@ -82,7 +143,7 @@
     "text": [
       {
         "id": "s3_title",
-        "text": "A high score still needs a junction check\n"
+        "text": "924 bases change the next question\n"
       },
       {
         "id": "s3_evidence_h",
@@ -90,59 +151,190 @@
       },
       {
         "id": "s3_evidence",
-        "text": "Three recorded cases; all 12 tool outputs replay exactly.\n"
+        "text": "Six published read IDs.\nThe nearest endpoint still differs.\n"
       },
       {
         "id": "s3_use_h",
-        "text": "REAL-WORLD USE\n"
+        "text": "NEXT ACTION\n"
       },
       {
         "id": "s3_use",
-        "text": "A scientist checks the exact junction before choosing a validation assay.\n"
+        "text": "Inspect the source alignment before selecting the junction assay.\n"
       },
       {
         "id": "s3_limit_h",
-        "text": "KEY LIMITATION\n"
+        "text": "WHAT THIS MEANS\n"
       },
       {
         "id": "s3_limit",
-        "text": "Utility unmeasured.\nHuman review pending.\n"
+        "text": "A discrepancy to resolve;\nnot proof of false RNA.\n"
       },
       {
         "id": "case_name",
         "text": "Psap\u2013Lgals3\n"
       },
       {
-        "id": "case_number",
-        "text": "924 nt\n"
-      },
-      {
-        "id": "case_caption",
-        "text": "Nearest read / probe endpoint discrepancy\n"
-      },
-      {
-        "id": "case_read_label",
-        "text": "Nearest read\n"
-      },
-      {
-        "id": "case_read_value",
-        "text": "chr14:47,622,058\n"
-      },
-      {
-        "id": "case_probe_label",
-        "text": "Designed probe\n"
-      },
-      {
-        "id": "case_probe_value",
-        "text": "chr14:47,622,982\n"
-      },
-      {
-        "id": "case_action",
-        "text": "Next: inspect source alignments before choosing the assay.\n"
-      },
-      {
         "id": "case_source",
         "text": "Direct source audit: Supplementary Tables 3/8 + GENCODE M28.\nDescriptive discrepancy; long-read coordinate convention is unresolved.\n"
+      },
+      {
+        "id": "gap_num",
+        "text": "924 bases\n"
+      },
+      {
+        "id": "gap_desc",
+        "text": "Genomic endpoint discrepancy\n"
+      },
+      {
+        "id": "gap_read",
+        "text": "Nearest read\n47,622,058\n"
+      },
+      {
+        "id": "gap_probe",
+        "text": "Probe\n47,622,982\n"
+      }
+    ]
+  },
+  {
+    "id": "fusion_protein",
+    "text": [
+      {
+        "id": "fusion_protein_s3_title",
+        "text": "A model is one layer of evidence\n"
+      },
+      {
+        "id": "fusion_protein_s3_evidence_h",
+        "text": "PUBLISHED EVIDENCE\n"
+      },
+      {
+        "id": "fusion_protein_s3_evidence",
+        "text": "Gsdmd\u2013Tmem106a has protein and functional experiments in the paper.\n"
+      },
+      {
+        "id": "fusion_protein_s3_use_h",
+        "text": "OUR MODEL\n"
+      },
+      {
+        "id": "fusion_protein_s3_use",
+        "text": "118-aa reference hypothesis.\nMean pLDDT 48.7.\nLow confidence.\n"
+      },
+      {
+        "id": "fusion_protein_s3_limit_h",
+        "text": "INTERPRETATION\n"
+      },
+      {
+        "id": "fusion_protein_s3_limit",
+        "text": "Model uncertainty does not refute the experiments.\n"
+      },
+      {
+        "id": "protein_caption",
+        "text": "Gsdmd\u2013Tmem106a \u00b7 reference hypothesis\n"
+      },
+      {
+        "id": "protein_source",
+        "text": "Model: Boltz2 2.2.1. Colours show parent segments, not confidence.\nExperimental context: Venezia et al., Nature (2026), Figs 3\u20134.\n"
+      }
+    ]
+  },
+  {
+    "id": "fusion_eval",
+    "text": [
+      {
+        "id": "fusion_eval_s3_title",
+        "text": "Does Hi-C improve the ranking?\n"
+      },
+      {
+        "id": "fusion_eval_s3_evidence_h",
+        "text": "MATCHED EVALUATION\n"
+      },
+      {
+        "id": "fusion_eval_s3_evidence",
+        "text": "401 pairs with complete Hi-C.\nFive gene-disjoint folds.\n"
+      },
+      {
+        "id": "fusion_eval_s3_use_h",
+        "text": "UNCERTAINTY\n"
+      },
+      {
+        "id": "fusion_eval_s3_use",
+        "text": "\u0394AP: +0.004\n95% interval:\n\u22120.031 to +0.047\n"
+      },
+      {
+        "id": "fusion_eval_s3_limit_h",
+        "text": "CONCLUSION\n"
+      },
+      {
+        "id": "fusion_eval_s3_limit",
+        "text": "No established gain.\nAssay support is the label.\n"
+      },
+      {
+        "id": "ap_head",
+        "text": "Held-out average precision\n"
+      },
+      {
+        "id": "ap_label0",
+        "text": "RNA features\n"
+      },
+      {
+        "id": "ap_value0",
+        "text": "0.296\n"
+      },
+      {
+        "id": "ap_label1",
+        "text": "RNA + Hi-C\n"
+      },
+      {
+        "id": "ap_value1",
+        "text": "0.300\n"
+      },
+      {
+        "id": "ap_zero",
+        "text": "0\n"
+      },
+      {
+        "id": "ap_one",
+        "text": "1\n"
+      },
+      {
+        "id": "ap_source",
+        "text": "Same 401-pair cohort; interval resamples gene components.\nUnreported NanoString support is not a verified negative.\n"
+      }
+    ]
+  },
+  {
+    "id": "fusion_close",
+    "text": [
+      {
+        "id": "fusion_close_s1_title",
+        "text": "Make the next experiment defensible.\n"
+      },
+      {
+        "id": "fusion_close_s1_team",
+        "text": "TEAM FUSION    Source-linked evidence review for chimeric RNA\n"
+      },
+      {
+        "id": "fusion_close_s1_tag",
+        "text": "A visible chain from the scientific claim to the evidence\u2014and the next decision.\n"
+      },
+      {
+        "id": "fusion_close_s1_problem_h",
+        "text": "DELIVERED\n"
+      },
+      {
+        "id": "fusion_close_s1_problem",
+        "text": "3 reviewed cases\n12 exact tool replays\n30 passing tests\nPublic reproducible release\n"
+      },
+      {
+        "id": "fusion_close_s1_approach_h",
+        "text": "NEXT VALIDATION\n"
+      },
+      {
+        "id": "fusion_close_s1_approach",
+        "text": "Resolve source alignments.\nTest with independent scientists.\nMeasure whether review improves decisions.\n"
+      },
+      {
+        "id": "closing_repo",
+        "text": "github.com/cheparukhin/team-fusion-hackathon\n"
       }
     ]
   },

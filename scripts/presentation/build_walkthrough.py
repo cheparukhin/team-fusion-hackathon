@@ -33,8 +33,8 @@ def main():
     transcript = (DOCS / 'walkthrough-transcript.md').read_text()
     sections = re.findall(r'^## Slide (\d+)\n\n(.*?)(?=^## Slide |\Z)',
                           transcript, flags=re.M | re.S)
-    if [int(i) for i, _ in sections] != [1, 2, 3]:
-        raise ValueError('Expected exactly three ordered narration sections')
+    if not sections or [int(i) for i, _ in sections] != list(range(1, len(sections) + 1)):
+        raise ValueError('Expected contiguous narration sections starting at slide 1')
     timing = []
     start = 0.0
     with tempfile.TemporaryDirectory(prefix='chrna-video-') as td:
@@ -56,7 +56,7 @@ def main():
             seconds = duration(clip)
             timing.append({'slide': int(number), 'start_seconds': start, 'duration_seconds': seconds})
             start += seconds
-        (tmp / 'concat.txt').write_text(''.join(f"file 'part-{n}.mp4'\n" for n in (1, 2, 3)))
+        (tmp / 'concat.txt').write_text(''.join(f"file 'part-{n}.mp4'\n" for n, _ in sections))
         output = tmp / 'evidence-walkthrough.mp4'
         run('ffmpeg', '-hide_banner', '-loglevel', 'error', '-y', '-f', 'concat', '-safe', '0',
             '-i', tmp / 'concat.txt', '-c', 'copy', '-movflags', '+faststart', output)

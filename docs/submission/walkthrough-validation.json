@@ -1,8 +1,8 @@
 {
-  "created_utc": "2026-09-20T10:17:57.610112+00:00",
+  "created_utc": "2026-09-20T10:35:17.754163+00:00",
   "kind": "Narrated native-slide evidence walkthrough, not browser recording",
   "narration": "Synthetic macOS Daniel en_GB, 155 words/minute setting; disclosed in opening sentence",
-  "duration_seconds": 139.355957,
+  "duration_seconds": 246.271093,
   "video": {
     "codec": "H.264",
     "width": 1600,
@@ -12,13 +12,14 @@
   "audio": {
     "codec": "AAC",
     "sample_rate_hz": 22050,
-    "mean_dbfs": -18.9,
-    "peak_dbfs": -1.0
+    "mean_dbfs": -19.0,
+    "peak_dbfs": -0.6
   },
   "checks": [
     "Complete video/audio decoded without error",
-    "Encoded frames at 20, 55 and 105 seconds visually inspected; readable and no clipping",
-    "Narration reflects completed AI scientific review, pending independent human review and paired short-read scope"
+    "Midpoint encoded frames of slides 1, 4, 5 and 7 visually inspected; readable and no clipping",
+    "Seven contiguous narration sections with matching slide images",
+    "Synthetic narration reflects current verified scientific claims; total duration below five minutes"
   ],
   "not_verified": [
     "Independent listener review of pronunciation",
@@ -26,9 +27,9 @@
     "Browser interaction",
     "Independent biology signoff"
   ],
-  "source_deck_revision": "SyJrTo8kHeBr7w",
+  "source_deck_revision": "IPw8PR0D4CauUQ",
   "source_evidence_commit": "76fb5de",
-  "sha256": "fe92f9119e79184fa29b44b471b7f3e96702913e8f40ff14d43f8f00af48c730",
+  "sha256": "020e38b5570208045f0c48a7fbd4e0b12cbd8a10eaad51949158296909af180d",
   "additional_cloud_compute": false,
   "encoding": "Local ffmpeg, one thread; shared CPU had no existing ffmpeg, no system packages installed",
   "rebuild_command": "python3 scripts/presentation/build_walkthrough.py"

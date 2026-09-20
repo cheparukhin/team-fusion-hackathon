@@ -20,7 +20,7 @@ Three [recorded review cases](results/review/case_freeze.json) contain actual Co
 
 ## Submission presentation
 
-[Three-slide organiser-template deck, technical appendix and timed script](docs/submission/README.md). This is the current submission narrative. The slide previews were visually inspected and the reviewed release is public. Independent human review, browser verification, rehearsal and Google Slides sharing remain pending.
+[Seven-slide organiser-template deck, technical appendix and timed script](docs/submission/README.md). This is the current submission narrative. The slide previews were visually inspected and the reviewed release is public. Independent human review, browser verification, rehearsal and Google Slides sharing remain pending.
 
 ## Open the demo
 
@@ -105,7 +105,7 @@ Primary source: [Venezia et al., Nature (2026)](https://www.nature.com/articles/
 
 ## Submission bundle
 
-[Download the reviewed submission](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-reviewed-2026-09-20): extract the ZIP and start with `START_HERE.md`. The package includes the offline demo, evidence, slide preview and narrated fallback. Its `SUBMISSION_MANIFEST.json` pins the exact source commit and every file hash; release validation states the tested scope.
+[Download the reviewed submission](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-expanded-2026-09-20): extract the ZIP and start with `START_HERE.md`. The package includes the offline demo, evidence, slide preview and narrated fallback. Its `SUBMISSION_MANIFEST.json` pins the exact source commit and every file hash; release validation states the tested scope.
 
 The bundle code passed 30 Python tests, twelve exact evidence replays and UI application-logic checks on the shared CPU. Real-browser verification and human rehearsal remain open. Full-dataset expansion is running separately; no incomplete result is promoted into this release.
 
