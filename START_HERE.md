@@ -6,7 +6,7 @@ We connect chimeric-RNA evidence, conditional protein predictions and inspectabl
 
 1. **Dashboard:** open the [public RNA/exon/structure explorer](https://chimeric-rna-exon-structures.a-cheparukhin.chatgpt.site). Compare a pilot candidate with Gsdmd–Tmem106a, explicitly labeled a literature reference control that the pilot did not recover. Ten selected pilot hypotheses plus one control are shown; all ten pilot hypotheses have one supporting read in the sampled library.
 2. **Ranking:** inspect [saved metrics](results/classifier/metrics.json). On 401 complete-contact pairs, RNA AP is 0.296 and RNA + Hi-C AP is 0.300; the paired interval spans zero. This does not establish ranking improvement or biological independence from 3D genome organization.
-3. **Disorder:** inspect [the recovered report](results/recovery_20260920/snapshot/results/structure_campaign/RESULTS.md). Among 188 conditional annotated-start hypotheses across 91 supported pairs, V3 classifies 42 as predominantly disordered and V1 classifies 18. These are predictions under sequence assumptions, not measured proteome prevalence. See [recovery scope](results/recovery_20260920/README.md) for omitted archive assets.
+3. **Disorder:** inspect [the campaign report](results/structure_campaign/RESULTS.md). Among 188 conditional annotated-start hypotheses across 91 supported pairs, V3 classifies 42 as predominantly disordered and V1 classifies 18. These are predictions under sequence assumptions, not measured proteome prevalence. Full profiles and model files are available through the [evidence restore command](preservation/controller-20260920/README.md).
 
 ## Run locally
 

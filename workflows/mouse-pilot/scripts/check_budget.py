@@ -18,7 +18,7 @@ def check(policy, running_rates, proposed_rate):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--policy", type=Path, default=Path("infra/budget-policy.json"))
+    parser.add_argument("--policy", type=Path, default=Path(__file__).resolve().parents[1] / "infra/budget-policy.json")
     parser.add_argument("--running-rates", type=float, nargs="*", default=[])
     parser.add_argument("--proposed-rate", type=float, required=True)
     args = parser.parse_args()

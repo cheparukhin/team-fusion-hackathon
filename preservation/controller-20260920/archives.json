@@ -1,0 +1,33 @@
+{
+  "release": "https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/controller-preservation-2026-09-20",
+  "storage": "GitHub release assets, outside Git history",
+  "groups": [
+    {
+      "group": "chrna",
+      "parts": [
+        {
+          "filename": "controller-chrna-20260920.tar.gz.part-001",
+          "bytes": 1800000000,
+          "sha256": "6ae4f91e72ae06601d9c9c144452dc9b9360bc3e7d83e1766becd714cebf7001"
+        },
+        {
+          "filename": "controller-chrna-20260920.tar.gz.part-002",
+          "bytes": 1600604060,
+          "sha256": "50aed7d88368757779308fb83649b6c8544639b884b53ddc0c555fc885a76ddc"
+        }
+      ],
+      "uncompressed_bytes": 5445920268
+    },
+    {
+      "group": "quick-hack",
+      "parts": [
+        {
+          "filename": "controller-quick-hack-20260920.tar.gz.part-001",
+          "bytes": 1534695950,
+          "sha256": "0b6eb38bd58f8fa2d9515eda08ae934352722c8a6d3de7dc16f12ed815b72c2c"
+        }
+      ],
+      "uncompressed_bytes": 2079965573
+    }
+  ]
+}

@@ -20,9 +20,17 @@ def main():
     case = sub.add_parser("inspect")
     case.add_argument("pair", help="Ordered gene pair, for example Gsdmd:Tmem106a")
     case.add_argument("--include-published-outcomes", action="store_true")
+    literature = sub.add_parser("pilot-literature", help="Include literature candidates with a sample read trace; not discovery recovery")
+    literature.add_argument("--run", type=Path, required=True)
+    literature.add_argument("--fastq", type=Path, required=True)
+    literature.add_argument("--pair", action="append", required=True)
+    literature.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     root = args.root.resolve()
-    if args.command == "fetch":
+    if args.command == "pilot-literature":
+        from .pilot_literature import include_literature
+        print(json.dumps(include_literature(root, args.run, args.fastq, args.pair, args.output), indent=2))
+    elif args.command == "fetch":
         fetch(root)
     elif args.command == "build":
         print(json.dumps(build(root), indent=2))

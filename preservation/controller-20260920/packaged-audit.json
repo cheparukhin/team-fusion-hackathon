@@ -1,0 +1,1045 @@
+[
+  {
+    "archive": "chrna/runs/focused-pilot-20260919/folding-worker-retry-1/input-bundle.tar.gz",
+    "member": "setup_boltz_worker.sh",
+    "sha256": "b0404950b1045f7e96c7c7ea59bf553a663e2920e8ef9b1236cbe0c538fa2292",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/focused-pilot-20260919/folding-worker-retry-2/input-bundle.tar.gz",
+    "member": "setup_boltz_worker.sh",
+    "sha256": "5631007dd4c4907a0bcb5b0029795862dfef74bfca73b0d8f4d94a82db2fb218",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "cohort_manifest.json",
+    "sha256": "b3a4f1c97dc1610d40e655609218d321de4d383e9e6f1219af4e1ae12f80f8a9",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/full-mouse-cohort-20260920/cohort_manifest.json"
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/CHANGES",
+    "sha256": "676cca4ea5fa06d33472dcc48d03a95c0d721f3ea3bb77404d8430056909dd02",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/README-blastn",
+    "sha256": "d926ebd1942494b467de0e957d7633f4707ed5d61b03ca077b642bac7b68ee8d",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/README-vdb-config",
+    "sha256": "f9b9ce77a78499f439ee867537df7287d42baed7eb16f00e90cf36376eed13b6",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/README.md",
+    "sha256": "289892039541e839efecabb61bae8afd278ea28f7a6de53d36d0709ec7a44855",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/abi-dump.3.2.1",
+    "sha256": "622dfa424a91820ccf914a3725777965341a328364dea4a357227d32efb0e476",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/abi-load.3.2.1",
+    "sha256": "5311dc9cc0f4396450a13e5cf3544a6817c98a414fee81452d449de1ffcc8194",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/align-info.3.2.1",
+    "sha256": "6a4140b49004fb14dea5ed8616b2b66a1de89a698a59464f6da40405ff9774ee",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/bam-load.3.2.1",
+    "sha256": "d1e4cc31ac9f7d61731ed5c23f5d086c41821f52975c53d2299d90326f90d30c",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/cache-mgr.3.2.1",
+    "sha256": "e82cfbe84bee23a59664b94991bb90e0e3b0d6883abad3531bb6c5a233374bb2",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/cg-load.3.2.1",
+    "sha256": "14c3cafbc034074fed38a74ee1c70f37b9ea04ed91b470b457e9fd4892e53e1c",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/fasterq-dump-orig.3.2.1",
+    "sha256": "26c6420c124ba14f827e2af1bd11709238da9c76c386284bb51f41311e4162ce",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/fastq-dump-orig.3.2.1",
+    "sha256": "9f89c4a6af231c09c180b40de5b774e397a659dd79c6ca71f9b2cfbf9a7915ba",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/fastq-load.3.2.1",
+    "sha256": "f90d49abe1fe6fbaee19076303d02cfa5fc89dbdb827ed7dd97ad627b3b5fbb5",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/helicos-load.3.2.1",
+    "sha256": "1a953f54acd0d9765f71159041bcdd047d58cdc9f6c5891b2f6d8a256c675a68",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/illumina-dump.3.2.1",
+    "sha256": "9150f3a7b979af316d4e9d45727a52f32bedcbb7e63f1ce500e21fb0e75adbd0",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/illumina-load.3.2.1",
+    "sha256": "1561efff759db3c21b6f41e3b37a0190549115909742a91afbbfd7c579f4bfc8",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/kar.3.2.1",
+    "sha256": "93673280f2b1002058719b934fba4cb8e0df7356f839c51ea639e3e57deaa7b5",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/kdbmeta.3.2.1",
+    "sha256": "d0e1bfc9428948bd9354a0799a617d78b519b4001fa6bc79aee0bd91a2e2c82b",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/latf-load.3.2.1",
+    "sha256": "5971ca1ab5a4c7c8ca206900f861e7583d16d6767d583532fa76bee8e068f653",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/ncbi/certs.kfg",
+    "sha256": "e1e5588cbc3f37dbbb6593cb970f1530a25d245832c422d076a5dee553e23b2e",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/ncbi/default.kfg",
+    "sha256": "cdd345114ddda0a1784db04938dbac2d66346a290ef8c9d383d58892760035c3",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/ncbi/vdb-copy.kfg",
+    "sha256": "2714a4ee9a6a579999a4a55eaadd4809834658accd47c1bef9fc90cb01f8b180",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/pacbio-load.3.2.1",
+    "sha256": "e7790bc3d0958306da530dcaddfedd3cc2e2eae5fc53e8d9f33bf7871db6acd9",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/prefetch-orig.3.2.1",
+    "sha256": "aaea254ef289dcf98b21ced77d00df686685c80d1651ed9daf9ed74c792cae6a",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/rcexplain.3.2.1",
+    "sha256": "dc84eee89fd42476204c75b9c143fc1a0ebb40687e62831755a8e4d8184bf87e",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/sam-dump-orig.3.2.1",
+    "sha256": "f9de26954ff24c804b5ed4fd8c7ba23adc1e0a4dae57f1dc7d1ecb9f3f941480",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/sff-dump.3.2.1",
+    "sha256": "86c4b62db627504805dc0dfa6ddc180cf5da1584f5343f395f9a52ead7ac48f7",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/sff-load.3.2.1",
+    "sha256": "d102238710b4cd5846b25eb20270952a0cf96020c5bab94683d83d55631d3bfd",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/sra-pileup-orig.3.2.1",
+    "sha256": "5d6ef5704d81c3f2c841b6899ef744096536edf0f0892870650f6ad2177cca49",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/sra-search.3.2.1",
+    "sha256": "9bb298b165dc0f87ca606081eeae54a0a86b3e8565d981de83b426466d5e0164",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/sra-sort-cg.3.2.1",
+    "sha256": "5a0fdb4372d047f93033fe01b6ade8c1b4893b620d1f3f77b40c19086ae49888",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/sra-sort.3.2.1",
+    "sha256": "3335a88cca91d332f7e643f8b13dd56ac87ae4413c1676febb9530b854016446",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/sra-stat.3.2.1",
+    "sha256": "12c80065f3dcdf5098d0886acabddbb78ec497551fe84ad3c68a9931fc4adc0d",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/srapath-orig.3.2.1",
+    "sha256": "84fdc7b28fec438ced03cdfeb78a078cd906e94635e2ab86ce0e279d22166002",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/sratools.3.2.1",
+    "sha256": "822a39c0f715e50cdc3548138bfabb5691d02d4ee151944082da4f3755b21b56",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/srf-load.3.2.1",
+    "sha256": "ece1c233dbd4f89e9ad09d56cca9e15a932245f3727daa32fb7ee1eefdda7642",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/test-sra.3.2.1",
+    "sha256": "ea549859ed9afe2302f5f777801bf4adff38760380021514de452cb9268781c7",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/vdb-config.3.2.1",
+    "sha256": "9a1de9a9092fc6214cab3178df2b705efd32b205c29892831785420b12d8178c",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/vdb-copy.3.2.1",
+    "sha256": "037ac301bda13cf7b5df0582dc6469c46abb536ce29480fe9750a88f64b6e31d",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/vdb-decrypt.3.2.1",
+    "sha256": "e583578c1a97776a3fd26a929fe91225ffbeed89f0f1b622cb6eab29a5e47686",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/vdb-dump-orig.3.2.1",
+    "sha256": "1be5dd87d31da6dbc281675361482f6c5f214ed94ec118999eb9c5117d4c8a69",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/vdb-encrypt.3.2.1",
+    "sha256": "6815afde4d8a7f49de76e0f02038f9c8232e19978c08fd02e63a986456f30ed2",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/vdb-lock.3.2.1",
+    "sha256": "1b72cab624da1453d0abb765a7faebfffd708da52da907199465f332343800df",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/vdb-unlock.3.2.1",
+    "sha256": "029e18d5ad3bc063f44a3dcc5507e8bff74a352bcfb5b2984ddeff96e56785dd",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/bin/vdb-validate.3.2.1",
+    "sha256": "714b3ff18fb47be8b320b47b41894669e4d365692b543052abc5056cd51e87c4",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/example/perl/base-stats.pl",
+    "sha256": "0a309df50fbf006473c55c748f2bfefd5236f39d9f39d2d76319de3a32838a19",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/example/perl/dump-reference.pl",
+    "sha256": "a6d9b213f28030fd45efe8003f8defb767b40393c06c8f7f789e25437f9175ff",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/example/perl/gene-lookup.pl",
+    "sha256": "22fb0c896264309bf8bc0d1742043ab0dc3d62c9c178de9d4f7b54c6011d76eb",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/example/perl/mismatch-stats.pl",
+    "sha256": "8be3a8e8c45eea1e86aee52ee300ce283a38fe8e1afaaab9be3a67605be029ef",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/example/perl/quality-stats.pl",
+    "sha256": "a784e78c54c13f125e963eb53d1da152a404be65b2b7c0ed95a11610f145d384",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/example/perl/simplefastq.pl",
+    "sha256": "9e315b297f4e71d89e8156209d651af6a7bbc65396168243c1c7d3b24ac73a23",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/example/perl/splitfastq.pl",
+    "sha256": "dc4418783e48b7d8c49b7d5e367c91c814cdcd7def98c2c97e2867ff35499523",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/align/align.vschema",
+    "sha256": "e593df9339607a6e8d6da290678a1a5e2d8a65a9463a18f28afd10421a89ddec",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/align/mate-cache.vschema",
+    "sha256": "229971d502563bae88dd6b912bfdce197605d2434e5fcd0bd95f4409aad0a11b",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/align/pileup-stats.vschema",
+    "sha256": "3023d0d7b71bd66f37580743d53d3e9f5b7d1451a47ea2af85a1e53db2b38f6a",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/align/qstat.vschema",
+    "sha256": "dbb2fc438572f2a82a41ab5e6c38818b5b5ec3b47c2095fde1d7c18dd1a806c4",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/align/refseq.vschema",
+    "sha256": "c35f72f700bc1df24db583c1c24fdac742eb2fe7502a6b3917bebcbaf8d169ce",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/align/seq.vschema",
+    "sha256": "5db1bde45914db692d85d8474b620651def76dab9991a9cb90a9780540591d3f",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/csra2/csra2.vschema",
+    "sha256": "e0aa23e686d26a5ed10146cd741821fa9381d455eac0e4a63d8498c515ed4f0e",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/csra2/read.vschema",
+    "sha256": "31446150fe941d96dc2110006276745247253f822205a6bda26b7af611e1682c",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/csra2/reference.vschema",
+    "sha256": "10dfc04c74348f5ae7a07b4ce2f5e10bf46ffd30afa068c715b69e50853cad18",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/csra2/stats.vschema",
+    "sha256": "44d2e97dba8d93e61a7dd1fdfd3b6f51ab49810f307dbe35a1131772c32da6df",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/insdc/insdc.vschema",
+    "sha256": "edd20d7e2b7f955832dbccf17d8428d17055add11291285bc78218abe321baed",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/insdc/seq.vschema",
+    "sha256": "b402bf5359ebcb3650030dd346bbe1e01482d91b902c43527475329bf51d0c7f",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/insdc/sra.vschema",
+    "sha256": "eed2174a2e668ae2ca93615dc5f0b2468afecdf1874a59e9458efe0dc1c56bb6",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/ncbi/clip.vschema",
+    "sha256": "c47ccc0d8f847f399bdbcf008a44880b492ff0c385fff28e70b27f8ff240e75e",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/ncbi/ncbi.vschema",
+    "sha256": "fe8b28c0b6943e64fe3532e08e51c1118944ed50b95ca3c1df1a8b6f2964041d",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/ncbi/pnbrdb.vschema",
+    "sha256": "73ab5c06ddd60adff58744b6ac60c3454d65ba92dab3c2ed6a4a1fc6cb228695",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/ncbi/seq-graph.vschema",
+    "sha256": "bdf2b9ef06ef238ad4b6ced63a49d99fa9a9a81527abd13ee0be7d5064e6d14e",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/ncbi/seq.vschema",
+    "sha256": "de4e03249fc558375a84374804736ece01b84344653ffaa869cf5ec6614c6290",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/ncbi/spotname.vschema",
+    "sha256": "91fbe441ce917787b3cb18407f3404b2e7a8abbb31ca5aca0db202e14c873612",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/ncbi/sra.vschema",
+    "sha256": "ab2f3e205f1398a02eb660027bbe2a977a3699c4903b7798bf595f65ecf8610a",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/ncbi/stats.vschema",
+    "sha256": "4cbb6e12e4a6b44a2c3b2b87fa73a4d66d04f49130445f03d4905df9505b8689",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/ncbi/trace.vschema",
+    "sha256": "90f817e09d04ac9eaee08d2cf5300be5482208ddbae62bcdd0d113fa29253ed1",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/ncbi/varloc.vschema",
+    "sha256": "c0fdc719de5f4b6591010a9b48b26449cf2c099c37dd46778684d7793995dc8f",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/ncbi/wgs-contig.vschema",
+    "sha256": "2bbb25afeb33abe80db497a655d89da43b311d7d9bd7cfa670d584ca30bfd288",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/sra/454.vschema",
+    "sha256": "b15603358a3b6fa491efb1341520c1fd9150f74ad74e57d52cc3e8e52eec509a",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/sra/abi.vschema",
+    "sha256": "22f72695f83bd7701f78ba4e5070b42c927b43bd6d9f833488edd1b328c1a6c5",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/sra/generic-fastq.vschema",
+    "sha256": "bcd4061499ce89c1b269de4ff71c2f8ef1593ede167f88a55a8dfa15abe8df74",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/sra/helicos.vschema",
+    "sha256": "1dabb84e4c3a46138bbdf2a221f520777fe9f87c1d2263712f2a5c652043e877",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/sra/illumina.vschema",
+    "sha256": "81969d5b76a8eb704b1e9925773f4d4b6a769dd3971226594fa44a7bd030a0b6",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/sra/ion-torrent.vschema",
+    "sha256": "dedcbedaf3f25bf625a254f3e114f828d169f236646173a4604b12cc44551852",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/sra/nanopore.vschema",
+    "sha256": "5d8bd1bbc377bb97071b688e19392f2c4da1911fdae2c04e685daa5e0d78c293",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/sra/pacbio.vschema",
+    "sha256": "3d36ad3ab4e58ac64952a5c2bfb65a7ce9188a0bd2c1830c3dc1b5734c47a479",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/sra/pevents.vschema",
+    "sha256": "2820c52e2d4635f350c2ab2846285d08a3f1a8b5a98c6560e77209b8fde1b1de",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/vdb/built-in.vschema",
+    "sha256": "6b7021f308c187a55210bd07ca596841972b8018d29802d16a7e9bee4a207120",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "sra/schema/vdb/vdb.vschema",
+    "sha256": "7bf923dfe8122c177860147ca3efe40d00edb9943d7797641665432aff5fa3c5",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "worker.py",
+    "sha256": "010e8296418c38683c73b0938b982c07f20c35ad4290f744cac0029ff653975e",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/full-mouse-cohort-20260920/bundle.tar.gz",
+    "member": "inputs.sha256",
+    "sha256": "d276fe65e1239d714953925e10f6cbe45aeaae07f11f02e835ab48da233641c9",
+    "action": "identical content already included in current evidence",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/.gitignore",
+    "sha256": "3cbb595839a0ca87d2c9fd5cd1edf51140a79b4fba37f0454c310eed528520e7",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/Genion_files/annotate.cpp.patch",
+    "sha256": "ba09900bffce3fc3801fc296abb0256af418c537dc53ed3b1ed5116056392088",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/LICENSE",
+    "sha256": "2ab329e0953eba54251bb92b7919c1f31f4e6cec9a0145b35e2f3c4545f1cce6",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/README.md",
+    "sha256": "dab34596f14531c0135334a0fad10dc11aff829421b2c0047c46152b575aac8c",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/bin/.gitkeep",
+    "sha256": "7244a0e942f7e42ee21d78cfe2fea91a2652283cf260028a3d0b60a6f5b25ab3",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/config_template.yaml",
+    "sha256": "8f71052ece771a279d72e3e3bcabcb81b95f647ee00518997013f9224d5a20f7",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/docs/jaffal_reference_setup.md",
+    "sha256": "fc793858e3f1134f849342d2c4567f927b627cfa82b5cc2e1eba1d7ac9448abf",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/environment.yml",
+    "sha256": "ea35adbece96d786c0098a44d459cb1145ac30fae3ad46a253f1120dd86746a7",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/setup_genion.py",
+    "sha256": "35f8f7233526f0a38729bc8815bba8b8c753f8b8e7e21724771a97d62f292e28",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/setup_jaffal.py",
+    "sha256": "c133fb89074b5451d5c0ed9bd3edfbdb258eb3f9f260389b483b5e6eb963666b",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/__init__.py",
+    "sha256": "2753705cb73a6665448124e0b790774ec37721b69f16ec418afc937a4ec7a9df",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/command_utils.py",
+    "sha256": "bb5304a38c354b2aacb0ea7600f777bc50058939a21d9f02e7b8b81fe113e67b",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/modules/Genion_selfalign_paf_generation.R",
+    "sha256": "ecc9fba0caf3d4cd8679968994b35b82c604c5bcedd3d945d4d7a37f10e3f521",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/modules/LongGF_process_results.R",
+    "sha256": "ed713a4ee11fb4ae8dea933f1d09a882af605a4b0d8b35c78cc736c2cd9f6a4f",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/modules/__init__.py",
+    "sha256": "f88d1531edff853116054cacefd20f07b2605149b774788260951183e8887a01",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/modules/exon_repair/__init__.py",
+    "sha256": "96f55a88e82096c0a0549967bbf286bf01ded93b576020166ac6e10e8b890233",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/modules/exon_repair/blast_setup.py",
+    "sha256": "8107cdc8a58a67654a707f1b123b1f73ed4ae7135201830482cb0c1db4a51b9c",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/modules/exon_repair/data_integration.py",
+    "sha256": "8c656fcf36a8b0c82207a04e025c95548bea30eb30a921bffdb354f445f302d8",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/modules/exon_repair/exon_data_processing.py",
+    "sha256": "748d73ed8018c828ab7704f2a1a2ae7980d14cd6646462f923dec9b78541403d",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/modules/exon_repair/sequence_reconstruction.py",
+    "sha256": "a86af76254debc1c3f121ce3b2c01e68802cd792893b5ecc39a8f29c2cc246f2",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/modules/exon_repair/transcript_selection.py",
+    "sha256": "38f6bdd5f11f33731923d01691d826c9b903479d9658a29dba27d78b7a4d03f0",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/modules/postprocess.py",
+    "sha256": "e62751e30aedd28809535983411e6fa3bae2cfd18429508826e5a3f7efb751e1",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/modules/run_genion.py",
+    "sha256": "07a82800735aca4c64b02f493119aea71fdbc8c2e323e0fabf816a0328361781",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/modules/run_jaffal.py",
+    "sha256": "848782525a092f7efc84e772233ec7097b394cc9f10f6f84891535ee8a16a5cf",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/modules/run_longgf.py",
+    "sha256": "dc353f60203c5dd25f09fa2ef86f38f8a6960d4a2dc70f6a229a4d1d817bbcd5",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/utils/__init__.py",
+    "sha256": "be00ee4a6e286ba32a575b481c6b5aef5502d59bad5069cf6c71568d16200709",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/utils/gap_calc.py",
+    "sha256": "c01f029a2f2b29f67488df65b3895ed77b09d66f7c72f95e3c50bd838f8b169c",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/utils/genion_reference.py",
+    "sha256": "7ad453452c3c98a73a0c0c617fd45b26b0e320286a75c87200526509114f8439",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/utils/merge_seq.py",
+    "sha256": "c3610d04db549bcf51487fd2c9c81658f252c00c80a6b41d60f11788668cb6b4",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon/utils/sequence_utils.py",
+    "sha256": "04703b82c26e1a369f4bfa876e72034124dde477142b4b6155df850acf66598a",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/intake-20260919/typhon-source.tar.gz",
+    "member": "erenada-TYPHON-2179e9d/typhon_main.py",
+    "sha256": "a214270b9b6c880b98d0edaccd64cb834ae94983a494678b1a2316d13dc0f9a6",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e/05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e_env/out.tar.gz",
+    "member": "uniref.a3m",
+    "sha256": "7ded9984dacea44081dd6d91915568922b895c83f8e24c7e5c0abb85f4117dc7",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e/05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e_env/uniref.a3m"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e/05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e_env/out.tar.gz",
+    "member": "bfd.mgnify30.metaeuk30.smag30.a3m",
+    "sha256": "4987efc11af98b56dc888963295dcf3cfc72f9be7c5f3ac1f4fd851c7735015f",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e/05e1eedf66c7083052565c34a5bc6019a9abe863e50268602de668184e00597e_env/bfd.mgnify30.metaeuk30.smag30.a3m"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905/0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905_env/out.tar.gz",
+    "member": "uniref.a3m",
+    "sha256": "abb4fd7b7e313bb06876a296c908464c094c1149b225e809203609d1f9126af0",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905/0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905_env/uniref.a3m"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905/0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905_env/out.tar.gz",
+    "member": "pdb70.m8",
+    "sha256": "5c76f993b7275dbed2dc0a76266ccac874b794497febcebe91646522e0ed176a",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905/0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905_env/pdb70.m8"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905/0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905_env/out.tar.gz",
+    "member": "bfd.mgnify30.metaeuk30.smag30.a3m",
+    "sha256": "29c6d0805220a087161ed229c5dbda1e463c2a610730235a44bdc33919604f7d",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905/0e71eb67bf1bfe9282d6df812a2db99f7489cc4241ac9071693d20ea8ad1d905_env/bfd.mgnify30.metaeuk30.smag30.a3m"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1/3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1_env/out.tar.gz",
+    "member": "uniref.a3m",
+    "sha256": "d5fc3241eab51d9dba4274eaa3d5568d190c414fefd191d9ac80787f7d57ad2d",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1/3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1_env/uniref.a3m"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1/3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1_env/out.tar.gz",
+    "member": "pdb70.m8",
+    "sha256": "663c3c825e909508e23091d2d6650e98759a02546c63ec20e19d77a4c390c24d",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1/3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1_env/pdb70.m8"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1/3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1_env/out.tar.gz",
+    "member": "bfd.mgnify30.metaeuk30.smag30.a3m",
+    "sha256": "be736f63352e8495817a34338811b73362e6280605e4ad045f6288720c0fae6d",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1/3815fad666d9f523e88e2dac0125188f41c16301d369a96f07c0b699c8be89c1_env/bfd.mgnify30.metaeuk30.smag30.a3m"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49/3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49_env/out.tar.gz",
+    "member": "uniref.a3m",
+    "sha256": "22367f51f7ab81490edf36da4014a4272ae255fa86212581540c4c31cc926cbe",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49/3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49_env/uniref.a3m"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49/3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49_env/out.tar.gz",
+    "member": "pdb70.m8",
+    "sha256": "cac2621845d132f8e196bd32af88020beb3c777e3bad476668288cb68678cf6a",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49/3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49_env/pdb70.m8"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49/3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49_env/out.tar.gz",
+    "member": "bfd.mgnify30.metaeuk30.smag30.a3m",
+    "sha256": "96c588a8dcc9f6781499455c0b3244cd85f3835950af0a4ed112a6d3c913a8c0",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49/3833150229de02b0e7924263e8a3cfcaf1ed38e0aa89510ed30231b5aecf9e49_env/bfd.mgnify30.metaeuk30.smag30.a3m"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c/77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c_env/out.tar.gz",
+    "member": "uniref.a3m",
+    "sha256": "eec69558cf91322f4c5f8d611f51f787746ef201719ee8953ae8ad1e56999d24",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c/77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c_env/uniref.a3m"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c/77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c_env/out.tar.gz",
+    "member": "bfd.mgnify30.metaeuk30.smag30.a3m",
+    "sha256": "f25a7559bbe99e26ccd33a721411234de808d74db398e65fcc1eb536380ecad4",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c/77c90f63d678a4f245faa1e8b1e053e80d7c9e3e61fa3f5f942f68af2d8edf5c_env/bfd.mgnify30.metaeuk30.smag30.a3m"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2/d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2_env/out.tar.gz",
+    "member": "uniref.a3m",
+    "sha256": "c713243b564052b8c6e27b9b11a6c04fb7ab332b90a7556cdfbba98d971dff42",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2/d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2_env/uniref.a3m"
+  },
+  {
+    "archive": "chrna/runs/k562-all-junctions-20260920/msa-cache/protein_d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2/d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2_env/out.tar.gz",
+    "member": "bfd.mgnify30.metaeuk30.smag30.a3m",
+    "sha256": "36440a4a9210c509521f335605e14e9a600eb73f9d5641186dc39363c787a0cc",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-all-junctions-20260920/msa-cache/protein_d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2/d305db6529ba8b9a8f47c4a396f9990ca2cea8b4be72e57230c64b2c83412ff2_env/bfd.mgnify30.metaeuk30.smag30.a3m"
+  },
+  {
+    "archive": "chrna/runs/k562-pilot/20260919-overnight/bundle.tar.gz",
+    "member": "config.json",
+    "sha256": "ff503630979861bad6eac89413ff0320a9def3f7283a74cdac74765812e30f5d",
+    "action": "identical content already included in current evidence",
+    "destination": "workflows/mouse-pilot/runs/k562-pilot/20260919-overnight/config.json"
+  },
+  {
+    "archive": "chrna/runs/k562-pilot/20260919-overnight/bundle.tar.gz",
+    "member": "source.sha256",
+    "sha256": "80bc194b33e8b393cd9d694d668da250cd8779a9c3cb6af1d08691be8a614ad6",
+    "action": "unique archived scientific input recovered at canonical path",
+    "destination": "workflows/mouse-pilot/runs/k562-pilot/20260919-overnight/source.sha256"
+  },
+  {
+    "archive": "quick_hack/cross-species/preliminary-human-cow.tar.gz",
+    "member": "preliminary-human-cow/raw/SRR31429688/read_id_map.tsv.gz",
+    "sha256": "97477f1e021e981407622b95cf785363bcce1cda223c6e65676e80b81d9f83a3",
+    "action": "identical content already included in current evidence",
+    "destination": ""
+  },
+  {
+    "archive": "quick_hack/cross-species/preliminary-human-cow.tar.gz",
+    "member": "preliminary-human-cow/reference/homo_sapiens/adapted/transcript_names.tsv",
+    "sha256": "3036a31eb4c4bf2a2991f30b7cbeeecec51f0a3ad068676489874cd9881ea1ed",
+    "action": "identical content already included in current evidence",
+    "destination": ""
+  },
+  {
+    "archive": "quick_hack/cross-species/preliminary-human-cow.tar.gz",
+    "member": "preliminary-human-cow/reference/orthology/five_species_homologies.tsv",
+    "sha256": "ee2f97789b6052d6966716a9366d98595e3e6915f47e8cce5f92dbd9e64761c3",
+    "action": "identical content already included in current evidence",
+    "destination": ""
+  },
+  {
+    "archive": "quick_hack/dist/chrna_submission.zip",
+    "member": "chrna/.gitignore",
+    "sha256": "5727c11316ed36f630f58ddc8b9ab92320478b7284b6aea3d2d3218a7f3ea27c",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "quick_hack/dist/chrna_submission.zip",
+    "member": "chrna/README.md",
+    "sha256": "acf7c557d0d9523c51a8722e2efc5970ae11e5556ddcb6a992514ef939438aea",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "quick_hack/dist/chrna_submission.zip",
+    "member": "chrna/animation/v3/trans_splicing_v3_4k_30s.mp4",
+    "sha256": "a56dcfbdd8500ffb28f8d3f7ced5272ce2100aa49d834d9c06a21b45075ed1c6",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "quick_hack/dist/chrna_submission.zip",
+    "member": "chrna/SUBMISSION_MANIFEST.json",
+    "sha256": "4a34790f0d0e4d6a920a80aa16f3e64371d242aa4229ac46ca21e1ebcef1f841",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  },
+  {
+    "archive": "quick_hack/results/compute/extension_artifacts.tar.gz",
+    "member": "output/SRR37513722.bam",
+    "sha256": "a21372719c2b25a4a4a1fefe4fb5e6d18f0a134b5b32a859ed1ab921b87ad5dc",
+    "action": "identical content already included in current evidence",
+    "destination": ""
+  },
+  {
+    "archive": "quick_hack/results/structure_campaign/compute/single_sequence_pilot/input_bundle.tar.gz",
+    "member": "scripts/structure_campaign_worker.py",
+    "sha256": "e8877f206dc1284f0f0e8ba08ae7b4a8f64f2a57a7d944ca5405ddd100cc2d7e",
+    "action": "superseded source/tool/submission bundle, or duplicate scientific output in latest loose files",
+    "destination": ""
+  }
+]

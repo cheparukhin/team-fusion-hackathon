@@ -1,0 +1,100 @@
+{
+  "pruned_directory_names": [
+    ".cache",
+    ".git",
+    ".pytest_cache",
+    ".snakemake",
+    ".tools",
+    ".venv",
+    ".venv-disorder",
+    ".venv-reproduction",
+    "__pycache__",
+    "node_modules"
+  ],
+  "enumerated_reinstallable_runtime_files": {
+    "chrna/publication/k562-human-20260920/workflows": {
+      "files": 1,
+      "bytes": 738
+    },
+    "chrna/runs/focused-pilot-20260919/bundle": {
+      "files": 12,
+      "bytes": 33822904
+    },
+    "chrna/runs/k562-pilot/20260919-overnight": {
+      "files": 12,
+      "bytes": 33822904
+    },
+    "chrna/workflow/tools/sratoolkit-3.2.1.json": {
+      "files": 1,
+      "bytes": 738
+    },
+    "quick_hack/cross-species/preliminary-human-cow/software": {
+      "files": 7,
+      "bytes": 5737864
+    },
+    "quick_hack/cross-species/software/JAFFA_source": {
+      "files": 34,
+      "bytes": 564657
+    },
+    "quick_hack/cross-species/software/JAFFA_source_pinned_source.tar.gz": {
+      "files": 1,
+      "bytes": 201807
+    },
+    "quick_hack/cross-species/software/LongGF_source": {
+      "files": 47,
+      "bytes": 16068418
+    },
+    "quick_hack/cross-species/software/LongGF_source_pinned_source.tar.gz": {
+      "files": 1,
+      "bytes": 5427546
+    },
+    "quick_hack/cross-species/software/TYPHON": {
+      "files": 33,
+      "bytes": 1260594
+    },
+    "quick_hack/cross-species/software/TYPHON_pinned_source.tar.gz": {
+      "files": 1,
+      "bytes": 71546
+    },
+    "quick_hack/cross-species/software/bpipe-0.9.9.2.tar.gz": {
+      "files": 1,
+      "bytes": 22414506
+    },
+    "quick_hack/cross-species/software/environment.explicit.txt": {
+      "files": 1,
+      "bytes": 35230
+    },
+    "quick_hack/cross-species/software/environment.yml": {
+      "files": 1,
+      "bytes": 1017
+    },
+    "quick_hack/cross-species/software/jaffal": {
+      "files": 118,
+      "bytes": 8611789169
+    },
+    "quick_hack/cross-species/software/jaffal_install.json": {
+      "files": 1,
+      "bytes": 378
+    },
+    "quick_hack/cross-species/software/micromamba.sha256": {
+      "files": 1,
+      "bytes": 94
+    },
+    "quick_hack/cross-species/software/micromamba.tar.bz2": {
+      "files": 1,
+      "bytes": 6988090
+    },
+    "quick_hack/cross-species/software/source_versions.json": {
+      "files": 1,
+      "bytes": 340
+    },
+    "quick_hack/results/structure_campaign/cross_model_gsdmd": {
+      "files": 26516,
+      "bytes": 14377327057
+    },
+    "quick_hack/results/structure_campaign/tools": {
+      "files": 3,
+      "bytes": 42904970
+    }
+  }
+}

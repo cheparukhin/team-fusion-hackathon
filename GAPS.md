@@ -1,41 +1,41 @@
-# Current gaps and action plan
+# Current gaps and next actions
 
-## Final team submission gates — 20 September 2026
+Updated 20 September 2026 after controller integration. Code and saved evidence
+have been preserved; the duplicate recovery source tree and superseded remote
+project copies have been removed. See [current status](STATUS.md) and
+[the evidence restore guide](preservation/controller-20260920/README.md).
 
-1. Finish the [final team deck](https://docs.google.com/presentation/d/1qZ2owRuz6j3A48Y_XcheWADuoPh6HYkmn2NCLqFDybk/edit), which still had template placeholders at the cleanup check; verify public viewing and rehearse. The seven-slide deck below is an older fallback.
-2. Perform real-browser checks of the public dashboard and review demo once the enforced browser policy check is available. Application-logic tests do not close this gate.
-3. The recovered disorder source and summary tables are included, but full score profiles/coordinates and historical report assets are still in the local recovery archive. Do not claim that the compact snapshot is a complete standalone scientific rerun.
-4. Human scientific signoff and prospective utility measurements remain unperformed.
+1. **Final presentation and access.** Finish and verify the
+   [final team deck](https://docs.google.com/presentation/d/1qZ2owRuz6j3A48Y_XcheWADuoPh6HYkmn2NCLqFDybk/edit),
+   which still had template placeholders at the earlier cleanup check. Public
+   viewing and a human rehearsal remain unverified. Older seven-slide materials
+   are historical fallbacks, not the final deck.
+2. **Browser validation.** The latest review demo and public dashboard still
+   require recorded interaction/visual checks. Earlier browser receipts apply
+   only to the versions they checked. Application-logic tests do not establish
+   browser behavior.
+3. **Scientific completion.** Full-cohort sequencing stopped without a complete
+   result. Its preserved partial outputs must not be presented as a completed
+   study. The verified short-read result remains the two-million paired-read
+   Parabricks run. K562 metadata and restored evidence do not establish a ranking
+   gain; keep K562 outside the core submission claims.
+4. **Independent evaluation.** Human scientific signoff and prospective utility
+   measurement remain unperformed. Three selected review cases do not establish
+   broad accuracy or time savings. The earlier AI scientific review is not human
+   signoff.
+5. **Reproduction inputs.** Full saved disorder profiles, coordinates, confidence
+   arrays, reports, and distinct run evidence are now in the release assets.
+   Restore them into the existing workflow paths. Large raw public reads,
+   reference/index databases, installed tools, and model weights were excluded
+   and must be fetched/rebuilt where a full scientific rerun needs them.
 
-[Current entry points](START_HERE.md) · [Submission guide](docs/submission/README.md). No new scientific computation or paid infrastructure is required for the cleanup.
+The frozen folding supplement still contains 341 candidate peptide models across
+223 RNA pairs plus 42 controls, with 117 of 500 selected predictions missing.
+Keep sequence hypotheses, RNA pairs, controls, and repeated-seed model records
+separate. Neither a structure prediction nor missing assay support establishes
+protein function, biological absence, or population prevalence. The partial
+cross-species comparison is not a completed conservation study.
 
-## Earlier closeout notes (historical)
-
-Updated 20 September 2026 after repository publication and documentation audit. AI scientific review is complete for the current claim set; presentation and delivery checks remain open.
-
-Delivered capabilities and verification are listed in [STATUS.md](STATUS.md). The user-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) confirmed the core calculations and corrected missing protein-evidence context. Independent human review remains unperformed; this AI review must not be presented as human signoff.
-
-Submission closeout target: **12:55 BST on 20 September 2026**. No new scientific scope or compute; earlier 13:07 BST work window does not extend expired analysis runs.
-
-**Current integration blocker:** sequencing stopped at its cutoff without a complete full-dataset result; the frozen folding supplement is now independently verified. The controller outage interrupted output recovery. Before any controller restart, the coordinating task must check the deferred provisioning process whose cancellation remains unconfirmed; all seven folding workers are stopped in the separate cleanup receipt. Keep integration local and use only recovered, hash-checked artifacts; the public release remains the verified baseline.
-
-## Next actions, in priority order
-
-1. **Verify final analysis handoffs:** distinguish recovered artifacts from newer observed progress. Folding verification is complete; retain the explicit missingness and sequence-hypothesis limits. Keep RNA pairs, peptide hypotheses and models separate; do not infer translation or function from a fold.
-2. **Presentation and access:** seven presented slides and appendix are visually checked, with a 4:06 synthetic fallback. Deck metadata still reports owner-only access; verify after the owner enables link viewing. Human rehearsal and pronunciation review remain open.
-3. **Browser verification, when available:** the enforced policy check is blocked. Once restored, verify case switching, keyboard navigation, source links, review persistence and downloads. Mock-document checks do not establish browser behaviour; do not bypass the policy.
-4. **Utility:** independent reviewer evaluation remains unperformed. Report utility as unmeasured; three selected demonstrations cannot establish time savings or broad accuracy.
-
-## Scope and compute
-
-The sequencing owner confirmed all three workers stopped; its current local shutdown receipt was inspected. Complete full-cohort results are not recovered and verified, so the presentation retains the completed **two-million paired short-read Parabricks** result.
-
-The [folding supplement](results/folding_expansion/README.md) contains **341 verified candidate peptide models across 223 RNA pairs plus 42 controls**, with 117 of 500 selected predictions missing. All archive hashes, model checks and 34 matched fragment comparisons passed independent review. Keep the random and enriched arms separate; neither model completion nor confidence establishes translation, function or population-wide prevalence.
-
-Keep K562 outside the current seven-slide story: completion metadata reports 8/8 stages, but the reported top-20 result ties the read-count baseline. The imported K562 worktree remains an older snapshot; do not silently combine its artifacts with the later completion metadata. This polishing task owns evidence review and submission integration. Separate tasks own the authorized sequencing and folding expansions; unfinished outputs do not change the submission claims.
-
-**Compute placement:** `chrna-controller` is for lightweight shared-repository operations only. Run analysis, annotation, indexing, tests, rendering, compression and other CPU/memory-heavy jobs on separate worker instances; return reviewed results to the shared repository. Before any controller restart, coordinate recovery and inspect stale jobs and the known fallback launcher. Do not restart heavy workloads there.
-
-The shared project ceiling is **$200/hour**, counting each instance once across tasks. Use existing suitable workers where possible, obtain live rates before provisioning, and enforce each run's deadline with independent shutdown controls. This policy adds no restart, provisioning or deadline authorization. [AGENTS.md](AGENTS.md) is the operating policy.
-
-[Current status](STATUS.md)
+No new computation, provisioning, restart, or deadline extension is authorized
+by this integration. Current placement, rate limits, and shutdown requirements
+remain in [AGENTS.md](AGENTS.md).

@@ -1,9 +1,9 @@
 {
-  "updated_utc": "2026-09-19T23:15:56.508643+00:00",
-  "phase": "discovery_SGNex_K562_directRNA_replicate5_run1",
-  "stages_complete": 3,
+  "updated_utc": "2026-09-20T00:29:52.830525+00:00",
+  "phase": "Completed",
+  "stages_complete": 8,
   "stages_total": 8,
-  "quoted_cost_bound_usd": 0.8234638958196263,
+  "quoted_cost_bound_usd": 2.523281618415033,
   "summaries": [
     {
       "assessed_split_reads": 19373,
@@ -23,10 +23,227 @@
         "Heuristic technical thresholds; not a biological false-positive rate."
       ]
     },
-    {}
+    {
+      "assessed_split_reads": 21741,
+      "exact_junctions": 21724,
+      "supported_exact_junctions": 199,
+      "longgf_read_memberships": 329,
+      "unassigned_segment_pairs": 2692,
+      "biological_samples": null,
+      "sample_id": "SGNex_K562_directRNA_replicate5_run1",
+      "reference_build": "GRCh38.p13/GENCODE43",
+      "rules_sha256": "ff99bcd191d7f0af1de5f4afdcb052ef0fc35a8ad2ced30f2158d2729684284c",
+      "status": "assessed_not_frozen",
+      "limitations": [
+        "One sample; no independent replication.",
+        "One caller; no multi-caller consensus.",
+        "Finite mapper search and supplementary-alignment proposal scope.",
+        "Heuristic technical thresholds; not a biological false-positive rate."
+      ]
+    }
   ],
-  "corroboration": {},
-  "repeatability": {},
-  "shutdown": {},
+  "corroboration": {
+    "a": 220,
+    "b": 199,
+    "intersection": 5,
+    "union": 414,
+    "a_to_b": 0.022727272727272728,
+    "b_to_a": 0.02512562814070352,
+    "ranker_top20": {
+      "k": 20,
+      "expected_supported": 5.0,
+      "fraction": 0.25
+    },
+    "read_count_top20": {
+      "k": 20,
+      "expected_supported": 5.0,
+      "fraction": 0.25
+    },
+    "interpretation": "Observed corroboration, not biological precision or sensitivity",
+    "without_BCR_ABL1": {
+      "a": 218,
+      "b": 197,
+      "intersection": 4,
+      "union": 411,
+      "a_to_b": 0.01834862385321101,
+      "b_to_a": 0.02030456852791878,
+      "ranker_top20": {
+        "k": 20,
+        "expected_supported": 4.0,
+        "fraction": 0.2
+      },
+      "read_count_top20": {
+        "k": 20,
+        "expected_supported": 4.0,
+        "fraction": 0.2
+      },
+      "interpretation": "Observed corroboration, not biological precision or sensitivity"
+    },
+    "strata": {
+      "cis": {
+        "a": 56,
+        "b": 48,
+        "intersection": 4,
+        "union": 100,
+        "a_to_b": 0.07142857142857142,
+        "b_to_a": 0.08333333333333333,
+        "ranker_top20": {
+          "k": 20,
+          "expected_supported": 4.0,
+          "fraction": 0.2
+        },
+        "read_count_top20": {
+          "k": 20,
+          "expected_supported": 4.0,
+          "fraction": 0.2
+        },
+        "interpretation": "Observed corroboration, not biological precision or sensitivity"
+      },
+      "trans": {
+        "a": 164,
+        "b": 151,
+        "intersection": 1,
+        "union": 314,
+        "a_to_b": 0.006097560975609756,
+        "b_to_a": 0.006622516556291391,
+        "ranker_top20": {
+          "k": 20,
+          "expected_supported": 1.0,
+          "fraction": 0.05
+        },
+        "read_count_top20": {
+          "k": 20,
+          "expected_supported": 1.0,
+          "fraction": 0.05
+        },
+        "interpretation": "Observed corroboration, not biological precision or sensitivity"
+      },
+      "min_reads_1": {
+        "a": 220,
+        "b": 199,
+        "intersection": 5,
+        "union": 414,
+        "a_to_b": 0.022727272727272728,
+        "b_to_a": 0.02512562814070352,
+        "ranker_top20": {
+          "k": 20,
+          "expected_supported": 5.0,
+          "fraction": 0.25
+        },
+        "read_count_top20": {
+          "k": 20,
+          "expected_supported": 5.0,
+          "fraction": 0.25
+        },
+        "interpretation": "Observed corroboration, not biological precision or sensitivity"
+      },
+      "min_reads_2": {
+        "a": 8,
+        "b": 3,
+        "intersection": 3,
+        "union": 8,
+        "a_to_b": 0.375,
+        "b_to_a": 1.0,
+        "ranker_top20": {
+          "k": 8,
+          "expected_supported": 3.0,
+          "fraction": 0.375
+        },
+        "read_count_top20": {
+          "k": 8,
+          "expected_supported": 3.0,
+          "fraction": 0.375
+        },
+        "interpretation": "Observed corroboration, not biological precision or sensitivity"
+      },
+      "min_reads_3": {
+        "a": 4,
+        "b": 2,
+        "intersection": 2,
+        "union": 4,
+        "a_to_b": 0.5,
+        "b_to_a": 1.0,
+        "ranker_top20": {
+          "k": 4,
+          "expected_supported": 2.0,
+          "fraction": 0.5
+        },
+        "read_count_top20": {
+          "k": 4,
+          "expected_supported": 2.0,
+          "fraction": 0.5
+        },
+        "interpretation": "Observed corroboration, not biological precision or sensitivity"
+      }
+    },
+    "illumina": {
+      "status": "processed",
+      "statistics": {
+        "records": 982856,
+        "discordant_or_unoriented": 979775,
+        "repeat_ambiguous": 2675,
+        "qualifying_records": 369,
+        "ambiguous_or_low_margin": 37
+      },
+      "primary_A_supported": 1,
+      "ranker_top20": {
+        "k": 20,
+        "expected_supported": 1.0,
+        "fraction": 0.05
+      },
+      "read_count_top20": {
+        "k": 20,
+        "expected_supported": 1.0,
+        "fraction": 0.05
+      },
+      "duplicate_resolution": "Fragment IDs and geometry reported; molecular duplicates UNKNOWN",
+      "without_BCR_ABL1": {
+        "primary_A_supported": 0,
+        "ranker_top20": {
+          "k": 20,
+          "expected_supported": 0.0,
+          "fraction": 0.0
+        },
+        "read_count_top20": {
+          "k": 20,
+          "expected_supported": 0.0,
+          "fraction": 0.0
+        }
+      }
+    },
+    "biological_independence": "UNKNOWN",
+    "adapter_status": "NOT_ASSESSED",
+    "origin": "NOT_ASSESSED",
+    "checkpoint_a": "processed"
+  },
+  "repeatability": {
+    "reads": 4627,
+    "input_sha256": "18a79407ca8f280f8cf4c5cdd2085546d36caf79e3a828f1280a62ee22f9197e",
+    "rule": "SHA256(original_read_id) first byte equals 0; selected before outcomes",
+    "equal": true,
+    "canonical_sha256": [
+      {
+        "rna_ranking.json": "a6b5c7fb2b8d5a8c2c0f08307e8f927ede7ae69f899687d8f5fbf6a95b250bd0",
+        "unresolved_longgf_proposals.json": "ce537fd4a75006a35bb15cb71ee2655920073e787595c41f61c4a04ec79f7d90",
+        "assessment_summary.json": "2b300a1a127f0010b624d73514600f55c75d3e0ab8dc97977b732f303a4529e1",
+        "unassigned_segments.json": "ae49ec4dab48f046f451c2c2df53dfd9db848fb8febeed1f3332ca216e998970",
+        "read_decisions.json": "4ecae3cd4e6079d93eea1f9a7f3a0583e9980492bd4319228958534030b14273"
+      },
+      {
+        "rna_ranking.json": "a6b5c7fb2b8d5a8c2c0f08307e8f927ede7ae69f899687d8f5fbf6a95b250bd0",
+        "unresolved_longgf_proposals.json": "ce537fd4a75006a35bb15cb71ee2655920073e787595c41f61c4a04ec79f7d90",
+        "assessment_summary.json": "2b300a1a127f0010b624d73514600f55c75d3e0ab8dc97977b732f303a4529e1",
+        "unassigned_segments.json": "ae49ec4dab48f046f451c2c2df53dfd9db848fb8febeed1f3332ca216e998970",
+        "read_decisions.json": "4ecae3cd4e6079d93eea1f9a7f3a0583e9980492bd4319228958534030b14273"
+      }
+    ],
+    "scope": "Real-read hash subset, not full-data bitwise reproducibility"
+  },
+  "shutdown": {
+    "utc": "2026-09-20T00:29:33.820610+00:00",
+    "name": "chrna-k562-cpu-20260919",
+    "instance_id": "t0zbsogjg",
+    "status": "STOPPED"
+  },
   "errors": {}
 }

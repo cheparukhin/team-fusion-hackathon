@@ -1,0 +1,122 @@
+{
+  "validated_at_utc": "2026-09-20T18:49:42.510961+00:00",
+  "baseline_commit": "add6764",
+  "scope": "Integrate current source and distinct saved evidence; discard superseded project copies. No new scientific inference or remote compute.",
+  "runtime": {
+    "python": "3.12.12",
+    "platform": "Darwin",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scipy": "1.18.1",
+    "gemmi": "0.7.5",
+    "pytest": "9.1.1"
+  },
+  "source_stability": {
+    "checked": 6040,
+    "changes": []
+  },
+  "restore": {
+    "status": "passed",
+    "evidence_files": 2500,
+    "deduplicated_paths_restored": 1071
+  },
+  "file_verification": {
+    "status": "passed",
+    "files": 3571,
+    "bytes": 7899785461,
+    "failures": []
+  },
+  "tests": {
+    "core_without_external_data": {
+      "passed": 55,
+      "skipped": 1,
+      "reason_for_skip": "Optional saved-model identity test requires restored coordinates."
+    },
+    "core_with_restored_data": {
+      "passed": 56,
+      "skipped": 0
+    },
+    "portable_mouse_k562": {
+      "passed": 106
+    },
+    "cross_species_ordered_pair": {
+      "passed": 2
+    },
+    "linux_dependent_test_files_not_run": [
+      "workflows/mouse-pilot/tests/test_local_job.py",
+      "workflows/mouse-pilot/tests/test_sra_stage.py"
+    ],
+    "linux_limit": "GNU timeout is unavailable on the local macOS verification host. Full raw-read/caller pipelines and inference were not rerun."
+  },
+  "model_artifact_verification": {
+    "status": "passed",
+    "manifest_files": 0,
+    "validated_model_jobs": 68,
+    "protocol_counts": {
+      "boltz2_2.2.1_precomputed": 1,
+      "boltz2_2.2.1_single_sequence": 67
+    },
+    "limitations": "Artifact integrity and prediction consistency; no translation or function validation."
+  },
+  "earlier_recovery_comparison": {
+    "matching_file_hashes": 2264,
+    "changed_files": 39,
+    "notes": "The latest report renderer/assets and selected metadata changed; all 68 model ledger records revalidated. Superseded source versions were not republished."
+  },
+  "secrets": {
+    "gitleaks_version": "8.30.1",
+    "git_source_and_metadata": "No findings in the repository scan.",
+    "evidence_scan": {
+      "false_positive_categories": {
+        "A3M amino-acid alignment": 56,
+        "Pfam amino-acid alignment": 6
+      },
+      "unresolved": []
+    },
+    "all_file_signature_scan": {
+      "files": 3071,
+      "uncompressed_bytes_scanned": 14788597778,
+      "findings": [],
+      "errors": []
+    },
+    "independent_ripgrep_signature_scan": {
+      "findings": 0,
+      "errors": 0,
+      "compressed_text_examined": true
+    },
+    "note": "Full signature scan covered a superset, including 16 output files subsequently discarded. Gitleaks generic scans capped individual files at 20 MB; token signatures also scanned larger files and gzip contents."
+  },
+  "git_data_policy": {
+    "files": 3571,
+    "all_restored_data_ignored": true,
+    "unignored": []
+  },
+  "limitations": [
+    "Artifact integrity is not biological validation.",
+    "Public raw reads, large genome/index downloads, installed runtimes and model weights must be fetched/rebuilt for applicable full reruns.",
+    "Distinct incomplete experiment records remain incomplete; scientific claims and reviewed ranking metrics are unchanged."
+  ],
+  "github_upload_verification": {
+    "parts": [
+      {
+        "filename": "controller-chrna-20260920.tar.gz.part-001",
+        "bytes": 1800000000,
+        "sha256": "6ae4f91e72ae06601d9c9c144452dc9b9360bc3e7d83e1766becd714cebf7001",
+        "verified": true
+      },
+      {
+        "filename": "controller-chrna-20260920.tar.gz.part-002",
+        "bytes": 1600604060,
+        "sha256": "50aed7d88368757779308fb83649b6c8544639b884b53ddc0c555fc885a76ddc",
+        "verified": true
+      },
+      {
+        "filename": "controller-quick-hack-20260920.tar.gz.part-001",
+        "bytes": 1534695950,
+        "sha256": "0b6eb38bd58f8fa2d9515eda08ae934352722c8a6d3de7dc16f12ed815b72c2c",
+        "verified": true
+      }
+    ],
+    "checksum_file_verified": true
+  }
+}

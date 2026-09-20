@@ -1,0 +1,8 @@
+{
+  "currency": "USD",
+  "max_combined_hourly_rate": 200.0,
+  "fail_on_unknown_quote": true,
+  "scope": "All project instances, including the controller; count each instance once.",
+  "owner_revision": "2026-09-20; current repository AGENTS.md",
+  "note": "Preflight arithmetic only, not a provider-enforced cap or authorization to provision. Current AGENTS.md and explicit task authorization govern execution."
+}

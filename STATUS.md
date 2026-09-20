@@ -1,5 +1,7 @@
 # Current submission status
 
+**Controller integration:** newer source is consolidated at the existing workflow paths; the duplicate recovery source snapshot was removed. Large evidence is stored in [release assets with a verified restore command](preservation/controller-20260920/README.md), outside Git history. Superseded remote project copies were discarded.
+
 **Final narrative update (20 September 2026):** ranking, disorder analysis and the structure dashboard are now the three entry points. See [submission guide](docs/submission/README.md). The final deck is different from the older reviewed seven-slide deck and still had template placeholders when checked. The public dashboard access mode was confirmed through Sites; fresh browser checks remain blocked. The recovered disorder campaign is on main and includes 188 conditional peptide hypotheses, not a completed full-cohort sequencing run.
 
 **Cleanup validation:** fresh Python 3.12 CPU-only install succeeded; 30 core tests, 12 evidence-output replays and Node review-logic checks passed. The native Hi-C reader is an optional extra. See [cleanup receipt](docs/submission/cleanup-validation.json).
@@ -25,6 +27,6 @@ User-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) is c
 
 ## Remaining gates
 
-Authorized browser verification; human rehearsal; deck sharing; recovery and verification of remaining sequencing outputs. Prospective utility remains unmeasured. K562 completion metadata reports 8/8 stages but does not establish a ranker gain; it stays outside the core story.
+Browser verification of the latest review page; human rehearsal; deck sharing. Full-cohort sequencing remained incomplete at cutoff; its saved partial outputs are preserved but are not a completed result. Prospective utility remains unmeasured. K562 completion metadata reports 8/8 stages but does not establish a ranker gain; it stays outside the core story.
 
 [Start here](START_HERE.md) · [Gaps and next actions](GAPS.md)

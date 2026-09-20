@@ -1,4 +1,4 @@
-"""Read-only verification of an extracted quick_hack recovery (no inference/network)."""
+"""Read-only verification of restored structure-campaign models (no inference/network)."""
 import argparse
 import csv
 import hashlib
@@ -10,9 +10,9 @@ import gemmi
 import numpy as np
 
 
-def verify(snapshot, dispositions):
+def verify(snapshot, dispositions=None):
     """Verify the recovery manifest and all successful ledger model artifacts."""
-    files = list(csv.DictReader(dispositions.open(), delimiter='\t'))
+    files = list(csv.DictReader(dispositions.open(), delimiter='\t')) if dispositions else []
     for row in files:
         rel = Path(row['archive_path']).relative_to('quick_hack')
         path = snapshot / rel
@@ -67,7 +67,7 @@ def verify(snapshot, dispositions):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--snapshot', type=Path, required=True, help='Extracted quick_hack directory')
-    parser.add_argument('--manifest', type=Path, default=Path(__file__).resolve().parents[2] / 'results/recovery_20260920/file_dispositions.tsv')
+    parser.add_argument('--root', '--snapshot', dest='snapshot', type=Path, required=True, help='Repository root with restored campaign evidence')
+    parser.add_argument('--manifest', type=Path, help='Optional legacy quick_hack file manifest; omit for the integrated repository')
     args = parser.parse_args()
     print(json.dumps(verify(args.snapshot.resolve(), args.manifest), indent=2))

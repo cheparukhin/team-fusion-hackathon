@@ -2,13 +2,15 @@
 
 **Current submission:** [start here](START_HERE.md) · [verified status](STATUS.md) · [gaps and action plan](GAPS.md)
 
+**Controller integration:** [updated workflows, evidence data, and restore instructions](preservation/controller-20260920/README.md).
+
 Three complementary hackathon outputs: **RNA ranking**, **fusion-protein disorder analysis**, and an **RNA/exon/structure dashboard**. We investigate which chimeric-RNA hypotheses merit follow-up; predicted proteins are not evidence of translation or function.
 
 | Explore | Evidence / reproduction |
 | --- | --- |
 | [Public structure dashboard](https://chimeric-rna-exon-structures.a-cheparukhin.chatgpt.site) | [Portable source and local viewer](dashboard/README.md): ten pilot hypotheses plus a separate literature control |
 | Ranking with RNA and 3D-genome features | [Held-out metrics](results/classifier/metrics.json): no established Hi-C gain |
-| Fusion-protein disorder | [Recovered campaign](results/recovery_20260920/snapshot/results/structure_campaign/RESULTS.md): 188 conditional hypotheses; V3/V1 sensitivity reported separately |
+| Fusion-protein disorder | [Campaign results](results/structure_campaign/RESULTS.md): 188 conditional hypotheses; V3/V1 sensitivity reported separately |
 | [Team's final presentation](https://docs.google.com/presentation/d/1qZ2owRuz6j3A48Y_XcheWADuoPh6HYkmn2NCLqFDybk/edit) | [Submission guide and remaining gates](docs/submission/README.md) |
 
 Scope follows the [shared doc's FINAL tab](https://docs.google.com/document/d/1suaqiVIxDCT2D8bvYndyFK6X1NSLv9tCG7VbrBRzrG4/edit?tab=t.ge1x7g3r1m8e), checked 20 September 2026. See [START_HERE.md](START_HERE.md) for the shortest judge walkthrough.

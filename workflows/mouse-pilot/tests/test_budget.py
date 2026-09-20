@@ -22,7 +22,7 @@ def test_owner_revised_policy_includes_controller_and_hard_ceiling():
     import json
     policy = json.loads((Path(__file__).resolve().parents[1] / 'infra/budget-policy.json').read_text())
     assert policy['currency'] == 'USD'
-    assert policy['preferred_combined_hourly_rate'] == 100
-    assert module.check(policy, [0.2, 99], 400)['combined_usd_per_hour'] == pytest.approx(499.2)
+    assert policy['max_combined_hourly_rate'] == 200
+    assert module.check(policy, [0.2, 99], 100)['combined_usd_per_hour'] == pytest.approx(199.2)
     with pytest.raises(ValueError):
-        module.check(policy, [0.2, 100], 400)
+        module.check(policy, [0.2, 100], 100)

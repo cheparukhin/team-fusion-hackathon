@@ -1,0 +1,794 @@
+[
+  {
+    "source": "source-stage/chrna/tests/test_pilot_exon_annotation.py",
+    "destination": "workflows/mouse-pilot/tests/test_pilot_exon_annotation.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/tests/test_k562_adapter_screen.py",
+    "destination": "workflows/mouse-pilot/tests/test_k562_adapter_screen.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/build_linked_structure_dashboard.py",
+    "destination": "workflows/mouse-pilot/scripts/build_linked_structure_dashboard.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/annotate_pilot_exons.py",
+    "destination": "workflows/mouse-pilot/scripts/annotate_pilot_exons.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/test_anonymous_rna.py",
+    "destination": "workflows/mouse-pilot/scripts/test_anonymous_rna.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/dashboard_reference_control.py",
+    "destination": "workflows/mouse-pilot/scripts/dashboard_reference_control.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/run_all_folds.py",
+    "destination": "workflows/mouse-pilot/scripts/k562/run_all_folds.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/adapter_origin.py",
+    "destination": "workflows/mouse-pilot/scripts/k562/adapter_origin.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/build_all_dashboard.py",
+    "destination": "workflows/mouse-pilot/scripts/k562/build_all_dashboard.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/publish_run.py",
+    "destination": "workflows/mouse-pilot/scripts/k562/publish_run.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/extension-section.html",
+    "destination": "workflows/mouse-pilot/scripts/k562/extension-section.html",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/build_all_evidence.py",
+    "destination": "workflows/mouse-pilot/scripts/k562/build_all_evidence.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/delivery_guard.py",
+    "destination": "workflows/mouse-pilot/scripts/k562/delivery_guard.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/extend_rna.py",
+    "destination": "workflows/mouse-pilot/scripts/k562/extend_rna.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/build_extension_dashboard.py",
+    "destination": "workflows/mouse-pilot/scripts/k562/build_extension_dashboard.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/dashboard.html",
+    "destination": "workflows/mouse-pilot/scripts/k562/dashboard.html",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/all-dashboard.html",
+    "destination": "workflows/mouse-pilot/scripts/k562/all-dashboard.html",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/build_dashboard.py",
+    "destination": "workflows/mouse-pilot/scripts/k562/build_dashboard.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/extension-dashboard.html",
+    "destination": "workflows/mouse-pilot/scripts/k562/extension-dashboard.html",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/accept_all_folds.py",
+    "destination": "workflows/mouse-pilot/scripts/k562/accept_all_folds.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/prepare_all_folds.py",
+    "destination": "workflows/mouse-pilot/scripts/k562/prepare_all_folds.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/extension-ui.js",
+    "destination": "workflows/mouse-pilot/scripts/k562/extension-ui.js",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/extend_all_rna.py",
+    "destination": "workflows/mouse-pilot/scripts/k562/extend_all_rna.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/chrna/scripts/k562/audit_all_junctions.py",
+    "destination": "workflows/mouse-pilot/scripts/k562/audit_all_junctions.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/tests/test_model.py",
+    "destination": "tests/test_model.py",
+    "action": "discard superseded remote version; keep reviewed repository version"
+  },
+  {
+    "source": "source-stage/quick_hack/tests/test_gsdmd_cross_model_compare.py",
+    "destination": "tests/test_gsdmd_cross_model_compare.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/package_submission.py",
+    "destination": "scripts/package_submission.py",
+    "action": "discard superseded remote version; keep reviewed repository version"
+  },
+  {
+    "source": "source-stage/quick_hack/src/chrna/model.py",
+    "destination": "src/chrna/model.py",
+    "action": "discard superseded remote version; keep reviewed repository version"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_render.py",
+    "destination": "scripts/compute/structure_campaign_render.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_stop.py",
+    "destination": "scripts/compute/structure_campaign_stop.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/gsdmd_cross_model_af2_cpu.py",
+    "destination": "scripts/compute/gsdmd_cross_model_af2_cpu.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/gsdmd_cross_model_download.py",
+    "destination": "scripts/compute/gsdmd_cross_model_download.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_test.py",
+    "destination": "scripts/compute/structure_campaign_test.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/gsdmd_cross_model_esmfold.py",
+    "destination": "scripts/compute/gsdmd_cross_model_esmfold.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/gsdmd_cross_model_finalize.py",
+    "destination": "scripts/compute/gsdmd_cross_model_finalize.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/gsdmd_cross_model_collect.py",
+    "destination": "scripts/compute/gsdmd_cross_model_collect.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_finalize.py",
+    "destination": "scripts/compute/structure_campaign_finalize.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_worker.py",
+    "destination": "scripts/compute/structure_campaign_worker.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/gsdmd_cross_model_esmfold_bounded.py",
+    "destination": "scripts/compute/gsdmd_cross_model_esmfold_bounded.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_export.py",
+    "destination": "scripts/compute/structure_campaign_export.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_merge.py",
+    "destination": "scripts/compute/structure_campaign_merge.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_preflight.py",
+    "destination": "scripts/compute/structure_campaign_preflight.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_verify_remote.py",
+    "destination": "scripts/compute/structure_campaign_verify_remote.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_watchdog.py",
+    "destination": "scripts/compute/structure_campaign_watchdog.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_msa.py",
+    "destination": "scripts/compute/structure_campaign_msa.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_snapshot.py",
+    "destination": "scripts/compute/structure_campaign_snapshot.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_stage.py",
+    "destination": "scripts/compute/structure_campaign_stage.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_monitor.py",
+    "destination": "scripts/compute/structure_campaign_monitor.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/gsdmd_cross_model_render.py",
+    "destination": "scripts/compute/gsdmd_cross_model_render.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_collect.py",
+    "destination": "scripts/compute/structure_campaign_collect.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/compute/structure_campaign_runtime_report.py",
+    "destination": "scripts/compute/structure_campaign_runtime_report.py",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/presentation/README.md",
+    "destination": "scripts/presentation/README.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "source-stage/quick_hack/scripts/presentation/build_gallery.py",
+    "destination": "scripts/presentation/build_gallery.py",
+    "action": "discard superseded remote version; keep reviewed repository version"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/comparison/all_read_evidence.tsv",
+    "destination": "workflows/cross-species/comparison/all_read_evidence.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/comparison/comparison_summary.json",
+    "destination": "workflows/cross-species/comparison/comparison_summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/comparison/preliminary_ordered_pair_matches.tsv",
+    "destination": "workflows/cross-species/comparison/preliminary_ordered_pair_matches.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/comparison/preliminary_pair_status.json",
+    "destination": "workflows/cross-species/comparison/preliminary_pair_status.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/comparison/reviewed_pair_matches.tsv",
+    "destination": "workflows/cross-species/comparison/reviewed_pair_matches.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/manifest/liver_runs.tsv",
+    "destination": "workflows/cross-species/manifest/liver_runs.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/manifest/references.json",
+    "destination": "workflows/cross-species/manifest/references.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/manifest/samples.tsv",
+    "destination": "workflows/cross-species/manifest/samples.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/bos_taurus/SRR31429688/cow_longgf_deadline_status.json",
+    "destination": "workflows/cross-species/per_species/bos_taurus/SRR31429688/cow_longgf_deadline_status.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/bos_taurus/SRR31429688/execution_status.json",
+    "destination": "workflows/cross-species/per_species/bos_taurus/SRR31429688/execution_status.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/bos_taurus/SRR31429688/genion_deadline_status.json",
+    "destination": "workflows/cross-species/per_species/bos_taurus/SRR31429688/genion_deadline_status.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/bos_taurus/SRR31429688/genion_evidence_summary.json",
+    "destination": "workflows/cross-species/per_species/bos_taurus/SRR31429688/genion_evidence_summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/bos_taurus/SRR31429688/genion_read_evidence.tsv",
+    "destination": "workflows/cross-species/per_species/bos_taurus/SRR31429688/genion_read_evidence.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/bos_taurus/SRR31429688/longgf_evidence_summary.json",
+    "destination": "workflows/cross-species/per_species/bos_taurus/SRR31429688/longgf_evidence_summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/bos_taurus/SRR31429688/longgf_read_evidence.tsv",
+    "destination": "workflows/cross-species/per_species/bos_taurus/SRR31429688/longgf_read_evidence.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/bos_taurus/SRR31429688/reconstruct_longgf_deadline_status.json",
+    "destination": "workflows/cross-species/per_species/bos_taurus/SRR31429688/reconstruct_longgf_deadline_status.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/homo_sapiens/SRR31438987/execution_status.json",
+    "destination": "workflows/cross-species/per_species/homo_sapiens/SRR31438987/execution_status.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/homo_sapiens/SRR31438987/genion_evidence_summary.json",
+    "destination": "workflows/cross-species/per_species/homo_sapiens/SRR31438987/genion_evidence_summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/homo_sapiens/SRR31438987/genion_read_evidence.tsv",
+    "destination": "workflows/cross-species/per_species/homo_sapiens/SRR31438987/genion_read_evidence.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/homo_sapiens/SRR31438987/jaffal_deadline_status.json",
+    "destination": "workflows/cross-species/per_species/homo_sapiens/SRR31438987/jaffal_deadline_status.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/homo_sapiens/SRR31438987/longgf_evidence_summary.json",
+    "destination": "workflows/cross-species/per_species/homo_sapiens/SRR31438987/longgf_evidence_summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/homo_sapiens/SRR31438987/longgf_read_evidence.tsv",
+    "destination": "workflows/cross-species/per_species/homo_sapiens/SRR31438987/longgf_read_evidence.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/per_species/homo_sapiens/SRR31438987/reconstruct_longgf_deadline_status.json",
+    "destination": "workflows/cross-species/per_species/homo_sapiens/SRR31438987/reconstruct_longgf_deadline_status.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/qc/analysis_rules.json",
+    "destination": "workflows/cross-species/qc/analysis_rules.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/qc/caller_compatibility.md",
+    "destination": "workflows/cross-species/qc/caller_compatibility.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/qc/metadata_audit.md",
+    "destination": "workflows/cross-species/qc/metadata_audit.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/cross-species/qc/orthology_coverage.json",
+    "destination": "workflows/cross-species/qc/orthology_coverage.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/RESULTS.md",
+    "destination": "results/structure_campaign/RESULTS.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/METHODS.md",
+    "destination": "results/structure_campaign/analysis/METHODS.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/alternative_start/summary.json",
+    "destination": "results/structure_campaign/analysis/alternative_start/summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/candidate_evidence_schema.json",
+    "destination": "results/structure_campaign/analysis/candidate_evidence_schema.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/candidate_evidence_table.tsv",
+    "destination": "results/structure_campaign/analysis/candidate_evidence_table.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/census_summary.json",
+    "destination": "results/structure_campaign/analysis/census_summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/controls/METHODS.md",
+    "destination": "results/structure_campaign/analysis/controls/METHODS.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/controls/summary.json",
+    "destination": "results/structure_campaign/analysis/controls/summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/disorder_summary.tsv",
+    "destination": "results/structure_campaign/analysis/disorder_summary.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/diversity_summary.json",
+    "destination": "results/structure_campaign/analysis/diversity_summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/model_geometry_qc.tsv",
+    "destination": "results/structure_campaign/analysis/model_geometry_qc.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/model_region_metrics.tsv",
+    "destination": "results/structure_campaign/analysis/model_region_metrics.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/novel_tail_summary.json",
+    "destination": "results/structure_campaign/analysis/novel_tail_summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/pair_weighted_summary.tsv",
+    "destination": "results/structure_campaign/analysis/pair_weighted_summary.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/paired_controls.tsv",
+    "destination": "results/structure_campaign/analysis/paired_controls.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/paired_native_regions.tsv",
+    "destination": "results/structure_campaign/analysis/paired_native_regions.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/paired_novel_tail_regions.tsv",
+    "destination": "results/structure_campaign/analysis/paired_novel_tail_regions.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/region_metrics.tsv",
+    "destination": "results/structure_campaign/analysis/region_metrics.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/region_peptide_summary.tsv",
+    "destination": "results/structure_campaign/analysis/region_peptide_summary.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/region_summary.json",
+    "destination": "results/structure_campaign/analysis/region_summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/seed_robustness.tsv",
+    "destination": "results/structure_campaign/analysis/seed_robustness.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/segments.json",
+    "destination": "results/structure_campaign/analysis/segments.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/structure_metric_summary.json",
+    "destination": "results/structure_campaign/analysis/structure_metric_summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/analysis/summary.json",
+    "destination": "results/structure_campaign/analysis/summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/METHODS.md",
+    "destination": "results/structure_campaign/cohort/METHODS.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/STATUS.md",
+    "destination": "results/structure_campaign/cohort/STATUS.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/adjacent_read_hypotheses.json",
+    "destination": "results/structure_campaign/cohort/adjacent_read_hypotheses.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/conditional_peptides.fasta",
+    "destination": "results/structure_campaign/cohort/conditional_peptides.fasta",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/consensus_peptides.fasta",
+    "destination": "results/structure_campaign/cohort/consensus_peptides.fasta",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/external_source_audit.json",
+    "destination": "results/structure_campaign/cohort/external_source_audit.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/independent_validation.json",
+    "destination": "results/structure_campaign/cohort/independent_validation.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/manifest.json",
+    "destination": "results/structure_campaign/cohort/manifest.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/pair_audit.tsv",
+    "destination": "results/structure_campaign/cohort/pair_audit.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/parent_controls.fasta",
+    "destination": "results/structure_campaign/cohort/parent_controls.fasta",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/peptides.fasta",
+    "destination": "results/structure_campaign/cohort/peptides.fasta",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/peptides.tsv",
+    "destination": "results/structure_campaign/cohort/peptides.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/primary_peptides.fasta",
+    "destination": "results/structure_campaign/cohort/primary_peptides.fasta",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/published_junction_evidence.tsv",
+    "destination": "results/structure_campaign/cohort/published_junction_evidence.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/reference_assisted_transcripts.fasta",
+    "destination": "results/structure_campaign/cohort/reference_assisted_transcripts.fasta",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/reference_candidates.tsv",
+    "destination": "results/structure_campaign/cohort/reference_candidates.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/cohort/sensitivity_peptides.fasta",
+    "destination": "results/structure_campaign/cohort/sensitivity_peptides.fasta",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/compute/METHODS.md",
+    "destination": "results/structure_campaign/compute/METHODS.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/compute/jobs.json",
+    "destination": "results/structure_campaign/compute/jobs.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/compute/model_metrics.tsv",
+    "destination": "results/structure_campaign/compute/model_metrics.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/compute/summary.json",
+    "destination": "results/structure_campaign/compute/summary.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/ESMFOLD_FEASIBILITY.md",
+    "destination": "results/structure_campaign/diversity/ESMFOLD_FEASIBILITY.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/FINAL_LEDGER_VERIFICATION.json",
+    "destination": "results/structure_campaign/diversity/FINAL_LEDGER_VERIFICATION.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/FIRST_PASS_51_COVERAGE.json",
+    "destination": "results/structure_campaign/diversity/FIRST_PASS_51_COVERAGE.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/FOLDSEEK_NUMERICAL_NOTE.md",
+    "destination": "results/structure_campaign/diversity/FOLDSEEK_NUMERICAL_NOTE.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/INDEPENDENT_REPORT_REVIEW.md",
+    "destination": "results/structure_campaign/diversity/INDEPENDENT_REPORT_REVIEW.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/METHODS.md",
+    "destination": "results/structure_campaign/diversity/METHODS.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/STATUS.md",
+    "destination": "results/structure_campaign/diversity/STATUS.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/alignments.tsv",
+    "destination": "results/structure_campaign/diversity/alignments.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/clusters.tsv",
+    "destination": "results/structure_campaign/diversity/clusters.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/domain_audit.tsv",
+    "destination": "results/structure_campaign/diversity/domain_audit.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/gate_sensitivity.tsv",
+    "destination": "results/structure_campaign/diversity/gate_sensitivity.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/gate_sensitivity_provenance.json",
+    "destination": "results/structure_campaign/diversity/gate_sensitivity_provenance.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/manifest.json",
+    "destination": "results/structure_campaign/diversity/manifest.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/model_audit.tsv",
+    "destination": "results/structure_campaign/diversity/model_audit.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/rarefaction.tsv",
+    "destination": "results/structure_campaign/diversity/rarefaction.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/diversity/tool_provenance.json",
+    "destination": "results/structure_campaign/diversity/tool_provenance.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/domains/METHODS.md",
+    "destination": "results/structure_campaign/domains/METHODS.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/domains/STATUS.md",
+    "destination": "results/structure_campaign/domains/STATUS.md",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/domains/architectures.tsv",
+    "destination": "results/structure_campaign/domains/architectures.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/domains/domain_hits.tsv",
+    "destination": "results/structure_campaign/domains/domain_hits.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/domains/manifest.json",
+    "destination": "results/structure_campaign/domains/manifest.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/domains/parent_domain_retention.tsv",
+    "destination": "results/structure_campaign/domains/parent_domain_retention.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/domains/progress.json",
+    "destination": "results/structure_campaign/domains/progress.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/selection/manifest.json",
+    "destination": "results/structure_campaign/selection/manifest.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/selection/seed_repeats/manifest.json",
+    "destination": "results/structure_campaign/selection/seed_repeats/manifest.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/selection/seed_repeats/selected.fasta",
+    "destination": "results/structure_campaign/selection/seed_repeats/selected.fasta",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/selection/seed_repeats/selection.tsv",
+    "destination": "results/structure_campaign/selection/seed_repeats/selection.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/selection/selected.fasta",
+    "destination": "results/structure_campaign/selection/selected.fasta",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/selection/selection.tsv",
+    "destination": "results/structure_campaign/selection/selection.tsv",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/results/structure_campaign/summary_provenance.json",
+    "destination": "results/structure_campaign/summary_provenance.json",
+    "action": "integrate recovered source"
+  },
+  {
+    "source": "repository/results/recovery_20260920/snapshot/scripts/structure_campaign/render_report.py",
+    "destination": "scripts/structure_campaign/render_report.py",
+    "action": "discard superseded remote version; keep reviewed repository version"
+  },
+  {
+    "destination": "workflows/mouse-pilot/scripts/build_linked_structure_dashboard.py",
+    "action": "discard obsolete dashboard/publication generator; existing dashboard/build.py and repository publishing remain canonical"
+  },
+  {
+    "destination": "workflows/mouse-pilot/scripts/dashboard_reference_control.py",
+    "action": "discard obsolete dashboard/publication generator; existing dashboard/build.py and repository publishing remain canonical"
+  },
+  {
+    "destination": "workflows/mouse-pilot/scripts/k562/publish_run.py",
+    "action": "discard obsolete dashboard/publication generator; existing dashboard/build.py and repository publishing remain canonical"
+  }
+]

@@ -2,6 +2,7 @@
   "filename": "quick-hack-recovery-20260920.tar.gz",
   "sha256": "ee7979525057fa97a5c5e1ba07c128ab9cc9848db047e33e72312bb93f5f27b7",
   "bytes": 356581229,
-  "availability": "Local recovery deliverable; not uploaded to GitHub. Source remote paths retained in file_dispositions.tsv.",
-  "scope": "Bounded recovery, not a whole-workspace backup; exclusions documented in README."
+  "availability": "Superseded by the integrated controller evidence release; historical receipt only.",
+  "scope": "Bounded recovery, not a whole-workspace backup; exclusions documented in README.",
+  "superseded_by": "https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/controller-preservation-2026-09-20"
 }

@@ -1,1 +1,174 @@
-<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>K562 overnight verification</title><style>body{font:16px system-ui,sans-serif;background:#f4f6fa;color:#18253b;max-width:1060px;margin:35px auto;padding:0 22px}h1{font-size:32px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}.card{background:white;border:1px solid #d8e0e8;border-radius:12px;padding:20px;margin:16px 0}.big{font-size:30px;font-weight:700}ul{list-style:none;padding:0}li{padding:10px 0;border-bottom:1px solid #e7eaf0}.done{color:#08735e}.pending{color:#536379}.bar{height:16px;background:#dfe5ef;border-radius:5px;margin:7px 0 20px;overflow:hidden}.bar span{display:block;height:100%;background:#237cbe}.barlabel{margin-top:18px}pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:#165f9d}small{color:#536379}</style><h1>K562 overnight verification</h1><p>discovery_SGNex_K562_directRNA_replicate5_run1</p><small>Snapshot 2026-09-19T23:15:56.508643+00:00 · refresh to read the latest saved state</small><div class="grid"><div class="card"><div class="big">3 / 8</div>stages complete (not a time estimate)</div><div class="card"><div class="big">$0.82</div>quoted cost upper estimate; billing not yet reconciled</div><div class="card"><div class="big">$20</div>run allowance · eight-hour worker lease</div></div><div class="card"><h2>Execution</h2><ul><li class="done">✓ Inputs and settings frozen</li><li class="done">✓ CPU worker ready</li><li class="done">✓ Direct RNA library A</li><li class="pending">○ Direct RNA library B</li><li class="pending">○ Real-read repeatability</li><li class="pending">○ Illumina corroboration</li><li class="pending">○ Results copied and verified</li><li class="pending">○ Temporary compute stopped</li></ul></div><div class="card"><h2>RNA mapping evidence</h2><div class="barlabel">Library A: 220 / 17,691 proposals meet mapping criteria; 19,373 split reads assessed</div><div class="bar"><span style="width:1.2435701769261207%"></span></div><p>Library B: pending</p><p>Mapping support is not biological validation. Uncorroborated junctions remain unknown; specimen independence, internal adapters, and RNA origin are not established.</p></div><p>No GPU, Hi-C, or protein prediction in this run. Other users’ instances are not modified. Cost estimates cover this temporary worker; other account activity is separate.</p></html>
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>K562 overnight verification</title><style>body{font:16px system-ui,sans-serif;background:#f4f6fa;color:#18253b;max-width:1060px;margin:35px auto;padding:0 22px}h1{font-size:32px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}.card{background:white;border:1px solid #d8e0e8;border-radius:12px;padding:20px;margin:16px 0}.big{font-size:30px;font-weight:700}ul{list-style:none;padding:0}li{padding:10px 0;border-bottom:1px solid #e7eaf0}.done{color:#08735e}.pending{color:#536379}.bar{height:16px;background:#dfe5ef;border-radius:5px;margin:7px 0 20px;overflow:hidden}.bar span{display:block;height:100%;background:#237cbe}.barlabel{margin-top:18px}pre{white-space:pre-wrap;overflow-wrap:anywhere}a{color:#165f9d}small{color:#536379}</style><h1>K562 overnight verification</h1><p>Completed</p><small>Snapshot 2026-09-20T00:29:52.830525+00:00 · refresh to read the latest saved state</small><div class="grid"><div class="card"><div class="big">8 / 8</div>stages complete (not a time estimate)</div><div class="card"><div class="big">$2.52</div>quoted cost upper estimate; billing not yet reconciled</div><div class="card"><div class="big">$20</div>run allowance · eight-hour worker lease</div></div><div class="card"><h2>Execution</h2><ul><li class="done">✓ Inputs and settings frozen</li><li class="done">✓ CPU worker ready</li><li class="done">✓ Direct RNA library A</li><li class="done">✓ Direct RNA library B</li><li class="done">✓ Real-read repeatability</li><li class="done">✓ Illumina corroboration</li><li class="done">✓ Results copied and verified</li><li class="done">✓ Temporary compute stopped</li></ul></div><div class="card"><h2>RNA mapping evidence</h2><div class="barlabel">Library A: 220 / 17,691 proposals meet mapping criteria; 19,373 split reads assessed</div><div class="bar"><span style="width:1.2435701769261207%"></span></div><div class="barlabel">Library B: 199 / 21,724 proposals meet mapping criteria; 21,741 split reads assessed</div><div class="bar"><span style="width:0.9160375621432517%"></span></div><p>Mapping support is not biological validation. Uncorroborated junctions remain unknown; specimen independence, internal adapters, and RNA origin are not established.</p></div><div class="card"><h2>Independent evidence joins</h2><pre>{
+  &quot;a&quot;: 220,
+  &quot;b&quot;: 199,
+  &quot;intersection&quot;: 5,
+  &quot;union&quot;: 414,
+  &quot;a_to_b&quot;: 0.022727272727272728,
+  &quot;b_to_a&quot;: 0.02512562814070352,
+  &quot;ranker_top20&quot;: {
+    &quot;k&quot;: 20,
+    &quot;expected_supported&quot;: 5.0,
+    &quot;fraction&quot;: 0.25
+  },
+  &quot;read_count_top20&quot;: {
+    &quot;k&quot;: 20,
+    &quot;expected_supported&quot;: 5.0,
+    &quot;fraction&quot;: 0.25
+  },
+  &quot;interpretation&quot;: &quot;Observed corroboration, not biological precision or sensitivity&quot;,
+  &quot;without_BCR_ABL1&quot;: {
+    &quot;a&quot;: 218,
+    &quot;b&quot;: 197,
+    &quot;intersection&quot;: 4,
+    &quot;union&quot;: 411,
+    &quot;a_to_b&quot;: 0.01834862385321101,
+    &quot;b_to_a&quot;: 0.02030456852791878,
+    &quot;ranker_top20&quot;: {
+      &quot;k&quot;: 20,
+      &quot;expected_supported&quot;: 4.0,
+      &quot;fraction&quot;: 0.2
+    },
+    &quot;read_count_top20&quot;: {
+      &quot;k&quot;: 20,
+      &quot;expected_supported&quot;: 4.0,
+      &quot;fraction&quot;: 0.2
+    },
+    &quot;interpretation&quot;: &quot;Observed corroboration, not biological precision or sensitivity&quot;
+  },
+  &quot;strata&quot;: {
+    &quot;cis&quot;: {
+      &quot;a&quot;: 56,
+      &quot;b&quot;: 48,
+      &quot;intersection&quot;: 4,
+      &quot;union&quot;: 100,
+      &quot;a_to_b&quot;: 0.07142857142857142,
+      &quot;b_to_a&quot;: 0.08333333333333333,
+      &quot;ranker_top20&quot;: {
+        &quot;k&quot;: 20,
+        &quot;expected_supported&quot;: 4.0,
+        &quot;fraction&quot;: 0.2
+      },
+      &quot;read_count_top20&quot;: {
+        &quot;k&quot;: 20,
+        &quot;expected_supported&quot;: 4.0,
+        &quot;fraction&quot;: 0.2
+      },
+      &quot;interpretation&quot;: &quot;Observed corroboration, not biological precision or sensitivity&quot;
+    },
+    &quot;trans&quot;: {
+      &quot;a&quot;: 164,
+      &quot;b&quot;: 151,
+      &quot;intersection&quot;: 1,
+      &quot;union&quot;: 314,
+      &quot;a_to_b&quot;: 0.006097560975609756,
+      &quot;b_to_a&quot;: 0.006622516556291391,
+      &quot;ranker_top20&quot;: {
+        &quot;k&quot;: 20,
+        &quot;expected_supported&quot;: 1.0,
+        &quot;fraction&quot;: 0.05
+      },
+      &quot;read_count_top20&quot;: {
+        &quot;k&quot;: 20,
+        &quot;expected_supported&quot;: 1.0,
+        &quot;fraction&quot;: 0.05
+      },
+      &quot;interpretation&quot;: &quot;Observed corroboration, not biological precision or sensitivity&quot;
+    },
+    &quot;min_reads_1&quot;: {
+      &quot;a&quot;: 220,
+      &quot;b&quot;: 199,
+      &quot;intersection&quot;: 5,
+      &quot;union&quot;: 414,
+      &quot;a_to_b&quot;: 0.022727272727272728,
+      &quot;b_to_a&quot;: 0.02512562814070352,
+      &quot;ranker_top20&quot;: {
+        &quot;k&quot;: 20,
+        &quot;expected_supported&quot;: 5.0,
+        &quot;fraction&quot;: 0.25
+      },
+      &quot;read_count_top20&quot;: {
+        &quot;k&quot;: 20,
+        &quot;expected_supported&quot;: 5.0,
+        &quot;fraction&quot;: 0.25
+      },
+      &quot;interpretation&quot;: &quot;Observed corroboration, not biological precision or sensitivity&quot;
+    },
+    &quot;min_reads_2&quot;: {
+      &quot;a&quot;: 8,
+      &quot;b&quot;: 3,
+      &quot;intersection&quot;: 3,
+      &quot;union&quot;: 8,
+      &quot;a_to_b&quot;: 0.375,
+      &quot;b_to_a&quot;: 1.0,
+      &quot;ranker_top20&quot;: {
+        &quot;k&quot;: 8,
+        &quot;expected_supported&quot;: 3.0,
+        &quot;fraction&quot;: 0.375
+      },
+      &quot;read_count_top20&quot;: {
+        &quot;k&quot;: 8,
+        &quot;expected_supported&quot;: 3.0,
+        &quot;fraction&quot;: 0.375
+      },
+      &quot;interpretation&quot;: &quot;Observed corroboration, not biological precision or sensitivity&quot;
+    },
+    &quot;min_reads_3&quot;: {
+      &quot;a&quot;: 4,
+      &quot;b&quot;: 2,
+      &quot;intersection&quot;: 2,
+      &quot;union&quot;: 4,
+      &quot;a_to_b&quot;: 0.5,
+      &quot;b_to_a&quot;: 1.0,
+      &quot;ranker_top20&quot;: {
+        &quot;k&quot;: 4,
+        &quot;expected_supported&quot;: 2.0,
+        &quot;fraction&quot;: 0.5
+      },
+      &quot;read_count_top20&quot;: {
+        &quot;k&quot;: 4,
+        &quot;expected_supported&quot;: 2.0,
+        &quot;fraction&quot;: 0.5
+      },
+      &quot;interpretation&quot;: &quot;Observed corroboration, not biological precision or sensitivity&quot;
+    }
+  },
+  &quot;illumina&quot;: {
+    &quot;status&quot;: &quot;processed&quot;,
+    &quot;statistics&quot;: {
+      &quot;records&quot;: 982856,
+      &quot;discordant_or_unoriented&quot;: 979775,
+      &quot;repeat_ambiguous&quot;: 2675,
+      &quot;qualifying_records&quot;: 369,
+      &quot;ambiguous_or_low_margin&quot;: 37
+    },
+    &quot;primary_A_supported&quot;: 1,
+    &quot;ranker_top20&quot;: {
+      &quot;k&quot;: 20,
+      &quot;expected_supported&quot;: 1.0,
+      &quot;fraction&quot;: 0.05
+    },
+    &quot;read_count_top20&quot;: {
+      &quot;k&quot;: 20,
+      &quot;expected_supported&quot;: 1.0,
+      &quot;fraction&quot;: 0.05
+    },
+    &quot;duplicate_resolution&quot;: &quot;Fragment IDs and geometry reported; molecular duplicates UNKNOWN&quot;,
+    &quot;without_BCR_ABL1&quot;: {
+      &quot;primary_A_supported&quot;: 0,
+      &quot;ranker_top20&quot;: {
+        &quot;k&quot;: 20,
+        &quot;expected_supported&quot;: 0.0,
+        &quot;fraction&quot;: 0.0
+      },
+      &quot;read_count_top20&quot;: {
+        &quot;k&quot;: 20,
+        &quot;expected_supported&quot;: 0.0,
+        &quot;fraction&quot;: 0.0
+      }
+    }
+  },
+  &quot;biological_independence&quot;: &quot;UNKNOWN&quot;,
+  &quot;adapter_status&quot;: &quot;NOT_ASSESSED&quot;,
+  &quot;origin&quot;: &quot;NOT_ASSESSED&quot;,
+  &quot;checkpoint_a&quot;: &quot;processed&quot;
+}</pre></div><p><a href="outputs/report.html">Detailed scientific report</a> · <a href="outputs/primary_candidates.tsv">Candidate table</a></p><p>No GPU, Hi-C, or protein prediction in this run. Other users’ instances are not modified. Cost estimates cover this temporary worker; other account activity is separate.</p></html>

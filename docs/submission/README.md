@@ -5,20 +5,20 @@ The [shared group doc, FINAL tab](https://docs.google.com/document/d/1suaqiVIxDC
 - **Final team deck:** [Fusion chRNA Slides](https://docs.google.com/presentation/d/1qZ2owRuz6j3A48Y_XcheWADuoPh6HYkmn2NCLqFDybk/edit).
 - **Single repository:** [team-fusion-hackathon](https://github.com/cheparukhin/team-fusion-hackathon).
 - **Live demo:** [Chimeric RNA Structure Explorer](https://chimeric-rna-exon-structures.a-cheparukhin.chatgpt.site).
-- **Local demo and code:** [portable dashboard](../../dashboard/README.md), [ranking reproduction](../../README.md#reproduce), [disorder methods and recovered source](../../results/recovery_20260920/README.md).
+- **Local demo and code:** [portable dashboard](../../dashboard/README.md), [ranking reproduction](../../README.md#reproduce), [disorder methods and source](../../scripts/structure_campaign/README.md).
 
 ## Submission gates
 
 At the 20 September 2026 cleanup check, the final deck still contained organizer-template placeholders (team names, workflow, evidence, repository URL and reproduction instructions). Another presentation task is editing it. Complete and check that deck before submission; the older PDFs below do not represent it. Confirm anonymous viewer access and rehearse the five-minute talk.
 
-The organizer asks for a five-minute presentation using its template and access to one GitHub repository containing reproduction/demo code. This repository includes the portable dashboard renderer and frozen inputs; full disorder score profiles/model coordinates remain in the separately recovered local archive, as disclosed in the recovery report. Fresh browser interaction checks are blocked by the browser tool's unavailable policy check. No organizer submission has been sent by this cleanup.
+The organizer asks for a five-minute presentation using its template and access to one GitHub repository containing reproduction/demo code. This repository includes the portable dashboard renderer and frozen inputs; full disorder score profiles and model coordinates are published as [versioned release assets](../../preservation/controller-20260920/README.md), with a verified restore command. Fresh browser interaction checks are blocked by the browser tool's unavailable policy check. No organizer submission has been sent by this cleanup.
 
 ## Claim-to-evidence map
 
 | Contribution | Supported statement | Evidence |
 | --- | --- | --- |
 | Ranking | No established improvement from Hi-C in this retrospective evaluation | [Metrics](../../results/classifier/metrics.json), [model card](../../results/classifier/MODEL_CARD.md) |
-| Disorder | 42/188 V3 vs 18/188 V1 predominantly-disordered conditional hypotheses | [Report](../../results/recovery_20260920/snapshot/results/structure_campaign/RESULTS.md), [summary](../../results/recovery_20260920/snapshot/results/structure_campaign/analysis/summary.json) |
+| Disorder | 42/188 V3 vs 18/188 V1 predominantly-disordered conditional hypotheses | [Report](../../results/structure_campaign/RESULTS.md), [summary](../../results/structure_campaign/analysis/summary.json) |
 | Dashboard | Ten pilot protein hypotheses and a separate literature control linked to exon origins | [Source, frozen inputs and rebuild](../../dashboard/README.md) |
 | NVIDIA | Real Parabricks A100 processing and Boltz-2 structure predictions | [Compute evidence](../../results/compute/STATUS.md), [folding supplement](../../results/folding_expansion/README.md) |
 | OpenAI | Codex-assisted implementation and three recorded, source-linked evidence reviews | [Replay instructions](../../scripts/review/README.md), [scientific review](SCIENTIFIC_REVIEW.md) |
