@@ -4,7 +4,7 @@ Updated 20 September 2026 after repository publication and documentation audit. 
 
 Delivered capabilities and verification are listed in [STATUS.md](STATUS.md). The user-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) confirmed the core calculations and corrected missing protein-evidence context. Independent human review remains unperformed; this AI review must not be presented as human signoff.
 
-Work window extended by the user to **13:07 BST on 20 September 2026**.
+Submission closeout target: **12:55 BST on 20 September 2026**. No new scientific scope or compute; earlier 13:07 BST work window does not extend expired analysis runs.
 
 **Current integration blocker:** sequencing stopped at its cutoff without a complete full-dataset result; the frozen folding supplement is now independently verified. The controller outage interrupted output recovery. Before any controller restart, the coordinating task must check the deferred provisioning process whose cancellation remains unconfirmed; all seven folding workers are stopped in the separate cleanup receipt. Keep integration local and use only recovered, hash-checked artifacts; the public release remains the verified baseline.
 

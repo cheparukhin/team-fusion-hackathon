@@ -16,6 +16,8 @@ Browser interaction and visual verification of this new review page remain pendi
 
 [Current organiser-template deck and all eight inspected slide previews](docs/submission/README.md). Seven presented slides plus a non-presented appendix; planned five-minute script. This is the primary submission story. A [4:06 narrated evidence walkthrough](docs/submission/evidence-walkthrough.mp4) is available as a fallback, with synthetic narration clearly disclosed. Interactive demo recording and human rehearsal remain open.
 
+[Verified folding supplement](results/folding_expansion/README.md): 341 candidate peptide models plus 42 controls, with exact inputs and all model files in a separate public archive. The seven-slide story remains focused on the evidence-review workflow.
+
 ## Verify
 
 The ZIP's `SUBMISSION_MANIFEST.json` identifies its exact Git commit and SHA-256 for every bundled tracked file. GPU outputs are cached real artifacts; none of these reproduction commands provisions compute.

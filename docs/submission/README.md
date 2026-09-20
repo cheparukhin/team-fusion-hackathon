@@ -4,6 +4,20 @@
 
 Seven presented slides plus a technical appendix. All eight native slide images were inspected. The PDF is a raster preview of those images, not a native editable export. Google Slides retains the editable presentation. Deck link-sharing is awaiting the owner's change.
 
+## Submission links
+
+| Material | Public access |
+| --- | --- |
+| [Presentation PDF](https://github.com/cheparukhin/team-fusion-hackathon/releases/download/submission-expanded-2026-09-20/slides-preview.pdf) | Anonymous download and checksum verified |
+| [4:06 narrated fallback](https://github.com/cheparukhin/team-fusion-hackathon/releases/download/submission-expanded-2026-09-20/evidence-walkthrough.mp4) | Anonymous download and checksum verified |
+| [Reproducible core ZIP](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-expanded-2026-09-20) | Published; pinned to source 928b7bc |
+| [Verified folding supplement](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/folding-evidence-2026-09-20) | Published; 383 models and complete frozen artifacts |
+| [Current repository](https://github.com/cheparukhin/team-fusion-hackathon) | Public; current methods, status and operating policy |
+
+The core ZIP contains the presentation and original evidence workflow. The separate folding archive adds 341 candidate peptide models across 223 RNA pairs and 42 controls; 117 selected predictions are missing. Both archives retain their exact source manifests. [Access-check receipt](public-access-check.json).
+
+**Owner actions:** enable anyone-with-link viewing on the editable deck, rehearse the five-minute talk, and submit the deck/repository through the organiser's submission route. No submission has been sent by this task. The public PDF and video remain available independently of Google Slides permissions.
+
 ## Five-minute presentation
 
 - **0:00–0:30:** which fusion is worth testing?
@@ -22,7 +36,7 @@ The [AI scientific review](SCIENTIFIC_REVIEW.md) is complete. The reviewed scien
 
 The three cases are selected demonstrations. Hi-C has no established ranking gain. The 924-base discrepancy is a genomic-coordinate comparison, not proof of a bad probe or false RNA. Gsdmd–Tmem106a has published protein and functional evidence that our weak model does not contradict. Independent human review and utility measurement remain unperformed.
 
-The **two-million short-read pairs** processed by Parabricks are separate from the mouse **long-read** cohort. A concurrent task is expanding both sequencing workflows; unfinished results are not included in the presentation's claims.
+The **two-million short-read pairs** processed by Parabricks are separate from the mouse **long-read** cohort. The expanded sequencing analysis did not finish within its cutoff; unrecovered or incomplete results are excluded from the presentation.
 
 Real-browser verification, human rehearsal and final access checks remain open. See [GAPS.md](../../GAPS.md). To rebuild the synthetic fallback on a Mac with Daniel, ffmpeg and ffprobe installed, run `python3 scripts/presentation/build_walkthrough.py`; the ordinary scientific reproduction does not need these media tools.
 
