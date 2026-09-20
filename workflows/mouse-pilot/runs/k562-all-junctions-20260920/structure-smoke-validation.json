@@ -1,0 +1,29 @@
+{
+  "rendered": [
+    {
+      "candidate": "\u2605 ORC6 \u2192 HNRNPDL \u00b7 46695675 \u2192 82424883",
+      "status": "Boltz-2 predicted C\u03b1 backbone trace \u00b7 RNA-source colors \u00b7 drag to rotate, scroll to zoom \u00b7 mean pLDDT 88.6/100 \u00b7 expression and function unknown"
+    },
+    {
+      "candidate": "\u2605 SEC14L1 \u2192 GMNN \u00b7 77200617 \u2192 24774960",
+      "status": "Boltz-2 predicted C\u03b1 backbone trace \u00b7 RNA-source colors \u00b7 drag to rotate, scroll to zoom \u00b7 mean pLDDT 79.1/100 \u00b7 expression and function unknown"
+    },
+    {
+      "candidate": "\u2605 PPP2R5C \u2192 PSMC2 \u00b7 101786185 \u2192 103367892",
+      "status": "Boltz-2 predicted C\u03b1 backbone trace \u00b7 RNA-source colors \u00b7 drag to rotate, scroll to zoom \u00b7 mean pLDDT 46.0/100 \u00b7 expression and function unknown"
+    },
+    {
+      "candidate": "\u2605 BICRAL \u2192 RAI1 \u00b7 42782103 \u2192 17809388",
+      "status": "Boltz-2 predicted C\u03b1 backbone trace \u00b7 RNA-source colors \u00b7 drag to rotate, scroll to zoom \u00b7 mean pLDDT 63.0/100 \u00b7 expression and function unknown"
+    },
+    {
+      "candidate": "\u2605 CREG1 \u2192 CDKN1C \u00b7 167553604 \u2192 2885765",
+      "status": "Boltz-2 predicted C\u03b1 backbone trace \u00b7 RNA-source colors \u00b7 drag to rotate, scroll to zoom \u00b7 mean pLDDT 60.4/100 \u00b7 expression and function unknown"
+    },
+    {
+      "candidate": "\u2605 NUDT14 \u2192 NDUFS8 \u00b7 105181127 \u2192 68036249",
+      "status": "Boltz-2 predicted C\u03b1 backbone trace \u00b7 RNA-source colors \u00b7 drag to rotate, scroll to zoom \u00b7 mean pLDDT 60.5/100 \u00b7 expression and function unknown"
+    }
+  ],
+  "errors": []
+}

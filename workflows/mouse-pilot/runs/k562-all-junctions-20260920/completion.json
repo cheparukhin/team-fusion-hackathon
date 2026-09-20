@@ -40,5 +40,7 @@
   "updated_utc": "2026-09-20T12:04:29.188794+00:00",
   "worker_shutdown": "STOPPED_AND_DELETED",
   "dashboard_rendered_structures": 6,
-  "delivery_deadline_UTC": "2026-09-20T12:46:40Z"
+  "delivery_deadline_UTC": "2026-09-20T12:46:40Z",
+  "completed_utc": "2026-09-20T12:10:56.959577+00:00",
+  "delivery_within_requested_hour": true
 }

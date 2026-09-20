@@ -19,7 +19,7 @@ The remaining junctions comprise 399 without a complete spanning ORF in these re
 
 Adapter assessment screened 469 read/junction records: no internal near-join matches to the two tested RTA cores and seven internal poly(A/T) flags; none of the six selected reads carried either flag. Raw-signal artifacts and same-culture DNA origin remain unassessed.
 
-Compute: one owned A100; six inference calls took 38.5–41.5 seconds each after setup. Launch through confirmed stop took 826.1 seconds. The conservative quote-based compute/storage estimate is USD 0.4934, not a reconciled provider invoice. Shared controller and other tasks are excluded. Other users’ instances were not modified.
+Compute: one owned A100; six inference calls took 38.5–41.5 seconds each after setup. Launch through confirmed stop took 826.1 seconds. The conservative quote-based compute/storage estimate is USD 0.4934, not a reconciled provider invoice. Shared controller and other tasks are excluded. The owned worker was stopped and deleted after verification. Other users’ instances were not modified.
 
 Validation: 119 tests, data build and development benchmark passed; held-out data were not evaluated. All 450 reconstructed RNAs and all 20 ORF translations were replay-verified for the linked view. The rendered browser audit covers all six selected hypotheses, shared codon mapping and narrow-screen layout.
 
