@@ -1,0 +1,9 @@
+{
+  "checked_utc": "2026-09-20T11:31:22Z",
+  "owned_folding_workers": "all seven remain STOPPED",
+  "owned_unused_failed_Hyperstack": "absent from inventory",
+  "fallback14": "absent from inventory",
+  "controller": "STOPPED; UNHEALTHY; no restart performed by this task",
+  "narrow_process_cancellation_attempt": "SSH connection closed, exit255; process-level cancellation remains unconfirmed",
+  "scientific_snapshot": "unchanged; published release folding-evidence-2026-09-20"
+}

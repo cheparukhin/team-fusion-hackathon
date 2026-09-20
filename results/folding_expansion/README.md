@@ -27,3 +27,5 @@ After extraction, install the recorded verification dependencies in an isolated 
 Integration checked all 2,211 manifest hashes, independently parsed all 383 models, and reran the packaged verifier from a clean extraction. All model rows and all 34 comparison rows matched the frozen report exactly. No new GPU work was performed.
 
 Protocol: Boltz2 2.2.1, single sequence, three recycles, 200 sampling steps, one sample, step scale 1.5, full PAE. Seed 20260919 resets per ordered batch of up to eight; this differs from per-peptide seeding in prior runs. Inference cutoff: 11:20:30 UTC; worker shutdown cutoff: 11:22 UTC on 20 September 2026. Compute cleanup receipts are separate from scientific validation.
+
+[Separate cleanup receipt](cleanup_receipt.json): at 11:31:22 UTC, all seven expansion workers were stopped; unused worker IDs and fallback14 were absent. The controller was also stopped/unhealthy. Cancellation of its deferred provisioning process could not be confirmed: the coordinating task must check that process before any controller restart. The frozen scientific archive is unchanged.
