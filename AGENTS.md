@@ -14,4 +14,8 @@ Scientific invariants: NanoString reported support is the label, not proof that 
 
 Use real cached artifacts for the final demo and provide commands and focused tests. Save worker-specific status in results/<owned area>/STATUS.md; send concise progress and concrete interface details to the coordinator. Do not expose credentials in logs.
 
-Compute budget: inspect existing Brev instances before creating any. The user's current ceiling is $400/hour across compute; prefer the existing shared CPU and account for concurrent team resources. Do not provision unless a live quote, runtime limit, and compatible hardware are established; retain a spending/runtime record. Prefer existing usable hardware. Do not stop/delete user instances you did not create.
+Compute placement: reserve `chrna-controller` for lightweight shared-repository operations only. Run analyses, annotation, indexing, tests, rendering, compression and all other CPU- or memory-heavy work on separate worker instances. Return reviewed results to the shared repository; coordinate commits and avoid concurrent Git index mutations. Bounded thread counts do not make analysis acceptable on the controller.
+
+Before any controller recovery or restart, coordinate with the owner and inspect for stale heavy jobs and the known folding `provision_fallback.py` launcher. Do not resume those workloads on the controller. This policy does not authorize a restart, new provisioning or deadline extension.
+
+Compute budget: inspect existing Brev instances and live rates before creating any. The current shared project ceiling is $200/hour, counting each instance once across tasks; use the headroom only when needed. Prefer existing suitable worker hardware. Require a live quote, compatible hardware, a fixed runtime cutoff and independently enforceable shutdown controls; retain cost/runtime receipts. Do not stop or delete teammate instances you did not create without explicit authorization.

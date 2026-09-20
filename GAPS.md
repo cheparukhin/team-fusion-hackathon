@@ -23,6 +23,8 @@ The [folding supplement](results/folding_expansion/README.md) contains **341 ver
 
 Keep K562 outside the current seven-slide story: completion metadata reports 8/8 stages, but the reported top-20 result ties the read-count baseline. The imported K562 worktree remains an older snapshot; do not silently combine its artifacts with the later completion metadata. This polishing task owns evidence review and submission integration. Separate tasks own the authorized sequencing and folding expansions; unfinished outputs do not change the submission claims.
 
-The current shared project compute ceiling is $200/hour, only where needed; it is not a spending target. No new cloud instance was provisioned by this improvement task; work used an isolated directory on the shared CPU with bounded threads. Concurrent sequencing and folding tasks now own additional workers and their shutdowns. No teammate resource was altered. Check their live inventory and combined cost before any future launch; this document is not a live cost monitor.
+**Compute placement:** `chrna-controller` is for lightweight shared-repository operations only. Run analysis, annotation, indexing, tests, rendering, compression and other CPU/memory-heavy jobs on separate worker instances; return reviewed results to the shared repository. Before any controller restart, coordinate recovery and inspect stale jobs and the known fallback launcher. Do not restart heavy workloads there.
+
+The shared project ceiling is **$200/hour**, counting each instance once across tasks. Use existing suitable workers where possible, obtain live rates before provisioning, and enforce each run's deadline with independent shutdown controls. This policy adds no restart, provisioning or deadline authorization. [AGENTS.md](AGENTS.md) is the operating policy.
 
 [Current status](STATUS.md)

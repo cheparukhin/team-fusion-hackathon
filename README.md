@@ -28,7 +28,7 @@ Three [recorded review cases](results/review/case_freeze.json) contain actual Co
 .venv/bin/python scripts/demo/serve.py
 ```
 
-Open **`http://127.0.0.1:8000/demo/review/`** for the scientist-review story, or `http://127.0.0.1:8000/demo/` for the full evidence explorer. The browser loads cached data, evidence, and reports without external services. From your own computer with Brev authenticated, run `brev port-forward chrna-controller -p 8000:8000`, then open the same URL. The static `demo/index.html` also embeds its data through `data.js`; linked provenance and animation are easiest to use through the local server.
+Open **`http://127.0.0.1:8000/demo/review/`** for the scientist-review story, or `http://127.0.0.1:8000/demo/` for the full evidence explorer. The browser loads cached data, evidence, and reports without external services. For a remote demo, run the server on a separate worker instance and forward port 8000 from that worker; reserve `chrna-controller` for lightweight repository operations. The static `demo/index.html` also embeds its data through `data.js`; linked provenance and animation are easiest to use through the local server.
 
 ## Reproduce
 
@@ -107,7 +107,7 @@ Primary source: [Venezia et al., Nature (2026)](https://www.nature.com/articles/
 
 [Download the reviewed submission](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-expanded-2026-09-20): extract the ZIP and start with `START_HERE.md`. The package includes the offline demo, evidence, slide preview and narrated fallback. Its `SUBMISSION_MANIFEST.json` pins the exact source commit and every file hash; release validation states the tested scope.
 
-The bundle code passed 30 Python tests, twelve exact evidence replays and UI application-logic checks on the shared CPU. Real-browser verification and human rehearsal remain open. Full-dataset expansion is running separately; no incomplete result is promoted into this release.
+The bundle code passed 30 Python tests, twelve exact evidence replays and UI application-logic checks in the recorded CPU validation. Real-browser verification and human rehearsal remain open. The full-dataset analysis did not finish within its cutoff; incomplete results are excluded.
 
 To package a Git checkout after committing changes, run `python3 scripts/package_submission.py`. Raw caches are excluded.
 
