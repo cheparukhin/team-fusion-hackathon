@@ -17,12 +17,12 @@ This is the working checklist from the [20 September assessment](docs/hackathon-
 
 ## Priority 2 — demonstrate utility without overstating accuracy
 - [x] Correct top-20 evaluation for tied scores. The read-count baseline has approximately 11.07 expected reported-supported pairs under random tie-breaking, compared with 11.00 for the RNA model.
-- [ ] Retain the null Hi-C result: AP 0.296 to 0.300; paired interval includes zero.
+- [x] Retain the null Hi-C result: AP 0.296 to 0.300; paired interval includes zero.
 - [ ] Freeze 3–5 review cases before evaluation. Compare manual and assisted evidence review for accuracy, unsupported claims, usable recommendations and elapsed time; report the small sample honestly.
 - [ ] Have a biology reviewer sign off on presentation claims and distinguish published validation from this project's computations.
 
 ## Priority 3 — finish the submission
-- [ ] Complete the organiser template: three presented slides plus the non-presented technical appendix.
+- [x] Complete the organiser template: three presented slides plus the non-presented technical appendix. [Native draft, inspected slides and timed script](docs/submission/README.md); science signoff and access remain pending.
 - [ ] Record a short backup demo and rehearse twice within five minutes.
 - [ ] Verify deck/repository access and be ready by 15:00 BST on Sunday.
 - [ ] Include K562 only if completed, checked and useful before the evidence freeze.
@@ -55,3 +55,5 @@ Iteration 3: three bounded Codex review runs now retain actual tool outputs and 
 Iteration 4: added an offline scientist-review page with three evidence-led cases, recorded-tool navigation, source-linked claims and locally saved/downloadable review receipts bound to the decision hash. Application logic checks pass for persistence, case isolation, required fields, stale records, storage failure and escaping. Browser/visual inspection remains OPEN: the Codex browser tool twice could not verify its enforced security policy; no alternative browser was used to bypass that check. Next priority is the submission story and remaining factual audit while browser access is unavailable. Do not present mock-document tests as browser validation or local self-reported receipts as independent signoff.
 
 Iteration 5: independently rechecked Psap:Lgals3 against the original source spreadsheets and pinned GENCODE M28 FASTA/GTF. Six read IDs and the 924-nt nearest endpoint discrepancy reproduce using explicit nucleotide-by-nucleotide exon coordinates, without using the demo or its reconstruction mapper. [Direct source audit](results/review/psap_source_audit.json). This is a verified descriptive discrepancy, not proof of a false RNA or a probe error. The next high-value deliverable is the three-slide submission narrative; extra models would not resolve this case.
+
+Iteration 6: completed a native copy of the organiser template with three presented slides and technical appendix, centered on the verified Psap–Lgals3 decision. All four native thumbnails were visually inspected; one crowded workflow label was simplified and re-inspected. Preserved the null Hi-C result, selected-case limits and pending biology review. Planned five-minute script is included; rehearsals and video are not claimed. [Deck and snapshot](docs/submission/README.md). Reassessed priority: release consistency and an honest delivery path now matter more than new analysis. Independent review, browser verification and judge access remain open.

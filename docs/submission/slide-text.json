@@ -1,0 +1,190 @@
+[
+  {
+    "id": "hack_s1",
+    "text": [
+      {
+        "id": "s1_title",
+        "text": "chRNA evidence review\n"
+      },
+      {
+        "id": "s1_team",
+        "text": "TEAM FUSION    Chris Paton \u00b7 Nathan Ewer \u00b7 Amber Wu \u00b7 Eva Klemencic \u00b7 Sasha Cheparukhin\n"
+      },
+      {
+        "id": "s1_tag",
+        "text": "Helping scientists choose which chimeric-RNA junction to test next.\n"
+      },
+      {
+        "id": "s1_problem_h",
+        "text": "THE PROBLEM\n"
+      },
+      {
+        "id": "s1_problem",
+        "text": "A gene-pair score does not identify a testable junction. Evidence is scattered across reads, probes and papers.\n"
+      },
+      {
+        "id": "s1_approach_h",
+        "text": "OUR APPROACH\n"
+      },
+      {
+        "id": "s1_approach",
+        "text": "Codex chooses evidence checks, reviews the results, and proposes a next step. A scientist can revise or defer it.\n"
+      }
+    ]
+  },
+  {
+    "id": "hack_s2",
+    "text": [
+      {
+        "id": "s2_title",
+        "text": "From candidate to scientist review\n"
+      },
+      {
+        "id": "g409e190953d_1_0",
+        "text": "Codex executed 12 bounded tool calls across three cases on Brev. Every recorded output replays exactly.\n"
+      },
+      {
+        "id": "wf_inputs_h",
+        "text": "PUBLISHED EVIDENCE\n"
+      },
+      {
+        "id": "wf_inputs_b",
+        "text": "Reads and probes\nPaper passages\n"
+      },
+      {
+        "id": "wf_agent_h",
+        "text": "CODEX + CPU TOOLS\n"
+      },
+      {
+        "id": "wf_agent_b",
+        "text": "Choose a check\nInspect the result\n"
+      },
+      {
+        "id": "wf_scientist_h",
+        "text": "SCIENTIST\n"
+      },
+      {
+        "id": "wf_scientist_b",
+        "text": "Review next step\nRevise or defer\n"
+      },
+      {
+        "id": "wf_nvidia_h",
+        "text": "NVIDIA PARABRICKS / A100\n"
+      },
+      {
+        "id": "wf_nvidia_b",
+        "text": "2M read pairs aligned; real output\nrechecked for exact junction support\n"
+      }
+    ]
+  },
+  {
+    "id": "hack_s3",
+    "text": [
+      {
+        "id": "s3_title",
+        "text": "A high score still needs a junction check\n"
+      },
+      {
+        "id": "s3_evidence_h",
+        "text": "EVIDENCE\n"
+      },
+      {
+        "id": "s3_evidence",
+        "text": "Three recorded cases; all 12 tool outputs replay exactly.\n"
+      },
+      {
+        "id": "s3_use_h",
+        "text": "REAL-WORLD USE\n"
+      },
+      {
+        "id": "s3_use",
+        "text": "A scientist checks the exact junction before choosing a validation assay.\n"
+      },
+      {
+        "id": "s3_limit_h",
+        "text": "KEY LIMITATION\n"
+      },
+      {
+        "id": "s3_limit",
+        "text": "Utility unmeasured.\nBiology review pending.\n"
+      },
+      {
+        "id": "case_name",
+        "text": "Psap\u2013Lgals3\n"
+      },
+      {
+        "id": "case_number",
+        "text": "924 nt\n"
+      },
+      {
+        "id": "case_caption",
+        "text": "Nearest read / probe endpoint discrepancy\n"
+      },
+      {
+        "id": "case_read_label",
+        "text": "Nearest read\n"
+      },
+      {
+        "id": "case_read_value",
+        "text": "chr14:47,622,058\n"
+      },
+      {
+        "id": "case_probe_label",
+        "text": "Designed probe\n"
+      },
+      {
+        "id": "case_probe_value",
+        "text": "chr14:47,622,982\n"
+      },
+      {
+        "id": "case_action",
+        "text": "Next: resolve the source alignment before choosing the junction assay.\n"
+      },
+      {
+        "id": "case_source",
+        "text": "Direct source audit: Supplementary Tables 3/8 + GENCODE M28.\nDescriptive discrepancy; long-read coordinate convention is unresolved.\n"
+      }
+    ]
+  },
+  {
+    "id": "hack_s4",
+    "text": [
+      {
+        "id": "s4_title",
+        "text": "Technical appendix\n"
+      },
+      {
+        "id": "s4_links_h",
+        "text": "PROJECT LINKS\n"
+      },
+      {
+        "id": "s4_links",
+        "text": "GitHub: team-fusion-hackathon\nOffline: demo/review/index.html\nEvidence snapshot: 644e3f8\nRepository access must be granted\n"
+      },
+      {
+        "id": "s4_repro_h",
+        "text": "HOW TO REPRODUCE\n"
+      },
+      {
+        "id": "s4_repro",
+        "text": "Python 3.12 \u00b7 uv \u00b7 requirements.lock\npython scripts/reproduce.py --download\npython scripts/review/verify.py\nDemo: python scripts/demo/serve.py\nCore rebuild: identical predictions\n"
+      },
+      {
+        "id": "s4_details_h",
+        "text": "TECHNICAL DETAILS\n"
+      },
+      {
+        "id": "s4_details",
+        "text": "NVIDIA: Parabricks 4.7.1-1\nA100 80 GB \u00b7 2M read pairs\n85.49 s alignment; no speedup claim\nOpenAI: Codex / gpt-6-astra\nRecorded tool use; offline replay\nData: Venezia et al., Nature (2026)\nGRCm39 / GENCODE M28\n479 pairs; 5 gene-disjoint folds\nHi-C: AP 0.296 \u2192 0.300 (n=401)\n\u0394AP 95% CI: \u22120.031 to +0.047\nPython packages pinned; CPU replay\nCached Boltz2 2.2.1: low confidence\n"
+      },
+      {
+        "id": "s4_footer",
+        "text": "TECHNICAL APPENDIX   Judges may use this slide to assess reproducibility\n"
+      },
+      {
+        "id": "s4_badge",
+        "text": "NOT PRESENTED\n"
+      }
+    ]
+  }
+]

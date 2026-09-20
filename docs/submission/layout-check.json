@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "presentation": {
+    "id": "1bnxMDj1dVAnIauboX6clVpuLMnzJVSns28jrIecd8QE",
+    "title": "Team Fusion — chRNA evidence review — submission draft",
+    "revisionId": "LljHQQqh9zsuQg",
+    "slideCount": 4
+  },
+  "snapshotSha256": "eefda8fae476ad644df9a82fa1cef9b67fc35fca2a7e6706380563ff72897e1a",
+  "summary": {
+    "totalIssues": 1,
+    "reportedIssues": 1,
+    "truncated": false,
+    "bySeverity": {
+      "warning": 1
+    },
+    "byCode": {
+      "TEXT_BELOW_NARRATIVE_TARGET": 1
+    }
+  },
+  "issues": [
+    {
+      "id": "TEXT_BELOW_NARRATIVE_TARGET:hack_s1:s1_team:shape:all",
+      "code": "TEXT_BELOW_NARRATIVE_TARGET",
+      "severity": "warning",
+      "slideId": "hack_s1",
+      "slideIndex": 0,
+      "objectId": "s1_team",
+      "surface": "shape",
+      "message": "Narrative text explicitly renders at 11 pt, below the 12 pt target.",
+      "remediation": "Preserve the template size when possible; otherwise shorten the copy or choose a denser exemplar instead of shrinking further.",
+      "evidence": {
+        "minimumFontSizePt": 11,
+        "autofitScale": 1,
+        "textPreview": "TEAM FUSION    Chris Paton · Nathan Ewer · Amber Wu · Eva Klemencic · Sasha Cheparukhin"
+      }
+    }
+  ]
+}
