@@ -1,16 +1,15 @@
 # Current gaps and action plan
 
-Updated 20 September 2026 after repository publication and documentation audit. The submission is not ready for final signoff.
+Updated 20 September 2026 after repository publication and documentation audit. AI scientific review is complete for the current claim set; presentation and delivery checks remain open.
 
-Delivered capabilities and verification are listed in [STATUS.md](STATUS.md).
+Delivered capabilities and verification are listed in [STATUS.md](STATUS.md). The user-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) confirmed the core calculations and corrected missing protein-evidence context. Independent human review remains unperformed; this AI review must not be presented as human signoff.
 
 ## Next actions, in priority order
 
-1. **Independent biology review:** a qualified scientist reviews all three frozen decisions and presentation claims, recording corrections/endorsement/deferral. [Instructions and source audit](docs/submission/SCIENTIFIC_REVIEW.md). All three reviews are currently pending; prior agent reviews do not satisfy this gate.
-2. **Real browser verification:** once the enforced browser-policy check is available, verify case switching, keyboard navigation, evidence links, review persistence and downloads. Current mock-document tests are not browser tests. Do not bypass the policy check.
-3. **Presentation and access:** update the native appendix/speaker notes to reflect the now-public repository; share the owner-only deck; rehearse twice under five minutes and check fallback pronunciation. The video is not an interactive demo recording or a human rehearsal.
-4. **Final release:** incorporate accepted corrections, regenerate/inspect changed artifacts, build and verify the final bundle, then publish the approved release and verify non-owner access. Pin the final source version across the deck, demo, README and bundle. The public “Latest” release is currently the old checkpoint.
-5. **Utility evaluation:** use a prespecified comparison with actual reviewers if feasible. Otherwise report utility as unmeasured. The three selected demonstrations cannot establish time savings or broad accuracy.
+1. **Real browser verification:** once the enforced browser-policy check is available, verify case switching, keyboard navigation, evidence links, review persistence and downloads. Current mock-document tests are not browser tests. Do not bypass the policy check.
+2. **Presentation and access:** update the native appendix/speaker notes to reflect the now-public repository; share the owner-only deck; rehearse twice under five minutes and check fallback pronunciation. The video is not an interactive demo recording or a human rehearsal.
+3. **Final release:** incorporate accepted corrections, regenerate/inspect changed artifacts, build and verify the final bundle, then publish the approved release and verify non-owner access. Pin the final source version across the deck, demo, README and bundle. The public “Latest” release is currently the old checkpoint.
+4. **Utility evaluation:** use a prespecified comparison with actual reviewers if feasible. Otherwise report utility as unmeasured. The three selected demonstrations cannot establish time savings or broad accuracy.
 
 ## Scope and compute
 

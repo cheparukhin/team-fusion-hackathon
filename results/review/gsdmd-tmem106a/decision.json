@@ -1,7 +1,7 @@
 {
   "pair_id": "Gsdmd:Tmem106a",
   "headline": "Keep published RNA evidence separate from structural uncertainty",
-  "recommendation": "Retain this as a published RNA-supported reference case. Do not use the cached predicted fold to claim a stable or functional chimera.",
+  "recommendation": "Retain this as a published reference with RNA, protein and functional evidence. Our low-confidence cached fold adds no validation and does not contradict the published experiments.",
   "decision": "retain_published_reference",
   "claims": [
     {
@@ -77,7 +77,15 @@
   "claim_review": {
     "reviewer": "Codex active assistant",
     "scope": "Qualitative source-support review, not an independent biology reviewer signoff",
-    "note": "Paper passage explicitly names the pair and RNA experiments. Structural statement is restricted to the cached model, with rounded pLDDT. No claim that protein evidence is absent from the full publication; the proposed follow-up refers to a new intended sample."
+    "note": "RNA claims and cached confidence match their recorded sources. Full-paper review also confirms published protein and functional experiments (Figures 3\u20134); the project did not reproduce those experiments. Follow-up concerns a new intended sample, not whether the publication contains protein evidence.",
+    "additional_source": {
+      "url": "https://www.nature.com/articles/s41586-026-10982-x",
+      "sections": [
+        "Gsdmd-Tmem106a encodes a fusion protein",
+        "GSDMD\u2013TMEM106A drives IL-1\u03b2 immunity"
+      ],
+      "reviewed_at": "2026-09-20T09:57:35.143766+00:00"
+    }
   },
   "limitations": [
     "Three selected demonstration cases; no prospective or blinded evaluation.",

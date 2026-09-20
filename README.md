@@ -8,7 +8,7 @@ The underlying ranking experiment tests whether 3D genome context adds useful si
 
 The reconstructed probe panel contains **479 eligible ordered gene pairs, including 109 reported NanoString positives**. Five-fold evaluation keeps all pairs sharing any parent gene in the same fold. The label is **reported NanoString support**, not RNA authenticity; an unreported candidate is not a proven negative.
 
-On the **401 pairs with complete Hi-C evidence**, average precision is **0.296 for RNA features versus 0.300 with Hi-C**. The paired difference is +0.00364, with a 95% component-bootstrap interval of [−0.0310, +0.0469]: this experiment **does not establish an improvement from Hi-C**. The useful deliverable is an audited, leakage-controlled experiment and an evidence explorer that makes that result inspectable.
+In **our retrospective evaluation** on the **401 pairs with complete Hi-C evidence**, average precision is **0.296 for RNA features versus 0.300 with Hi-C**. The paired difference is +0.00364, with a 95% component-bootstrap interval of [−0.0310, +0.0469]: this experiment **does not establish an improvement from Hi-C**. These are our calculated results, not paper-reported metrics; see [saved evaluation](results/classifier/metrics.json) and [scientific review](docs/submission/SCIENTIFIC_REVIEW.md). The useful deliverable is an audited, leakage-controlled experiment and an evidence explorer that makes that result inspectable.
 
 ## Replay the scientist’s decision
 

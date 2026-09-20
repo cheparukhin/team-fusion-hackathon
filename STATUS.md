@@ -2,6 +2,8 @@
 
 Updated 20 September 2026. The repository is **public**; anonymous GitHub access was verified. The Google Slides deck remains owner-only, and the consolidated ZIP release remains a **draft**, unavailable to anonymous judges. The older public checkpoint release is historical.
 
+User-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) is complete: source-coordinate reconstruction, held-out metrics, gene separation and twelve tool replays were checked on the shared CPU. The Gsdmd case now explicitly acknowledges published protein and functional evidence. Independent human review remains unperformed.
+
 ## Delivered and verified
 
 - 479 eligible ordered pairs, 109 reported NanoString-supported pairs; 401 complete Hi-C pairs. Unknown assay support is not a biological negative.
@@ -15,6 +17,6 @@ Updated 20 September 2026. The repository is **public**; anonymous GitHub access
 
 ## Remaining gates
 
-Independent biology review; authorized browser verification; human rehearsal; deck sharing; publication of an approved coherent release. Prospective utility remains unmeasured. K562 completion metadata reports 8/8 stages but does not establish a ranker gain; it stays outside the core story.
+Authorized browser verification; human rehearsal; deck sharing; publication of a coherent release. Prospective utility remains unmeasured. K562 completion metadata reports 8/8 stages but does not establish a ranker gain; it stays outside the core story.
 
 [Start here](START_HERE.md) · [Gaps and next actions](GAPS.md)

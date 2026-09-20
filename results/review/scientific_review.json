@@ -1,0 +1,54 @@
+{
+  "reviewed_at": "2026-09-20T09:57:35.143766+00:00",
+  "reviewer": "Codex active assistant",
+  "review_type": "user_requested_ai_scientific_review",
+  "independent_human_review": false,
+  "verdict": "defensible_retrospective_demonstration_with_stated_limits",
+  "primary_source": {
+    "url": "https://www.nature.com/articles/s41586-026-10982-x",
+    "reviewed_sections": [
+      "Inflammation drives chRNA expression",
+      "Gsdmd-Tmem106a encodes a fusion protein",
+      "GSDMD\u2013TMEM106A drives IL-1\u03b2 immunity",
+      "NanoString nCounter analysis",
+      "Hi-C processing",
+      "APA"
+    ]
+  },
+  "shared_cpu_verification": {
+    "host": "chrna-controller",
+    "directory": "/home/ubuntu/workspace/fusion-overnight-20260920",
+    "panel_n": 479,
+    "panel_reported_positive": 109,
+    "matched_n": 401,
+    "matched_reported_positive": 92,
+    "fold_count": 5,
+    "parent_gene_overlap_between_folds": false,
+    "recalculated_ap": {
+      "rna": 0.2959500513014134,
+      "hic": 0.2995931726274509
+    },
+    "source_reconstruction_read_ids": 6,
+    "source_reconstruction_nearest_genomic_difference_nt": 924,
+    "tool_outputs_replayed": 12,
+    "prediction_sha256": "012ca471c5ce4cd504f515b6e64a7d3d0c7321f1e63cd91e3cc500f4a7f1d4ca",
+    "scope": "Cached pinned source spreadsheets/reference rechecked; saved predictions evaluated; recorded tools replayed. No model refitting, new folding or experimental validation in this review."
+  },
+  "cases": [
+    {
+      "pair_id": "Psap:Lgals3",
+      "decision_sha256": "ed788295590e67e700cbddf543860085d5ce6910bbb4d3902ef2fe9e5032872d",
+      "disposition": "supported_with_stated_limits"
+    },
+    {
+      "pair_id": "Gsdmd:Tmem106a",
+      "decision_sha256": "5da82f6494441b9cb023889033d46d425c3e0555f35f966d4d735e4772369cb5",
+      "disposition": "revised_to_include_published_protein_and_function_context"
+    },
+    {
+      "pair_id": "Cd274:Lacc1",
+      "decision_sha256": "12730365853f2571ededed7a62236b6655032ecabb349cd165a19be6e0130e9b",
+      "disposition": "supported_with_stated_limits"
+    }
+  ]
+}
