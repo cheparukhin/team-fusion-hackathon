@@ -1,0 +1,30 @@
+{
+  "checked_utc": "2026-09-20T12:15:13.290214+00:00",
+  "base_commit": "c526e8b1775419ce61e9ec8ebd07db1a3f80cc30",
+  "environment": "Local macOS arm64, CPython 3.12.14, requirements-core.lock",
+  "core_tests": {
+    "passed": 30
+  },
+  "recorded_evidence_replays": {
+    "passed": 12,
+    "cases": 3
+  },
+  "review_application_logic": "passed; mock document, not browser rendering",
+  "dashboard": {
+    "models_verified": 11,
+    "model_and_annotation_data_equal_to_recovered_viewer": true,
+    "comparison_exception": "Only the provenance link becomes repository-relative",
+    "rebuild": "passed; standard library; all sequence hashes, residue indices, ORF and confidence lengths checked"
+  },
+  "native_hic_install": "Full lock failed locally: C++ standard header cstring unavailable. CPU lock installs successfully; native extraction remains optional and not revalidated.",
+  "site_access": "Sites connector reports public for appgprj_6aafcbeaedf48191845a375bfedc7c1a",
+  "browser_verification": "Blocked: admin-enforced browser security policy could not be verified; no workaround attempted.",
+  "final_deck": "Connector read found template placeholders; separate presentation task is editing; no final completion or public-viewing claim.",
+  "not_performed": [
+    "Full source-data reconstruction",
+    "New inference or GPU analysis",
+    "Independent human review",
+    "Human rehearsal",
+    "Organizer submission"
+  ]
+}

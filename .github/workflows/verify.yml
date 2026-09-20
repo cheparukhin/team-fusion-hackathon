@@ -1,0 +1,29 @@
+name: Verify submission
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  cached-evidence:
+    runs-on: ubuntu-latest
+    env:
+      OPENBLAS_NUM_THREADS: '1'
+      OMP_NUM_THREADS: '1'
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-core.lock
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: python -m pip install -r requirements-core.lock
+      - run: python -m pytest -q
+      - run: python scripts/review/verify.py
+      - run: node tests/test_review_ui.mjs
+      - run: python dashboard/build.py
+      - run: git diff --exit-code -- dashboard/index.html

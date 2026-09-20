@@ -1,5 +1,11 @@
 # Current submission status
 
+**Final narrative update (20 September 2026):** ranking, disorder analysis and the structure dashboard are now the three entry points. See [submission guide](docs/submission/README.md). The final deck is different from the older reviewed seven-slide deck and still had template placeholders when checked. The public dashboard access mode was confirmed through Sites; fresh browser checks remain blocked. The recovered disorder campaign is on main and includes 188 conditional peptide hypotheses, not a completed full-cohort sequencing run.
+
+**Cleanup validation:** fresh Python 3.12 CPU-only install succeeded; 30 core tests, 12 evidence-output replays and Node review-logic checks passed. The native Hi-C reader is an optional extra. See [cleanup receipt](docs/submission/cleanup-validation.json).
+
+## Earlier reviewed baseline
+
 Updated 20 September 2026. The repository is **public**; anonymous GitHub access was verified. The Google Slides deck still awaits owner-enabled link sharing. The [reviewed release](https://github.com/cheparukhin/team-fusion-hackathon/releases/tag/submission-expanded-2026-09-20) supplies the consolidated ZIP, public slide preview and narrated fallback.
 
 User-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) is complete: source-coordinate reconstruction, held-out metrics, gene separation and twelve tool replays passed the recorded CPU checks. The Gsdmd case now explicitly acknowledges published protein and functional evidence. Independent human review remains unperformed.
