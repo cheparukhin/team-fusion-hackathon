@@ -1,20 +1,20 @@
-# Execution status
+# Current submission status
 
-The minimal scientific experiment and offline demo are complete and independently reviewed.
+Updated 20 September 2026. The repository is **public**; anonymous GitHub access was verified. The Google Slides deck remains owner-only, and the consolidated ZIP release remains a **draft**, unavailable to anonymous judges. The older public checkpoint release is historical.
 
-- Dataset: 479 eligible ordered pairs, including 109 reported NanoString positives; exact identities and source hashes preserved.
-- Evaluation: five gene-disjoint folds; RNA baseline and matched RNA/Hi-C comparison complete.
-- Hi-C: 401 complete-contact pairs; normalization missingness corrected and independently verified.
-- Result: incremental Hi-C AP +0.00364, 95% interval [−0.0310, +0.0469]; improvement not established.
-- Demo: 479 pairs, 401 Hi-C scores, five cached Codex-authored cited reports, and actual GPU evidence kept separate from model labels and features.
-- Verification: 23 focused tests pass. Single-command cached reproduction preserves the independently reviewed classifier metrics exactly. Desktop, mobile, and offline browser checks pass.
-- NVIDIA: Parabricks 4.7.1-1 aligned 2,000,000 validated paired reads on an A100 80 GB in 85.49 seconds, excluding reference setup. BAM integrity checks passed. Output: 3,275 split-junction records and 25,207 encompassing-mate records; zero fixed-criteria probe-panel matches. Independent review confirmed these counts and non-detection. The successful 200,000-pair pilot is archived separately.
-- Compute: the new instance kerxx8tqg was deleted after verified local export; its watchdog was cancelled. Quote-based lifecycle cost estimate: $1.35, not an invoice. Preexisting and separately created resources were preserved.
-- OpenAI: five actual Codex-authored cached evidence reports; the optional Responses API adapter was not invoked without a key.
-- Submission: tracked source, reviewed results, demo, presentation runbook, animation renderer/reference inputs, and an internal SHA-256 manifest are bundled by scripts/package_submission.py. Raw sequencing/reference/contact caches remain excluded.
+## Delivered and verified
 
-See README.md for run commands and results/presentation/key_results.md for presentation claims.
+- 479 eligible ordered pairs, 109 reported NanoString-supported pairs; 401 complete Hi-C pairs. Unknown assay support is not a biological negative.
+- Matched AP: RNA 0.296, RNA + Hi-C 0.300; paired interval spans zero. Tie-aware expected top-20: full-panel read support 11.07 versus RNA 11.00; matched read support 9.73, RNA 9.63, Hi-C 9.00. No established ranking gain.
+- Three recorded Codex review cases, twelve exact tool-output replays, source-linked proposals and local scientist-review receipts. All three independent scientist reviews remain pending.
+- The Psap–Lgals3 924-nt endpoint discrepancy was independently recalculated from source tables/reference transcripts. None of its six published read UUIDs was found in the one cached mouse library checked; the originating alignments remain unresolved.
+- Real Parabricks A100 output: two million paired reads, 85.49 seconds alignment, zero fixed-rule probe-junction matches. Non-detection is not absence; no CPU speedup claim.
+- Clean CPU reconstruction produced identical input/folds/predictions. Thirty Python tests passed on the extracted candidate; later keyboard-focus logic checks passed locally and on Brev. **The new review page has not passed real-browser or visual checks.** Older explorer browser receipts apply only to their saved version.
+- Organiser-template draft: three presented slides plus appendix, inspected native snapshots and timed script. A 2:17 synthetic-narration slide walkthrough is available; it is not a browser recording or human rehearsal.
+- No new cloud instance was provisioned by the overnight improvement task. Inventory was last checked at about 00:33 UTC: controller running; earlier GPU/pilot stopped; K562 absent after teammate shutdown. This is a dated observation, not live monitoring or a billing audit.
 
-## Presentation update
+## Remaining gates
 
-Dataset artifacts now use results/dataset_reconstruction/, with unchanged scientific rows, folds, predictions and metric values. A twelve-slide visual PowerPoint gallery, exact candidate exon diagrams, figure-generation/interpretation guide, experimental GSDMD parent structure and sequence-verified cached Boltz2 chimera model are included. The candidate model has low confidence (mean pLDDT 48.7); no experimental chimera structure or druggability claim is made. Other candidate protein models remain explicitly unavailable. Structure rendering reused verified coordinates and incurred no new GPU allocation.
+Independent biology review; authorized browser verification; human rehearsal; deck sharing; publication of an approved coherent release. Prospective utility remains unmeasured. K562 completion metadata reports 8/8 stages but does not establish a ranker gain; it stays outside the core story.
+
+[Start here](START_HERE.md) · [Gaps and next actions](GAPS.md)

@@ -1,71 +1,21 @@
-# Submission gaps and action plan
+# Current gaps and action plan
 
-This is the working checklist from the [20 September assessment](docs/hackathon-assessment/assessment.md). The assessment preserves its original observations; checkboxes here describe this checkpoint.
+Updated 20 September 2026 after repository publication and documentation audit. The submission is not ready for final signoff.
 
-## Priority 0 — one reliable release
-- [x] Save the current implementation, demo, scientific outputs, and gap assessment in one GitHub repository.
-- [x] Keep published-panel results, mouse-pilot hypotheses, and ongoing K562 work explicitly separate.
-- [x] Verify the public-table/reference download and core reproduction path in a clean source directory and fresh environment. Twenty-five tests pass; rebuilt input, folds and predictions are byte-identical. Cached Hi-C and GPU outputs remain explicit inputs; see [validation](results/reproduction/clean_cpu_validation.json).
-- [ ] Freeze a final release; ensure slides, demo, downloadable bundle and README all refer to it.
-- [ ] Grant judges access when submitting; this checkpoint repository is private.
+Delivered capabilities and verification are listed in [STATUS.md](STATUS.md).
 
-## Priority 1 — demonstrate the scientist's decision
-- [ ] Agree one product statement: an assistant that helps scientists decide which chimeric-RNA candidates merit experimental validation.
-- [x] Record actual bounded Codex runs: retrieve candidate/junction evidence, choose checks, interpret results and propose the next discriminating experiment; twelve outputs replay exactly.
-- [ ] Complete independent scientist review of those decisions, recording acceptance, correction or deferral.
-- [x] Show how actual NVIDIA-generated evidence informs that review. Retain inputs, outputs, versions and an offline replay.
-- [x] Review unsupported qualitative claims explicitly; [Codex claim-by-claim audit](docs/submission/SCIENTIFIC_REVIEW.md) separates observed facts, inferences and unanswered questions. This does not substitute for the independent biology signoff below.
+## Next actions, in priority order
 
-## Priority 2 — demonstrate utility without overstating accuracy
-- [x] Correct top-20 evaluation for tied scores. The read-count baseline has approximately 11.07 expected reported-supported pairs under random tie-breaking, compared with 11.00 for the RNA model.
-- [x] Retain the null Hi-C result: AP 0.296 to 0.300; paired interval includes zero.
-- [ ] Freeze 3–5 review cases before evaluation. Compare manual and assisted evidence review for accuracy, unsupported claims, usable recommendations and elapsed time; report the small sample honestly.
-- [ ] Have a biology reviewer sign off on presentation claims and distinguish published validation from this project's computations.
+1. **Independent biology review:** a qualified scientist reviews all three frozen decisions and presentation claims, recording corrections/endorsement/deferral. [Instructions and source audit](docs/submission/SCIENTIFIC_REVIEW.md). All three reviews are currently pending; prior agent reviews do not satisfy this gate.
+2. **Real browser verification:** once the enforced browser-policy check is available, verify case switching, keyboard navigation, evidence links, review persistence and downloads. Current mock-document tests are not browser tests. Do not bypass the policy check.
+3. **Presentation and access:** update the native appendix/speaker notes to reflect the now-public repository; share the owner-only deck; rehearse twice under five minutes and check fallback pronunciation. The video is not an interactive demo recording or a human rehearsal.
+4. **Final release:** incorporate accepted corrections, regenerate/inspect changed artifacts, build and verify the final bundle, then publish the approved release and verify non-owner access. Pin the final source version across the deck, demo, README and bundle. The public “Latest” release is currently the old checkpoint.
+5. **Utility evaluation:** use a prespecified comparison with actual reviewers if feasible. Otherwise report utility as unmeasured. The three selected demonstrations cannot establish time savings or broad accuracy.
 
-## Priority 3 — finish the submission
-- [x] Complete the organiser template: three presented slides plus the non-presented technical appendix. [Native draft, inspected slides and timed script](docs/submission/README.md); science signoff and access remain pending.
-- [x] Prepare a short presentation fallback: [2:17 recorded evidence walkthrough](docs/submission/evidence-walkthrough.mp4), explicitly using synthetic narration and inspected slides.
-- [ ] Record verified interactive demo behavior and rehearse the human presentation twice within five minutes.
-- [ ] Verify deck/repository access and be ready by 15:00 BST on Sunday.
-- [ ] Include K562 only if completed, checked and useful before the evidence freeze.
+## Scope and compute
 
-## Scope cuts
-No additional models, cohorts, hyperparameter searches, folding comparisons, drug-design modules, dashboard redesigns or animation iterations on the submission's critical path. Hi-C remains an honest ablation; structure predictions remain hypotheses.
+Keep K562 outside the current three-slide story: completion metadata reports 8/8 stages, but the reported top-20 result ties the read-count baseline. The imported K562 worktree remains an older snapshot; do not silently combine its artifacts with the later completion metadata. No extra cohorts, folding, models, binder design, dashboard redesign or animations are on the critical path.
 
-Suggested Sunday gates: scope 09:30; stable release 10:30; agent demonstration 12:00; evidence freeze 12:30; packaging and rehearsal completed 14:30.
+The user’s overnight compute ceiling was $400/hour. No new cloud instance was provisioned by this improvement task; work used an isolated directory on the shared CPU with bounded threads. Last inventory check at about 00:33 UTC showed only the controller running. Inventory and billing must be rechecked before any future launch; this is not a live cost monitor.
 
-[Detailed rationale and evidence](docs/hackathon-assessment/assessment.md) · [Checkpoint contents](CURRENT_PROGRESS.md)
-
-
-## Overnight iteration plan — 20 September, 00:40 BST
-
-Deadline: 09:00 BST (08:00 UTC). Optimize the existing scientist-review workflow, not scope.
-
-1. Correct tied top-k evaluation; preserve the null Hi-C result and all saved predictions.
-2. Verify reproduction on the shared CPU in a separate directory, with bounded threads and no interference with teammates.
-3. Deliver a bounded evidence-checking agent demonstration with replay, claim-level review, and an honest human-review handoff.
-4. Package the strongest three-slide story and technical appendix, verify links and demo, and reassess remaining gaps.
-
-Compute inventory: controller and K562 CPU are running; both listed GPU/pilot instances are stopped. No new instance has been provisioned. User's combined rate ceiling is $400/hour; obtain live prices before any launch. Existing GPU evidence is sufficient for the next iteration.
-
-Iteration 1: top-k expectations now integrate boundary ties exactly, with attainable ranges and the previous pair-ID ordering preserved for audit. Exhaustive-permutation and edge-case tests pass on the shared CPU. Full-panel read-count baseline is approximately 11.07 expected supported pairs versus 11.00 for the model: do not claim top-20 uplift. Next priority is reliable reproduction and a useful evidence-review decision.
-
-Iteration 2: fresh environment installation and `scripts/reproduce.py --download` completed on the shared CPU. Rebuilt scientific inputs, folds and predictions match the checkpoint byte-for-byte; all 25 tests pass. No shared system packages changed. Next priority: the review demo. The Psap:Lgals3 case has a concrete probe-versus-read junction discrepancy worth showing rather than adding more models.
-
-Iteration 3: three bounded Codex review runs now retain actual tool outputs and source hashes. Re-matching uses the verified NVIDIA Parabricks junction file; decisions distinguish pair-level support, probe/read discrepancies, non-detection, and low-confidence/missing structures. These are selected demonstration cases, not a blinded study. Codex qualitative review is recorded; independent scientist signoff and measured utility remain pending. Next priority is a clear replay and scientist-review interface, followed by presentation packaging—not additional inference runs.
-
-Iteration 4: added an offline scientist-review page with three evidence-led cases, recorded-tool navigation, source-linked claims and locally saved/downloadable review receipts bound to the decision hash. Application logic checks pass for persistence, case isolation, required fields, stale records, storage failure and escaping. Browser/visual inspection remains OPEN: the Codex browser tool twice could not verify its enforced security policy; no alternative browser was used to bypass that check. Next priority is the submission story and remaining factual audit while browser access is unavailable. Do not present mock-document tests as browser validation or local self-reported receipts as independent signoff.
-
-Iteration 5: independently rechecked Psap:Lgals3 against the original source spreadsheets and pinned GENCODE M28 FASTA/GTF. Six read IDs and the 924-nt nearest endpoint discrepancy reproduce using explicit nucleotide-by-nucleotide exon coordinates, without using the demo or its reconstruction mapper. [Direct source audit](results/review/psap_source_audit.json). This is a verified descriptive discrepancy, not proof of a false RNA or a probe error. The next high-value deliverable is the three-slide submission narrative; extra models would not resolve this case.
-
-Iteration 6: completed a native copy of the organiser template with three presented slides and technical appendix, centered on the verified Psap–Lgals3 decision. All four native thumbnails were visually inspected; one crowded workflow label was simplified and re-inspected. Preserved the null Hi-C result, selected-case limits and pending biology review. Planned five-minute script is included; rehearsals and video are not claimed. [Deck and snapshot](docs/submission/README.md). Reassessed priority: release consistency and an honest delivery path now matter more than new analysis. Independent review, browser verification and judge access remain open.
-
-Iteration 7: aligning the repository entry point, current deck and offline bundle. The earlier twelve-slide gallery is now explicitly supporting/historical material so its pre-correction snapshots cannot be mistaken for the current claim set. A direct browser retry still failed its enforced policy availability check; no workaround was used. The initial package failed on Unix-epoch file timestamps; fixed timestamp handling and made ZIP replacement atomic after full checksum verification. The 117-MB, 674-file bundle at `6784cc8` was extracted separately on the shared CPU: all file hashes matched, all 12 review outputs replayed exactly, 30 tests passed, and review application-logic checks passed. [Bundle validation](results/reproduction/bundle_validation.json). Next priority is an accessible release candidate and a focused judge-facing scientific audit, not further models.
-
-Iteration 8: audited the current story claim by claim, including qualitative interpretation and the distinction between independent assay evidence and independent reviewer validation. Added concise judge questions and a concrete reviewer handoff tied to frozen decision hashes. No scientific decision was changed, no review was fabricated, and no new assay/model was added. Reassessment: the evidence package is coherent; the remaining critical proof is human review and a demonstrated presentation, not another computational result.
-
-Iteration 9: created a 2:17 narrated evidence walkthrough from the inspected native slides, with transcript, timings and exact media hash. Synthetic narration is disclosed in the opening sentence. The entire file decodes, audio levels are present below clipping, and encoded frames from all three sections were visually inspected. This is a presentation fallback, not a browser recording or human rehearsal. No cloud compute was added; no software was installed on the shared CPU. Reassessment: stop adding functionality. Focus remaining work on delivery/access verification and qualified review.
-
-Iteration 10: code review found keyboard focus was lost when case and step buttons were re-created. Restored focus to the selected control, made claim links focus the matching evidence article, fixed their anchor, and added visible focus for expandable details. Targeted application-logic checks cover these transitions. Real keyboard/browser behavior remains unverified because browser policy verification is unavailable. Next priority remains independent review and real presentation verification; no new scientific scope.
-
-Iteration 11: re-read the live judging criteria and audited every readiness gate against current evidence. Owner-only deck access and private repository are confirmed; human signoff, real browser checks, rehearsal and judge access remain open. The completed teammate K562 metadata does not show a top-20 ranker advantage, so it stays outside the core story. A single low-priority scan of all 2,238,871 cached mouse reads found none of the six published Psap–Lgals3 UUIDs; the source-alignment uncertainty remains unresolved, and no broad download was started. [Readiness audit](docs/submission/READINESS.md). Reassessment: qualified review and authorized presentation/access verification now dominate; computation should resume only if a specific new source or correction can change a decision.
+[Current status](STATUS.md)

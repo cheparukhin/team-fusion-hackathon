@@ -1,6 +1,6 @@
 # chRNA hackathon coordination
 
-Read plans/chRNA_minimal_poc.md before implementation. The coordinator owns shared contracts, root dependencies, src/chrna/model.py, tests/test_model.py, README.md, and final integration.
+Read GAPS.md and STATUS.md before implementation. The coordinator owns shared contracts, root dependencies, src/chrna/model.py, tests/test_model.py, README.md, and final integration.
 
 Worker ownership:
 - Data worker: src/chrna/data.py, tests/test_data.py, results/dataset_reconstruction/, data/raw/, data/reference/.
@@ -14,4 +14,4 @@ Scientific invariants: NanoString reported support is the label, not proof that 
 
 Use real cached artifacts for the final demo and provide commands and focused tests. Save worker-specific status in results/<owned area>/STATUS.md; send concise progress and concrete interface details to the coordinator. Do not expose credentials in logs.
 
-Compute budget: inspect existing Brev instances before creating any. Up to $150 total new compute allocation within the user's $500 credit, including known running instances/storage where measurable. Do not provision unless a live quote, runtime limit, and compatible hardware are established; retain a spending/runtime record. Prefer existing usable hardware. Do not stop/delete user instances you did not create.
+Compute budget: inspect existing Brev instances before creating any. The user's current ceiling is $400/hour across compute; prefer the existing shared CPU and account for concurrent team resources. Do not provision unless a live quote, runtime limit, and compatible hardware are established; retain a spending/runtime record. Prefer existing usable hardware. Do not stop/delete user instances you did not create.

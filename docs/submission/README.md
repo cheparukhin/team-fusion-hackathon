@@ -17,17 +17,14 @@ Three presented slides plus one non-presented technical appendix. The original o
 
 The complete timed script is in [speaker-notes.json](speaker-notes.json) and the native deck. These are planned timings, not completed rehearsals.
 
-[Scientific claim audit, judge questions and independent-review instructions](SCIENTIFIC_REVIEW.md) · [Requirement-by-requirement readiness audit](READINESS.md).
+[Scientific claim audit, judge questions and independent-review instructions](SCIENTIFIC_REVIEW.md) · [Current gaps and action plan](../../GAPS.md).
 
 ## Evidence and limits
 
 Evidence snapshot: `644e3f8`. Scientific references are in the script and [slide-text.json](slide-text.json). Hi-C has no established gain. The three cases are selected demonstrations. Human review and measured utility are pending. Local review receipts are self-reported.
 
-The repository and deck are private. Judge access must be granted before submission; this folder does not establish external access. Final release pin and downloaded submission bundle remain open. A native PDF export returned an unmaterialized file reference, so only the inspected native thumbnails are archived here. Demo browser validation remains separately open; slide inspection does not substitute for it.
+The repository is public, and anonymous GitHub access was verified on 20 September. The native deck remains owner-only. The candidate ZIP at `e908480` is verified but its release remains a draft; the public “Latest” release is an older checkpoint. Final approval/publication, deck sharing and the final release pin remain open. Later Markdown updates are not included in that frozen ZIP. A native PDF export returned an unmaterialized file reference, so only the inspected native thumbnails are archived here. Demo browser validation remains separately open; slide inspection does not substitute for it.
 
-## Visual record
+## Before submission
 
-![Slide 1](slide-1.png)
-![Slide 2](slide-2.png)
-![Slide 3](slide-3.png)
-![Technical appendix](slide-4.png)
+The native appendix and saved speaker notes still describe the repository as private. Update that access wording and refresh the exported slides before final submission. The scientific values are unchanged. See [current status](../../STATUS.md) and [remaining actions](../../GAPS.md).
