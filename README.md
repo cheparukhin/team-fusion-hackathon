@@ -20,7 +20,7 @@ Three [recorded review cases](results/review/case_freeze.json) contain actual Co
 
 ## Submission presentation
 
-[Three-slide organiser-template deck, technical appendix and timed script](docs/submission/README.md). This is the current submission narrative. The slide previews were visually inspected; independent biology review, final release publication and Google Slides sharing remain pending. The repository is public.
+[Three-slide organiser-template deck, technical appendix and timed script](docs/submission/README.md). This is the current submission narrative. The slide previews were visually inspected and the reviewed release is public. Independent human review, browser verification, rehearsal and Google Slides sharing remain pending.
 
 ## Open the demo
 

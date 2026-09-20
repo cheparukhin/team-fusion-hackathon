@@ -13,10 +13,10 @@ User-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) is c
 - Real Parabricks A100 output: two million paired reads, 85.49 seconds alignment, zero fixed-rule probe-junction matches. Non-detection is not absence; no CPU speedup claim.
 - Clean CPU reconstruction produced identical input/folds/predictions. The current code passed 30 Python tests, twelve exact tool replays and keyboard-focus logic checks on the clean extracted bundle on Brev. **The new review page has not passed real-browser or visual checks.** Older explorer browser receipts apply only to their saved version.
 - Organiser-template deck: three presented slides plus appendix, current native snapshots, PDF preview and timed script. A 2:19 synthetic-narration slide walkthrough is available; it is not a browser recording or human rehearsal.
-- No new cloud instance was provisioned by the overnight improvement task. The latest inventory shows controller, cross-species CPU and Boltz A100 running for concurrent work. No teammate resource was altered; billing is not independently audited.
+- No new cloud instance was provisioned by the overnight improvement task. Separate sequencing and folding tasks own their active workers and shutdowns. No teammate resource was altered; billing is not independently audited.
 
 ## Remaining gates
 
-Authorized browser verification; human rehearsal; deck sharing; integration only of verified outputs from the separate full-dataset task. Prospective utility remains unmeasured. K562 completion metadata reports 8/8 stages but does not establish a ranker gain; it stays outside the core story.
+Authorized browser verification; human rehearsal; deck sharing; integration only of verified outputs from the separate sequencing and folding tasks. Prospective utility remains unmeasured. K562 completion metadata reports 8/8 stages but does not establish a ranker gain; it stays outside the core story.
 
 [Start here](START_HERE.md) · [Gaps and next actions](GAPS.md)
