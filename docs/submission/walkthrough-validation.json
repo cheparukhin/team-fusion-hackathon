@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-09-20T00:23:23.656610+00:00",
+  "kind": "Narrated native-slide evidence walkthrough, not browser recording",
+  "narration": "Synthetic macOS Daniel en_GB, 155 words/minute setting; disclosed in opening sentence",
+  "duration_seconds": 136.846484,
+  "video": {
+    "codec": "H.264",
+    "width": 1600,
+    "height": 900,
+    "fps": 5
+  },
+  "audio": {
+    "codec": "AAC",
+    "sample_rate_hz": 22050,
+    "mean_dbfs": -19.0,
+    "peak_dbfs": -1.0
+  },
+  "checks": [
+    "Complete video/audio decoded without error",
+    "Encoded frames at 20, 55 and 100 seconds visually inspected; readable and no clipping",
+    "Narration text checked against frozen decisions and scientific claim audit"
+  ],
+  "not_verified": [
+    "Independent listener review of pronunciation",
+    "Human presenter rehearsal",
+    "Browser interaction",
+    "Independent biology signoff"
+  ],
+  "source_deck_revision": "LljHQQqh9zsuQg",
+  "source_evidence_commit": "644e3f8",
+  "sha256": "3b68a783cddc628e30ef054e5ff06ac17ddee24cb2bf5b1a308a3ea2de1cb9e5",
+  "additional_cloud_compute": false,
+  "encoding": "Local ffmpeg, one thread; shared CPU had no existing ffmpeg, no system packages installed"
+}

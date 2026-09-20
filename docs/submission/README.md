@@ -4,6 +4,10 @@
 
 Three presented slides plus one non-presented technical appendix. The original organiser template is unchanged. This draft uses the native template typography and layout; all four native rendered slides were inspected. The slide PNGs are snapshots, not screenshots of the application demo.
 
+## Short fallback walkthrough
+
+[Play the 2:17 evidence walkthrough](evidence-walkthrough.mp4) · [Transcript](walkthrough-transcript.md). This uses synthetic narration and inspected native slide snapshots. It is not a browser recording, live model call, or completed human rehearsal. Full decoding and representative encoded frames were checked; pronunciation has not received independent listener review.
+
 ## Present
 
 - **0:00–0:50 — Problem:** scientists need a testable junction, not only a ranked gene pair.

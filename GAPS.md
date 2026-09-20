@@ -24,7 +24,8 @@ This is the working checklist from the [20 September assessment](docs/hackathon-
 
 ## Priority 3 — finish the submission
 - [x] Complete the organiser template: three presented slides plus the non-presented technical appendix. [Native draft, inspected slides and timed script](docs/submission/README.md); science signoff and access remain pending.
-- [ ] Record a short backup demo and rehearse twice within five minutes.
+- [x] Prepare a short presentation fallback: [2:17 recorded evidence walkthrough](docs/submission/evidence-walkthrough.mp4), explicitly using synthetic narration and inspected slides.
+- [ ] Record verified interactive demo behavior and rehearse the human presentation twice within five minutes.
 - [ ] Verify deck/repository access and be ready by 15:00 BST on Sunday.
 - [ ] Include K562 only if completed, checked and useful before the evidence freeze.
 
@@ -62,3 +63,5 @@ Iteration 6: completed a native copy of the organiser template with three presen
 Iteration 7: aligning the repository entry point, current deck and offline bundle. The earlier twelve-slide gallery is now explicitly supporting/historical material so its pre-correction snapshots cannot be mistaken for the current claim set. A direct browser retry still failed its enforced policy availability check; no workaround was used. The initial package failed on Unix-epoch file timestamps; fixed timestamp handling and made ZIP replacement atomic after full checksum verification. The 117-MB, 674-file bundle at `6784cc8` was extracted separately on the shared CPU: all file hashes matched, all 12 review outputs replayed exactly, 30 tests passed, and review application-logic checks passed. [Bundle validation](results/reproduction/bundle_validation.json). Next priority is an accessible release candidate and a focused judge-facing scientific audit, not further models.
 
 Iteration 8: audited the current story claim by claim, including qualitative interpretation and the distinction between independent assay evidence and independent reviewer validation. Added concise judge questions and a concrete reviewer handoff tied to frozen decision hashes. No scientific decision was changed, no review was fabricated, and no new assay/model was added. Reassessment: the evidence package is coherent; the remaining critical proof is human review and a demonstrated presentation, not another computational result.
+
+Iteration 9: created a 2:17 narrated evidence walkthrough from the inspected native slides, with transcript, timings and exact media hash. Synthetic narration is disclosed in the opening sentence. The entire file decodes, audio levels are present below clipping, and encoded frames from all three sections were visually inspected. This is a presentation fallback, not a browser recording or human rehearsal. No cloud compute was added; no software was installed on the shared CPU. Reassessment: stop adding functionality. Focus remaining work on delivery/access verification and qualified review.
