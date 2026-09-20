@@ -12,8 +12,8 @@ User-requested [AI scientific review](docs/submission/SCIENTIFIC_REVIEW.md) is c
 - The Psap–Lgals3 924-nt endpoint discrepancy was independently recalculated from source tables/reference transcripts. None of its six published read UUIDs was found in the one cached mouse library checked; the originating alignments remain unresolved.
 - Real Parabricks A100 output: two million paired reads, 85.49 seconds alignment, zero fixed-rule probe-junction matches. Non-detection is not absence; no CPU speedup claim.
 - Clean CPU reconstruction produced identical input/folds/predictions. Thirty Python tests passed on the extracted candidate; later keyboard-focus logic checks passed locally and on Brev. **The new review page has not passed real-browser or visual checks.** Older explorer browser receipts apply only to their saved version.
-- Organiser-template draft: three presented slides plus appendix, inspected native snapshots and timed script. A 2:17 synthetic-narration slide walkthrough is available; it is not a browser recording or human rehearsal.
-- No new cloud instance was provisioned by the overnight improvement task. Inventory was last checked at about 00:33 UTC: controller running; earlier GPU/pilot stopped; K562 absent after teammate shutdown. This is a dated observation, not live monitoring or a billing audit.
+- Organiser-template draft: three presented slides plus appendix, inspected native snapshots and timed script. A 2:19 synthetic-narration slide walkthrough is available; it is not a browser recording or human rehearsal.
+- No new cloud instance was provisioned by the overnight improvement task. The latest inventory shows controller, cross-species CPU and Boltz A100 running for concurrent work. No teammate resource was altered; billing is not independently audited.
 
 ## Remaining gates
 

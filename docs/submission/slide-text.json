@@ -73,7 +73,7 @@
       },
       {
         "id": "wf_nvidia_b",
-        "text": "2M read pairs aligned; real output\nrechecked for exact junction support\n"
+        "text": "2M short-read pairs; real output\nrechecked for exact junction support\n"
       }
     ]
   },
@@ -106,7 +106,7 @@
       },
       {
         "id": "s3_limit",
-        "text": "Utility unmeasured.\nBiology review pending.\n"
+        "text": "Utility unmeasured.\nHuman review pending.\n"
       },
       {
         "id": "case_name",
@@ -138,7 +138,7 @@
       },
       {
         "id": "case_action",
-        "text": "Next: resolve the source alignment before choosing the junction assay.\n"
+        "text": "Next: inspect source alignments before choosing the assay.\n"
       },
       {
         "id": "case_source",
@@ -159,7 +159,7 @@
       },
       {
         "id": "s4_links",
-        "text": "GitHub: team-fusion-hackathon\nOffline: demo/review/index.html\nEvidence snapshot: 644e3f8\nRepository access must be granted\n"
+        "text": "GitHub: team-fusion-hackathon\nOffline: demo/review/index.html\nReviewed science: 76fb5de\nPublic repository; see release manifest\n"
       },
       {
         "id": "s4_repro_h",

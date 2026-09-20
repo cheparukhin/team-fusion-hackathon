@@ -14,7 +14,7 @@ Browser interaction and visual verification of this new review page remain pendi
 
 ## Present
 
-[Current organiser-template deck and all four inspected slide previews](docs/submission/README.md). Three presented slides plus a non-presented appendix; planned five-minute script. This is the primary submission story. A [2:17 narrated evidence walkthrough](docs/submission/evidence-walkthrough.mp4) is available as a fallback, with synthetic narration clearly disclosed. Interactive demo recording and human rehearsal remain open.
+[Current organiser-template deck and all four inspected slide previews](docs/submission/README.md). Three presented slides plus a non-presented appendix; planned five-minute script. This is the primary submission story. A [2:19 narrated evidence walkthrough](docs/submission/evidence-walkthrough.mp4) is available as a fallback, with synthetic narration clearly disclosed. Interactive demo recording and human rehearsal remain open.
 
 ## Verify
 

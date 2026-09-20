@@ -1,17 +1,17 @@
 [
   {
     "slide": 1,
-    "start_seconds": 0,
-    "duration_seconds": 35.513379
+    "start_seconds": 0.0,
+    "duration_seconds": 35.652698
   },
   {
     "slide": 2,
-    "start_seconds": 35.513379,
-    "duration_seconds": 38.398095
+    "start_seconds": 35.652698,
+    "duration_seconds": 41.05678
   },
   {
     "slide": 3,
-    "start_seconds": 73.911474,
-    "duration_seconds": 62.740454
+    "start_seconds": 76.709478,
+    "duration_seconds": 62.6
   }
 ]

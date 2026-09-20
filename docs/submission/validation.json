@@ -1,19 +1,22 @@
 {
-  "presentation_url": "https://docs.google.com/presentation/d/1bnxMDj1dVAnIauboX6clVpuLMnzJVSns28jrIecd8QE/edit",
+  "checked_at": "2026-09-20T10:13:09.602564+00:00",
+  "presentation_url": "https://docs.google.com/presentation/d/1bnxMDj1dVAnIauboX6clVpuLMnzJVSns28jrIecd8QE",
   "template_id": "1Gh_loKW2OFL-wi1wUd6lGqa67wVCpw6ARQZ6U82Ms1w",
-  "revision_id": "LljHQQqh9zsuQg",
-  "evidence_commit": "644e3f8",
-  "status": "draft; independent biology review and judge access pending",
-  "visual_inspection": "All four native slide thumbnails inspected; shortened workflow labels after initial pass; fresh slide 2 re-inspected. No clipped text or overlaps seen.",
-  "layout_warning_disposition": "Team byline uses original template 11pt; preserved intentionally, legible in native thumbnail.",
-  "export_limitation": "Native PDF export file reference did not materialize to local workspace. These are native slide thumbnails, not verified PDF/PPTX exports.",
+  "revision_id": "SyJrTo8kHeBr7w",
+  "evidence_commit": "76fb5de",
+  "status": "AI scientific review complete; human review, rehearsal and deck sharing unverified",
+  "visual_inspection": "All four native thumbnails inspected; slide 3 action shortened and re-inspected. No clipping or overlapping text.",
+  "layout_warning_disposition": "11pt team byline is retained template typography; legible in native rendering.",
+  "export_limitation": "Native PDF export did not materialize. slides-preview.pdf is a raster PDF assembled from inspected native thumbnails; native editable deck remains on Google Slides.",
   "files_sha256": {
-    "layout-check.json": "bf8d945e6032e1a37acc18f36fbb3e64e81d6e80fb6c23b4d4d094762976d384",
     "slide-1.png": "562afb4f69f76a9fb445c1313828e3afcf24582d517bac0b074b468f423f3593",
-    "slide-2.png": "e2dffc77de3c38820dd89cc34b4e5fcec1fe0d1530266d10af5d0354a4ec454e",
-    "slide-3.png": "6a817c646a6465b4fa0537d97844ef672c731a47e5af9dc36b12d8b7b5da074b",
-    "slide-4.png": "2b08ee4c58e88027a6a4921657977033917581e7970f12067e9a806881922c07",
-    "slide-text.json": "e5dea8669af5a746bd3412d4beba35ac3eced15d7dd1044bce3c297ab689715b",
-    "speaker-notes.json": "5a6edaae72c8a242650e74f086036071b4797e13d02b84d2e42a13daca1450aa"
-  }
+    "slide-2.png": "f602af21dd87dec4f14339a0c3e635558c8b58b7aa98e2e9f36babe662e0d99d",
+    "slide-3.png": "2e0840294efdf93e4e7b081a0b721710cb6a132981eedb93161d24422cfd8bc3",
+    "slide-4.png": "3255f6675dddd3762176908a2ccb4054783eede7d65291f0117b7ed7c88b9333",
+    "slide-text.json": "9b298f38cf22bc743d51a7ae99008257a57984b2c961d7cc53204d5cbd5c4511",
+    "speaker-notes.json": "b7a6fd9b814fd1269bc85fc6d0156b72a428fc0401d61634d53f246b6f43dd2f",
+    "slides-preview.pdf": "e65ac991048c95365d8c886af6480c06dd7b5e712c257f66a6383ff64c05ef58",
+    "layout-check.json": "6aa18cb2eccfccf9416ce10403a75bf288bd612548355ddd833fc0753d2188ef"
+  },
+  "preview_pdf_validation": "All four raster PDF pages rendered and inspected; same aspect ratio and readable slide contents."
 }
