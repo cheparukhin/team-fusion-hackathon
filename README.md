@@ -10,7 +10,7 @@ It was awarded the first place prize of $10,000 from a panel of 6 judges from NV
 
 [![Trans-splicing animation](animation/poster.jpg)](animation/trans_splicing_v4_1080p_30s.mp4)
 
-*Click the poster above to play the 30s animation, or [download it directly](animation/trans_splicing_v4_1080p_30s.mp4).*
+*Click poster above to play animation | [download it directly](animation/trans_splicing_v4_1080p_30s.mp4) | [chRNA dashboard](https://chimeric-rna-exon-structures.a-cheparukhin.chatgpt.site)*
 
 **Problem Statement:** The central dogma of molecular biology states DNA is transcribed into RNA, which is translated into protein. In mammalian cells, mRNA is first expressed as pre-mRNA, containing introns and exons. Combinatorial selection of which subset of exons to include during splicing allows many mature mRNA molecules to originate from a single genomic loci. Crucially, splicing occurs *in-cis*, i.e. on a single molecule.
 
@@ -37,7 +37,9 @@ In this mini-project, we establish the first steps towards mining the fusion-pro
 - N.E concieved and executed the Hi-C classifier and structure-disorder analysis.
 - A.W, C.P, and E.K conceived and implemented the RNA ranking pipeline and chRNA dashboard.
 
-## View the outputs
+## Reproduce
+
+### View the outputs
 
 From the repository root, with Python 3:
 
@@ -49,7 +51,7 @@ Open `http://127.0.0.1:8000/dashboard/` for the presented structure viewer or `h
 
 Full disorder profiles, model coordinates, report assets and distinct run evidence are **GitHub release assets, outside Git history**. [Download and restore them](preservation/controller-20260920/README.md) into the existing workflow paths. After restoration, the structure report is at `/results/structure_campaign/report/`. Repository summaries can be read without downloading those data.
 
-## Reproduce
+### Run the benchmark
 
 For the gene-pair benchmark, use Python 3.12 and the locked CPU environment:
 
@@ -68,7 +70,7 @@ uv pip install --python .venv/bin/python -r requirements-core.lock
 - [Restore and verify saved evidence](preservation/controller-20260920/README.md)
 - [Documentation link and artifact checks](scripts/check_docs.py): `python3 scripts/check_docs.py`
 
-## Other retained work
+### Other retained work
 
 The [three recorded evidence reviews](scripts/review/README.md), [bounded Parabricks alignment](results/compute/STATUS.md), [separate 383-model folding supplement](results/folding_expansion/README.md), [partial cross-species study](workflows/cross-species/README.md), and K562 extension are inspectable supporting work. They do not add extra headline claims to the FINAL tab or establish full-cohort completion, conservation, measured scientific utility, or new protein function.
 
