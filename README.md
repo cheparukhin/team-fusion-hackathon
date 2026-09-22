@@ -1,10 +1,26 @@
-# Team Fusion — chimeric RNA evidence and protein hypotheses
+# Team Fusion: Expanding the druggable human proteome by identifying chimeric-RNA derived fusion proteins
+## Background
+**Event:** [WIlbe • OpenAI • NVIDIA AIxBio Hack](https://www.wilbelab.com/aibiohack)
 
-Our project follows the **FINAL tab** of the [shared team document](https://docs.google.com/document/d/1suaqiVIxDCT2D8bvYndyFK6X1NSLv9tCG7VbrBRzrG4/edit?tab=t.ge1x7g3r1m8e): **RNA ranking, fusion-protein disorder analysis, and a fusion-protein dashboard**.
+This project is the group effort of [Amber Wu](https://www.linkedin.com/in/amberyitingwu/), [Chris Paton](https://www.linkedin.com/in/christopher-paton-192014201/), [Eva Klemencic](https://www.linkedin.com/in/evaklemencic/), [Nathan Ewer](https://www.linkedin.com/in/nathan-ewer-520027192/) and [Sasha Cheparukhin](https://www.linkedin.com/in/cheparukhin/), taking place in person from 18-20 September 2026 at WilbeLABS, White City, London.
 
-[Presentation slides](https://docs.google.com/presentation/d/1qZ2owRuz6j3A48Y_XcheWADuoPh6HYkmn2NCLqFDybk/edit) · [Start here](START_HERE.md) · [Claims and evidence](docs/submission/README.md) · [Status](STATUS.md)
+It was awarded the first place prize of $10,000 from a panel of 6 judges from NVIDIA, OpenAI, and Amino Collective. Today, we are taking the due time iterate the science. The publication will be linked **here** when complete. Collaborations are welcome – please contact [Nathan Ewer](https://www.linkedin.com/in/nathan-ewer-520027192/) .
 
-We built computational tools to prioritize chimeric-RNA evidence and inspect conditional protein reconstructions. Functional chimeric proteins reported by [Venezia et al.](https://www.nature.com/articles/s41586-026-10982-x) motivate the work. This project does not establish new functional proteins or drug targets.
+## Project
+
+[![Trans-splicing animation](animation/poster.jpg)](animation/trans_splicing_v4_1080p_30s.mp4)
+
+*Click the poster above to play the 30s animation, or [download it directly](animation/trans_splicing_v4_1080p_30s.mp4).*
+
+**Problem Statement:** The central dogma of molecular biology states DNA is transcribed into RNA, which is translated into protein. In mammalian cells, mRNA is first expressed as pre-mRNA, containing introns and exons. Combinatorial selection of which subset of exons to include during splicing allows many mature mRNA molecules to originate from a single genomic loci. Crucially, splicing occurs *in-cis*, i.e. on a single molecule.
+
+Recently, [Venezia et al 2026 ](https://www.nature.com/articles/s41586-026-10982-x) demonstrate *trans-splicing*, whereby introns and exons from two **different** pre-mRNAs are fused during splicing into a single **chimeric RNA** (chRNA) molecule, **leads to functional gene products**. Notably, Gsdmd-Tmem106a modulates the balance between sepsis lethality and antibacterial defence.
+
+This is important as historically they have been **mostly characterised as artefacts**: for instance, chRNA's can emerge artificially during reverse transcriptase template switching, and they are not annotated in reference transcriptomes resulting in multi-mapping during genome alignment
+
+Therefore, fusion proteins **potentially represent an entirely novel class of drug target.**
+
+In this mini-project, we establish the first steps towards mining the fusion-proteome at scale, considering both sequence and structure led approaches and creating a fusion protein dashboard.
 
 ## The three contributions
 
