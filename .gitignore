@@ -45,6 +45,7 @@ htmlcov/
 *.npy
 *.a3m
 *.mp4
+!animation/trans_splicing_v4_1080p_30s.mp4
 *.pt
 *.safetensors
 /workflows/mouse-pilot/data/
