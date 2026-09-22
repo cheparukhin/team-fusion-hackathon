@@ -4,7 +4,7 @@
 
 This project is the group effort of [Amber Wu](https://www.linkedin.com/in/amberyitingwu/), [Chris Paton](https://www.linkedin.com/in/christopher-paton-192014201/), [Eva Klemencic](https://www.linkedin.com/in/evaklemencic/), [Nathan Ewer](https://www.linkedin.com/in/nathan-ewer-520027192/) and [Sasha Cheparukhin](https://www.linkedin.com/in/cheparukhin/), taking place in person from 18-20 September 2026 at WilbeLABS, White City, London.
 
-It was awarded the first place prize of $10,000 from a panel of 6 judges from NVIDIA, OpenAI, and Amino Collective. Today, we are taking the due time iterate the science. The publication will be linked **here** when complete. Collaborations are welcome – please contact [Nathan Ewer](https://www.linkedin.com/in/nathan-ewer-520027192/) .
+It was awarded the first place prize of $10,000 from a panel of 6 judges from NVIDIA, OpenAI, and Amino Collective. Now, we are taking the due time to improve the science. The publication will be linked **here** when complete. Collaborations are welcome – please contact [Nathan Ewer](https://www.linkedin.com/in/nathan-ewer-520027192/) .
 
 ## Project
 
@@ -22,19 +22,20 @@ Therefore, fusion proteins **potentially represent an entirely novel class of dr
 
 In this mini-project, we establish the first steps towards mining the fusion-proteome at scale, considering both sequence and structure led approaches and creating a fusion protein dashboard.
 
-## The three contributions
+## Project Contributions
 
 | Contribution | What was delivered | Evidence and code |
 | --- | --- | --- |
 | **RNA ranking** | Read/junction assessment and a frozen RNA-only shortlist; a separate gene-pair RNA/Hi-C benchmark | [Mouse pilot workflow](workflows/mouse-pilot/README.md), [benchmark model card](results/classifier/MODEL_CARD.md) |
 | **Disorder and folding comparison** | Sequence-based disorder/domain analysis of conditional peptide hypotheses, plus a Gsdmd–Tmem106a comparison across Boltz2, AlphaFold2 and ESMFold | [Cohort results](results/structure_campaign/RESULTS.md), [model disagreement](results/structure_campaign/cross_model_gsdmd/README.md), [analysis source](scripts/structure_campaign/README.md) |
-| **Fusion-protein dashboard** | Linked RNA, exon-origin and predicted-structure views for ten mouse pilot hypotheses and a separate literature control | [Public dashboard](https://chimeric-rna-exon-structures.a-cheparukhin.chatgpt.site), [portable viewer and rebuild](dashboard/README.md) |
+| **Fusion-protein dashboard** | Linked RNA, exon-origin and predicted-structure views for ten mouse pilot hypotheses and a separate literature control | [Public dashboard](https://chimeric-rna-exon-structures.a-cheparukhin.chatgpt.site)
 
-The focused mouse pilot assessed one library with LongGF and an independent alignment audit, retained 116 supported exact-junction proposals, and froze ten reference-assisted protein hypotheses. These are technical support calls, not experimentally validated biological positives. The slide's broader multi-caller workflow is not a claim that every caller completed for every dataset.
+## Team Contributions
 
-The separate probe-panel benchmark contains 479 eligible gene pairs with 109 reported NanoString-supported pairs. On the same 401 complete-Hi-C pairs, RNA average precision is **0.296**, versus **0.300** with Hi-C; the paired interval spans zero. This does not establish a predictive gain or biological independence from 3D genome organization. Unreported support remains unknown rather than a verified negative.
-
-The supported-cohort reconstruction yields **188 conditional annotated-start peptide hypotheses from 91 of 109 pairs**. Metapredict V3 calls 42/188 predominantly disordered; V1 calls 18/188. Predictors are reported separately, not combined into a calibrated fitness score. Predicted disorder, model confidence, protein function and druggability are different quantities. See the [claim-to-evidence map](docs/submission/README.md) for denominators and limitations.
+- C.P and N.E concieved and initiated the project.
+- S.C led DevOps aspects of the project, including brev node setup. Others made comment he has a lovely singing voice.
+- N.E concieved and executed the Hi-C classifier and structure-disorder analysis.
+- A.W, C.P, and E.K conceived and implemented the RNA ranking pipeline and chRNA dashboard.
 
 ## View the outputs
 
